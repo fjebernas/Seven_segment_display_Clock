@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenSegmentClock", "SevenSegmentClock\SevenSegmentClock.csproj", "{0E9CC7FE-ADF7-4644-86DD-E3F580DA47E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E9CC7FE-ADF7-4644-86DD-E3F580DA47E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9CC7FE-ADF7-4644-86DD-E3F580DA47E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9CC7FE-ADF7-4644-86DD-E3F580DA47E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9CC7FE-ADF7-4644-86DD-E3F580DA47E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE7BB4CB-3ED3-45A3-8F86-DE8BFF0D6CED}
+	EndGlobalSection
+EndGlobal
