@@ -16,6 +16,7 @@ namespace SevenSegmentClock
         Color Off = ColorTranslator.FromHtml("#272626");
 
         int flag = 1;
+        int flagHour = 1;
 
         public Form1()
         {
@@ -37,7 +38,7 @@ namespace SevenSegmentClock
             int minutesTens = Convert.ToInt32(minutes.Remove(1, 1));
 
             //for hours
-            string hours = DateTime.Now.ToString("HH");
+            string hours = DateTime.Now.ToString("hh");
 
             int hoursOnes = Convert.ToInt32(hours.Substring(1));
             int hoursTens = Convert.ToInt32(hours.Remove(1, 1));
@@ -48,6 +49,8 @@ namespace SevenSegmentClock
             int daysOnes = Convert.ToInt32(days.Substring(1));
             int daysTens = Convert.ToInt32(days.Remove(1, 1));
 
+            //AM or PM
+            string meridiem = DateTime.Now.ToString("tt");
 
             sevenSegment(secondsOnes, "Seconds", "Ones");
             sevenSegment(secondsTens, "Seconds", "Tens");
@@ -62,6 +65,7 @@ namespace SevenSegmentClock
             sevenSegment(daysTens, "Days", "Tens");
 
             BlinkingDot();
+            Meridiem(meridiem.ToUpper());
         }
 
         private void sevenSegment(int num, string indicator, string placeValue)
@@ -945,6 +949,16 @@ namespace SevenSegmentClock
                 btnBlinker.BackColor = On;
                 flag *= -1;
             }
+        }
+
+        private void Meridiem(string state)
+        {
+            labelMeridiem.Text = state;
+        }
+
+        private void btnCloseForm_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
