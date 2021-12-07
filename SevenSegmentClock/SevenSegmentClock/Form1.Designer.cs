@@ -94,6 +94,7 @@ namespace SevenSegmentClock
             this.btnBlinker = new System.Windows.Forms.Button();
             this.btnCloseForm = new System.Windows.Forms.Button();
             this.labelMeridiem = new System.Windows.Forms.Label();
+            this.btnHourFormat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnDay2F
@@ -863,12 +864,27 @@ namespace SevenSegmentClock
             this.labelMeridiem.Size = new System.Drawing.Size(0, 45);
             this.labelMeridiem.TabIndex = 7;
             // 
+            // btnHourFormat
+            // 
+            this.btnHourFormat.BackColor = System.Drawing.Color.LightGray;
+            this.btnHourFormat.FlatAppearance.BorderSize = 0;
+            this.btnHourFormat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHourFormat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHourFormat.Location = new System.Drawing.Point(13, 303);
+            this.btnHourFormat.Name = "btnHourFormat";
+            this.btnHourFormat.Size = new System.Drawing.Size(108, 31);
+            this.btnHourFormat.TabIndex = 8;
+            this.btnHourFormat.Text = "To 24hr Format";
+            this.btnHourFormat.UseVisualStyleBackColor = false;
+            this.btnHourFormat.Click += new System.EventHandler(this.btnHourFormat_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(950, 331);
+            this.ClientSize = new System.Drawing.Size(950, 346);
+            this.Controls.Add(this.btnHourFormat);
             this.Controls.Add(this.labelMeridiem);
             this.Controls.Add(this.btnCloseForm);
             this.Controls.Add(this.btnBlinker);
@@ -1007,6 +1023,7 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button btnBlinker;
         private System.Windows.Forms.Button btnCloseForm;
         private System.Windows.Forms.Label labelMeridiem;
+        private System.Windows.Forms.Button btnHourFormat;
     }
 }
 

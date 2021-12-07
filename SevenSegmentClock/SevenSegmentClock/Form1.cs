@@ -16,7 +16,7 @@ namespace SevenSegmentClock
         Color Off = ColorTranslator.FromHtml("#272626");
 
         int flag = 1;
-        int flagHour = 1;
+        string hourFormat = "hh";
 
         public Form1()
         {
@@ -38,7 +38,7 @@ namespace SevenSegmentClock
             int minutesTens = Convert.ToInt32(minutes.Remove(1, 1));
 
             //for hours
-            string hours = DateTime.Now.ToString("hh");
+            string hours = DateTime.Now.ToString(hourFormat);
 
             int hoursOnes = Convert.ToInt32(hours.Substring(1));
             int hoursTens = Convert.ToInt32(hours.Remove(1, 1));
@@ -959,6 +959,20 @@ namespace SevenSegmentClock
         private void btnCloseForm_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnHourFormat_Click(object sender, EventArgs e)
+        {
+            if (hourFormat == "HH")
+            {
+                hourFormat = "hh";
+                btnHourFormat.Text = "To 24hr Format";
+            } 
+            else if (hourFormat == "hh")
+            {
+                hourFormat = "HH";
+                btnHourFormat.Text = "To 12hr Format";
+            }
         }
     }
 }
