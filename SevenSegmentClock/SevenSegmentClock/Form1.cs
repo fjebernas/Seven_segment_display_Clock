@@ -14,10 +14,12 @@ namespace SevenSegmentClock
     {
         Color On = Color.Red;
         Color Off = ColorTranslator.FromHtml("#301313");
-        //272626
+        Color backgroundColor = ColorTranslator.FromHtml("#3C1717");
+        //272626 840, 168
 
         int flag = 1;
         string hourFormat = "hh";
+        string dummy;
 
         public Form1()
         {
@@ -26,8 +28,18 @@ namespace SevenSegmentClock
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBoxBackground.BackColor = ColorTranslator.FromHtml("#3C1717");
-            labelMeridiem.BackColor = ColorTranslator.FromHtml("#3C1717");
+            pictureBoxBackground.BackColor = backgroundColor;
+
+            labelMeridiemAM.BackColor = backgroundColor;
+            labelMeridiemPM.BackColor = backgroundColor;
+
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "dayBtn")
+                {
+                    x.BackColor = Off;
+                }
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -59,6 +71,9 @@ namespace SevenSegmentClock
             //AM or PM
             string meridiem = DateTime.Now.ToString("tt");
 
+            //for dayname
+            string dayName = DateTime.Now.ToString("ddd");
+
             sevenSegment(secondsOnes, "Seconds", "Ones");
             sevenSegment(secondsTens, "Seconds", "Tens");
 
@@ -72,7 +87,8 @@ namespace SevenSegmentClock
             sevenSegment(daysTens, "Days", "Tens");
 
             BlinkingDot();
-            Meridiem(meridiem.ToUpper());
+            Meridiem(meridiem);
+            dayNameController(dummy);
         }
 
         private void sevenSegment(int num, string indicator, string placeValue)
@@ -960,7 +976,16 @@ namespace SevenSegmentClock
 
         private void Meridiem(string state)
         {
-            labelMeridiem.Text = state;
+            if (state == "am")
+            {
+                labelMeridiemAM.ForeColor = On;
+                labelMeridiemPM.ForeColor = Off;
+            }
+            else if (state == "pm")
+            {
+                labelMeridiemAM.ForeColor = Off;
+                labelMeridiemPM.ForeColor = On;
+            }
         }
 
         private void btnCloseForm_Click(object sender, EventArgs e)
@@ -982,6 +1007,131 @@ namespace SevenSegmentClock
             }
         }
 
-        
+        private void dayNameController(string day)
+        {
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "dayBtn")
+                {
+                    x.BackColor = Off;
+                }
+            }
+
+            List<Button> Monday = new List<Button>
+            {
+                btn1M, btn1N, btn1O, btn1P, btn1A, btn1B, btn1C, btn1Q, btn1U, btn1D, btn1E, btn1F, btn1G, btn1H, btn1I,          //M
+                btn2B, btn2C, btn2D, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,                               //O
+                btn3A, btn3B, btn3C, btn3D, btn3E, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P                         //N
+            };
+
+            List<Button> Tuesday = new List<Button>
+            {
+                btn1A, btn1B, btn1C, btn1D, btn1E, btn1Q, btn1U, btn1S, btn1K,                                                    //T
+                btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,                                      //U
+                btn3A, btn3B, btn3C, btn3D, btn3E, btn3I, btn3J, btn3K, btn3L, btn3M, btn3N, btn3O, btn3P, btn3T, btn3U           //E
+            };
+
+            List<Button> Wednesday = new List<Button>
+            {
+                btn1A, btn1E, btn1F, btn1G, btn1H, btn1J, btn1K, btn1L, btn1N, btn1O, btn1P, btn1S, btn1U,                        //W
+                btn2A, btn2B, btn2C, btn2D, btn2E, btn2I, btn2J, btn2K, btn2L, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U,          //E
+                btn3A, btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3M, btn3N, btn3O, btn3P                  //D
+            };
+
+            List<Button> Thursday = new List<Button>
+            {
+                btn1A, btn1B, btn1C, btn1D, btn1E, btn1Q, btn1U, btn1S, btn1K,
+                btn2A, btn2E, btn2I, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2F, btn2G, btn2H, btn2R,
+                btn3A, btn3E, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P,
+            };
+
+            List<Button> Friday = new List<Button>
+            {
+                btn1A, btn1B, btn1C, btn1D, btn1E, btn1N, btn1O, btn1P, btn1T, btn1U, btn1M,
+                btn2A, btn2B, btn2C, btn2D, btn2F, btn2H, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2I, btn2R,
+                btn3C, btn3Q, btn3U, btn3S, btn3K
+            };
+
+            List<Button> Saturday = new List<Button>
+            {
+                btn1B, btn1C, btn1D, btn1R, btn1H, btn1J, btn1K, btn1L, btn1T, btn1P, btn1E, btn1M, btn1U,
+                btn2G, btn2B, btn2C, btn2D, btn2F, btn2H, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2I, btn2R,
+                btn3C, btn3Q, btn3U, btn3S, btn3K, btn3A, btn3B, btn3D, btn3E
+            };
+
+            List<Button> Sunday = new List<Button>
+            {
+                btn1B, btn1C, btn1D, btn1R, btn1H, btn1J, btn1K, btn1L, btn1T, btn1P, btn1E, btn1M, btn1U,
+                btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,
+                btn3A, btn3B, btn3C, btn3D, btn3E, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P
+            };
+
+            switch (day)
+            {
+                case "Mon":
+                    foreach (Button x in Monday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                case "Tue":
+                    foreach (Button x in Tuesday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                case "Wed":
+                    foreach (Button x in Wednesday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                case "Thu":
+                    foreach (Button x in Thursday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                case "Fri":
+                    foreach (Button x in Friday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                case "Sat":
+                    foreach (Button x in Saturday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                case "Sun":
+                    foreach (Button x in Sunday)
+                    {
+                        x.BackColor = On;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+
+
+
+
+
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dummy = textBox1.Text;
+        }
     }
 }
