@@ -13,7 +13,8 @@ namespace SevenSegmentClock
     public partial class Form1 : Form
     {
         Color On = Color.Red;
-        Color Off = ColorTranslator.FromHtml("#272626");
+        Color Off = ColorTranslator.FromHtml("#301313");
+        //272626
 
         int flag = 1;
         string hourFormat = "hh";
@@ -21,6 +22,12 @@ namespace SevenSegmentClock
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pictureBoxBackground.BackColor = ColorTranslator.FromHtml("#3C1717");
+            labelMeridiem.BackColor = ColorTranslator.FromHtml("#3C1717");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -974,5 +981,7 @@ namespace SevenSegmentClock
                 btnHourFormat.Text = "To 12hr Format";
             }
         }
+
+        
     }
 }
