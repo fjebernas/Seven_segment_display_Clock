@@ -88,7 +88,7 @@ namespace SevenSegmentClock
 
             BlinkingDot();
             Meridiem(meridiem);
-            dayNameController(dummy);
+            dayNameController(dayName);
         }
 
         private void sevenSegment(int num, string indicator, string placeValue)
@@ -1019,23 +1019,40 @@ namespace SevenSegmentClock
 
             List<Button> Monday = new List<Button>
             {
-                btn1M, btn1N, btn1O, btn1P, btn1A, btn1B, btn1Q, btn1U, btn1D, btn1E, btn1F, btn1G, btn1H, btn1I,          //M
-                btn2B, btn2C, btn2D, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,                               //O
-                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P                                //N
+                btn2M, btn2N, btn2O, btn2P, btn2A, btn2B, btn2Q, btn2U, btn2D, btn2E, btn2F, btn2G, btn2H, btn2I,
+                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P,
+                btn4B, btn4C, btn4D, btn4F, btn4G, btn4H, btn4I, btn4M, btn4N, btn4O, btn4P,
+
+                btn5A, btn5B, btn5C, btn5D, btn5F, btn5G, btn5H, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P,
+                btn6G, btn6B, btn6C, btn6D, btn6F, btn6H, btn6M, btn6N, btn6O, btn6P, btn6T, btn6U, btn6I, btn6R,
+                btn7A, btn7T, btn7U, btn7F, btn7G, btn7R, btn7S, btn7K, btn7E, btn7O, btn7P
             };
 
             List<Button> Tuesday = new List<Button>
             {
-                btn1A, btn1B, btn1C, btn1D, btn1E, btn1Q, btn1U, btn1S, btn1K,                                                    //T
-                btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,                                      //U
-                btn3A, btn3B, btn3C, btn3D, btn3E, btn3I, btn3J, btn3K, btn3L, btn3M, btn3N, btn3O, btn3P, btn3T, btn3U           //E
+                btn2A, btn2B, btn2C, btn2D, btn2E, btn2Q, btn2U, btn2S, btn2K,
+                btn3A, btn3E, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P,
+                btn4A, btn4B, btn4C, btn4D, btn4E, btn4I, btn4J, btn4K, btn4L, btn4M, btn4N, btn4O, btn4P, btn4T, btn4U,
+                btn5B, btn5C, btn5D, btn5R, btn5H, btn5J, btn5K, btn5L, btn5T, btn5P, btn5E, btn5M, btn5U,
+
+                btn6A, btn6B, btn6C, btn6D, btn6F, btn6G, btn6H, btn6J, btn6K, btn6L, btn6M, btn6N, btn6O, btn6P,
+                btn7G, btn7B, btn7C, btn7D, btn7F, btn7H, btn7M, btn7N, btn7O, btn7P, btn7T, btn7U, btn7I, btn7R,
+                btn8A, btn8T, btn8U, btn8F, btn8G, btn8R, btn8S, btn8K, btn8E, btn8O, btn8P
             };
 
             List<Button> Wednesday = new List<Button>
             {
-                btn1A, btn1E, btn1F, btn1G, btn1H, btn1J, btn1K, btn1L, btn1N, btn1O, btn1P, btn1S, btn1U,                        //W
-                btn2A, btn2B, btn2C, btn2D, btn2E, btn2I, btn2J, btn2K, btn2L, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U,          //E
-                btn3A, btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3M, btn3N, btn3O, btn3P                  //D
+                btn1A, btn1E, btn1F, btn1G, btn1H, btn1J, btn1K, btn1L, btn1N, btn1O, btn1P, btn1S, btn1U,
+                btn2A, btn2B, btn2C, btn2D, btn2E, btn2I, btn2J, btn2K, btn2L, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U,
+                btn3A, btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3M, btn3N, btn3O, btn3P,
+
+                btn4B, btn4C, btn4D, btn4F, btn4G, btn4H, btn4I, btn4M, btn4N, btn4O, btn4P,
+                btn5A, btn5B, btn5C, btn5D, btn5E, btn5I, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P, btn5T, btn5U,
+                btn6B, btn6C, btn6D, btn6R, btn6H, btn6J, btn6K, btn6L, btn6T, btn6P, btn6E, btn6M, btn6U,
+
+                btn7A, btn7B, btn7C, btn7D, btn7F, btn7G, btn7H, btn7J, btn7K, btn7L, btn7M, btn7N, btn7O, btn7P,
+                btn8G, btn8B, btn8C, btn8D, btn8F, btn8H, btn8M, btn8N, btn8O, btn8P, btn8T, btn8U, btn8I, btn8R,
+                btn9A, btn9T, btn9U, btn9F, btn9G, btn9R, btn9S, btn9K, btn9E, btn9O, btn9P
             };
 
             List<Button> Thursday = new List<Button>
@@ -1043,27 +1060,48 @@ namespace SevenSegmentClock
                 btn1A, btn1B, btn1C, btn1D, btn1E, btn1Q, btn1U, btn1S, btn1K,
                 btn2A, btn2E, btn2I, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2F, btn2G, btn2H, btn2R,
                 btn3A, btn3E, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P,
+                btn4A, btn4B, btn4C, btn4D, btn4F, btn4H, btn4M, btn4N, btn4O, btn4P, btn4T, btn4U, btn4I, btn4R,
+                btn5B, btn5C, btn5D, btn5R, btn5H, btn5J, btn5K, btn5L, btn5T, btn5P, btn5E, btn5M, btn5U,
+
+                btn6A, btn6B, btn6C, btn6D, btn6F, btn6G, btn6H, btn6J, btn6K, btn6L, btn6M, btn6N, btn6O, btn6P,
+                btn7G, btn7B, btn7C, btn7D, btn7F, btn7H, btn7M, btn7N, btn7O, btn7P, btn7T, btn7U, btn7I, btn7R,
+                btn8A, btn8T, btn8U, btn8F, btn8G, btn8R, btn8S, btn8K, btn8E, btn8O, btn8P
             };
 
             List<Button> Friday = new List<Button>
             {
-                btn1A, btn1B, btn1C, btn1D, btn1E, btn1N, btn1O, btn1P, btn1T, btn1U, btn1M,
-                btn2A, btn2B, btn2C, btn2D, btn2F, btn2H, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2I, btn2R,
-                btn3C, btn3Q, btn3U, btn3S, btn3K
+                btn2A, btn2B, btn2C, btn2D, btn2E, btn2N, btn2O, btn2P, btn2T, btn2U, btn2M,
+                btn3A, btn3B, btn3C, btn3D, btn3F, btn3H, btn3M, btn3N, btn3O, btn3P, btn3T, btn3U, btn3I, btn3R,
+                btn4C, btn4Q, btn4U, btn4S, btn4K,
+
+                btn5A, btn5B, btn5C, btn5D, btn5F, btn5G, btn5H, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P,
+                btn6G, btn6B, btn6C, btn6D, btn6F, btn6H, btn6M, btn6N, btn6O, btn6P, btn6T, btn6U, btn6I, btn6R,
+                btn7A, btn7T, btn7U, btn7F, btn7G, btn7R, btn7S, btn7K, btn7E, btn7O, btn7P
             };
 
             List<Button> Saturday = new List<Button>
             {
                 btn1B, btn1C, btn1D, btn1R, btn1H, btn1J, btn1K, btn1L, btn1T, btn1P, btn1E, btn1M, btn1U,
                 btn2G, btn2B, btn2C, btn2D, btn2F, btn2H, btn2M, btn2N, btn2O, btn2P, btn2T, btn2U, btn2I, btn2R,
-                btn3C, btn3Q, btn3U, btn3S, btn3K, btn3A, btn3B, btn3D, btn3E
+                btn3C, btn3Q, btn3U, btn3S, btn3K, btn3A, btn3B, btn3D, btn3E,
+
+                btn4A, btn4E, btn4F, btn4G, btn4H, btn4J, btn4K, btn4L, btn4N, btn4O, btn4P,
+                btn5A, btn5B, btn5C, btn5D, btn5F, btn5H, btn5M, btn5N, btn5O, btn5P, btn5T, btn5U, btn5I, btn5R,
+
+                btn6A, btn6B, btn6C, btn6D, btn6F, btn6G, btn6H, btn6J, btn6K, btn6L, btn6M, btn6N, btn6O, btn6P,
+                btn7G, btn7B, btn7C, btn7D, btn7F, btn7H, btn7M, btn7N, btn7O, btn7P, btn7T, btn7U, btn7I, btn7R,
+                btn8A, btn8T, btn8U, btn8F, btn8G, btn8R, btn8S, btn8K, btn8E, btn8O, btn8P
             };
 
             List<Button> Sunday = new List<Button>
             {
-                btn1B, btn1C, btn1D, btn1R, btn1H, btn1J, btn1K, btn1L, btn1T, btn1P, btn1E, btn1M, btn1U,
-                btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,
-                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P
+                btn2B, btn2C, btn2D, btn2R, btn2H, btn2J, btn2K, btn2L, btn2T, btn2P, btn2E, btn2M, btn2U,
+                btn3A, btn3E, btn3F, btn3G, btn3H, btn3J, btn3K, btn3L, btn3N, btn3O, btn3P,
+                btn4B, btn4C, btn4D, btn4F, btn4G, btn4H, btn4I, btn4M, btn4N, btn4O, btn4P,
+
+                btn5A, btn5B, btn5C, btn5D, btn5F, btn5G, btn5H, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P,
+                btn6G, btn6B, btn6C, btn6D, btn6F, btn6H, btn6M, btn6N, btn6O, btn6P, btn6T, btn6U, btn6I, btn6R,
+                btn7A, btn7T, btn7U, btn7F, btn7G, btn7R, btn7S, btn7K, btn7E, btn7O, btn7P
             };
 
             switch (day)
