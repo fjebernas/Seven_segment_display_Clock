@@ -160,132 +160,132 @@ namespace SevenSegmentClock
             this.btn3P = new System.Windows.Forms.Button();
             this.btn3N = new System.Windows.Forms.Button();
             this.btn3S = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
-            this.button90 = new System.Windows.Forms.Button();
-            this.button91 = new System.Windows.Forms.Button();
-            this.button92 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
-            this.button94 = new System.Windows.Forms.Button();
-            this.button95 = new System.Windows.Forms.Button();
-            this.button96 = new System.Windows.Forms.Button();
-            this.button97 = new System.Windows.Forms.Button();
-            this.button98 = new System.Windows.Forms.Button();
-            this.button99 = new System.Windows.Forms.Button();
-            this.button100 = new System.Windows.Forms.Button();
-            this.button101 = new System.Windows.Forms.Button();
-            this.button102 = new System.Windows.Forms.Button();
-            this.button103 = new System.Windows.Forms.Button();
-            this.button104 = new System.Windows.Forms.Button();
-            this.button105 = new System.Windows.Forms.Button();
-            this.button106 = new System.Windows.Forms.Button();
-            this.button107 = new System.Windows.Forms.Button();
-            this.button108 = new System.Windows.Forms.Button();
-            this.button109 = new System.Windows.Forms.Button();
-            this.button110 = new System.Windows.Forms.Button();
-            this.button111 = new System.Windows.Forms.Button();
-            this.button112 = new System.Windows.Forms.Button();
-            this.button113 = new System.Windows.Forms.Button();
-            this.button114 = new System.Windows.Forms.Button();
-            this.button115 = new System.Windows.Forms.Button();
-            this.button116 = new System.Windows.Forms.Button();
-            this.button117 = new System.Windows.Forms.Button();
-            this.button118 = new System.Windows.Forms.Button();
-            this.button119 = new System.Windows.Forms.Button();
-            this.button120 = new System.Windows.Forms.Button();
-            this.button121 = new System.Windows.Forms.Button();
-            this.button122 = new System.Windows.Forms.Button();
-            this.button123 = new System.Windows.Forms.Button();
-            this.button124 = new System.Windows.Forms.Button();
-            this.button125 = new System.Windows.Forms.Button();
-            this.button126 = new System.Windows.Forms.Button();
-            this.button127 = new System.Windows.Forms.Button();
-            this.button128 = new System.Windows.Forms.Button();
-            this.button129 = new System.Windows.Forms.Button();
-            this.button130 = new System.Windows.Forms.Button();
-            this.button131 = new System.Windows.Forms.Button();
-            this.button132 = new System.Windows.Forms.Button();
-            this.button133 = new System.Windows.Forms.Button();
-            this.button134 = new System.Windows.Forms.Button();
-            this.button135 = new System.Windows.Forms.Button();
-            this.button136 = new System.Windows.Forms.Button();
-            this.button137 = new System.Windows.Forms.Button();
-            this.button138 = new System.Windows.Forms.Button();
-            this.button139 = new System.Windows.Forms.Button();
-            this.button140 = new System.Windows.Forms.Button();
-            this.button141 = new System.Windows.Forms.Button();
-            this.button142 = new System.Windows.Forms.Button();
-            this.button143 = new System.Windows.Forms.Button();
-            this.button144 = new System.Windows.Forms.Button();
-            this.button145 = new System.Windows.Forms.Button();
-            this.button146 = new System.Windows.Forms.Button();
-            this.button147 = new System.Windows.Forms.Button();
-            this.button148 = new System.Windows.Forms.Button();
-            this.button149 = new System.Windows.Forms.Button();
-            this.button150 = new System.Windows.Forms.Button();
-            this.button151 = new System.Windows.Forms.Button();
-            this.button152 = new System.Windows.Forms.Button();
-            this.button153 = new System.Windows.Forms.Button();
-            this.button154 = new System.Windows.Forms.Button();
-            this.button155 = new System.Windows.Forms.Button();
-            this.button156 = new System.Windows.Forms.Button();
-            this.button157 = new System.Windows.Forms.Button();
-            this.button158 = new System.Windows.Forms.Button();
-            this.button159 = new System.Windows.Forms.Button();
-            this.button160 = new System.Windows.Forms.Button();
-            this.button161 = new System.Windows.Forms.Button();
-            this.button162 = new System.Windows.Forms.Button();
-            this.button163 = new System.Windows.Forms.Button();
-            this.button164 = new System.Windows.Forms.Button();
-            this.button165 = new System.Windows.Forms.Button();
-            this.button166 = new System.Windows.Forms.Button();
-            this.button167 = new System.Windows.Forms.Button();
-            this.button168 = new System.Windows.Forms.Button();
-            this.button169 = new System.Windows.Forms.Button();
-            this.button170 = new System.Windows.Forms.Button();
-            this.button171 = new System.Windows.Forms.Button();
-            this.button172 = new System.Windows.Forms.Button();
-            this.button173 = new System.Windows.Forms.Button();
-            this.button174 = new System.Windows.Forms.Button();
-            this.button175 = new System.Windows.Forms.Button();
-            this.button176 = new System.Windows.Forms.Button();
-            this.button177 = new System.Windows.Forms.Button();
-            this.button178 = new System.Windows.Forms.Button();
-            this.button179 = new System.Windows.Forms.Button();
-            this.button180 = new System.Windows.Forms.Button();
-            this.button181 = new System.Windows.Forms.Button();
-            this.button182 = new System.Windows.Forms.Button();
-            this.button183 = new System.Windows.Forms.Button();
-            this.button184 = new System.Windows.Forms.Button();
-            this.button185 = new System.Windows.Forms.Button();
-            this.button186 = new System.Windows.Forms.Button();
-            this.button187 = new System.Windows.Forms.Button();
-            this.button188 = new System.Windows.Forms.Button();
-            this.button189 = new System.Windows.Forms.Button();
-            this.button190 = new System.Windows.Forms.Button();
-            this.button191 = new System.Windows.Forms.Button();
-            this.button192 = new System.Windows.Forms.Button();
-            this.button193 = new System.Windows.Forms.Button();
-            this.button194 = new System.Windows.Forms.Button();
-            this.button195 = new System.Windows.Forms.Button();
-            this.button196 = new System.Windows.Forms.Button();
-            this.button197 = new System.Windows.Forms.Button();
-            this.button198 = new System.Windows.Forms.Button();
-            this.button199 = new System.Windows.Forms.Button();
-            this.button200 = new System.Windows.Forms.Button();
-            this.button201 = new System.Windows.Forms.Button();
-            this.button202 = new System.Windows.Forms.Button();
-            this.button203 = new System.Windows.Forms.Button();
-            this.button204 = new System.Windows.Forms.Button();
-            this.button205 = new System.Windows.Forms.Button();
-            this.button206 = new System.Windows.Forms.Button();
-            this.button207 = new System.Windows.Forms.Button();
-            this.button208 = new System.Windows.Forms.Button();
-            this.button209 = new System.Windows.Forms.Button();
-            this.button210 = new System.Windows.Forms.Button();
+            this.btn4C = new System.Windows.Forms.Button();
+            this.btn5C = new System.Windows.Forms.Button();
+            this.btn4E = new System.Windows.Forms.Button();
+            this.btn6C = new System.Windows.Forms.Button();
+            this.btn5E = new System.Windows.Forms.Button();
+            this.btn4G = new System.Windows.Forms.Button();
+            this.btn6E = new System.Windows.Forms.Button();
+            this.btn5G = new System.Windows.Forms.Button();
+            this.btn4A = new System.Windows.Forms.Button();
+            this.btn6G = new System.Windows.Forms.Button();
+            this.btn5A = new System.Windows.Forms.Button();
+            this.btn4M = new System.Windows.Forms.Button();
+            this.btn6A = new System.Windows.Forms.Button();
+            this.btn5M = new System.Windows.Forms.Button();
+            this.btn4O = new System.Windows.Forms.Button();
+            this.btn6M = new System.Windows.Forms.Button();
+            this.btn5O = new System.Windows.Forms.Button();
+            this.btn4D = new System.Windows.Forms.Button();
+            this.btn6O = new System.Windows.Forms.Button();
+            this.btn5D = new System.Windows.Forms.Button();
+            this.btn4R = new System.Windows.Forms.Button();
+            this.btn6D = new System.Windows.Forms.Button();
+            this.btn5R = new System.Windows.Forms.Button();
+            this.btn4J = new System.Windows.Forms.Button();
+            this.btn6R = new System.Windows.Forms.Button();
+            this.btn5J = new System.Windows.Forms.Button();
+            this.btn4B = new System.Windows.Forms.Button();
+            this.btn6J = new System.Windows.Forms.Button();
+            this.btn5B = new System.Windows.Forms.Button();
+            this.btn4T = new System.Windows.Forms.Button();
+            this.btn6B = new System.Windows.Forms.Button();
+            this.btn5T = new System.Windows.Forms.Button();
+            this.btn4L = new System.Windows.Forms.Button();
+            this.btn6T = new System.Windows.Forms.Button();
+            this.btn5L = new System.Windows.Forms.Button();
+            this.btn4K = new System.Windows.Forms.Button();
+            this.btn6L = new System.Windows.Forms.Button();
+            this.btn5K = new System.Windows.Forms.Button();
+            this.btn4I = new System.Windows.Forms.Button();
+            this.btn6K = new System.Windows.Forms.Button();
+            this.btn5I = new System.Windows.Forms.Button();
+            this.btn4U = new System.Windows.Forms.Button();
+            this.btn6I = new System.Windows.Forms.Button();
+            this.btn4Q = new System.Windows.Forms.Button();
+            this.btn5U = new System.Windows.Forms.Button();
+            this.btn6U = new System.Windows.Forms.Button();
+            this.btn5Q = new System.Windows.Forms.Button();
+            this.btn4F = new System.Windows.Forms.Button();
+            this.btn6Q = new System.Windows.Forms.Button();
+            this.btn5F = new System.Windows.Forms.Button();
+            this.btn6F = new System.Windows.Forms.Button();
+            this.btn4H = new System.Windows.Forms.Button();
+            this.btn5H = new System.Windows.Forms.Button();
+            this.btn6H = new System.Windows.Forms.Button();
+            this.btn4P = new System.Windows.Forms.Button();
+            this.btn5P = new System.Windows.Forms.Button();
+            this.btn6P = new System.Windows.Forms.Button();
+            this.btn4N = new System.Windows.Forms.Button();
+            this.btn5N = new System.Windows.Forms.Button();
+            this.btn6N = new System.Windows.Forms.Button();
+            this.btn4S = new System.Windows.Forms.Button();
+            this.btn5S = new System.Windows.Forms.Button();
+            this.btn6S = new System.Windows.Forms.Button();
+            this.btn7C = new System.Windows.Forms.Button();
+            this.btn8C = new System.Windows.Forms.Button();
+            this.btn7E = new System.Windows.Forms.Button();
+            this.btn9C = new System.Windows.Forms.Button();
+            this.btn8E = new System.Windows.Forms.Button();
+            this.btn7G = new System.Windows.Forms.Button();
+            this.btn9E = new System.Windows.Forms.Button();
+            this.btn8G = new System.Windows.Forms.Button();
+            this.btn7A = new System.Windows.Forms.Button();
+            this.btn9G = new System.Windows.Forms.Button();
+            this.btn8A = new System.Windows.Forms.Button();
+            this.btn7M = new System.Windows.Forms.Button();
+            this.btn9A = new System.Windows.Forms.Button();
+            this.btn8M = new System.Windows.Forms.Button();
+            this.btn7O = new System.Windows.Forms.Button();
+            this.btn9M = new System.Windows.Forms.Button();
+            this.btn8O = new System.Windows.Forms.Button();
+            this.btn7D = new System.Windows.Forms.Button();
+            this.btn9O = new System.Windows.Forms.Button();
+            this.btn8D = new System.Windows.Forms.Button();
+            this.btn7R = new System.Windows.Forms.Button();
+            this.btn9D = new System.Windows.Forms.Button();
+            this.btn8R = new System.Windows.Forms.Button();
+            this.btn7J = new System.Windows.Forms.Button();
+            this.btn9R = new System.Windows.Forms.Button();
+            this.btn8J = new System.Windows.Forms.Button();
+            this.btn7B = new System.Windows.Forms.Button();
+            this.btn9J = new System.Windows.Forms.Button();
+            this.btn8B = new System.Windows.Forms.Button();
+            this.btn7T = new System.Windows.Forms.Button();
+            this.btn9B = new System.Windows.Forms.Button();
+            this.btn8T = new System.Windows.Forms.Button();
+            this.btn7L = new System.Windows.Forms.Button();
+            this.btn9T = new System.Windows.Forms.Button();
+            this.btn8L = new System.Windows.Forms.Button();
+            this.btn7K = new System.Windows.Forms.Button();
+            this.btn9L = new System.Windows.Forms.Button();
+            this.btn8K = new System.Windows.Forms.Button();
+            this.btn7I = new System.Windows.Forms.Button();
+            this.btn9K = new System.Windows.Forms.Button();
+            this.btn8I = new System.Windows.Forms.Button();
+            this.btn7U = new System.Windows.Forms.Button();
+            this.btn9I = new System.Windows.Forms.Button();
+            this.btn7Q = new System.Windows.Forms.Button();
+            this.btn8U = new System.Windows.Forms.Button();
+            this.btn9U = new System.Windows.Forms.Button();
+            this.btn8Q = new System.Windows.Forms.Button();
+            this.btn7F = new System.Windows.Forms.Button();
+            this.btn9Q = new System.Windows.Forms.Button();
+            this.btn8F = new System.Windows.Forms.Button();
+            this.btn9F = new System.Windows.Forms.Button();
+            this.btn7H = new System.Windows.Forms.Button();
+            this.btn8H = new System.Windows.Forms.Button();
+            this.btn9H = new System.Windows.Forms.Button();
+            this.btn7P = new System.Windows.Forms.Button();
+            this.btn8P = new System.Windows.Forms.Button();
+            this.btn9P = new System.Windows.Forms.Button();
+            this.btn7N = new System.Windows.Forms.Button();
+            this.btn8N = new System.Windows.Forms.Button();
+            this.btn9N = new System.Windows.Forms.Button();
+            this.btn7S = new System.Windows.Forms.Button();
+            this.btn8S = new System.Windows.Forms.Button();
+            this.btn9S = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBackground)).BeginInit();
@@ -1915,1643 +1915,1643 @@ namespace SevenSegmentClock
             this.btn3S.Tag = "dayBtn";
             this.btn3S.UseVisualStyleBackColor = false;
             // 
-            // button85
-            // 
-            this.button85.BackColor = System.Drawing.Color.DimGray;
-            this.button85.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button85.FlatAppearance.BorderSize = 0;
-            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button85.Location = new System.Drawing.Point(405, 43);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(8, 8);
-            this.button85.TabIndex = 10;
-            this.button85.Tag = "dayBtn";
-            this.button85.UseVisualStyleBackColor = false;
-            // 
-            // button86
-            // 
-            this.button86.BackColor = System.Drawing.Color.DimGray;
-            this.button86.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button86.FlatAppearance.BorderSize = 0;
-            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button86.Location = new System.Drawing.Point(486, 43);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(8, 8);
-            this.button86.TabIndex = 10;
-            this.button86.Tag = "dayBtn";
-            this.button86.UseVisualStyleBackColor = false;
-            // 
-            // button87
-            // 
-            this.button87.BackColor = System.Drawing.Color.DimGray;
-            this.button87.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button87.FlatAppearance.BorderSize = 0;
-            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button87.Location = new System.Drawing.Point(433, 43);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(8, 8);
-            this.button87.TabIndex = 10;
-            this.button87.Tag = "dayBtn";
-            this.button87.UseVisualStyleBackColor = false;
-            // 
-            // button88
-            // 
-            this.button88.BackColor = System.Drawing.Color.DimGray;
-            this.button88.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button88.FlatAppearance.BorderSize = 0;
-            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button88.Location = new System.Drawing.Point(568, 43);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(8, 8);
-            this.button88.TabIndex = 10;
-            this.button88.Tag = "dayBtn";
-            this.button88.UseVisualStyleBackColor = false;
-            // 
-            // button89
-            // 
-            this.button89.BackColor = System.Drawing.Color.DimGray;
-            this.button89.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button89.FlatAppearance.BorderSize = 0;
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button89.Location = new System.Drawing.Point(514, 43);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(8, 8);
-            this.button89.TabIndex = 10;
-            this.button89.Tag = "dayBtn";
-            this.button89.UseVisualStyleBackColor = false;
-            // 
-            // button90
-            // 
-            this.button90.BackColor = System.Drawing.Color.DimGray;
-            this.button90.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button90.FlatAppearance.BorderSize = 0;
-            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button90.Location = new System.Drawing.Point(433, 85);
-            this.button90.Name = "button90";
-            this.button90.Size = new System.Drawing.Size(8, 8);
-            this.button90.TabIndex = 10;
-            this.button90.Tag = "dayBtn";
-            this.button90.UseVisualStyleBackColor = false;
-            // 
-            // button91
-            // 
-            this.button91.BackColor = System.Drawing.Color.DimGray;
-            this.button91.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button91.FlatAppearance.BorderSize = 0;
-            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button91.Location = new System.Drawing.Point(596, 43);
-            this.button91.Name = "button91";
-            this.button91.Size = new System.Drawing.Size(8, 8);
-            this.button91.TabIndex = 10;
-            this.button91.Tag = "dayBtn";
-            this.button91.UseVisualStyleBackColor = false;
-            // 
-            // button92
-            // 
-            this.button92.BackColor = System.Drawing.Color.DimGray;
-            this.button92.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button92.FlatAppearance.BorderSize = 0;
-            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button92.Location = new System.Drawing.Point(514, 85);
-            this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(8, 8);
-            this.button92.TabIndex = 10;
-            this.button92.Tag = "dayBtn";
-            this.button92.UseVisualStyleBackColor = false;
-            // 
-            // button93
-            // 
-            this.button93.BackColor = System.Drawing.Color.DimGray;
-            this.button93.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button93.FlatAppearance.BorderSize = 0;
-            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button93.Location = new System.Drawing.Point(377, 43);
-            this.button93.Name = "button93";
-            this.button93.Size = new System.Drawing.Size(8, 8);
-            this.button93.TabIndex = 10;
-            this.button93.Tag = "dayBtn";
-            this.button93.UseVisualStyleBackColor = false;
-            // 
-            // button94
-            // 
-            this.button94.BackColor = System.Drawing.Color.DimGray;
-            this.button94.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button94.FlatAppearance.BorderSize = 0;
-            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button94.Location = new System.Drawing.Point(596, 85);
-            this.button94.Name = "button94";
-            this.button94.Size = new System.Drawing.Size(8, 8);
-            this.button94.TabIndex = 10;
-            this.button94.Tag = "dayBtn";
-            this.button94.UseVisualStyleBackColor = false;
-            // 
-            // button95
-            // 
-            this.button95.BackColor = System.Drawing.Color.DimGray;
-            this.button95.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button95.FlatAppearance.BorderSize = 0;
-            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button95.Location = new System.Drawing.Point(458, 43);
-            this.button95.Name = "button95";
-            this.button95.Size = new System.Drawing.Size(8, 8);
-            this.button95.TabIndex = 10;
-            this.button95.Tag = "dayBtn";
-            this.button95.UseVisualStyleBackColor = false;
-            // 
-            // button96
-            // 
-            this.button96.BackColor = System.Drawing.Color.DimGray;
-            this.button96.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button96.FlatAppearance.BorderSize = 0;
-            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button96.Location = new System.Drawing.Point(377, 127);
-            this.button96.Name = "button96";
-            this.button96.Size = new System.Drawing.Size(8, 8);
-            this.button96.TabIndex = 10;
-            this.button96.Tag = "dayBtn";
-            this.button96.UseVisualStyleBackColor = false;
-            // 
-            // button97
-            // 
-            this.button97.BackColor = System.Drawing.Color.DimGray;
-            this.button97.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button97.FlatAppearance.BorderSize = 0;
-            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button97.Location = new System.Drawing.Point(540, 43);
-            this.button97.Name = "button97";
-            this.button97.Size = new System.Drawing.Size(8, 8);
-            this.button97.TabIndex = 10;
-            this.button97.Tag = "dayBtn";
-            this.button97.UseVisualStyleBackColor = false;
-            // 
-            // button98
-            // 
-            this.button98.BackColor = System.Drawing.Color.DimGray;
-            this.button98.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button98.FlatAppearance.BorderSize = 0;
-            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button98.Location = new System.Drawing.Point(458, 127);
-            this.button98.Name = "button98";
-            this.button98.Size = new System.Drawing.Size(8, 8);
-            this.button98.TabIndex = 10;
-            this.button98.Tag = "dayBtn";
-            this.button98.UseVisualStyleBackColor = false;
-            // 
-            // button99
-            // 
-            this.button99.BackColor = System.Drawing.Color.DimGray;
-            this.button99.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button99.FlatAppearance.BorderSize = 0;
-            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button99.Location = new System.Drawing.Point(377, 85);
-            this.button99.Name = "button99";
-            this.button99.Size = new System.Drawing.Size(8, 8);
-            this.button99.TabIndex = 10;
-            this.button99.Tag = "dayBtn";
-            this.button99.UseVisualStyleBackColor = false;
-            // 
-            // button100
-            // 
-            this.button100.BackColor = System.Drawing.Color.DimGray;
-            this.button100.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button100.FlatAppearance.BorderSize = 0;
-            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button100.Location = new System.Drawing.Point(540, 127);
-            this.button100.Name = "button100";
-            this.button100.Size = new System.Drawing.Size(8, 8);
-            this.button100.TabIndex = 10;
-            this.button100.Tag = "dayBtn";
-            this.button100.UseVisualStyleBackColor = false;
-            // 
-            // button101
-            // 
-            this.button101.BackColor = System.Drawing.Color.DimGray;
-            this.button101.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button101.FlatAppearance.BorderSize = 0;
-            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button101.Location = new System.Drawing.Point(458, 85);
-            this.button101.Name = "button101";
-            this.button101.Size = new System.Drawing.Size(8, 8);
-            this.button101.TabIndex = 10;
-            this.button101.Tag = "dayBtn";
-            this.button101.UseVisualStyleBackColor = false;
-            // 
-            // button102
-            // 
-            this.button102.BackColor = System.Drawing.Color.DimGray;
-            this.button102.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button102.FlatAppearance.BorderSize = 0;
-            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button102.Location = new System.Drawing.Point(416, 43);
-            this.button102.Name = "button102";
-            this.button102.Size = new System.Drawing.Size(15, 8);
-            this.button102.TabIndex = 10;
-            this.button102.Tag = "dayBtn";
-            this.button102.UseVisualStyleBackColor = false;
-            // 
-            // button103
-            // 
-            this.button103.BackColor = System.Drawing.Color.DimGray;
-            this.button103.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button103.FlatAppearance.BorderSize = 0;
-            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button103.Location = new System.Drawing.Point(540, 85);
-            this.button103.Name = "button103";
-            this.button103.Size = new System.Drawing.Size(8, 8);
-            this.button103.TabIndex = 10;
-            this.button103.Tag = "dayBtn";
-            this.button103.UseVisualStyleBackColor = false;
-            // 
-            // button104
-            // 
-            this.button104.BackColor = System.Drawing.Color.DimGray;
-            this.button104.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button104.FlatAppearance.BorderSize = 0;
-            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button104.Location = new System.Drawing.Point(497, 43);
-            this.button104.Name = "button104";
-            this.button104.Size = new System.Drawing.Size(15, 8);
-            this.button104.TabIndex = 10;
-            this.button104.Tag = "dayBtn";
-            this.button104.UseVisualStyleBackColor = false;
-            // 
-            // button105
-            // 
-            this.button105.BackColor = System.Drawing.Color.DimGray;
-            this.button105.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button105.FlatAppearance.BorderSize = 0;
-            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button105.Location = new System.Drawing.Point(416, 85);
-            this.button105.Name = "button105";
-            this.button105.Size = new System.Drawing.Size(15, 8);
-            this.button105.TabIndex = 10;
-            this.button105.Tag = "dayBtn";
-            this.button105.UseVisualStyleBackColor = false;
-            // 
-            // button106
-            // 
-            this.button106.BackColor = System.Drawing.Color.DimGray;
-            this.button106.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button106.FlatAppearance.BorderSize = 0;
-            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button106.Location = new System.Drawing.Point(579, 43);
-            this.button106.Name = "button106";
-            this.button106.Size = new System.Drawing.Size(15, 8);
-            this.button106.TabIndex = 10;
-            this.button106.Tag = "dayBtn";
-            this.button106.UseVisualStyleBackColor = false;
-            // 
-            // button107
-            // 
-            this.button107.BackColor = System.Drawing.Color.DimGray;
-            this.button107.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button107.FlatAppearance.BorderSize = 0;
-            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button107.Location = new System.Drawing.Point(497, 85);
-            this.button107.Name = "button107";
-            this.button107.Size = new System.Drawing.Size(15, 8);
-            this.button107.TabIndex = 10;
-            this.button107.Tag = "dayBtn";
-            this.button107.UseVisualStyleBackColor = false;
-            // 
-            // button108
-            // 
-            this.button108.BackColor = System.Drawing.Color.DimGray;
-            this.button108.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button108.FlatAppearance.BorderSize = 0;
-            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button108.Location = new System.Drawing.Point(416, 127);
-            this.button108.Name = "button108";
-            this.button108.Size = new System.Drawing.Size(15, 8);
-            this.button108.TabIndex = 10;
-            this.button108.Tag = "dayBtn";
-            this.button108.UseVisualStyleBackColor = false;
-            // 
-            // button109
-            // 
-            this.button109.BackColor = System.Drawing.Color.DimGray;
-            this.button109.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button109.FlatAppearance.BorderSize = 0;
-            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button109.Location = new System.Drawing.Point(579, 85);
-            this.button109.Name = "button109";
-            this.button109.Size = new System.Drawing.Size(15, 8);
-            this.button109.TabIndex = 10;
-            this.button109.Tag = "dayBtn";
-            this.button109.UseVisualStyleBackColor = false;
-            // 
-            // button110
-            // 
-            this.button110.BackColor = System.Drawing.Color.DimGray;
-            this.button110.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button110.FlatAppearance.BorderSize = 0;
-            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button110.Location = new System.Drawing.Point(497, 127);
-            this.button110.Name = "button110";
-            this.button110.Size = new System.Drawing.Size(15, 8);
-            this.button110.TabIndex = 10;
-            this.button110.Tag = "dayBtn";
-            this.button110.UseVisualStyleBackColor = false;
-            // 
-            // button111
-            // 
-            this.button111.BackColor = System.Drawing.Color.DimGray;
-            this.button111.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button111.FlatAppearance.BorderSize = 0;
-            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button111.Location = new System.Drawing.Point(387, 43);
-            this.button111.Name = "button111";
-            this.button111.Size = new System.Drawing.Size(15, 8);
-            this.button111.TabIndex = 10;
-            this.button111.Tag = "dayBtn";
-            this.button111.UseVisualStyleBackColor = false;
-            // 
-            // button112
-            // 
-            this.button112.BackColor = System.Drawing.Color.DimGray;
-            this.button112.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button112.FlatAppearance.BorderSize = 0;
-            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button112.Location = new System.Drawing.Point(579, 127);
-            this.button112.Name = "button112";
-            this.button112.Size = new System.Drawing.Size(15, 8);
-            this.button112.TabIndex = 10;
-            this.button112.Tag = "dayBtn";
-            this.button112.UseVisualStyleBackColor = false;
-            // 
-            // button113
-            // 
-            this.button113.BackColor = System.Drawing.Color.DimGray;
-            this.button113.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button113.FlatAppearance.BorderSize = 0;
-            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button113.Location = new System.Drawing.Point(468, 43);
-            this.button113.Name = "button113";
-            this.button113.Size = new System.Drawing.Size(15, 8);
-            this.button113.TabIndex = 10;
-            this.button113.Tag = "dayBtn";
-            this.button113.UseVisualStyleBackColor = false;
-            // 
-            // button114
-            // 
-            this.button114.BackColor = System.Drawing.Color.DimGray;
-            this.button114.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button114.FlatAppearance.BorderSize = 0;
-            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button114.Location = new System.Drawing.Point(387, 85);
-            this.button114.Name = "button114";
-            this.button114.Size = new System.Drawing.Size(15, 8);
-            this.button114.TabIndex = 10;
-            this.button114.Tag = "dayBtn";
-            this.button114.UseVisualStyleBackColor = false;
-            // 
-            // button115
-            // 
-            this.button115.BackColor = System.Drawing.Color.DimGray;
-            this.button115.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button115.FlatAppearance.BorderSize = 0;
-            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button115.Location = new System.Drawing.Point(550, 43);
-            this.button115.Name = "button115";
-            this.button115.Size = new System.Drawing.Size(15, 8);
-            this.button115.TabIndex = 10;
-            this.button115.Tag = "dayBtn";
-            this.button115.UseVisualStyleBackColor = false;
-            // 
-            // button116
-            // 
-            this.button116.BackColor = System.Drawing.Color.DimGray;
-            this.button116.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button116.FlatAppearance.BorderSize = 0;
-            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button116.Location = new System.Drawing.Point(468, 85);
-            this.button116.Name = "button116";
-            this.button116.Size = new System.Drawing.Size(15, 8);
-            this.button116.TabIndex = 10;
-            this.button116.Tag = "dayBtn";
-            this.button116.UseVisualStyleBackColor = false;
-            // 
-            // button117
-            // 
-            this.button117.BackColor = System.Drawing.Color.DimGray;
-            this.button117.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button117.FlatAppearance.BorderSize = 0;
-            this.button117.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button117.Location = new System.Drawing.Point(387, 127);
-            this.button117.Name = "button117";
-            this.button117.Size = new System.Drawing.Size(15, 8);
-            this.button117.TabIndex = 10;
-            this.button117.Tag = "dayBtn";
-            this.button117.UseVisualStyleBackColor = false;
-            // 
-            // button118
-            // 
-            this.button118.BackColor = System.Drawing.Color.DimGray;
-            this.button118.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button118.FlatAppearance.BorderSize = 0;
-            this.button118.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button118.Location = new System.Drawing.Point(550, 85);
-            this.button118.Name = "button118";
-            this.button118.Size = new System.Drawing.Size(15, 8);
-            this.button118.TabIndex = 10;
-            this.button118.Tag = "dayBtn";
-            this.button118.UseVisualStyleBackColor = false;
-            // 
-            // button119
-            // 
-            this.button119.BackColor = System.Drawing.Color.DimGray;
-            this.button119.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button119.FlatAppearance.BorderSize = 0;
-            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button119.Location = new System.Drawing.Point(468, 127);
-            this.button119.Name = "button119";
-            this.button119.Size = new System.Drawing.Size(15, 8);
-            this.button119.TabIndex = 10;
-            this.button119.Tag = "dayBtn";
-            this.button119.UseVisualStyleBackColor = false;
-            // 
-            // button120
-            // 
-            this.button120.BackColor = System.Drawing.Color.DimGray;
-            this.button120.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button120.FlatAppearance.BorderSize = 0;
-            this.button120.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button120.Location = new System.Drawing.Point(405, 127);
-            this.button120.Name = "button120";
-            this.button120.Size = new System.Drawing.Size(8, 8);
-            this.button120.TabIndex = 10;
-            this.button120.Tag = "dayBtn";
-            this.button120.UseVisualStyleBackColor = false;
-            // 
-            // button121
-            // 
-            this.button121.BackColor = System.Drawing.Color.DimGray;
-            this.button121.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button121.FlatAppearance.BorderSize = 0;
-            this.button121.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button121.Location = new System.Drawing.Point(550, 127);
-            this.button121.Name = "button121";
-            this.button121.Size = new System.Drawing.Size(15, 8);
-            this.button121.TabIndex = 10;
-            this.button121.Tag = "dayBtn";
-            this.button121.UseVisualStyleBackColor = false;
-            // 
-            // button122
-            // 
-            this.button122.BackColor = System.Drawing.Color.DimGray;
-            this.button122.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button122.FlatAppearance.BorderSize = 0;
-            this.button122.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button122.Location = new System.Drawing.Point(486, 127);
-            this.button122.Name = "button122";
-            this.button122.Size = new System.Drawing.Size(8, 8);
-            this.button122.TabIndex = 10;
-            this.button122.Tag = "dayBtn";
-            this.button122.UseVisualStyleBackColor = false;
-            // 
-            // button123
-            // 
-            this.button123.BackColor = System.Drawing.Color.DimGray;
-            this.button123.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button123.FlatAppearance.BorderSize = 0;
-            this.button123.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button123.Location = new System.Drawing.Point(433, 127);
-            this.button123.Name = "button123";
-            this.button123.Size = new System.Drawing.Size(8, 8);
-            this.button123.TabIndex = 10;
-            this.button123.Tag = "dayBtn";
-            this.button123.UseVisualStyleBackColor = false;
-            // 
-            // button124
-            // 
-            this.button124.BackColor = System.Drawing.Color.DimGray;
-            this.button124.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button124.FlatAppearance.BorderSize = 0;
-            this.button124.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button124.Location = new System.Drawing.Point(568, 127);
-            this.button124.Name = "button124";
-            this.button124.Size = new System.Drawing.Size(8, 8);
-            this.button124.TabIndex = 10;
-            this.button124.Tag = "dayBtn";
-            this.button124.UseVisualStyleBackColor = false;
-            // 
-            // button125
-            // 
-            this.button125.BackColor = System.Drawing.Color.DimGray;
-            this.button125.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button125.FlatAppearance.BorderSize = 0;
-            this.button125.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button125.Location = new System.Drawing.Point(514, 127);
-            this.button125.Name = "button125";
-            this.button125.Size = new System.Drawing.Size(8, 8);
-            this.button125.TabIndex = 10;
-            this.button125.Tag = "dayBtn";
-            this.button125.UseVisualStyleBackColor = false;
-            // 
-            // button126
-            // 
-            this.button126.BackColor = System.Drawing.Color.DimGray;
-            this.button126.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button126.FlatAppearance.BorderSize = 0;
-            this.button126.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button126.Location = new System.Drawing.Point(405, 85);
-            this.button126.Name = "button126";
-            this.button126.Size = new System.Drawing.Size(8, 8);
-            this.button126.TabIndex = 10;
-            this.button126.Tag = "dayBtn";
-            this.button126.UseVisualStyleBackColor = false;
-            // 
-            // button127
-            // 
-            this.button127.BackColor = System.Drawing.Color.DimGray;
-            this.button127.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button127.FlatAppearance.BorderSize = 0;
-            this.button127.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button127.Location = new System.Drawing.Point(596, 127);
-            this.button127.Name = "button127";
-            this.button127.Size = new System.Drawing.Size(8, 8);
-            this.button127.TabIndex = 10;
-            this.button127.Tag = "dayBtn";
-            this.button127.UseVisualStyleBackColor = false;
-            // 
-            // button128
-            // 
-            this.button128.BackColor = System.Drawing.Color.DimGray;
-            this.button128.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button128.FlatAppearance.BorderSize = 0;
-            this.button128.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button128.Location = new System.Drawing.Point(405, 53);
-            this.button128.Name = "button128";
-            this.button128.Size = new System.Drawing.Size(8, 30);
-            this.button128.TabIndex = 10;
-            this.button128.Tag = "dayBtn";
-            this.button128.UseVisualStyleBackColor = false;
-            // 
-            // button129
-            // 
-            this.button129.BackColor = System.Drawing.Color.DimGray;
-            this.button129.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button129.FlatAppearance.BorderSize = 0;
-            this.button129.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button129.Location = new System.Drawing.Point(486, 85);
-            this.button129.Name = "button129";
-            this.button129.Size = new System.Drawing.Size(8, 8);
-            this.button129.TabIndex = 10;
-            this.button129.Tag = "dayBtn";
-            this.button129.UseVisualStyleBackColor = false;
-            // 
-            // button130
-            // 
-            this.button130.BackColor = System.Drawing.Color.DimGray;
-            this.button130.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button130.FlatAppearance.BorderSize = 0;
-            this.button130.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button130.Location = new System.Drawing.Point(568, 85);
-            this.button130.Name = "button130";
-            this.button130.Size = new System.Drawing.Size(8, 8);
-            this.button130.TabIndex = 10;
-            this.button130.Tag = "dayBtn";
-            this.button130.UseVisualStyleBackColor = false;
-            // 
-            // button131
-            // 
-            this.button131.BackColor = System.Drawing.Color.DimGray;
-            this.button131.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button131.FlatAppearance.BorderSize = 0;
-            this.button131.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button131.Location = new System.Drawing.Point(486, 53);
-            this.button131.Name = "button131";
-            this.button131.Size = new System.Drawing.Size(8, 30);
-            this.button131.TabIndex = 10;
-            this.button131.Tag = "dayBtn";
-            this.button131.UseVisualStyleBackColor = false;
-            // 
-            // button132
-            // 
-            this.button132.BackColor = System.Drawing.Color.DimGray;
-            this.button132.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button132.FlatAppearance.BorderSize = 0;
-            this.button132.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button132.Location = new System.Drawing.Point(433, 53);
-            this.button132.Name = "button132";
-            this.button132.Size = new System.Drawing.Size(8, 30);
-            this.button132.TabIndex = 10;
-            this.button132.Tag = "dayBtn";
-            this.button132.UseVisualStyleBackColor = false;
-            // 
-            // button133
-            // 
-            this.button133.BackColor = System.Drawing.Color.DimGray;
-            this.button133.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button133.FlatAppearance.BorderSize = 0;
-            this.button133.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button133.Location = new System.Drawing.Point(568, 53);
-            this.button133.Name = "button133";
-            this.button133.Size = new System.Drawing.Size(8, 30);
-            this.button133.TabIndex = 10;
-            this.button133.Tag = "dayBtn";
-            this.button133.UseVisualStyleBackColor = false;
-            // 
-            // button134
-            // 
-            this.button134.BackColor = System.Drawing.Color.DimGray;
-            this.button134.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button134.FlatAppearance.BorderSize = 0;
-            this.button134.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button134.Location = new System.Drawing.Point(514, 53);
-            this.button134.Name = "button134";
-            this.button134.Size = new System.Drawing.Size(8, 30);
-            this.button134.TabIndex = 10;
-            this.button134.Tag = "dayBtn";
-            this.button134.UseVisualStyleBackColor = false;
-            // 
-            // button135
-            // 
-            this.button135.BackColor = System.Drawing.Color.DimGray;
-            this.button135.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button135.FlatAppearance.BorderSize = 0;
-            this.button135.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button135.Location = new System.Drawing.Point(596, 53);
-            this.button135.Name = "button135";
-            this.button135.Size = new System.Drawing.Size(8, 30);
-            this.button135.TabIndex = 10;
-            this.button135.Tag = "dayBtn";
-            this.button135.UseVisualStyleBackColor = false;
-            // 
-            // button136
-            // 
-            this.button136.BackColor = System.Drawing.Color.DimGray;
-            this.button136.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button136.FlatAppearance.BorderSize = 0;
-            this.button136.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button136.Location = new System.Drawing.Point(433, 95);
-            this.button136.Name = "button136";
-            this.button136.Size = new System.Drawing.Size(8, 30);
-            this.button136.TabIndex = 10;
-            this.button136.Tag = "dayBtn";
-            this.button136.UseVisualStyleBackColor = false;
-            // 
-            // button137
-            // 
-            this.button137.BackColor = System.Drawing.Color.DimGray;
-            this.button137.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button137.FlatAppearance.BorderSize = 0;
-            this.button137.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button137.Location = new System.Drawing.Point(514, 95);
-            this.button137.Name = "button137";
-            this.button137.Size = new System.Drawing.Size(8, 30);
-            this.button137.TabIndex = 10;
-            this.button137.Tag = "dayBtn";
-            this.button137.UseVisualStyleBackColor = false;
-            // 
-            // button138
-            // 
-            this.button138.BackColor = System.Drawing.Color.DimGray;
-            this.button138.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button138.FlatAppearance.BorderSize = 0;
-            this.button138.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button138.Location = new System.Drawing.Point(596, 95);
-            this.button138.Name = "button138";
-            this.button138.Size = new System.Drawing.Size(8, 30);
-            this.button138.TabIndex = 10;
-            this.button138.Tag = "dayBtn";
-            this.button138.UseVisualStyleBackColor = false;
-            // 
-            // button139
-            // 
-            this.button139.BackColor = System.Drawing.Color.DimGray;
-            this.button139.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button139.FlatAppearance.BorderSize = 0;
-            this.button139.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button139.Location = new System.Drawing.Point(377, 53);
-            this.button139.Name = "button139";
-            this.button139.Size = new System.Drawing.Size(8, 30);
-            this.button139.TabIndex = 10;
-            this.button139.Tag = "dayBtn";
-            this.button139.UseVisualStyleBackColor = false;
-            // 
-            // button140
-            // 
-            this.button140.BackColor = System.Drawing.Color.DimGray;
-            this.button140.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button140.FlatAppearance.BorderSize = 0;
-            this.button140.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button140.Location = new System.Drawing.Point(458, 53);
-            this.button140.Name = "button140";
-            this.button140.Size = new System.Drawing.Size(8, 30);
-            this.button140.TabIndex = 10;
-            this.button140.Tag = "dayBtn";
-            this.button140.UseVisualStyleBackColor = false;
-            // 
-            // button141
-            // 
-            this.button141.BackColor = System.Drawing.Color.DimGray;
-            this.button141.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button141.FlatAppearance.BorderSize = 0;
-            this.button141.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button141.Location = new System.Drawing.Point(540, 53);
-            this.button141.Name = "button141";
-            this.button141.Size = new System.Drawing.Size(8, 30);
-            this.button141.TabIndex = 10;
-            this.button141.Tag = "dayBtn";
-            this.button141.UseVisualStyleBackColor = false;
-            // 
-            // button142
-            // 
-            this.button142.BackColor = System.Drawing.Color.DimGray;
-            this.button142.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button142.FlatAppearance.BorderSize = 0;
-            this.button142.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button142.Location = new System.Drawing.Point(377, 95);
-            this.button142.Name = "button142";
-            this.button142.Size = new System.Drawing.Size(8, 30);
-            this.button142.TabIndex = 10;
-            this.button142.Tag = "dayBtn";
-            this.button142.UseVisualStyleBackColor = false;
-            // 
-            // button143
-            // 
-            this.button143.BackColor = System.Drawing.Color.DimGray;
-            this.button143.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button143.FlatAppearance.BorderSize = 0;
-            this.button143.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button143.Location = new System.Drawing.Point(458, 95);
-            this.button143.Name = "button143";
-            this.button143.Size = new System.Drawing.Size(8, 30);
-            this.button143.TabIndex = 10;
-            this.button143.Tag = "dayBtn";
-            this.button143.UseVisualStyleBackColor = false;
-            // 
-            // button144
-            // 
-            this.button144.BackColor = System.Drawing.Color.DimGray;
-            this.button144.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button144.FlatAppearance.BorderSize = 0;
-            this.button144.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button144.Location = new System.Drawing.Point(540, 95);
-            this.button144.Name = "button144";
-            this.button144.Size = new System.Drawing.Size(8, 30);
-            this.button144.TabIndex = 10;
-            this.button144.Tag = "dayBtn";
-            this.button144.UseVisualStyleBackColor = false;
-            // 
-            // button145
-            // 
-            this.button145.BackColor = System.Drawing.Color.DimGray;
-            this.button145.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button145.FlatAppearance.BorderSize = 0;
-            this.button145.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button145.Location = new System.Drawing.Point(405, 95);
-            this.button145.Name = "button145";
-            this.button145.Size = new System.Drawing.Size(8, 30);
-            this.button145.TabIndex = 10;
-            this.button145.Tag = "dayBtn";
-            this.button145.UseVisualStyleBackColor = false;
-            // 
-            // button146
-            // 
-            this.button146.BackColor = System.Drawing.Color.DimGray;
-            this.button146.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button146.FlatAppearance.BorderSize = 0;
-            this.button146.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button146.Location = new System.Drawing.Point(486, 95);
-            this.button146.Name = "button146";
-            this.button146.Size = new System.Drawing.Size(8, 30);
-            this.button146.TabIndex = 10;
-            this.button146.Tag = "dayBtn";
-            this.button146.UseVisualStyleBackColor = false;
-            // 
-            // button147
-            // 
-            this.button147.BackColor = System.Drawing.Color.DimGray;
-            this.button147.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button147.FlatAppearance.BorderSize = 0;
-            this.button147.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button147.Location = new System.Drawing.Point(568, 95);
-            this.button147.Name = "button147";
-            this.button147.Size = new System.Drawing.Size(8, 30);
-            this.button147.TabIndex = 10;
-            this.button147.Tag = "dayBtn";
-            this.button147.UseVisualStyleBackColor = false;
-            // 
-            // button148
-            // 
-            this.button148.BackColor = System.Drawing.Color.DimGray;
-            this.button148.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button148.FlatAppearance.BorderSize = 0;
-            this.button148.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button148.Location = new System.Drawing.Point(645, 43);
-            this.button148.Name = "button148";
-            this.button148.Size = new System.Drawing.Size(8, 8);
-            this.button148.TabIndex = 10;
-            this.button148.Tag = "dayBtn";
-            this.button148.UseVisualStyleBackColor = false;
-            // 
-            // button149
-            // 
-            this.button149.BackColor = System.Drawing.Color.DimGray;
-            this.button149.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button149.FlatAppearance.BorderSize = 0;
-            this.button149.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button149.Location = new System.Drawing.Point(726, 43);
-            this.button149.Name = "button149";
-            this.button149.Size = new System.Drawing.Size(8, 8);
-            this.button149.TabIndex = 10;
-            this.button149.Tag = "dayBtn";
-            this.button149.UseVisualStyleBackColor = false;
-            // 
-            // button150
-            // 
-            this.button150.BackColor = System.Drawing.Color.DimGray;
-            this.button150.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button150.FlatAppearance.BorderSize = 0;
-            this.button150.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button150.Location = new System.Drawing.Point(673, 43);
-            this.button150.Name = "button150";
-            this.button150.Size = new System.Drawing.Size(8, 8);
-            this.button150.TabIndex = 10;
-            this.button150.Tag = "dayBtn";
-            this.button150.UseVisualStyleBackColor = false;
-            // 
-            // button151
-            // 
-            this.button151.BackColor = System.Drawing.Color.DimGray;
-            this.button151.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button151.FlatAppearance.BorderSize = 0;
-            this.button151.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button151.Location = new System.Drawing.Point(808, 43);
-            this.button151.Name = "button151";
-            this.button151.Size = new System.Drawing.Size(8, 8);
-            this.button151.TabIndex = 10;
-            this.button151.Tag = "dayBtn";
-            this.button151.UseVisualStyleBackColor = false;
-            // 
-            // button152
-            // 
-            this.button152.BackColor = System.Drawing.Color.DimGray;
-            this.button152.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button152.FlatAppearance.BorderSize = 0;
-            this.button152.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button152.Location = new System.Drawing.Point(754, 43);
-            this.button152.Name = "button152";
-            this.button152.Size = new System.Drawing.Size(8, 8);
-            this.button152.TabIndex = 10;
-            this.button152.Tag = "dayBtn";
-            this.button152.UseVisualStyleBackColor = false;
-            // 
-            // button153
-            // 
-            this.button153.BackColor = System.Drawing.Color.DimGray;
-            this.button153.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button153.FlatAppearance.BorderSize = 0;
-            this.button153.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button153.Location = new System.Drawing.Point(673, 85);
-            this.button153.Name = "button153";
-            this.button153.Size = new System.Drawing.Size(8, 8);
-            this.button153.TabIndex = 10;
-            this.button153.Tag = "dayBtn";
-            this.button153.UseVisualStyleBackColor = false;
-            // 
-            // button154
-            // 
-            this.button154.BackColor = System.Drawing.Color.DimGray;
-            this.button154.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button154.FlatAppearance.BorderSize = 0;
-            this.button154.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button154.Location = new System.Drawing.Point(836, 43);
-            this.button154.Name = "button154";
-            this.button154.Size = new System.Drawing.Size(8, 8);
-            this.button154.TabIndex = 10;
-            this.button154.Tag = "dayBtn";
-            this.button154.UseVisualStyleBackColor = false;
-            // 
-            // button155
-            // 
-            this.button155.BackColor = System.Drawing.Color.DimGray;
-            this.button155.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button155.FlatAppearance.BorderSize = 0;
-            this.button155.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button155.Location = new System.Drawing.Point(754, 85);
-            this.button155.Name = "button155";
-            this.button155.Size = new System.Drawing.Size(8, 8);
-            this.button155.TabIndex = 10;
-            this.button155.Tag = "dayBtn";
-            this.button155.UseVisualStyleBackColor = false;
-            // 
-            // button156
-            // 
-            this.button156.BackColor = System.Drawing.Color.DimGray;
-            this.button156.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button156.FlatAppearance.BorderSize = 0;
-            this.button156.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button156.Location = new System.Drawing.Point(617, 43);
-            this.button156.Name = "button156";
-            this.button156.Size = new System.Drawing.Size(8, 8);
-            this.button156.TabIndex = 10;
-            this.button156.Tag = "dayBtn";
-            this.button156.UseVisualStyleBackColor = false;
-            // 
-            // button157
-            // 
-            this.button157.BackColor = System.Drawing.Color.DimGray;
-            this.button157.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button157.FlatAppearance.BorderSize = 0;
-            this.button157.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button157.Location = new System.Drawing.Point(836, 85);
-            this.button157.Name = "button157";
-            this.button157.Size = new System.Drawing.Size(8, 8);
-            this.button157.TabIndex = 10;
-            this.button157.Tag = "dayBtn";
-            this.button157.UseVisualStyleBackColor = false;
-            // 
-            // button158
-            // 
-            this.button158.BackColor = System.Drawing.Color.DimGray;
-            this.button158.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button158.FlatAppearance.BorderSize = 0;
-            this.button158.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button158.Location = new System.Drawing.Point(698, 43);
-            this.button158.Name = "button158";
-            this.button158.Size = new System.Drawing.Size(8, 8);
-            this.button158.TabIndex = 10;
-            this.button158.Tag = "dayBtn";
-            this.button158.UseVisualStyleBackColor = false;
-            // 
-            // button159
-            // 
-            this.button159.BackColor = System.Drawing.Color.DimGray;
-            this.button159.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button159.FlatAppearance.BorderSize = 0;
-            this.button159.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button159.Location = new System.Drawing.Point(617, 127);
-            this.button159.Name = "button159";
-            this.button159.Size = new System.Drawing.Size(8, 8);
-            this.button159.TabIndex = 10;
-            this.button159.Tag = "dayBtn";
-            this.button159.UseVisualStyleBackColor = false;
-            // 
-            // button160
-            // 
-            this.button160.BackColor = System.Drawing.Color.DimGray;
-            this.button160.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button160.FlatAppearance.BorderSize = 0;
-            this.button160.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button160.Location = new System.Drawing.Point(780, 43);
-            this.button160.Name = "button160";
-            this.button160.Size = new System.Drawing.Size(8, 8);
-            this.button160.TabIndex = 10;
-            this.button160.Tag = "dayBtn";
-            this.button160.UseVisualStyleBackColor = false;
-            // 
-            // button161
-            // 
-            this.button161.BackColor = System.Drawing.Color.DimGray;
-            this.button161.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button161.FlatAppearance.BorderSize = 0;
-            this.button161.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button161.Location = new System.Drawing.Point(698, 127);
-            this.button161.Name = "button161";
-            this.button161.Size = new System.Drawing.Size(8, 8);
-            this.button161.TabIndex = 10;
-            this.button161.Tag = "dayBtn";
-            this.button161.UseVisualStyleBackColor = false;
-            // 
-            // button162
-            // 
-            this.button162.BackColor = System.Drawing.Color.DimGray;
-            this.button162.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button162.FlatAppearance.BorderSize = 0;
-            this.button162.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button162.Location = new System.Drawing.Point(617, 85);
-            this.button162.Name = "button162";
-            this.button162.Size = new System.Drawing.Size(8, 8);
-            this.button162.TabIndex = 10;
-            this.button162.Tag = "dayBtn";
-            this.button162.UseVisualStyleBackColor = false;
-            // 
-            // button163
-            // 
-            this.button163.BackColor = System.Drawing.Color.DimGray;
-            this.button163.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button163.FlatAppearance.BorderSize = 0;
-            this.button163.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button163.Location = new System.Drawing.Point(780, 127);
-            this.button163.Name = "button163";
-            this.button163.Size = new System.Drawing.Size(8, 8);
-            this.button163.TabIndex = 10;
-            this.button163.Tag = "dayBtn";
-            this.button163.UseVisualStyleBackColor = false;
-            // 
-            // button164
-            // 
-            this.button164.BackColor = System.Drawing.Color.DimGray;
-            this.button164.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button164.FlatAppearance.BorderSize = 0;
-            this.button164.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button164.Location = new System.Drawing.Point(698, 85);
-            this.button164.Name = "button164";
-            this.button164.Size = new System.Drawing.Size(8, 8);
-            this.button164.TabIndex = 10;
-            this.button164.Tag = "dayBtn";
-            this.button164.UseVisualStyleBackColor = false;
-            // 
-            // button165
-            // 
-            this.button165.BackColor = System.Drawing.Color.DimGray;
-            this.button165.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button165.FlatAppearance.BorderSize = 0;
-            this.button165.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button165.Location = new System.Drawing.Point(656, 43);
-            this.button165.Name = "button165";
-            this.button165.Size = new System.Drawing.Size(15, 8);
-            this.button165.TabIndex = 10;
-            this.button165.Tag = "dayBtn";
-            this.button165.UseVisualStyleBackColor = false;
-            // 
-            // button166
-            // 
-            this.button166.BackColor = System.Drawing.Color.DimGray;
-            this.button166.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button166.FlatAppearance.BorderSize = 0;
-            this.button166.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button166.Location = new System.Drawing.Point(780, 85);
-            this.button166.Name = "button166";
-            this.button166.Size = new System.Drawing.Size(8, 8);
-            this.button166.TabIndex = 10;
-            this.button166.Tag = "dayBtn";
-            this.button166.UseVisualStyleBackColor = false;
-            // 
-            // button167
-            // 
-            this.button167.BackColor = System.Drawing.Color.DimGray;
-            this.button167.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button167.FlatAppearance.BorderSize = 0;
-            this.button167.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button167.Location = new System.Drawing.Point(737, 43);
-            this.button167.Name = "button167";
-            this.button167.Size = new System.Drawing.Size(15, 8);
-            this.button167.TabIndex = 10;
-            this.button167.Tag = "dayBtn";
-            this.button167.UseVisualStyleBackColor = false;
-            // 
-            // button168
-            // 
-            this.button168.BackColor = System.Drawing.Color.DimGray;
-            this.button168.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button168.FlatAppearance.BorderSize = 0;
-            this.button168.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button168.Location = new System.Drawing.Point(656, 85);
-            this.button168.Name = "button168";
-            this.button168.Size = new System.Drawing.Size(15, 8);
-            this.button168.TabIndex = 10;
-            this.button168.Tag = "dayBtn";
-            this.button168.UseVisualStyleBackColor = false;
-            // 
-            // button169
-            // 
-            this.button169.BackColor = System.Drawing.Color.DimGray;
-            this.button169.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button169.FlatAppearance.BorderSize = 0;
-            this.button169.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button169.Location = new System.Drawing.Point(819, 43);
-            this.button169.Name = "button169";
-            this.button169.Size = new System.Drawing.Size(15, 8);
-            this.button169.TabIndex = 10;
-            this.button169.Tag = "dayBtn";
-            this.button169.UseVisualStyleBackColor = false;
-            // 
-            // button170
-            // 
-            this.button170.BackColor = System.Drawing.Color.DimGray;
-            this.button170.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button170.FlatAppearance.BorderSize = 0;
-            this.button170.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button170.Location = new System.Drawing.Point(737, 85);
-            this.button170.Name = "button170";
-            this.button170.Size = new System.Drawing.Size(15, 8);
-            this.button170.TabIndex = 10;
-            this.button170.Tag = "dayBtn";
-            this.button170.UseVisualStyleBackColor = false;
-            // 
-            // button171
-            // 
-            this.button171.BackColor = System.Drawing.Color.DimGray;
-            this.button171.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button171.FlatAppearance.BorderSize = 0;
-            this.button171.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button171.Location = new System.Drawing.Point(656, 127);
-            this.button171.Name = "button171";
-            this.button171.Size = new System.Drawing.Size(15, 8);
-            this.button171.TabIndex = 10;
-            this.button171.Tag = "dayBtn";
-            this.button171.UseVisualStyleBackColor = false;
-            // 
-            // button172
-            // 
-            this.button172.BackColor = System.Drawing.Color.DimGray;
-            this.button172.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button172.FlatAppearance.BorderSize = 0;
-            this.button172.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button172.Location = new System.Drawing.Point(819, 85);
-            this.button172.Name = "button172";
-            this.button172.Size = new System.Drawing.Size(15, 8);
-            this.button172.TabIndex = 10;
-            this.button172.Tag = "dayBtn";
-            this.button172.UseVisualStyleBackColor = false;
-            // 
-            // button173
-            // 
-            this.button173.BackColor = System.Drawing.Color.DimGray;
-            this.button173.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button173.FlatAppearance.BorderSize = 0;
-            this.button173.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button173.Location = new System.Drawing.Point(737, 127);
-            this.button173.Name = "button173";
-            this.button173.Size = new System.Drawing.Size(15, 8);
-            this.button173.TabIndex = 10;
-            this.button173.Tag = "dayBtn";
-            this.button173.UseVisualStyleBackColor = false;
-            // 
-            // button174
-            // 
-            this.button174.BackColor = System.Drawing.Color.DimGray;
-            this.button174.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button174.FlatAppearance.BorderSize = 0;
-            this.button174.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button174.Location = new System.Drawing.Point(627, 43);
-            this.button174.Name = "button174";
-            this.button174.Size = new System.Drawing.Size(15, 8);
-            this.button174.TabIndex = 10;
-            this.button174.Tag = "dayBtn";
-            this.button174.UseVisualStyleBackColor = false;
-            // 
-            // button175
-            // 
-            this.button175.BackColor = System.Drawing.Color.DimGray;
-            this.button175.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button175.FlatAppearance.BorderSize = 0;
-            this.button175.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button175.Location = new System.Drawing.Point(819, 127);
-            this.button175.Name = "button175";
-            this.button175.Size = new System.Drawing.Size(15, 8);
-            this.button175.TabIndex = 10;
-            this.button175.Tag = "dayBtn";
-            this.button175.UseVisualStyleBackColor = false;
-            // 
-            // button176
-            // 
-            this.button176.BackColor = System.Drawing.Color.DimGray;
-            this.button176.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button176.FlatAppearance.BorderSize = 0;
-            this.button176.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button176.Location = new System.Drawing.Point(708, 43);
-            this.button176.Name = "button176";
-            this.button176.Size = new System.Drawing.Size(15, 8);
-            this.button176.TabIndex = 10;
-            this.button176.Tag = "dayBtn";
-            this.button176.UseVisualStyleBackColor = false;
-            // 
-            // button177
-            // 
-            this.button177.BackColor = System.Drawing.Color.DimGray;
-            this.button177.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button177.FlatAppearance.BorderSize = 0;
-            this.button177.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button177.Location = new System.Drawing.Point(627, 85);
-            this.button177.Name = "button177";
-            this.button177.Size = new System.Drawing.Size(15, 8);
-            this.button177.TabIndex = 10;
-            this.button177.Tag = "dayBtn";
-            this.button177.UseVisualStyleBackColor = false;
-            // 
-            // button178
-            // 
-            this.button178.BackColor = System.Drawing.Color.DimGray;
-            this.button178.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button178.FlatAppearance.BorderSize = 0;
-            this.button178.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button178.Location = new System.Drawing.Point(790, 43);
-            this.button178.Name = "button178";
-            this.button178.Size = new System.Drawing.Size(15, 8);
-            this.button178.TabIndex = 10;
-            this.button178.Tag = "dayBtn";
-            this.button178.UseVisualStyleBackColor = false;
-            // 
-            // button179
-            // 
-            this.button179.BackColor = System.Drawing.Color.DimGray;
-            this.button179.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button179.FlatAppearance.BorderSize = 0;
-            this.button179.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button179.Location = new System.Drawing.Point(708, 85);
-            this.button179.Name = "button179";
-            this.button179.Size = new System.Drawing.Size(15, 8);
-            this.button179.TabIndex = 10;
-            this.button179.Tag = "dayBtn";
-            this.button179.UseVisualStyleBackColor = false;
-            // 
-            // button180
-            // 
-            this.button180.BackColor = System.Drawing.Color.DimGray;
-            this.button180.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button180.FlatAppearance.BorderSize = 0;
-            this.button180.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button180.Location = new System.Drawing.Point(627, 127);
-            this.button180.Name = "button180";
-            this.button180.Size = new System.Drawing.Size(15, 8);
-            this.button180.TabIndex = 10;
-            this.button180.Tag = "dayBtn";
-            this.button180.UseVisualStyleBackColor = false;
-            // 
-            // button181
-            // 
-            this.button181.BackColor = System.Drawing.Color.DimGray;
-            this.button181.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button181.FlatAppearance.BorderSize = 0;
-            this.button181.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button181.Location = new System.Drawing.Point(790, 85);
-            this.button181.Name = "button181";
-            this.button181.Size = new System.Drawing.Size(15, 8);
-            this.button181.TabIndex = 10;
-            this.button181.Tag = "dayBtn";
-            this.button181.UseVisualStyleBackColor = false;
-            // 
-            // button182
-            // 
-            this.button182.BackColor = System.Drawing.Color.DimGray;
-            this.button182.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button182.FlatAppearance.BorderSize = 0;
-            this.button182.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button182.Location = new System.Drawing.Point(708, 127);
-            this.button182.Name = "button182";
-            this.button182.Size = new System.Drawing.Size(15, 8);
-            this.button182.TabIndex = 10;
-            this.button182.Tag = "dayBtn";
-            this.button182.UseVisualStyleBackColor = false;
-            // 
-            // button183
-            // 
-            this.button183.BackColor = System.Drawing.Color.DimGray;
-            this.button183.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button183.FlatAppearance.BorderSize = 0;
-            this.button183.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button183.Location = new System.Drawing.Point(645, 127);
-            this.button183.Name = "button183";
-            this.button183.Size = new System.Drawing.Size(8, 8);
-            this.button183.TabIndex = 10;
-            this.button183.Tag = "dayBtn";
-            this.button183.UseVisualStyleBackColor = false;
-            // 
-            // button184
-            // 
-            this.button184.BackColor = System.Drawing.Color.DimGray;
-            this.button184.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button184.FlatAppearance.BorderSize = 0;
-            this.button184.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button184.Location = new System.Drawing.Point(790, 127);
-            this.button184.Name = "button184";
-            this.button184.Size = new System.Drawing.Size(15, 8);
-            this.button184.TabIndex = 10;
-            this.button184.Tag = "dayBtn";
-            this.button184.UseVisualStyleBackColor = false;
-            // 
-            // button185
-            // 
-            this.button185.BackColor = System.Drawing.Color.DimGray;
-            this.button185.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button185.FlatAppearance.BorderSize = 0;
-            this.button185.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button185.Location = new System.Drawing.Point(726, 127);
-            this.button185.Name = "button185";
-            this.button185.Size = new System.Drawing.Size(8, 8);
-            this.button185.TabIndex = 10;
-            this.button185.Tag = "dayBtn";
-            this.button185.UseVisualStyleBackColor = false;
-            // 
-            // button186
-            // 
-            this.button186.BackColor = System.Drawing.Color.DimGray;
-            this.button186.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button186.FlatAppearance.BorderSize = 0;
-            this.button186.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button186.Location = new System.Drawing.Point(673, 127);
-            this.button186.Name = "button186";
-            this.button186.Size = new System.Drawing.Size(8, 8);
-            this.button186.TabIndex = 10;
-            this.button186.Tag = "dayBtn";
-            this.button186.UseVisualStyleBackColor = false;
-            // 
-            // button187
-            // 
-            this.button187.BackColor = System.Drawing.Color.DimGray;
-            this.button187.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button187.FlatAppearance.BorderSize = 0;
-            this.button187.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button187.Location = new System.Drawing.Point(808, 127);
-            this.button187.Name = "button187";
-            this.button187.Size = new System.Drawing.Size(8, 8);
-            this.button187.TabIndex = 10;
-            this.button187.Tag = "dayBtn";
-            this.button187.UseVisualStyleBackColor = false;
-            // 
-            // button188
-            // 
-            this.button188.BackColor = System.Drawing.Color.DimGray;
-            this.button188.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button188.FlatAppearance.BorderSize = 0;
-            this.button188.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button188.Location = new System.Drawing.Point(754, 127);
-            this.button188.Name = "button188";
-            this.button188.Size = new System.Drawing.Size(8, 8);
-            this.button188.TabIndex = 10;
-            this.button188.Tag = "dayBtn";
-            this.button188.UseVisualStyleBackColor = false;
-            // 
-            // button189
-            // 
-            this.button189.BackColor = System.Drawing.Color.DimGray;
-            this.button189.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button189.FlatAppearance.BorderSize = 0;
-            this.button189.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button189.Location = new System.Drawing.Point(645, 85);
-            this.button189.Name = "button189";
-            this.button189.Size = new System.Drawing.Size(8, 8);
-            this.button189.TabIndex = 10;
-            this.button189.Tag = "dayBtn";
-            this.button189.UseVisualStyleBackColor = false;
-            // 
-            // button190
-            // 
-            this.button190.BackColor = System.Drawing.Color.DimGray;
-            this.button190.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button190.FlatAppearance.BorderSize = 0;
-            this.button190.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button190.Location = new System.Drawing.Point(836, 127);
-            this.button190.Name = "button190";
-            this.button190.Size = new System.Drawing.Size(8, 8);
-            this.button190.TabIndex = 10;
-            this.button190.Tag = "dayBtn";
-            this.button190.UseVisualStyleBackColor = false;
-            // 
-            // button191
-            // 
-            this.button191.BackColor = System.Drawing.Color.DimGray;
-            this.button191.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button191.FlatAppearance.BorderSize = 0;
-            this.button191.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button191.Location = new System.Drawing.Point(645, 53);
-            this.button191.Name = "button191";
-            this.button191.Size = new System.Drawing.Size(8, 30);
-            this.button191.TabIndex = 10;
-            this.button191.Tag = "dayBtn";
-            this.button191.UseVisualStyleBackColor = false;
-            // 
-            // button192
-            // 
-            this.button192.BackColor = System.Drawing.Color.DimGray;
-            this.button192.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button192.FlatAppearance.BorderSize = 0;
-            this.button192.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button192.Location = new System.Drawing.Point(726, 85);
-            this.button192.Name = "button192";
-            this.button192.Size = new System.Drawing.Size(8, 8);
-            this.button192.TabIndex = 10;
-            this.button192.Tag = "dayBtn";
-            this.button192.UseVisualStyleBackColor = false;
-            // 
-            // button193
-            // 
-            this.button193.BackColor = System.Drawing.Color.DimGray;
-            this.button193.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button193.FlatAppearance.BorderSize = 0;
-            this.button193.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button193.Location = new System.Drawing.Point(808, 85);
-            this.button193.Name = "button193";
-            this.button193.Size = new System.Drawing.Size(8, 8);
-            this.button193.TabIndex = 10;
-            this.button193.Tag = "dayBtn";
-            this.button193.UseVisualStyleBackColor = false;
-            // 
-            // button194
-            // 
-            this.button194.BackColor = System.Drawing.Color.DimGray;
-            this.button194.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button194.FlatAppearance.BorderSize = 0;
-            this.button194.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button194.Location = new System.Drawing.Point(726, 53);
-            this.button194.Name = "button194";
-            this.button194.Size = new System.Drawing.Size(8, 30);
-            this.button194.TabIndex = 10;
-            this.button194.Tag = "dayBtn";
-            this.button194.UseVisualStyleBackColor = false;
-            // 
-            // button195
-            // 
-            this.button195.BackColor = System.Drawing.Color.DimGray;
-            this.button195.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button195.FlatAppearance.BorderSize = 0;
-            this.button195.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button195.Location = new System.Drawing.Point(673, 53);
-            this.button195.Name = "button195";
-            this.button195.Size = new System.Drawing.Size(8, 30);
-            this.button195.TabIndex = 10;
-            this.button195.Tag = "dayBtn";
-            this.button195.UseVisualStyleBackColor = false;
-            // 
-            // button196
-            // 
-            this.button196.BackColor = System.Drawing.Color.DimGray;
-            this.button196.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button196.FlatAppearance.BorderSize = 0;
-            this.button196.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button196.Location = new System.Drawing.Point(808, 53);
-            this.button196.Name = "button196";
-            this.button196.Size = new System.Drawing.Size(8, 30);
-            this.button196.TabIndex = 10;
-            this.button196.Tag = "dayBtn";
-            this.button196.UseVisualStyleBackColor = false;
-            // 
-            // button197
-            // 
-            this.button197.BackColor = System.Drawing.Color.DimGray;
-            this.button197.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button197.FlatAppearance.BorderSize = 0;
-            this.button197.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button197.Location = new System.Drawing.Point(754, 53);
-            this.button197.Name = "button197";
-            this.button197.Size = new System.Drawing.Size(8, 30);
-            this.button197.TabIndex = 10;
-            this.button197.Tag = "dayBtn";
-            this.button197.UseVisualStyleBackColor = false;
-            // 
-            // button198
-            // 
-            this.button198.BackColor = System.Drawing.Color.DimGray;
-            this.button198.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button198.FlatAppearance.BorderSize = 0;
-            this.button198.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button198.Location = new System.Drawing.Point(836, 53);
-            this.button198.Name = "button198";
-            this.button198.Size = new System.Drawing.Size(8, 30);
-            this.button198.TabIndex = 10;
-            this.button198.Tag = "dayBtn";
-            this.button198.UseVisualStyleBackColor = false;
-            // 
-            // button199
-            // 
-            this.button199.BackColor = System.Drawing.Color.DimGray;
-            this.button199.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button199.FlatAppearance.BorderSize = 0;
-            this.button199.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button199.Location = new System.Drawing.Point(673, 95);
-            this.button199.Name = "button199";
-            this.button199.Size = new System.Drawing.Size(8, 30);
-            this.button199.TabIndex = 10;
-            this.button199.Tag = "dayBtn";
-            this.button199.UseVisualStyleBackColor = false;
-            // 
-            // button200
-            // 
-            this.button200.BackColor = System.Drawing.Color.DimGray;
-            this.button200.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button200.FlatAppearance.BorderSize = 0;
-            this.button200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button200.Location = new System.Drawing.Point(754, 95);
-            this.button200.Name = "button200";
-            this.button200.Size = new System.Drawing.Size(8, 30);
-            this.button200.TabIndex = 10;
-            this.button200.Tag = "dayBtn";
-            this.button200.UseVisualStyleBackColor = false;
-            // 
-            // button201
-            // 
-            this.button201.BackColor = System.Drawing.Color.DimGray;
-            this.button201.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button201.FlatAppearance.BorderSize = 0;
-            this.button201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button201.Location = new System.Drawing.Point(836, 95);
-            this.button201.Name = "button201";
-            this.button201.Size = new System.Drawing.Size(8, 30);
-            this.button201.TabIndex = 10;
-            this.button201.Tag = "dayBtn";
-            this.button201.UseVisualStyleBackColor = false;
-            // 
-            // button202
-            // 
-            this.button202.BackColor = System.Drawing.Color.DimGray;
-            this.button202.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button202.FlatAppearance.BorderSize = 0;
-            this.button202.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button202.Location = new System.Drawing.Point(617, 53);
-            this.button202.Name = "button202";
-            this.button202.Size = new System.Drawing.Size(8, 30);
-            this.button202.TabIndex = 10;
-            this.button202.Tag = "dayBtn";
-            this.button202.UseVisualStyleBackColor = false;
-            // 
-            // button203
-            // 
-            this.button203.BackColor = System.Drawing.Color.DimGray;
-            this.button203.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button203.FlatAppearance.BorderSize = 0;
-            this.button203.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button203.Location = new System.Drawing.Point(698, 53);
-            this.button203.Name = "button203";
-            this.button203.Size = new System.Drawing.Size(8, 30);
-            this.button203.TabIndex = 10;
-            this.button203.Tag = "dayBtn";
-            this.button203.UseVisualStyleBackColor = false;
-            // 
-            // button204
-            // 
-            this.button204.BackColor = System.Drawing.Color.DimGray;
-            this.button204.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button204.FlatAppearance.BorderSize = 0;
-            this.button204.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button204.Location = new System.Drawing.Point(780, 53);
-            this.button204.Name = "button204";
-            this.button204.Size = new System.Drawing.Size(8, 30);
-            this.button204.TabIndex = 10;
-            this.button204.Tag = "dayBtn";
-            this.button204.UseVisualStyleBackColor = false;
-            // 
-            // button205
-            // 
-            this.button205.BackColor = System.Drawing.Color.DimGray;
-            this.button205.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button205.FlatAppearance.BorderSize = 0;
-            this.button205.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button205.Location = new System.Drawing.Point(617, 95);
-            this.button205.Name = "button205";
-            this.button205.Size = new System.Drawing.Size(8, 30);
-            this.button205.TabIndex = 10;
-            this.button205.Tag = "dayBtn";
-            this.button205.UseVisualStyleBackColor = false;
-            // 
-            // button206
-            // 
-            this.button206.BackColor = System.Drawing.Color.DimGray;
-            this.button206.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button206.FlatAppearance.BorderSize = 0;
-            this.button206.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button206.Location = new System.Drawing.Point(698, 95);
-            this.button206.Name = "button206";
-            this.button206.Size = new System.Drawing.Size(8, 30);
-            this.button206.TabIndex = 10;
-            this.button206.Tag = "dayBtn";
-            this.button206.UseVisualStyleBackColor = false;
-            // 
-            // button207
-            // 
-            this.button207.BackColor = System.Drawing.Color.DimGray;
-            this.button207.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button207.FlatAppearance.BorderSize = 0;
-            this.button207.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button207.Location = new System.Drawing.Point(780, 95);
-            this.button207.Name = "button207";
-            this.button207.Size = new System.Drawing.Size(8, 30);
-            this.button207.TabIndex = 10;
-            this.button207.Tag = "dayBtn";
-            this.button207.UseVisualStyleBackColor = false;
-            // 
-            // button208
-            // 
-            this.button208.BackColor = System.Drawing.Color.DimGray;
-            this.button208.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button208.FlatAppearance.BorderSize = 0;
-            this.button208.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button208.Location = new System.Drawing.Point(645, 95);
-            this.button208.Name = "button208";
-            this.button208.Size = new System.Drawing.Size(8, 30);
-            this.button208.TabIndex = 10;
-            this.button208.Tag = "dayBtn";
-            this.button208.UseVisualStyleBackColor = false;
-            // 
-            // button209
-            // 
-            this.button209.BackColor = System.Drawing.Color.DimGray;
-            this.button209.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button209.FlatAppearance.BorderSize = 0;
-            this.button209.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button209.Location = new System.Drawing.Point(726, 95);
-            this.button209.Name = "button209";
-            this.button209.Size = new System.Drawing.Size(8, 30);
-            this.button209.TabIndex = 10;
-            this.button209.Tag = "dayBtn";
-            this.button209.UseVisualStyleBackColor = false;
-            // 
-            // button210
-            // 
-            this.button210.BackColor = System.Drawing.Color.DimGray;
-            this.button210.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button210.FlatAppearance.BorderSize = 0;
-            this.button210.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button210.Location = new System.Drawing.Point(808, 95);
-            this.button210.Name = "button210";
-            this.button210.Size = new System.Drawing.Size(8, 30);
-            this.button210.TabIndex = 10;
-            this.button210.Tag = "dayBtn";
-            this.button210.UseVisualStyleBackColor = false;
+            // btn4C
+            // 
+            this.btn4C.BackColor = System.Drawing.Color.DimGray;
+            this.btn4C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4C.FlatAppearance.BorderSize = 0;
+            this.btn4C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4C.Location = new System.Drawing.Point(405, 43);
+            this.btn4C.Name = "btn4C";
+            this.btn4C.Size = new System.Drawing.Size(8, 8);
+            this.btn4C.TabIndex = 10;
+            this.btn4C.Tag = "dayBtn";
+            this.btn4C.UseVisualStyleBackColor = false;
+            // 
+            // btn5C
+            // 
+            this.btn5C.BackColor = System.Drawing.Color.DimGray;
+            this.btn5C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5C.FlatAppearance.BorderSize = 0;
+            this.btn5C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5C.Location = new System.Drawing.Point(486, 43);
+            this.btn5C.Name = "btn5C";
+            this.btn5C.Size = new System.Drawing.Size(8, 8);
+            this.btn5C.TabIndex = 10;
+            this.btn5C.Tag = "dayBtn";
+            this.btn5C.UseVisualStyleBackColor = false;
+            // 
+            // btn4E
+            // 
+            this.btn4E.BackColor = System.Drawing.Color.DimGray;
+            this.btn4E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4E.FlatAppearance.BorderSize = 0;
+            this.btn4E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4E.Location = new System.Drawing.Point(433, 43);
+            this.btn4E.Name = "btn4E";
+            this.btn4E.Size = new System.Drawing.Size(8, 8);
+            this.btn4E.TabIndex = 10;
+            this.btn4E.Tag = "dayBtn";
+            this.btn4E.UseVisualStyleBackColor = false;
+            // 
+            // btn6C
+            // 
+            this.btn6C.BackColor = System.Drawing.Color.DimGray;
+            this.btn6C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6C.FlatAppearance.BorderSize = 0;
+            this.btn6C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6C.Location = new System.Drawing.Point(568, 43);
+            this.btn6C.Name = "btn6C";
+            this.btn6C.Size = new System.Drawing.Size(8, 8);
+            this.btn6C.TabIndex = 10;
+            this.btn6C.Tag = "dayBtn";
+            this.btn6C.UseVisualStyleBackColor = false;
+            // 
+            // btn5E
+            // 
+            this.btn5E.BackColor = System.Drawing.Color.DimGray;
+            this.btn5E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5E.FlatAppearance.BorderSize = 0;
+            this.btn5E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5E.Location = new System.Drawing.Point(514, 43);
+            this.btn5E.Name = "btn5E";
+            this.btn5E.Size = new System.Drawing.Size(8, 8);
+            this.btn5E.TabIndex = 10;
+            this.btn5E.Tag = "dayBtn";
+            this.btn5E.UseVisualStyleBackColor = false;
+            // 
+            // btn4G
+            // 
+            this.btn4G.BackColor = System.Drawing.Color.DimGray;
+            this.btn4G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4G.FlatAppearance.BorderSize = 0;
+            this.btn4G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4G.Location = new System.Drawing.Point(433, 85);
+            this.btn4G.Name = "btn4G";
+            this.btn4G.Size = new System.Drawing.Size(8, 8);
+            this.btn4G.TabIndex = 10;
+            this.btn4G.Tag = "dayBtn";
+            this.btn4G.UseVisualStyleBackColor = false;
+            // 
+            // btn6E
+            // 
+            this.btn6E.BackColor = System.Drawing.Color.DimGray;
+            this.btn6E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6E.FlatAppearance.BorderSize = 0;
+            this.btn6E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6E.Location = new System.Drawing.Point(596, 43);
+            this.btn6E.Name = "btn6E";
+            this.btn6E.Size = new System.Drawing.Size(8, 8);
+            this.btn6E.TabIndex = 10;
+            this.btn6E.Tag = "dayBtn";
+            this.btn6E.UseVisualStyleBackColor = false;
+            // 
+            // btn5G
+            // 
+            this.btn5G.BackColor = System.Drawing.Color.DimGray;
+            this.btn5G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5G.FlatAppearance.BorderSize = 0;
+            this.btn5G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5G.Location = new System.Drawing.Point(514, 85);
+            this.btn5G.Name = "btn5G";
+            this.btn5G.Size = new System.Drawing.Size(8, 8);
+            this.btn5G.TabIndex = 10;
+            this.btn5G.Tag = "dayBtn";
+            this.btn5G.UseVisualStyleBackColor = false;
+            // 
+            // btn4A
+            // 
+            this.btn4A.BackColor = System.Drawing.Color.DimGray;
+            this.btn4A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4A.FlatAppearance.BorderSize = 0;
+            this.btn4A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4A.Location = new System.Drawing.Point(377, 43);
+            this.btn4A.Name = "btn4A";
+            this.btn4A.Size = new System.Drawing.Size(8, 8);
+            this.btn4A.TabIndex = 10;
+            this.btn4A.Tag = "dayBtn";
+            this.btn4A.UseVisualStyleBackColor = false;
+            // 
+            // btn6G
+            // 
+            this.btn6G.BackColor = System.Drawing.Color.DimGray;
+            this.btn6G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6G.FlatAppearance.BorderSize = 0;
+            this.btn6G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6G.Location = new System.Drawing.Point(596, 85);
+            this.btn6G.Name = "btn6G";
+            this.btn6G.Size = new System.Drawing.Size(8, 8);
+            this.btn6G.TabIndex = 10;
+            this.btn6G.Tag = "dayBtn";
+            this.btn6G.UseVisualStyleBackColor = false;
+            // 
+            // btn5A
+            // 
+            this.btn5A.BackColor = System.Drawing.Color.DimGray;
+            this.btn5A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5A.FlatAppearance.BorderSize = 0;
+            this.btn5A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5A.Location = new System.Drawing.Point(458, 43);
+            this.btn5A.Name = "btn5A";
+            this.btn5A.Size = new System.Drawing.Size(8, 8);
+            this.btn5A.TabIndex = 10;
+            this.btn5A.Tag = "dayBtn";
+            this.btn5A.UseVisualStyleBackColor = false;
+            // 
+            // btn4M
+            // 
+            this.btn4M.BackColor = System.Drawing.Color.DimGray;
+            this.btn4M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4M.FlatAppearance.BorderSize = 0;
+            this.btn4M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4M.Location = new System.Drawing.Point(377, 127);
+            this.btn4M.Name = "btn4M";
+            this.btn4M.Size = new System.Drawing.Size(8, 8);
+            this.btn4M.TabIndex = 10;
+            this.btn4M.Tag = "dayBtn";
+            this.btn4M.UseVisualStyleBackColor = false;
+            // 
+            // btn6A
+            // 
+            this.btn6A.BackColor = System.Drawing.Color.DimGray;
+            this.btn6A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6A.FlatAppearance.BorderSize = 0;
+            this.btn6A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6A.Location = new System.Drawing.Point(540, 43);
+            this.btn6A.Name = "btn6A";
+            this.btn6A.Size = new System.Drawing.Size(8, 8);
+            this.btn6A.TabIndex = 10;
+            this.btn6A.Tag = "dayBtn";
+            this.btn6A.UseVisualStyleBackColor = false;
+            // 
+            // btn5M
+            // 
+            this.btn5M.BackColor = System.Drawing.Color.DimGray;
+            this.btn5M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5M.FlatAppearance.BorderSize = 0;
+            this.btn5M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5M.Location = new System.Drawing.Point(458, 127);
+            this.btn5M.Name = "btn5M";
+            this.btn5M.Size = new System.Drawing.Size(8, 8);
+            this.btn5M.TabIndex = 10;
+            this.btn5M.Tag = "dayBtn";
+            this.btn5M.UseVisualStyleBackColor = false;
+            // 
+            // btn4O
+            // 
+            this.btn4O.BackColor = System.Drawing.Color.DimGray;
+            this.btn4O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4O.FlatAppearance.BorderSize = 0;
+            this.btn4O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4O.Location = new System.Drawing.Point(377, 85);
+            this.btn4O.Name = "btn4O";
+            this.btn4O.Size = new System.Drawing.Size(8, 8);
+            this.btn4O.TabIndex = 10;
+            this.btn4O.Tag = "dayBtn";
+            this.btn4O.UseVisualStyleBackColor = false;
+            // 
+            // btn6M
+            // 
+            this.btn6M.BackColor = System.Drawing.Color.DimGray;
+            this.btn6M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6M.FlatAppearance.BorderSize = 0;
+            this.btn6M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6M.Location = new System.Drawing.Point(540, 127);
+            this.btn6M.Name = "btn6M";
+            this.btn6M.Size = new System.Drawing.Size(8, 8);
+            this.btn6M.TabIndex = 10;
+            this.btn6M.Tag = "dayBtn";
+            this.btn6M.UseVisualStyleBackColor = false;
+            // 
+            // btn5O
+            // 
+            this.btn5O.BackColor = System.Drawing.Color.DimGray;
+            this.btn5O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5O.FlatAppearance.BorderSize = 0;
+            this.btn5O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5O.Location = new System.Drawing.Point(458, 85);
+            this.btn5O.Name = "btn5O";
+            this.btn5O.Size = new System.Drawing.Size(8, 8);
+            this.btn5O.TabIndex = 10;
+            this.btn5O.Tag = "dayBtn";
+            this.btn5O.UseVisualStyleBackColor = false;
+            // 
+            // btn4D
+            // 
+            this.btn4D.BackColor = System.Drawing.Color.DimGray;
+            this.btn4D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4D.FlatAppearance.BorderSize = 0;
+            this.btn4D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4D.Location = new System.Drawing.Point(416, 43);
+            this.btn4D.Name = "btn4D";
+            this.btn4D.Size = new System.Drawing.Size(15, 8);
+            this.btn4D.TabIndex = 10;
+            this.btn4D.Tag = "dayBtn";
+            this.btn4D.UseVisualStyleBackColor = false;
+            // 
+            // btn6O
+            // 
+            this.btn6O.BackColor = System.Drawing.Color.DimGray;
+            this.btn6O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6O.FlatAppearance.BorderSize = 0;
+            this.btn6O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6O.Location = new System.Drawing.Point(540, 85);
+            this.btn6O.Name = "btn6O";
+            this.btn6O.Size = new System.Drawing.Size(8, 8);
+            this.btn6O.TabIndex = 10;
+            this.btn6O.Tag = "dayBtn";
+            this.btn6O.UseVisualStyleBackColor = false;
+            // 
+            // btn5D
+            // 
+            this.btn5D.BackColor = System.Drawing.Color.DimGray;
+            this.btn5D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5D.FlatAppearance.BorderSize = 0;
+            this.btn5D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5D.Location = new System.Drawing.Point(497, 43);
+            this.btn5D.Name = "btn5D";
+            this.btn5D.Size = new System.Drawing.Size(15, 8);
+            this.btn5D.TabIndex = 10;
+            this.btn5D.Tag = "dayBtn";
+            this.btn5D.UseVisualStyleBackColor = false;
+            // 
+            // btn4R
+            // 
+            this.btn4R.BackColor = System.Drawing.Color.DimGray;
+            this.btn4R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4R.FlatAppearance.BorderSize = 0;
+            this.btn4R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4R.Location = new System.Drawing.Point(416, 85);
+            this.btn4R.Name = "btn4R";
+            this.btn4R.Size = new System.Drawing.Size(15, 8);
+            this.btn4R.TabIndex = 10;
+            this.btn4R.Tag = "dayBtn";
+            this.btn4R.UseVisualStyleBackColor = false;
+            // 
+            // btn6D
+            // 
+            this.btn6D.BackColor = System.Drawing.Color.DimGray;
+            this.btn6D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6D.FlatAppearance.BorderSize = 0;
+            this.btn6D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6D.Location = new System.Drawing.Point(579, 43);
+            this.btn6D.Name = "btn6D";
+            this.btn6D.Size = new System.Drawing.Size(15, 8);
+            this.btn6D.TabIndex = 10;
+            this.btn6D.Tag = "dayBtn";
+            this.btn6D.UseVisualStyleBackColor = false;
+            // 
+            // btn5R
+            // 
+            this.btn5R.BackColor = System.Drawing.Color.DimGray;
+            this.btn5R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5R.FlatAppearance.BorderSize = 0;
+            this.btn5R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5R.Location = new System.Drawing.Point(497, 85);
+            this.btn5R.Name = "btn5R";
+            this.btn5R.Size = new System.Drawing.Size(15, 8);
+            this.btn5R.TabIndex = 10;
+            this.btn5R.Tag = "dayBtn";
+            this.btn5R.UseVisualStyleBackColor = false;
+            // 
+            // btn4J
+            // 
+            this.btn4J.BackColor = System.Drawing.Color.DimGray;
+            this.btn4J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4J.FlatAppearance.BorderSize = 0;
+            this.btn4J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4J.Location = new System.Drawing.Point(416, 127);
+            this.btn4J.Name = "btn4J";
+            this.btn4J.Size = new System.Drawing.Size(15, 8);
+            this.btn4J.TabIndex = 10;
+            this.btn4J.Tag = "dayBtn";
+            this.btn4J.UseVisualStyleBackColor = false;
+            // 
+            // btn6R
+            // 
+            this.btn6R.BackColor = System.Drawing.Color.DimGray;
+            this.btn6R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6R.FlatAppearance.BorderSize = 0;
+            this.btn6R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6R.Location = new System.Drawing.Point(579, 85);
+            this.btn6R.Name = "btn6R";
+            this.btn6R.Size = new System.Drawing.Size(15, 8);
+            this.btn6R.TabIndex = 10;
+            this.btn6R.Tag = "dayBtn";
+            this.btn6R.UseVisualStyleBackColor = false;
+            // 
+            // btn5J
+            // 
+            this.btn5J.BackColor = System.Drawing.Color.DimGray;
+            this.btn5J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5J.FlatAppearance.BorderSize = 0;
+            this.btn5J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5J.Location = new System.Drawing.Point(497, 127);
+            this.btn5J.Name = "btn5J";
+            this.btn5J.Size = new System.Drawing.Size(15, 8);
+            this.btn5J.TabIndex = 10;
+            this.btn5J.Tag = "dayBtn";
+            this.btn5J.UseVisualStyleBackColor = false;
+            // 
+            // btn4B
+            // 
+            this.btn4B.BackColor = System.Drawing.Color.DimGray;
+            this.btn4B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4B.FlatAppearance.BorderSize = 0;
+            this.btn4B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4B.Location = new System.Drawing.Point(387, 43);
+            this.btn4B.Name = "btn4B";
+            this.btn4B.Size = new System.Drawing.Size(15, 8);
+            this.btn4B.TabIndex = 10;
+            this.btn4B.Tag = "dayBtn";
+            this.btn4B.UseVisualStyleBackColor = false;
+            // 
+            // btn6J
+            // 
+            this.btn6J.BackColor = System.Drawing.Color.DimGray;
+            this.btn6J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6J.FlatAppearance.BorderSize = 0;
+            this.btn6J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6J.Location = new System.Drawing.Point(579, 127);
+            this.btn6J.Name = "btn6J";
+            this.btn6J.Size = new System.Drawing.Size(15, 8);
+            this.btn6J.TabIndex = 10;
+            this.btn6J.Tag = "dayBtn";
+            this.btn6J.UseVisualStyleBackColor = false;
+            // 
+            // btn5B
+            // 
+            this.btn5B.BackColor = System.Drawing.Color.DimGray;
+            this.btn5B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5B.FlatAppearance.BorderSize = 0;
+            this.btn5B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5B.Location = new System.Drawing.Point(468, 43);
+            this.btn5B.Name = "btn5B";
+            this.btn5B.Size = new System.Drawing.Size(15, 8);
+            this.btn5B.TabIndex = 10;
+            this.btn5B.Tag = "dayBtn";
+            this.btn5B.UseVisualStyleBackColor = false;
+            // 
+            // btn4T
+            // 
+            this.btn4T.BackColor = System.Drawing.Color.DimGray;
+            this.btn4T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4T.FlatAppearance.BorderSize = 0;
+            this.btn4T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4T.Location = new System.Drawing.Point(387, 85);
+            this.btn4T.Name = "btn4T";
+            this.btn4T.Size = new System.Drawing.Size(15, 8);
+            this.btn4T.TabIndex = 10;
+            this.btn4T.Tag = "dayBtn";
+            this.btn4T.UseVisualStyleBackColor = false;
+            // 
+            // btn6B
+            // 
+            this.btn6B.BackColor = System.Drawing.Color.DimGray;
+            this.btn6B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6B.FlatAppearance.BorderSize = 0;
+            this.btn6B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6B.Location = new System.Drawing.Point(550, 43);
+            this.btn6B.Name = "btn6B";
+            this.btn6B.Size = new System.Drawing.Size(15, 8);
+            this.btn6B.TabIndex = 10;
+            this.btn6B.Tag = "dayBtn";
+            this.btn6B.UseVisualStyleBackColor = false;
+            // 
+            // btn5T
+            // 
+            this.btn5T.BackColor = System.Drawing.Color.DimGray;
+            this.btn5T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5T.FlatAppearance.BorderSize = 0;
+            this.btn5T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5T.Location = new System.Drawing.Point(468, 85);
+            this.btn5T.Name = "btn5T";
+            this.btn5T.Size = new System.Drawing.Size(15, 8);
+            this.btn5T.TabIndex = 10;
+            this.btn5T.Tag = "dayBtn";
+            this.btn5T.UseVisualStyleBackColor = false;
+            // 
+            // btn4L
+            // 
+            this.btn4L.BackColor = System.Drawing.Color.DimGray;
+            this.btn4L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4L.FlatAppearance.BorderSize = 0;
+            this.btn4L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4L.Location = new System.Drawing.Point(387, 127);
+            this.btn4L.Name = "btn4L";
+            this.btn4L.Size = new System.Drawing.Size(15, 8);
+            this.btn4L.TabIndex = 10;
+            this.btn4L.Tag = "dayBtn";
+            this.btn4L.UseVisualStyleBackColor = false;
+            // 
+            // btn6T
+            // 
+            this.btn6T.BackColor = System.Drawing.Color.DimGray;
+            this.btn6T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6T.FlatAppearance.BorderSize = 0;
+            this.btn6T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6T.Location = new System.Drawing.Point(550, 85);
+            this.btn6T.Name = "btn6T";
+            this.btn6T.Size = new System.Drawing.Size(15, 8);
+            this.btn6T.TabIndex = 10;
+            this.btn6T.Tag = "dayBtn";
+            this.btn6T.UseVisualStyleBackColor = false;
+            // 
+            // btn5L
+            // 
+            this.btn5L.BackColor = System.Drawing.Color.DimGray;
+            this.btn5L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5L.FlatAppearance.BorderSize = 0;
+            this.btn5L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5L.Location = new System.Drawing.Point(468, 127);
+            this.btn5L.Name = "btn5L";
+            this.btn5L.Size = new System.Drawing.Size(15, 8);
+            this.btn5L.TabIndex = 10;
+            this.btn5L.Tag = "dayBtn";
+            this.btn5L.UseVisualStyleBackColor = false;
+            // 
+            // btn4K
+            // 
+            this.btn4K.BackColor = System.Drawing.Color.DimGray;
+            this.btn4K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4K.FlatAppearance.BorderSize = 0;
+            this.btn4K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4K.Location = new System.Drawing.Point(405, 127);
+            this.btn4K.Name = "btn4K";
+            this.btn4K.Size = new System.Drawing.Size(8, 8);
+            this.btn4K.TabIndex = 10;
+            this.btn4K.Tag = "dayBtn";
+            this.btn4K.UseVisualStyleBackColor = false;
+            // 
+            // btn6L
+            // 
+            this.btn6L.BackColor = System.Drawing.Color.DimGray;
+            this.btn6L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6L.FlatAppearance.BorderSize = 0;
+            this.btn6L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6L.Location = new System.Drawing.Point(550, 127);
+            this.btn6L.Name = "btn6L";
+            this.btn6L.Size = new System.Drawing.Size(15, 8);
+            this.btn6L.TabIndex = 10;
+            this.btn6L.Tag = "dayBtn";
+            this.btn6L.UseVisualStyleBackColor = false;
+            // 
+            // btn5K
+            // 
+            this.btn5K.BackColor = System.Drawing.Color.DimGray;
+            this.btn5K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5K.FlatAppearance.BorderSize = 0;
+            this.btn5K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5K.Location = new System.Drawing.Point(486, 127);
+            this.btn5K.Name = "btn5K";
+            this.btn5K.Size = new System.Drawing.Size(8, 8);
+            this.btn5K.TabIndex = 10;
+            this.btn5K.Tag = "dayBtn";
+            this.btn5K.UseVisualStyleBackColor = false;
+            // 
+            // btn4I
+            // 
+            this.btn4I.BackColor = System.Drawing.Color.DimGray;
+            this.btn4I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4I.FlatAppearance.BorderSize = 0;
+            this.btn4I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4I.Location = new System.Drawing.Point(433, 127);
+            this.btn4I.Name = "btn4I";
+            this.btn4I.Size = new System.Drawing.Size(8, 8);
+            this.btn4I.TabIndex = 10;
+            this.btn4I.Tag = "dayBtn";
+            this.btn4I.UseVisualStyleBackColor = false;
+            // 
+            // btn6K
+            // 
+            this.btn6K.BackColor = System.Drawing.Color.DimGray;
+            this.btn6K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6K.FlatAppearance.BorderSize = 0;
+            this.btn6K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6K.Location = new System.Drawing.Point(568, 127);
+            this.btn6K.Name = "btn6K";
+            this.btn6K.Size = new System.Drawing.Size(8, 8);
+            this.btn6K.TabIndex = 10;
+            this.btn6K.Tag = "dayBtn";
+            this.btn6K.UseVisualStyleBackColor = false;
+            // 
+            // btn5I
+            // 
+            this.btn5I.BackColor = System.Drawing.Color.DimGray;
+            this.btn5I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5I.FlatAppearance.BorderSize = 0;
+            this.btn5I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5I.Location = new System.Drawing.Point(514, 127);
+            this.btn5I.Name = "btn5I";
+            this.btn5I.Size = new System.Drawing.Size(8, 8);
+            this.btn5I.TabIndex = 10;
+            this.btn5I.Tag = "dayBtn";
+            this.btn5I.UseVisualStyleBackColor = false;
+            // 
+            // btn4U
+            // 
+            this.btn4U.BackColor = System.Drawing.Color.DimGray;
+            this.btn4U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4U.FlatAppearance.BorderSize = 0;
+            this.btn4U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4U.Location = new System.Drawing.Point(405, 85);
+            this.btn4U.Name = "btn4U";
+            this.btn4U.Size = new System.Drawing.Size(8, 8);
+            this.btn4U.TabIndex = 10;
+            this.btn4U.Tag = "dayBtn";
+            this.btn4U.UseVisualStyleBackColor = false;
+            // 
+            // btn6I
+            // 
+            this.btn6I.BackColor = System.Drawing.Color.DimGray;
+            this.btn6I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6I.FlatAppearance.BorderSize = 0;
+            this.btn6I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6I.Location = new System.Drawing.Point(596, 127);
+            this.btn6I.Name = "btn6I";
+            this.btn6I.Size = new System.Drawing.Size(8, 8);
+            this.btn6I.TabIndex = 10;
+            this.btn6I.Tag = "dayBtn";
+            this.btn6I.UseVisualStyleBackColor = false;
+            // 
+            // btn4Q
+            // 
+            this.btn4Q.BackColor = System.Drawing.Color.DimGray;
+            this.btn4Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4Q.FlatAppearance.BorderSize = 0;
+            this.btn4Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Q.Location = new System.Drawing.Point(405, 53);
+            this.btn4Q.Name = "btn4Q";
+            this.btn4Q.Size = new System.Drawing.Size(8, 30);
+            this.btn4Q.TabIndex = 10;
+            this.btn4Q.Tag = "dayBtn";
+            this.btn4Q.UseVisualStyleBackColor = false;
+            // 
+            // btn5U
+            // 
+            this.btn5U.BackColor = System.Drawing.Color.DimGray;
+            this.btn5U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5U.FlatAppearance.BorderSize = 0;
+            this.btn5U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5U.Location = new System.Drawing.Point(486, 85);
+            this.btn5U.Name = "btn5U";
+            this.btn5U.Size = new System.Drawing.Size(8, 8);
+            this.btn5U.TabIndex = 10;
+            this.btn5U.Tag = "dayBtn";
+            this.btn5U.UseVisualStyleBackColor = false;
+            // 
+            // btn6U
+            // 
+            this.btn6U.BackColor = System.Drawing.Color.DimGray;
+            this.btn6U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6U.FlatAppearance.BorderSize = 0;
+            this.btn6U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6U.Location = new System.Drawing.Point(568, 85);
+            this.btn6U.Name = "btn6U";
+            this.btn6U.Size = new System.Drawing.Size(8, 8);
+            this.btn6U.TabIndex = 10;
+            this.btn6U.Tag = "dayBtn";
+            this.btn6U.UseVisualStyleBackColor = false;
+            // 
+            // btn5Q
+            // 
+            this.btn5Q.BackColor = System.Drawing.Color.DimGray;
+            this.btn5Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5Q.FlatAppearance.BorderSize = 0;
+            this.btn5Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Q.Location = new System.Drawing.Point(486, 53);
+            this.btn5Q.Name = "btn5Q";
+            this.btn5Q.Size = new System.Drawing.Size(8, 30);
+            this.btn5Q.TabIndex = 10;
+            this.btn5Q.Tag = "dayBtn";
+            this.btn5Q.UseVisualStyleBackColor = false;
+            // 
+            // btn4F
+            // 
+            this.btn4F.BackColor = System.Drawing.Color.DimGray;
+            this.btn4F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4F.FlatAppearance.BorderSize = 0;
+            this.btn4F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4F.Location = new System.Drawing.Point(433, 53);
+            this.btn4F.Name = "btn4F";
+            this.btn4F.Size = new System.Drawing.Size(8, 30);
+            this.btn4F.TabIndex = 10;
+            this.btn4F.Tag = "dayBtn";
+            this.btn4F.UseVisualStyleBackColor = false;
+            // 
+            // btn6Q
+            // 
+            this.btn6Q.BackColor = System.Drawing.Color.DimGray;
+            this.btn6Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6Q.FlatAppearance.BorderSize = 0;
+            this.btn6Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6Q.Location = new System.Drawing.Point(568, 53);
+            this.btn6Q.Name = "btn6Q";
+            this.btn6Q.Size = new System.Drawing.Size(8, 30);
+            this.btn6Q.TabIndex = 10;
+            this.btn6Q.Tag = "dayBtn";
+            this.btn6Q.UseVisualStyleBackColor = false;
+            // 
+            // btn5F
+            // 
+            this.btn5F.BackColor = System.Drawing.Color.DimGray;
+            this.btn5F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5F.FlatAppearance.BorderSize = 0;
+            this.btn5F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5F.Location = new System.Drawing.Point(514, 53);
+            this.btn5F.Name = "btn5F";
+            this.btn5F.Size = new System.Drawing.Size(8, 30);
+            this.btn5F.TabIndex = 10;
+            this.btn5F.Tag = "dayBtn";
+            this.btn5F.UseVisualStyleBackColor = false;
+            // 
+            // btn6F
+            // 
+            this.btn6F.BackColor = System.Drawing.Color.DimGray;
+            this.btn6F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6F.FlatAppearance.BorderSize = 0;
+            this.btn6F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6F.Location = new System.Drawing.Point(596, 53);
+            this.btn6F.Name = "btn6F";
+            this.btn6F.Size = new System.Drawing.Size(8, 30);
+            this.btn6F.TabIndex = 10;
+            this.btn6F.Tag = "dayBtn";
+            this.btn6F.UseVisualStyleBackColor = false;
+            // 
+            // btn4H
+            // 
+            this.btn4H.BackColor = System.Drawing.Color.DimGray;
+            this.btn4H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4H.FlatAppearance.BorderSize = 0;
+            this.btn4H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4H.Location = new System.Drawing.Point(433, 95);
+            this.btn4H.Name = "btn4H";
+            this.btn4H.Size = new System.Drawing.Size(8, 30);
+            this.btn4H.TabIndex = 10;
+            this.btn4H.Tag = "dayBtn";
+            this.btn4H.UseVisualStyleBackColor = false;
+            // 
+            // btn5H
+            // 
+            this.btn5H.BackColor = System.Drawing.Color.DimGray;
+            this.btn5H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5H.FlatAppearance.BorderSize = 0;
+            this.btn5H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5H.Location = new System.Drawing.Point(514, 95);
+            this.btn5H.Name = "btn5H";
+            this.btn5H.Size = new System.Drawing.Size(8, 30);
+            this.btn5H.TabIndex = 10;
+            this.btn5H.Tag = "dayBtn";
+            this.btn5H.UseVisualStyleBackColor = false;
+            // 
+            // btn6H
+            // 
+            this.btn6H.BackColor = System.Drawing.Color.DimGray;
+            this.btn6H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6H.FlatAppearance.BorderSize = 0;
+            this.btn6H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6H.Location = new System.Drawing.Point(596, 95);
+            this.btn6H.Name = "btn6H";
+            this.btn6H.Size = new System.Drawing.Size(8, 30);
+            this.btn6H.TabIndex = 10;
+            this.btn6H.Tag = "dayBtn";
+            this.btn6H.UseVisualStyleBackColor = false;
+            // 
+            // btn4P
+            // 
+            this.btn4P.BackColor = System.Drawing.Color.DimGray;
+            this.btn4P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4P.FlatAppearance.BorderSize = 0;
+            this.btn4P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4P.Location = new System.Drawing.Point(377, 53);
+            this.btn4P.Name = "btn4P";
+            this.btn4P.Size = new System.Drawing.Size(8, 30);
+            this.btn4P.TabIndex = 10;
+            this.btn4P.Tag = "dayBtn";
+            this.btn4P.UseVisualStyleBackColor = false;
+            // 
+            // btn5P
+            // 
+            this.btn5P.BackColor = System.Drawing.Color.DimGray;
+            this.btn5P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5P.FlatAppearance.BorderSize = 0;
+            this.btn5P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5P.Location = new System.Drawing.Point(458, 53);
+            this.btn5P.Name = "btn5P";
+            this.btn5P.Size = new System.Drawing.Size(8, 30);
+            this.btn5P.TabIndex = 10;
+            this.btn5P.Tag = "dayBtn";
+            this.btn5P.UseVisualStyleBackColor = false;
+            // 
+            // btn6P
+            // 
+            this.btn6P.BackColor = System.Drawing.Color.DimGray;
+            this.btn6P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6P.FlatAppearance.BorderSize = 0;
+            this.btn6P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6P.Location = new System.Drawing.Point(540, 53);
+            this.btn6P.Name = "btn6P";
+            this.btn6P.Size = new System.Drawing.Size(8, 30);
+            this.btn6P.TabIndex = 10;
+            this.btn6P.Tag = "dayBtn";
+            this.btn6P.UseVisualStyleBackColor = false;
+            // 
+            // btn4N
+            // 
+            this.btn4N.BackColor = System.Drawing.Color.DimGray;
+            this.btn4N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4N.FlatAppearance.BorderSize = 0;
+            this.btn4N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4N.Location = new System.Drawing.Point(377, 95);
+            this.btn4N.Name = "btn4N";
+            this.btn4N.Size = new System.Drawing.Size(8, 30);
+            this.btn4N.TabIndex = 10;
+            this.btn4N.Tag = "dayBtn";
+            this.btn4N.UseVisualStyleBackColor = false;
+            // 
+            // btn5N
+            // 
+            this.btn5N.BackColor = System.Drawing.Color.DimGray;
+            this.btn5N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5N.FlatAppearance.BorderSize = 0;
+            this.btn5N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5N.Location = new System.Drawing.Point(458, 95);
+            this.btn5N.Name = "btn5N";
+            this.btn5N.Size = new System.Drawing.Size(8, 30);
+            this.btn5N.TabIndex = 10;
+            this.btn5N.Tag = "dayBtn";
+            this.btn5N.UseVisualStyleBackColor = false;
+            // 
+            // btn6N
+            // 
+            this.btn6N.BackColor = System.Drawing.Color.DimGray;
+            this.btn6N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6N.FlatAppearance.BorderSize = 0;
+            this.btn6N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6N.Location = new System.Drawing.Point(540, 95);
+            this.btn6N.Name = "btn6N";
+            this.btn6N.Size = new System.Drawing.Size(8, 30);
+            this.btn6N.TabIndex = 10;
+            this.btn6N.Tag = "dayBtn";
+            this.btn6N.UseVisualStyleBackColor = false;
+            // 
+            // btn4S
+            // 
+            this.btn4S.BackColor = System.Drawing.Color.DimGray;
+            this.btn4S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn4S.FlatAppearance.BorderSize = 0;
+            this.btn4S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4S.Location = new System.Drawing.Point(405, 95);
+            this.btn4S.Name = "btn4S";
+            this.btn4S.Size = new System.Drawing.Size(8, 30);
+            this.btn4S.TabIndex = 10;
+            this.btn4S.Tag = "dayBtn";
+            this.btn4S.UseVisualStyleBackColor = false;
+            // 
+            // btn5S
+            // 
+            this.btn5S.BackColor = System.Drawing.Color.DimGray;
+            this.btn5S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn5S.FlatAppearance.BorderSize = 0;
+            this.btn5S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5S.Location = new System.Drawing.Point(486, 95);
+            this.btn5S.Name = "btn5S";
+            this.btn5S.Size = new System.Drawing.Size(8, 30);
+            this.btn5S.TabIndex = 10;
+            this.btn5S.Tag = "dayBtn";
+            this.btn5S.UseVisualStyleBackColor = false;
+            // 
+            // btn6S
+            // 
+            this.btn6S.BackColor = System.Drawing.Color.DimGray;
+            this.btn6S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn6S.FlatAppearance.BorderSize = 0;
+            this.btn6S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6S.Location = new System.Drawing.Point(568, 95);
+            this.btn6S.Name = "btn6S";
+            this.btn6S.Size = new System.Drawing.Size(8, 30);
+            this.btn6S.TabIndex = 10;
+            this.btn6S.Tag = "dayBtn";
+            this.btn6S.UseVisualStyleBackColor = false;
+            // 
+            // btn7C
+            // 
+            this.btn7C.BackColor = System.Drawing.Color.DimGray;
+            this.btn7C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7C.FlatAppearance.BorderSize = 0;
+            this.btn7C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7C.Location = new System.Drawing.Point(645, 43);
+            this.btn7C.Name = "btn7C";
+            this.btn7C.Size = new System.Drawing.Size(8, 8);
+            this.btn7C.TabIndex = 10;
+            this.btn7C.Tag = "dayBtn";
+            this.btn7C.UseVisualStyleBackColor = false;
+            // 
+            // btn8C
+            // 
+            this.btn8C.BackColor = System.Drawing.Color.DimGray;
+            this.btn8C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8C.FlatAppearance.BorderSize = 0;
+            this.btn8C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8C.Location = new System.Drawing.Point(726, 43);
+            this.btn8C.Name = "btn8C";
+            this.btn8C.Size = new System.Drawing.Size(8, 8);
+            this.btn8C.TabIndex = 10;
+            this.btn8C.Tag = "dayBtn";
+            this.btn8C.UseVisualStyleBackColor = false;
+            // 
+            // btn7E
+            // 
+            this.btn7E.BackColor = System.Drawing.Color.DimGray;
+            this.btn7E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7E.FlatAppearance.BorderSize = 0;
+            this.btn7E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7E.Location = new System.Drawing.Point(673, 43);
+            this.btn7E.Name = "btn7E";
+            this.btn7E.Size = new System.Drawing.Size(8, 8);
+            this.btn7E.TabIndex = 10;
+            this.btn7E.Tag = "dayBtn";
+            this.btn7E.UseVisualStyleBackColor = false;
+            // 
+            // btn9C
+            // 
+            this.btn9C.BackColor = System.Drawing.Color.DimGray;
+            this.btn9C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9C.FlatAppearance.BorderSize = 0;
+            this.btn9C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9C.Location = new System.Drawing.Point(808, 43);
+            this.btn9C.Name = "btn9C";
+            this.btn9C.Size = new System.Drawing.Size(8, 8);
+            this.btn9C.TabIndex = 10;
+            this.btn9C.Tag = "dayBtn";
+            this.btn9C.UseVisualStyleBackColor = false;
+            // 
+            // btn8E
+            // 
+            this.btn8E.BackColor = System.Drawing.Color.DimGray;
+            this.btn8E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8E.FlatAppearance.BorderSize = 0;
+            this.btn8E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8E.Location = new System.Drawing.Point(754, 43);
+            this.btn8E.Name = "btn8E";
+            this.btn8E.Size = new System.Drawing.Size(8, 8);
+            this.btn8E.TabIndex = 10;
+            this.btn8E.Tag = "dayBtn";
+            this.btn8E.UseVisualStyleBackColor = false;
+            // 
+            // btn7G
+            // 
+            this.btn7G.BackColor = System.Drawing.Color.DimGray;
+            this.btn7G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7G.FlatAppearance.BorderSize = 0;
+            this.btn7G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7G.Location = new System.Drawing.Point(673, 85);
+            this.btn7G.Name = "btn7G";
+            this.btn7G.Size = new System.Drawing.Size(8, 8);
+            this.btn7G.TabIndex = 10;
+            this.btn7G.Tag = "dayBtn";
+            this.btn7G.UseVisualStyleBackColor = false;
+            // 
+            // btn9E
+            // 
+            this.btn9E.BackColor = System.Drawing.Color.DimGray;
+            this.btn9E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9E.FlatAppearance.BorderSize = 0;
+            this.btn9E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9E.Location = new System.Drawing.Point(836, 43);
+            this.btn9E.Name = "btn9E";
+            this.btn9E.Size = new System.Drawing.Size(8, 8);
+            this.btn9E.TabIndex = 10;
+            this.btn9E.Tag = "dayBtn";
+            this.btn9E.UseVisualStyleBackColor = false;
+            // 
+            // btn8G
+            // 
+            this.btn8G.BackColor = System.Drawing.Color.DimGray;
+            this.btn8G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8G.FlatAppearance.BorderSize = 0;
+            this.btn8G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8G.Location = new System.Drawing.Point(754, 85);
+            this.btn8G.Name = "btn8G";
+            this.btn8G.Size = new System.Drawing.Size(8, 8);
+            this.btn8G.TabIndex = 10;
+            this.btn8G.Tag = "dayBtn";
+            this.btn8G.UseVisualStyleBackColor = false;
+            // 
+            // btn7A
+            // 
+            this.btn7A.BackColor = System.Drawing.Color.DimGray;
+            this.btn7A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7A.FlatAppearance.BorderSize = 0;
+            this.btn7A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7A.Location = new System.Drawing.Point(617, 43);
+            this.btn7A.Name = "btn7A";
+            this.btn7A.Size = new System.Drawing.Size(8, 8);
+            this.btn7A.TabIndex = 10;
+            this.btn7A.Tag = "dayBtn";
+            this.btn7A.UseVisualStyleBackColor = false;
+            // 
+            // btn9G
+            // 
+            this.btn9G.BackColor = System.Drawing.Color.DimGray;
+            this.btn9G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9G.FlatAppearance.BorderSize = 0;
+            this.btn9G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9G.Location = new System.Drawing.Point(836, 85);
+            this.btn9G.Name = "btn9G";
+            this.btn9G.Size = new System.Drawing.Size(8, 8);
+            this.btn9G.TabIndex = 10;
+            this.btn9G.Tag = "dayBtn";
+            this.btn9G.UseVisualStyleBackColor = false;
+            // 
+            // btn8A
+            // 
+            this.btn8A.BackColor = System.Drawing.Color.DimGray;
+            this.btn8A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8A.FlatAppearance.BorderSize = 0;
+            this.btn8A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8A.Location = new System.Drawing.Point(698, 43);
+            this.btn8A.Name = "btn8A";
+            this.btn8A.Size = new System.Drawing.Size(8, 8);
+            this.btn8A.TabIndex = 10;
+            this.btn8A.Tag = "dayBtn";
+            this.btn8A.UseVisualStyleBackColor = false;
+            // 
+            // btn7M
+            // 
+            this.btn7M.BackColor = System.Drawing.Color.DimGray;
+            this.btn7M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7M.FlatAppearance.BorderSize = 0;
+            this.btn7M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7M.Location = new System.Drawing.Point(617, 127);
+            this.btn7M.Name = "btn7M";
+            this.btn7M.Size = new System.Drawing.Size(8, 8);
+            this.btn7M.TabIndex = 10;
+            this.btn7M.Tag = "dayBtn";
+            this.btn7M.UseVisualStyleBackColor = false;
+            // 
+            // btn9A
+            // 
+            this.btn9A.BackColor = System.Drawing.Color.DimGray;
+            this.btn9A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9A.FlatAppearance.BorderSize = 0;
+            this.btn9A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9A.Location = new System.Drawing.Point(780, 43);
+            this.btn9A.Name = "btn9A";
+            this.btn9A.Size = new System.Drawing.Size(8, 8);
+            this.btn9A.TabIndex = 10;
+            this.btn9A.Tag = "dayBtn";
+            this.btn9A.UseVisualStyleBackColor = false;
+            // 
+            // btn8M
+            // 
+            this.btn8M.BackColor = System.Drawing.Color.DimGray;
+            this.btn8M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8M.FlatAppearance.BorderSize = 0;
+            this.btn8M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8M.Location = new System.Drawing.Point(698, 127);
+            this.btn8M.Name = "btn8M";
+            this.btn8M.Size = new System.Drawing.Size(8, 8);
+            this.btn8M.TabIndex = 10;
+            this.btn8M.Tag = "dayBtn";
+            this.btn8M.UseVisualStyleBackColor = false;
+            // 
+            // btn7O
+            // 
+            this.btn7O.BackColor = System.Drawing.Color.DimGray;
+            this.btn7O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7O.FlatAppearance.BorderSize = 0;
+            this.btn7O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7O.Location = new System.Drawing.Point(617, 85);
+            this.btn7O.Name = "btn7O";
+            this.btn7O.Size = new System.Drawing.Size(8, 8);
+            this.btn7O.TabIndex = 10;
+            this.btn7O.Tag = "dayBtn";
+            this.btn7O.UseVisualStyleBackColor = false;
+            // 
+            // btn9M
+            // 
+            this.btn9M.BackColor = System.Drawing.Color.DimGray;
+            this.btn9M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9M.FlatAppearance.BorderSize = 0;
+            this.btn9M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9M.Location = new System.Drawing.Point(780, 127);
+            this.btn9M.Name = "btn9M";
+            this.btn9M.Size = new System.Drawing.Size(8, 8);
+            this.btn9M.TabIndex = 10;
+            this.btn9M.Tag = "dayBtn";
+            this.btn9M.UseVisualStyleBackColor = false;
+            // 
+            // btn8O
+            // 
+            this.btn8O.BackColor = System.Drawing.Color.DimGray;
+            this.btn8O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8O.FlatAppearance.BorderSize = 0;
+            this.btn8O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8O.Location = new System.Drawing.Point(698, 85);
+            this.btn8O.Name = "btn8O";
+            this.btn8O.Size = new System.Drawing.Size(8, 8);
+            this.btn8O.TabIndex = 10;
+            this.btn8O.Tag = "dayBtn";
+            this.btn8O.UseVisualStyleBackColor = false;
+            // 
+            // btn7D
+            // 
+            this.btn7D.BackColor = System.Drawing.Color.DimGray;
+            this.btn7D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7D.FlatAppearance.BorderSize = 0;
+            this.btn7D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7D.Location = new System.Drawing.Point(656, 43);
+            this.btn7D.Name = "btn7D";
+            this.btn7D.Size = new System.Drawing.Size(15, 8);
+            this.btn7D.TabIndex = 10;
+            this.btn7D.Tag = "dayBtn";
+            this.btn7D.UseVisualStyleBackColor = false;
+            // 
+            // btn9O
+            // 
+            this.btn9O.BackColor = System.Drawing.Color.DimGray;
+            this.btn9O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9O.FlatAppearance.BorderSize = 0;
+            this.btn9O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9O.Location = new System.Drawing.Point(780, 85);
+            this.btn9O.Name = "btn9O";
+            this.btn9O.Size = new System.Drawing.Size(8, 8);
+            this.btn9O.TabIndex = 10;
+            this.btn9O.Tag = "dayBtn";
+            this.btn9O.UseVisualStyleBackColor = false;
+            // 
+            // btn8D
+            // 
+            this.btn8D.BackColor = System.Drawing.Color.DimGray;
+            this.btn8D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8D.FlatAppearance.BorderSize = 0;
+            this.btn8D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8D.Location = new System.Drawing.Point(737, 43);
+            this.btn8D.Name = "btn8D";
+            this.btn8D.Size = new System.Drawing.Size(15, 8);
+            this.btn8D.TabIndex = 10;
+            this.btn8D.Tag = "dayBtn";
+            this.btn8D.UseVisualStyleBackColor = false;
+            // 
+            // btn7R
+            // 
+            this.btn7R.BackColor = System.Drawing.Color.DimGray;
+            this.btn7R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7R.FlatAppearance.BorderSize = 0;
+            this.btn7R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7R.Location = new System.Drawing.Point(656, 85);
+            this.btn7R.Name = "btn7R";
+            this.btn7R.Size = new System.Drawing.Size(15, 8);
+            this.btn7R.TabIndex = 10;
+            this.btn7R.Tag = "dayBtn";
+            this.btn7R.UseVisualStyleBackColor = false;
+            // 
+            // btn9D
+            // 
+            this.btn9D.BackColor = System.Drawing.Color.DimGray;
+            this.btn9D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9D.FlatAppearance.BorderSize = 0;
+            this.btn9D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9D.Location = new System.Drawing.Point(819, 43);
+            this.btn9D.Name = "btn9D";
+            this.btn9D.Size = new System.Drawing.Size(15, 8);
+            this.btn9D.TabIndex = 10;
+            this.btn9D.Tag = "dayBtn";
+            this.btn9D.UseVisualStyleBackColor = false;
+            // 
+            // btn8R
+            // 
+            this.btn8R.BackColor = System.Drawing.Color.DimGray;
+            this.btn8R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8R.FlatAppearance.BorderSize = 0;
+            this.btn8R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8R.Location = new System.Drawing.Point(737, 85);
+            this.btn8R.Name = "btn8R";
+            this.btn8R.Size = new System.Drawing.Size(15, 8);
+            this.btn8R.TabIndex = 10;
+            this.btn8R.Tag = "dayBtn";
+            this.btn8R.UseVisualStyleBackColor = false;
+            // 
+            // btn7J
+            // 
+            this.btn7J.BackColor = System.Drawing.Color.DimGray;
+            this.btn7J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7J.FlatAppearance.BorderSize = 0;
+            this.btn7J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7J.Location = new System.Drawing.Point(656, 127);
+            this.btn7J.Name = "btn7J";
+            this.btn7J.Size = new System.Drawing.Size(15, 8);
+            this.btn7J.TabIndex = 10;
+            this.btn7J.Tag = "dayBtn";
+            this.btn7J.UseVisualStyleBackColor = false;
+            // 
+            // btn9R
+            // 
+            this.btn9R.BackColor = System.Drawing.Color.DimGray;
+            this.btn9R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9R.FlatAppearance.BorderSize = 0;
+            this.btn9R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9R.Location = new System.Drawing.Point(819, 85);
+            this.btn9R.Name = "btn9R";
+            this.btn9R.Size = new System.Drawing.Size(15, 8);
+            this.btn9R.TabIndex = 10;
+            this.btn9R.Tag = "dayBtn";
+            this.btn9R.UseVisualStyleBackColor = false;
+            // 
+            // btn8J
+            // 
+            this.btn8J.BackColor = System.Drawing.Color.DimGray;
+            this.btn8J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8J.FlatAppearance.BorderSize = 0;
+            this.btn8J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8J.Location = new System.Drawing.Point(737, 127);
+            this.btn8J.Name = "btn8J";
+            this.btn8J.Size = new System.Drawing.Size(15, 8);
+            this.btn8J.TabIndex = 10;
+            this.btn8J.Tag = "dayBtn";
+            this.btn8J.UseVisualStyleBackColor = false;
+            // 
+            // btn7B
+            // 
+            this.btn7B.BackColor = System.Drawing.Color.DimGray;
+            this.btn7B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7B.FlatAppearance.BorderSize = 0;
+            this.btn7B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7B.Location = new System.Drawing.Point(627, 43);
+            this.btn7B.Name = "btn7B";
+            this.btn7B.Size = new System.Drawing.Size(15, 8);
+            this.btn7B.TabIndex = 10;
+            this.btn7B.Tag = "dayBtn";
+            this.btn7B.UseVisualStyleBackColor = false;
+            // 
+            // btn9J
+            // 
+            this.btn9J.BackColor = System.Drawing.Color.DimGray;
+            this.btn9J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9J.FlatAppearance.BorderSize = 0;
+            this.btn9J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9J.Location = new System.Drawing.Point(819, 127);
+            this.btn9J.Name = "btn9J";
+            this.btn9J.Size = new System.Drawing.Size(15, 8);
+            this.btn9J.TabIndex = 10;
+            this.btn9J.Tag = "dayBtn";
+            this.btn9J.UseVisualStyleBackColor = false;
+            // 
+            // btn8B
+            // 
+            this.btn8B.BackColor = System.Drawing.Color.DimGray;
+            this.btn8B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8B.FlatAppearance.BorderSize = 0;
+            this.btn8B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8B.Location = new System.Drawing.Point(708, 43);
+            this.btn8B.Name = "btn8B";
+            this.btn8B.Size = new System.Drawing.Size(15, 8);
+            this.btn8B.TabIndex = 10;
+            this.btn8B.Tag = "dayBtn";
+            this.btn8B.UseVisualStyleBackColor = false;
+            // 
+            // btn7T
+            // 
+            this.btn7T.BackColor = System.Drawing.Color.DimGray;
+            this.btn7T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7T.FlatAppearance.BorderSize = 0;
+            this.btn7T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7T.Location = new System.Drawing.Point(627, 85);
+            this.btn7T.Name = "btn7T";
+            this.btn7T.Size = new System.Drawing.Size(15, 8);
+            this.btn7T.TabIndex = 10;
+            this.btn7T.Tag = "dayBtn";
+            this.btn7T.UseVisualStyleBackColor = false;
+            // 
+            // btn9B
+            // 
+            this.btn9B.BackColor = System.Drawing.Color.DimGray;
+            this.btn9B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9B.FlatAppearance.BorderSize = 0;
+            this.btn9B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9B.Location = new System.Drawing.Point(790, 43);
+            this.btn9B.Name = "btn9B";
+            this.btn9B.Size = new System.Drawing.Size(15, 8);
+            this.btn9B.TabIndex = 10;
+            this.btn9B.Tag = "dayBtn";
+            this.btn9B.UseVisualStyleBackColor = false;
+            // 
+            // btn8T
+            // 
+            this.btn8T.BackColor = System.Drawing.Color.DimGray;
+            this.btn8T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8T.FlatAppearance.BorderSize = 0;
+            this.btn8T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8T.Location = new System.Drawing.Point(708, 85);
+            this.btn8T.Name = "btn8T";
+            this.btn8T.Size = new System.Drawing.Size(15, 8);
+            this.btn8T.TabIndex = 10;
+            this.btn8T.Tag = "dayBtn";
+            this.btn8T.UseVisualStyleBackColor = false;
+            // 
+            // btn7L
+            // 
+            this.btn7L.BackColor = System.Drawing.Color.DimGray;
+            this.btn7L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7L.FlatAppearance.BorderSize = 0;
+            this.btn7L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7L.Location = new System.Drawing.Point(627, 127);
+            this.btn7L.Name = "btn7L";
+            this.btn7L.Size = new System.Drawing.Size(15, 8);
+            this.btn7L.TabIndex = 10;
+            this.btn7L.Tag = "dayBtn";
+            this.btn7L.UseVisualStyleBackColor = false;
+            // 
+            // btn9T
+            // 
+            this.btn9T.BackColor = System.Drawing.Color.DimGray;
+            this.btn9T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9T.FlatAppearance.BorderSize = 0;
+            this.btn9T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9T.Location = new System.Drawing.Point(790, 85);
+            this.btn9T.Name = "btn9T";
+            this.btn9T.Size = new System.Drawing.Size(15, 8);
+            this.btn9T.TabIndex = 10;
+            this.btn9T.Tag = "dayBtn";
+            this.btn9T.UseVisualStyleBackColor = false;
+            // 
+            // btn8L
+            // 
+            this.btn8L.BackColor = System.Drawing.Color.DimGray;
+            this.btn8L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8L.FlatAppearance.BorderSize = 0;
+            this.btn8L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8L.Location = new System.Drawing.Point(708, 127);
+            this.btn8L.Name = "btn8L";
+            this.btn8L.Size = new System.Drawing.Size(15, 8);
+            this.btn8L.TabIndex = 10;
+            this.btn8L.Tag = "dayBtn";
+            this.btn8L.UseVisualStyleBackColor = false;
+            // 
+            // btn7K
+            // 
+            this.btn7K.BackColor = System.Drawing.Color.DimGray;
+            this.btn7K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7K.FlatAppearance.BorderSize = 0;
+            this.btn7K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7K.Location = new System.Drawing.Point(645, 127);
+            this.btn7K.Name = "btn7K";
+            this.btn7K.Size = new System.Drawing.Size(8, 8);
+            this.btn7K.TabIndex = 10;
+            this.btn7K.Tag = "dayBtn";
+            this.btn7K.UseVisualStyleBackColor = false;
+            // 
+            // btn9L
+            // 
+            this.btn9L.BackColor = System.Drawing.Color.DimGray;
+            this.btn9L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9L.FlatAppearance.BorderSize = 0;
+            this.btn9L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9L.Location = new System.Drawing.Point(790, 127);
+            this.btn9L.Name = "btn9L";
+            this.btn9L.Size = new System.Drawing.Size(15, 8);
+            this.btn9L.TabIndex = 10;
+            this.btn9L.Tag = "dayBtn";
+            this.btn9L.UseVisualStyleBackColor = false;
+            // 
+            // btn8K
+            // 
+            this.btn8K.BackColor = System.Drawing.Color.DimGray;
+            this.btn8K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8K.FlatAppearance.BorderSize = 0;
+            this.btn8K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8K.Location = new System.Drawing.Point(726, 127);
+            this.btn8K.Name = "btn8K";
+            this.btn8K.Size = new System.Drawing.Size(8, 8);
+            this.btn8K.TabIndex = 10;
+            this.btn8K.Tag = "dayBtn";
+            this.btn8K.UseVisualStyleBackColor = false;
+            // 
+            // btn7I
+            // 
+            this.btn7I.BackColor = System.Drawing.Color.DimGray;
+            this.btn7I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7I.FlatAppearance.BorderSize = 0;
+            this.btn7I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7I.Location = new System.Drawing.Point(673, 127);
+            this.btn7I.Name = "btn7I";
+            this.btn7I.Size = new System.Drawing.Size(8, 8);
+            this.btn7I.TabIndex = 10;
+            this.btn7I.Tag = "dayBtn";
+            this.btn7I.UseVisualStyleBackColor = false;
+            // 
+            // btn9K
+            // 
+            this.btn9K.BackColor = System.Drawing.Color.DimGray;
+            this.btn9K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9K.FlatAppearance.BorderSize = 0;
+            this.btn9K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9K.Location = new System.Drawing.Point(808, 127);
+            this.btn9K.Name = "btn9K";
+            this.btn9K.Size = new System.Drawing.Size(8, 8);
+            this.btn9K.TabIndex = 10;
+            this.btn9K.Tag = "dayBtn";
+            this.btn9K.UseVisualStyleBackColor = false;
+            // 
+            // btn8I
+            // 
+            this.btn8I.BackColor = System.Drawing.Color.DimGray;
+            this.btn8I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8I.FlatAppearance.BorderSize = 0;
+            this.btn8I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8I.Location = new System.Drawing.Point(754, 127);
+            this.btn8I.Name = "btn8I";
+            this.btn8I.Size = new System.Drawing.Size(8, 8);
+            this.btn8I.TabIndex = 10;
+            this.btn8I.Tag = "dayBtn";
+            this.btn8I.UseVisualStyleBackColor = false;
+            // 
+            // btn7U
+            // 
+            this.btn7U.BackColor = System.Drawing.Color.DimGray;
+            this.btn7U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7U.FlatAppearance.BorderSize = 0;
+            this.btn7U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7U.Location = new System.Drawing.Point(645, 85);
+            this.btn7U.Name = "btn7U";
+            this.btn7U.Size = new System.Drawing.Size(8, 8);
+            this.btn7U.TabIndex = 10;
+            this.btn7U.Tag = "dayBtn";
+            this.btn7U.UseVisualStyleBackColor = false;
+            // 
+            // btn9I
+            // 
+            this.btn9I.BackColor = System.Drawing.Color.DimGray;
+            this.btn9I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9I.FlatAppearance.BorderSize = 0;
+            this.btn9I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9I.Location = new System.Drawing.Point(836, 127);
+            this.btn9I.Name = "btn9I";
+            this.btn9I.Size = new System.Drawing.Size(8, 8);
+            this.btn9I.TabIndex = 10;
+            this.btn9I.Tag = "dayBtn";
+            this.btn9I.UseVisualStyleBackColor = false;
+            // 
+            // btn7Q
+            // 
+            this.btn7Q.BackColor = System.Drawing.Color.DimGray;
+            this.btn7Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7Q.FlatAppearance.BorderSize = 0;
+            this.btn7Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7Q.Location = new System.Drawing.Point(645, 53);
+            this.btn7Q.Name = "btn7Q";
+            this.btn7Q.Size = new System.Drawing.Size(8, 30);
+            this.btn7Q.TabIndex = 10;
+            this.btn7Q.Tag = "dayBtn";
+            this.btn7Q.UseVisualStyleBackColor = false;
+            // 
+            // btn8U
+            // 
+            this.btn8U.BackColor = System.Drawing.Color.DimGray;
+            this.btn8U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8U.FlatAppearance.BorderSize = 0;
+            this.btn8U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8U.Location = new System.Drawing.Point(726, 85);
+            this.btn8U.Name = "btn8U";
+            this.btn8U.Size = new System.Drawing.Size(8, 8);
+            this.btn8U.TabIndex = 10;
+            this.btn8U.Tag = "dayBtn";
+            this.btn8U.UseVisualStyleBackColor = false;
+            // 
+            // btn9U
+            // 
+            this.btn9U.BackColor = System.Drawing.Color.DimGray;
+            this.btn9U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9U.FlatAppearance.BorderSize = 0;
+            this.btn9U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9U.Location = new System.Drawing.Point(808, 85);
+            this.btn9U.Name = "btn9U";
+            this.btn9U.Size = new System.Drawing.Size(8, 8);
+            this.btn9U.TabIndex = 10;
+            this.btn9U.Tag = "dayBtn";
+            this.btn9U.UseVisualStyleBackColor = false;
+            // 
+            // btn8Q
+            // 
+            this.btn8Q.BackColor = System.Drawing.Color.DimGray;
+            this.btn8Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8Q.FlatAppearance.BorderSize = 0;
+            this.btn8Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8Q.Location = new System.Drawing.Point(726, 53);
+            this.btn8Q.Name = "btn8Q";
+            this.btn8Q.Size = new System.Drawing.Size(8, 30);
+            this.btn8Q.TabIndex = 10;
+            this.btn8Q.Tag = "dayBtn";
+            this.btn8Q.UseVisualStyleBackColor = false;
+            // 
+            // btn7F
+            // 
+            this.btn7F.BackColor = System.Drawing.Color.DimGray;
+            this.btn7F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7F.FlatAppearance.BorderSize = 0;
+            this.btn7F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7F.Location = new System.Drawing.Point(673, 53);
+            this.btn7F.Name = "btn7F";
+            this.btn7F.Size = new System.Drawing.Size(8, 30);
+            this.btn7F.TabIndex = 10;
+            this.btn7F.Tag = "dayBtn";
+            this.btn7F.UseVisualStyleBackColor = false;
+            // 
+            // btn9Q
+            // 
+            this.btn9Q.BackColor = System.Drawing.Color.DimGray;
+            this.btn9Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9Q.FlatAppearance.BorderSize = 0;
+            this.btn9Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9Q.Location = new System.Drawing.Point(808, 53);
+            this.btn9Q.Name = "btn9Q";
+            this.btn9Q.Size = new System.Drawing.Size(8, 30);
+            this.btn9Q.TabIndex = 10;
+            this.btn9Q.Tag = "dayBtn";
+            this.btn9Q.UseVisualStyleBackColor = false;
+            // 
+            // btn8F
+            // 
+            this.btn8F.BackColor = System.Drawing.Color.DimGray;
+            this.btn8F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8F.FlatAppearance.BorderSize = 0;
+            this.btn8F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8F.Location = new System.Drawing.Point(754, 53);
+            this.btn8F.Name = "btn8F";
+            this.btn8F.Size = new System.Drawing.Size(8, 30);
+            this.btn8F.TabIndex = 10;
+            this.btn8F.Tag = "dayBtn";
+            this.btn8F.UseVisualStyleBackColor = false;
+            // 
+            // btn9F
+            // 
+            this.btn9F.BackColor = System.Drawing.Color.DimGray;
+            this.btn9F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9F.FlatAppearance.BorderSize = 0;
+            this.btn9F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9F.Location = new System.Drawing.Point(836, 53);
+            this.btn9F.Name = "btn9F";
+            this.btn9F.Size = new System.Drawing.Size(8, 30);
+            this.btn9F.TabIndex = 10;
+            this.btn9F.Tag = "dayBtn";
+            this.btn9F.UseVisualStyleBackColor = false;
+            // 
+            // btn7H
+            // 
+            this.btn7H.BackColor = System.Drawing.Color.DimGray;
+            this.btn7H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7H.FlatAppearance.BorderSize = 0;
+            this.btn7H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7H.Location = new System.Drawing.Point(673, 95);
+            this.btn7H.Name = "btn7H";
+            this.btn7H.Size = new System.Drawing.Size(8, 30);
+            this.btn7H.TabIndex = 10;
+            this.btn7H.Tag = "dayBtn";
+            this.btn7H.UseVisualStyleBackColor = false;
+            // 
+            // btn8H
+            // 
+            this.btn8H.BackColor = System.Drawing.Color.DimGray;
+            this.btn8H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8H.FlatAppearance.BorderSize = 0;
+            this.btn8H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8H.Location = new System.Drawing.Point(754, 95);
+            this.btn8H.Name = "btn8H";
+            this.btn8H.Size = new System.Drawing.Size(8, 30);
+            this.btn8H.TabIndex = 10;
+            this.btn8H.Tag = "dayBtn";
+            this.btn8H.UseVisualStyleBackColor = false;
+            // 
+            // btn9H
+            // 
+            this.btn9H.BackColor = System.Drawing.Color.DimGray;
+            this.btn9H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9H.FlatAppearance.BorderSize = 0;
+            this.btn9H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9H.Location = new System.Drawing.Point(836, 95);
+            this.btn9H.Name = "btn9H";
+            this.btn9H.Size = new System.Drawing.Size(8, 30);
+            this.btn9H.TabIndex = 10;
+            this.btn9H.Tag = "dayBtn";
+            this.btn9H.UseVisualStyleBackColor = false;
+            // 
+            // btn7P
+            // 
+            this.btn7P.BackColor = System.Drawing.Color.DimGray;
+            this.btn7P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7P.FlatAppearance.BorderSize = 0;
+            this.btn7P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7P.Location = new System.Drawing.Point(617, 53);
+            this.btn7P.Name = "btn7P";
+            this.btn7P.Size = new System.Drawing.Size(8, 30);
+            this.btn7P.TabIndex = 10;
+            this.btn7P.Tag = "dayBtn";
+            this.btn7P.UseVisualStyleBackColor = false;
+            // 
+            // btn8P
+            // 
+            this.btn8P.BackColor = System.Drawing.Color.DimGray;
+            this.btn8P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8P.FlatAppearance.BorderSize = 0;
+            this.btn8P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8P.Location = new System.Drawing.Point(698, 53);
+            this.btn8P.Name = "btn8P";
+            this.btn8P.Size = new System.Drawing.Size(8, 30);
+            this.btn8P.TabIndex = 10;
+            this.btn8P.Tag = "dayBtn";
+            this.btn8P.UseVisualStyleBackColor = false;
+            // 
+            // btn9P
+            // 
+            this.btn9P.BackColor = System.Drawing.Color.DimGray;
+            this.btn9P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9P.FlatAppearance.BorderSize = 0;
+            this.btn9P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9P.Location = new System.Drawing.Point(780, 53);
+            this.btn9P.Name = "btn9P";
+            this.btn9P.Size = new System.Drawing.Size(8, 30);
+            this.btn9P.TabIndex = 10;
+            this.btn9P.Tag = "dayBtn";
+            this.btn9P.UseVisualStyleBackColor = false;
+            // 
+            // btn7N
+            // 
+            this.btn7N.BackColor = System.Drawing.Color.DimGray;
+            this.btn7N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7N.FlatAppearance.BorderSize = 0;
+            this.btn7N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7N.Location = new System.Drawing.Point(617, 95);
+            this.btn7N.Name = "btn7N";
+            this.btn7N.Size = new System.Drawing.Size(8, 30);
+            this.btn7N.TabIndex = 10;
+            this.btn7N.Tag = "dayBtn";
+            this.btn7N.UseVisualStyleBackColor = false;
+            // 
+            // btn8N
+            // 
+            this.btn8N.BackColor = System.Drawing.Color.DimGray;
+            this.btn8N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8N.FlatAppearance.BorderSize = 0;
+            this.btn8N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8N.Location = new System.Drawing.Point(698, 95);
+            this.btn8N.Name = "btn8N";
+            this.btn8N.Size = new System.Drawing.Size(8, 30);
+            this.btn8N.TabIndex = 10;
+            this.btn8N.Tag = "dayBtn";
+            this.btn8N.UseVisualStyleBackColor = false;
+            // 
+            // btn9N
+            // 
+            this.btn9N.BackColor = System.Drawing.Color.DimGray;
+            this.btn9N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9N.FlatAppearance.BorderSize = 0;
+            this.btn9N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9N.Location = new System.Drawing.Point(780, 95);
+            this.btn9N.Name = "btn9N";
+            this.btn9N.Size = new System.Drawing.Size(8, 30);
+            this.btn9N.TabIndex = 10;
+            this.btn9N.Tag = "dayBtn";
+            this.btn9N.UseVisualStyleBackColor = false;
+            // 
+            // btn7S
+            // 
+            this.btn7S.BackColor = System.Drawing.Color.DimGray;
+            this.btn7S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn7S.FlatAppearance.BorderSize = 0;
+            this.btn7S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7S.Location = new System.Drawing.Point(645, 95);
+            this.btn7S.Name = "btn7S";
+            this.btn7S.Size = new System.Drawing.Size(8, 30);
+            this.btn7S.TabIndex = 10;
+            this.btn7S.Tag = "dayBtn";
+            this.btn7S.UseVisualStyleBackColor = false;
+            // 
+            // btn8S
+            // 
+            this.btn8S.BackColor = System.Drawing.Color.DimGray;
+            this.btn8S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn8S.FlatAppearance.BorderSize = 0;
+            this.btn8S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8S.Location = new System.Drawing.Point(726, 95);
+            this.btn8S.Name = "btn8S";
+            this.btn8S.Size = new System.Drawing.Size(8, 30);
+            this.btn8S.TabIndex = 10;
+            this.btn8S.Tag = "dayBtn";
+            this.btn8S.UseVisualStyleBackColor = false;
+            // 
+            // btn9S
+            // 
+            this.btn9S.BackColor = System.Drawing.Color.DimGray;
+            this.btn9S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn9S.FlatAppearance.BorderSize = 0;
+            this.btn9S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9S.Location = new System.Drawing.Point(808, 95);
+            this.btn9S.Name = "btn9S";
+            this.btn9S.Size = new System.Drawing.Size(8, 30);
+            this.btn9S.TabIndex = 10;
+            this.btn9S.Tag = "dayBtn";
+            this.btn9S.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
@@ -3578,194 +3578,194 @@ namespace SevenSegmentClock
             this.ClientSize = new System.Drawing.Size(1004, 596);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button210);
-            this.Controls.Add(this.button147);
+            this.Controls.Add(this.btn9S);
+            this.Controls.Add(this.btn6S);
             this.Controls.Add(this.btn3S);
-            this.Controls.Add(this.button209);
-            this.Controls.Add(this.button146);
+            this.Controls.Add(this.btn8S);
+            this.Controls.Add(this.btn5S);
             this.Controls.Add(this.btn2S);
-            this.Controls.Add(this.button208);
-            this.Controls.Add(this.button145);
+            this.Controls.Add(this.btn7S);
+            this.Controls.Add(this.btn4S);
             this.Controls.Add(this.btn1S);
-            this.Controls.Add(this.button207);
-            this.Controls.Add(this.button144);
+            this.Controls.Add(this.btn9N);
+            this.Controls.Add(this.btn6N);
             this.Controls.Add(this.btn3N);
-            this.Controls.Add(this.button206);
-            this.Controls.Add(this.button143);
+            this.Controls.Add(this.btn8N);
+            this.Controls.Add(this.btn5N);
             this.Controls.Add(this.btn2N);
-            this.Controls.Add(this.button205);
-            this.Controls.Add(this.button142);
+            this.Controls.Add(this.btn7N);
+            this.Controls.Add(this.btn4N);
             this.Controls.Add(this.btn1N);
-            this.Controls.Add(this.button204);
-            this.Controls.Add(this.button141);
+            this.Controls.Add(this.btn9P);
+            this.Controls.Add(this.btn6P);
             this.Controls.Add(this.btn3P);
-            this.Controls.Add(this.button203);
-            this.Controls.Add(this.button140);
+            this.Controls.Add(this.btn8P);
+            this.Controls.Add(this.btn5P);
             this.Controls.Add(this.btn2P);
-            this.Controls.Add(this.button202);
-            this.Controls.Add(this.button139);
+            this.Controls.Add(this.btn7P);
+            this.Controls.Add(this.btn4P);
             this.Controls.Add(this.btn1P);
-            this.Controls.Add(this.button201);
-            this.Controls.Add(this.button200);
-            this.Controls.Add(this.button138);
-            this.Controls.Add(this.button137);
-            this.Controls.Add(this.button199);
+            this.Controls.Add(this.btn9H);
+            this.Controls.Add(this.btn8H);
+            this.Controls.Add(this.btn6H);
+            this.Controls.Add(this.btn5H);
+            this.Controls.Add(this.btn7H);
             this.Controls.Add(this.btn3H);
-            this.Controls.Add(this.button136);
+            this.Controls.Add(this.btn4H);
             this.Controls.Add(this.btn2H);
-            this.Controls.Add(this.button198);
+            this.Controls.Add(this.btn9F);
             this.Controls.Add(this.btn1H);
-            this.Controls.Add(this.button135);
-            this.Controls.Add(this.button197);
-            this.Controls.Add(this.button134);
-            this.Controls.Add(this.button196);
+            this.Controls.Add(this.btn6F);
+            this.Controls.Add(this.btn8F);
+            this.Controls.Add(this.btn5F);
+            this.Controls.Add(this.btn9Q);
             this.Controls.Add(this.btn3F);
-            this.Controls.Add(this.button133);
-            this.Controls.Add(this.button195);
+            this.Controls.Add(this.btn6Q);
+            this.Controls.Add(this.btn7F);
             this.Controls.Add(this.btn2F);
-            this.Controls.Add(this.button132);
-            this.Controls.Add(this.button194);
+            this.Controls.Add(this.btn4F);
+            this.Controls.Add(this.btn8Q);
             this.Controls.Add(this.btn3Q);
-            this.Controls.Add(this.button131);
-            this.Controls.Add(this.button193);
+            this.Controls.Add(this.btn5Q);
+            this.Controls.Add(this.btn9U);
             this.Controls.Add(this.btn1F);
-            this.Controls.Add(this.button130);
+            this.Controls.Add(this.btn6U);
             this.Controls.Add(this.btn2Q);
-            this.Controls.Add(this.button192);
+            this.Controls.Add(this.btn8U);
             this.Controls.Add(this.btn3U);
-            this.Controls.Add(this.button129);
-            this.Controls.Add(this.button191);
-            this.Controls.Add(this.button128);
-            this.Controls.Add(this.button190);
+            this.Controls.Add(this.btn5U);
+            this.Controls.Add(this.btn7Q);
+            this.Controls.Add(this.btn4Q);
+            this.Controls.Add(this.btn9I);
             this.Controls.Add(this.btn2U);
-            this.Controls.Add(this.button127);
-            this.Controls.Add(this.button189);
+            this.Controls.Add(this.btn6I);
+            this.Controls.Add(this.btn7U);
             this.Controls.Add(this.btn1Q);
-            this.Controls.Add(this.button126);
-            this.Controls.Add(this.button188);
+            this.Controls.Add(this.btn4U);
+            this.Controls.Add(this.btn8I);
             this.Controls.Add(this.btn3I);
-            this.Controls.Add(this.button125);
+            this.Controls.Add(this.btn5I);
             this.Controls.Add(this.btn1U);
-            this.Controls.Add(this.button187);
+            this.Controls.Add(this.btn9K);
             this.Controls.Add(this.btn2I);
-            this.Controls.Add(this.button124);
-            this.Controls.Add(this.button186);
-            this.Controls.Add(this.button123);
-            this.Controls.Add(this.button185);
+            this.Controls.Add(this.btn6K);
+            this.Controls.Add(this.btn7I);
+            this.Controls.Add(this.btn4I);
+            this.Controls.Add(this.btn8K);
             this.Controls.Add(this.btn3K);
-            this.Controls.Add(this.button122);
+            this.Controls.Add(this.btn5K);
             this.Controls.Add(this.btn1I);
-            this.Controls.Add(this.button184);
+            this.Controls.Add(this.btn9L);
             this.Controls.Add(this.btn2K);
-            this.Controls.Add(this.button121);
-            this.Controls.Add(this.button183);
-            this.Controls.Add(this.button120);
-            this.Controls.Add(this.button182);
+            this.Controls.Add(this.btn6L);
+            this.Controls.Add(this.btn7K);
+            this.Controls.Add(this.btn4K);
+            this.Controls.Add(this.btn8L);
             this.Controls.Add(this.btn3L);
-            this.Controls.Add(this.button119);
+            this.Controls.Add(this.btn5L);
             this.Controls.Add(this.btn1K);
-            this.Controls.Add(this.button181);
+            this.Controls.Add(this.btn9T);
             this.Controls.Add(this.btn2L);
-            this.Controls.Add(this.button118);
-            this.Controls.Add(this.button180);
-            this.Controls.Add(this.button117);
-            this.Controls.Add(this.button179);
+            this.Controls.Add(this.btn6T);
+            this.Controls.Add(this.btn7L);
+            this.Controls.Add(this.btn4L);
+            this.Controls.Add(this.btn8T);
             this.Controls.Add(this.btn3T);
-            this.Controls.Add(this.button116);
+            this.Controls.Add(this.btn5T);
             this.Controls.Add(this.btn1L);
-            this.Controls.Add(this.button178);
+            this.Controls.Add(this.btn9B);
             this.Controls.Add(this.btn2T);
-            this.Controls.Add(this.button115);
-            this.Controls.Add(this.button177);
-            this.Controls.Add(this.button114);
-            this.Controls.Add(this.button176);
+            this.Controls.Add(this.btn6B);
+            this.Controls.Add(this.btn7T);
+            this.Controls.Add(this.btn4T);
+            this.Controls.Add(this.btn8B);
             this.Controls.Add(this.btn3B);
-            this.Controls.Add(this.button113);
+            this.Controls.Add(this.btn5B);
             this.Controls.Add(this.btn1T);
-            this.Controls.Add(this.button175);
+            this.Controls.Add(this.btn9J);
             this.Controls.Add(this.btn2B);
-            this.Controls.Add(this.button112);
-            this.Controls.Add(this.button174);
-            this.Controls.Add(this.button111);
-            this.Controls.Add(this.button173);
+            this.Controls.Add(this.btn6J);
+            this.Controls.Add(this.btn7B);
+            this.Controls.Add(this.btn4B);
+            this.Controls.Add(this.btn8J);
             this.Controls.Add(this.btn3J);
-            this.Controls.Add(this.button110);
+            this.Controls.Add(this.btn5J);
             this.Controls.Add(this.btn1B);
-            this.Controls.Add(this.button172);
+            this.Controls.Add(this.btn9R);
             this.Controls.Add(this.btn2J);
-            this.Controls.Add(this.button109);
-            this.Controls.Add(this.button171);
-            this.Controls.Add(this.button108);
-            this.Controls.Add(this.button170);
+            this.Controls.Add(this.btn6R);
+            this.Controls.Add(this.btn7J);
+            this.Controls.Add(this.btn4J);
+            this.Controls.Add(this.btn8R);
             this.Controls.Add(this.btn3R);
-            this.Controls.Add(this.button107);
+            this.Controls.Add(this.btn5R);
             this.Controls.Add(this.btn1J);
-            this.Controls.Add(this.button169);
+            this.Controls.Add(this.btn9D);
             this.Controls.Add(this.btn2R);
-            this.Controls.Add(this.button106);
-            this.Controls.Add(this.button168);
-            this.Controls.Add(this.button105);
-            this.Controls.Add(this.button167);
+            this.Controls.Add(this.btn6D);
+            this.Controls.Add(this.btn7R);
+            this.Controls.Add(this.btn4R);
+            this.Controls.Add(this.btn8D);
             this.Controls.Add(this.btn3D);
-            this.Controls.Add(this.button104);
+            this.Controls.Add(this.btn5D);
             this.Controls.Add(this.btn1R);
-            this.Controls.Add(this.button166);
+            this.Controls.Add(this.btn9O);
             this.Controls.Add(this.btn2D);
-            this.Controls.Add(this.button103);
-            this.Controls.Add(this.button165);
-            this.Controls.Add(this.button102);
-            this.Controls.Add(this.button164);
+            this.Controls.Add(this.btn6O);
+            this.Controls.Add(this.btn7D);
+            this.Controls.Add(this.btn4D);
+            this.Controls.Add(this.btn8O);
             this.Controls.Add(this.btn3O);
-            this.Controls.Add(this.button101);
+            this.Controls.Add(this.btn5O);
             this.Controls.Add(this.btn1D);
-            this.Controls.Add(this.button163);
+            this.Controls.Add(this.btn9M);
             this.Controls.Add(this.btn2O);
-            this.Controls.Add(this.button100);
-            this.Controls.Add(this.button162);
-            this.Controls.Add(this.button99);
-            this.Controls.Add(this.button161);
+            this.Controls.Add(this.btn6M);
+            this.Controls.Add(this.btn7O);
+            this.Controls.Add(this.btn4O);
+            this.Controls.Add(this.btn8M);
             this.Controls.Add(this.btn3M);
-            this.Controls.Add(this.button98);
+            this.Controls.Add(this.btn5M);
             this.Controls.Add(this.btn1O);
-            this.Controls.Add(this.button160);
+            this.Controls.Add(this.btn9A);
             this.Controls.Add(this.btn2M);
-            this.Controls.Add(this.button97);
-            this.Controls.Add(this.button159);
-            this.Controls.Add(this.button96);
-            this.Controls.Add(this.button158);
+            this.Controls.Add(this.btn6A);
+            this.Controls.Add(this.btn7M);
+            this.Controls.Add(this.btn4M);
+            this.Controls.Add(this.btn8A);
             this.Controls.Add(this.btn3A);
-            this.Controls.Add(this.button95);
+            this.Controls.Add(this.btn5A);
             this.Controls.Add(this.btn1M);
-            this.Controls.Add(this.button157);
+            this.Controls.Add(this.btn9G);
             this.Controls.Add(this.btn2A);
-            this.Controls.Add(this.button94);
-            this.Controls.Add(this.button156);
-            this.Controls.Add(this.button93);
-            this.Controls.Add(this.button155);
+            this.Controls.Add(this.btn6G);
+            this.Controls.Add(this.btn7A);
+            this.Controls.Add(this.btn4A);
+            this.Controls.Add(this.btn8G);
             this.Controls.Add(this.btn3G);
-            this.Controls.Add(this.button92);
+            this.Controls.Add(this.btn5G);
             this.Controls.Add(this.btn1A);
-            this.Controls.Add(this.button154);
+            this.Controls.Add(this.btn9E);
             this.Controls.Add(this.btn2G);
-            this.Controls.Add(this.button91);
-            this.Controls.Add(this.button153);
-            this.Controls.Add(this.button90);
-            this.Controls.Add(this.button152);
+            this.Controls.Add(this.btn6E);
+            this.Controls.Add(this.btn7G);
+            this.Controls.Add(this.btn4G);
+            this.Controls.Add(this.btn8E);
             this.Controls.Add(this.btn3E);
-            this.Controls.Add(this.button89);
+            this.Controls.Add(this.btn5E);
             this.Controls.Add(this.btn1G);
-            this.Controls.Add(this.button151);
+            this.Controls.Add(this.btn9C);
             this.Controls.Add(this.btn2E);
-            this.Controls.Add(this.button88);
-            this.Controls.Add(this.button150);
-            this.Controls.Add(this.button87);
-            this.Controls.Add(this.button149);
+            this.Controls.Add(this.btn6C);
+            this.Controls.Add(this.btn7E);
+            this.Controls.Add(this.btn4E);
+            this.Controls.Add(this.btn8C);
             this.Controls.Add(this.btn3C);
-            this.Controls.Add(this.button86);
+            this.Controls.Add(this.btn5C);
             this.Controls.Add(this.btn1E);
-            this.Controls.Add(this.button148);
+            this.Controls.Add(this.btn7C);
             this.Controls.Add(this.btn2C);
-            this.Controls.Add(this.button85);
+            this.Controls.Add(this.btn4C);
             this.Controls.Add(this.btn1C);
             this.Controls.Add(this.btnHourFormat);
             this.Controls.Add(this.btnCloseForm);
@@ -3976,132 +3976,132 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button btn3P;
         private System.Windows.Forms.Button btn3N;
         private System.Windows.Forms.Button btn3S;
-        private System.Windows.Forms.Button button85;
-        private System.Windows.Forms.Button button86;
-        private System.Windows.Forms.Button button87;
-        private System.Windows.Forms.Button button88;
-        private System.Windows.Forms.Button button89;
-        private System.Windows.Forms.Button button90;
-        private System.Windows.Forms.Button button91;
-        private System.Windows.Forms.Button button92;
-        private System.Windows.Forms.Button button93;
-        private System.Windows.Forms.Button button94;
-        private System.Windows.Forms.Button button95;
-        private System.Windows.Forms.Button button96;
-        private System.Windows.Forms.Button button97;
-        private System.Windows.Forms.Button button98;
-        private System.Windows.Forms.Button button99;
-        private System.Windows.Forms.Button button100;
-        private System.Windows.Forms.Button button101;
-        private System.Windows.Forms.Button button102;
-        private System.Windows.Forms.Button button103;
-        private System.Windows.Forms.Button button104;
-        private System.Windows.Forms.Button button105;
-        private System.Windows.Forms.Button button106;
-        private System.Windows.Forms.Button button107;
-        private System.Windows.Forms.Button button108;
-        private System.Windows.Forms.Button button109;
-        private System.Windows.Forms.Button button110;
-        private System.Windows.Forms.Button button111;
-        private System.Windows.Forms.Button button112;
-        private System.Windows.Forms.Button button113;
-        private System.Windows.Forms.Button button114;
-        private System.Windows.Forms.Button button115;
-        private System.Windows.Forms.Button button116;
-        private System.Windows.Forms.Button button117;
-        private System.Windows.Forms.Button button118;
-        private System.Windows.Forms.Button button119;
-        private System.Windows.Forms.Button button120;
-        private System.Windows.Forms.Button button121;
-        private System.Windows.Forms.Button button122;
-        private System.Windows.Forms.Button button123;
-        private System.Windows.Forms.Button button124;
-        private System.Windows.Forms.Button button125;
-        private System.Windows.Forms.Button button126;
-        private System.Windows.Forms.Button button127;
-        private System.Windows.Forms.Button button128;
-        private System.Windows.Forms.Button button129;
-        private System.Windows.Forms.Button button130;
-        private System.Windows.Forms.Button button131;
-        private System.Windows.Forms.Button button132;
-        private System.Windows.Forms.Button button133;
-        private System.Windows.Forms.Button button134;
-        private System.Windows.Forms.Button button135;
-        private System.Windows.Forms.Button button136;
-        private System.Windows.Forms.Button button137;
-        private System.Windows.Forms.Button button138;
-        private System.Windows.Forms.Button button139;
-        private System.Windows.Forms.Button button140;
-        private System.Windows.Forms.Button button141;
-        private System.Windows.Forms.Button button142;
-        private System.Windows.Forms.Button button143;
-        private System.Windows.Forms.Button button144;
-        private System.Windows.Forms.Button button145;
-        private System.Windows.Forms.Button button146;
-        private System.Windows.Forms.Button button147;
-        private System.Windows.Forms.Button button148;
-        private System.Windows.Forms.Button button149;
-        private System.Windows.Forms.Button button150;
-        private System.Windows.Forms.Button button151;
-        private System.Windows.Forms.Button button152;
-        private System.Windows.Forms.Button button153;
-        private System.Windows.Forms.Button button154;
-        private System.Windows.Forms.Button button155;
-        private System.Windows.Forms.Button button156;
-        private System.Windows.Forms.Button button157;
-        private System.Windows.Forms.Button button158;
-        private System.Windows.Forms.Button button159;
-        private System.Windows.Forms.Button button160;
-        private System.Windows.Forms.Button button161;
-        private System.Windows.Forms.Button button162;
-        private System.Windows.Forms.Button button163;
-        private System.Windows.Forms.Button button164;
-        private System.Windows.Forms.Button button165;
-        private System.Windows.Forms.Button button166;
-        private System.Windows.Forms.Button button167;
-        private System.Windows.Forms.Button button168;
-        private System.Windows.Forms.Button button169;
-        private System.Windows.Forms.Button button170;
-        private System.Windows.Forms.Button button171;
-        private System.Windows.Forms.Button button172;
-        private System.Windows.Forms.Button button173;
-        private System.Windows.Forms.Button button174;
-        private System.Windows.Forms.Button button175;
-        private System.Windows.Forms.Button button176;
-        private System.Windows.Forms.Button button177;
-        private System.Windows.Forms.Button button178;
-        private System.Windows.Forms.Button button179;
-        private System.Windows.Forms.Button button180;
-        private System.Windows.Forms.Button button181;
-        private System.Windows.Forms.Button button182;
-        private System.Windows.Forms.Button button183;
-        private System.Windows.Forms.Button button184;
-        private System.Windows.Forms.Button button185;
-        private System.Windows.Forms.Button button186;
-        private System.Windows.Forms.Button button187;
-        private System.Windows.Forms.Button button188;
-        private System.Windows.Forms.Button button189;
-        private System.Windows.Forms.Button button190;
-        private System.Windows.Forms.Button button191;
-        private System.Windows.Forms.Button button192;
-        private System.Windows.Forms.Button button193;
-        private System.Windows.Forms.Button button194;
-        private System.Windows.Forms.Button button195;
-        private System.Windows.Forms.Button button196;
-        private System.Windows.Forms.Button button197;
-        private System.Windows.Forms.Button button198;
-        private System.Windows.Forms.Button button199;
-        private System.Windows.Forms.Button button200;
-        private System.Windows.Forms.Button button201;
-        private System.Windows.Forms.Button button202;
-        private System.Windows.Forms.Button button203;
-        private System.Windows.Forms.Button button204;
-        private System.Windows.Forms.Button button205;
-        private System.Windows.Forms.Button button206;
-        private System.Windows.Forms.Button button207;
-        private System.Windows.Forms.Button button208;
-        private System.Windows.Forms.Button button209;
-        private System.Windows.Forms.Button button210;
+        private System.Windows.Forms.Button btn4C;
+        private System.Windows.Forms.Button btn5C;
+        private System.Windows.Forms.Button btn4E;
+        private System.Windows.Forms.Button btn6C;
+        private System.Windows.Forms.Button btn5E;
+        private System.Windows.Forms.Button btn4G;
+        private System.Windows.Forms.Button btn6E;
+        private System.Windows.Forms.Button btn5G;
+        private System.Windows.Forms.Button btn4A;
+        private System.Windows.Forms.Button btn6G;
+        private System.Windows.Forms.Button btn5A;
+        private System.Windows.Forms.Button btn4M;
+        private System.Windows.Forms.Button btn6A;
+        private System.Windows.Forms.Button btn5M;
+        private System.Windows.Forms.Button btn4O;
+        private System.Windows.Forms.Button btn6M;
+        private System.Windows.Forms.Button btn5O;
+        private System.Windows.Forms.Button btn4D;
+        private System.Windows.Forms.Button btn6O;
+        private System.Windows.Forms.Button btn5D;
+        private System.Windows.Forms.Button btn4R;
+        private System.Windows.Forms.Button btn6D;
+        private System.Windows.Forms.Button btn5R;
+        private System.Windows.Forms.Button btn4J;
+        private System.Windows.Forms.Button btn6R;
+        private System.Windows.Forms.Button btn5J;
+        private System.Windows.Forms.Button btn4B;
+        private System.Windows.Forms.Button btn6J;
+        private System.Windows.Forms.Button btn5B;
+        private System.Windows.Forms.Button btn4T;
+        private System.Windows.Forms.Button btn6B;
+        private System.Windows.Forms.Button btn5T;
+        private System.Windows.Forms.Button btn4L;
+        private System.Windows.Forms.Button btn6T;
+        private System.Windows.Forms.Button btn5L;
+        private System.Windows.Forms.Button btn4K;
+        private System.Windows.Forms.Button btn6L;
+        private System.Windows.Forms.Button btn5K;
+        private System.Windows.Forms.Button btn4I;
+        private System.Windows.Forms.Button btn6K;
+        private System.Windows.Forms.Button btn5I;
+        private System.Windows.Forms.Button btn4U;
+        private System.Windows.Forms.Button btn6I;
+        private System.Windows.Forms.Button btn4Q;
+        private System.Windows.Forms.Button btn5U;
+        private System.Windows.Forms.Button btn6U;
+        private System.Windows.Forms.Button btn5Q;
+        private System.Windows.Forms.Button btn4F;
+        private System.Windows.Forms.Button btn6Q;
+        private System.Windows.Forms.Button btn5F;
+        private System.Windows.Forms.Button btn6F;
+        private System.Windows.Forms.Button btn4H;
+        private System.Windows.Forms.Button btn5H;
+        private System.Windows.Forms.Button btn6H;
+        private System.Windows.Forms.Button btn4P;
+        private System.Windows.Forms.Button btn5P;
+        private System.Windows.Forms.Button btn6P;
+        private System.Windows.Forms.Button btn4N;
+        private System.Windows.Forms.Button btn5N;
+        private System.Windows.Forms.Button btn6N;
+        private System.Windows.Forms.Button btn4S;
+        private System.Windows.Forms.Button btn5S;
+        private System.Windows.Forms.Button btn6S;
+        private System.Windows.Forms.Button btn7C;
+        private System.Windows.Forms.Button btn8C;
+        private System.Windows.Forms.Button btn7E;
+        private System.Windows.Forms.Button btn9C;
+        private System.Windows.Forms.Button btn8E;
+        private System.Windows.Forms.Button btn7G;
+        private System.Windows.Forms.Button btn9E;
+        private System.Windows.Forms.Button btn8G;
+        private System.Windows.Forms.Button btn7A;
+        private System.Windows.Forms.Button btn9G;
+        private System.Windows.Forms.Button btn8A;
+        private System.Windows.Forms.Button btn7M;
+        private System.Windows.Forms.Button btn9A;
+        private System.Windows.Forms.Button btn8M;
+        private System.Windows.Forms.Button btn7O;
+        private System.Windows.Forms.Button btn9M;
+        private System.Windows.Forms.Button btn8O;
+        private System.Windows.Forms.Button btn7D;
+        private System.Windows.Forms.Button btn9O;
+        private System.Windows.Forms.Button btn8D;
+        private System.Windows.Forms.Button btn7R;
+        private System.Windows.Forms.Button btn9D;
+        private System.Windows.Forms.Button btn8R;
+        private System.Windows.Forms.Button btn7J;
+        private System.Windows.Forms.Button btn9R;
+        private System.Windows.Forms.Button btn8J;
+        private System.Windows.Forms.Button btn7B;
+        private System.Windows.Forms.Button btn9J;
+        private System.Windows.Forms.Button btn8B;
+        private System.Windows.Forms.Button btn7T;
+        private System.Windows.Forms.Button btn9B;
+        private System.Windows.Forms.Button btn8T;
+        private System.Windows.Forms.Button btn7L;
+        private System.Windows.Forms.Button btn9T;
+        private System.Windows.Forms.Button btn8L;
+        private System.Windows.Forms.Button btn7K;
+        private System.Windows.Forms.Button btn9L;
+        private System.Windows.Forms.Button btn8K;
+        private System.Windows.Forms.Button btn7I;
+        private System.Windows.Forms.Button btn9K;
+        private System.Windows.Forms.Button btn8I;
+        private System.Windows.Forms.Button btn7U;
+        private System.Windows.Forms.Button btn9I;
+        private System.Windows.Forms.Button btn7Q;
+        private System.Windows.Forms.Button btn8U;
+        private System.Windows.Forms.Button btn9U;
+        private System.Windows.Forms.Button btn8Q;
+        private System.Windows.Forms.Button btn7F;
+        private System.Windows.Forms.Button btn9Q;
+        private System.Windows.Forms.Button btn8F;
+        private System.Windows.Forms.Button btn9F;
+        private System.Windows.Forms.Button btn7H;
+        private System.Windows.Forms.Button btn8H;
+        private System.Windows.Forms.Button btn9H;
+        private System.Windows.Forms.Button btn7P;
+        private System.Windows.Forms.Button btn8P;
+        private System.Windows.Forms.Button btn9P;
+        private System.Windows.Forms.Button btn7N;
+        private System.Windows.Forms.Button btn8N;
+        private System.Windows.Forms.Button btn9N;
+        private System.Windows.Forms.Button btn7S;
+        private System.Windows.Forms.Button btn8S;
+        private System.Windows.Forms.Button btn9S;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
     }

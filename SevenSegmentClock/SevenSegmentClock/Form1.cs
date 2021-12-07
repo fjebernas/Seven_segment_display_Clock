@@ -1019,9 +1019,9 @@ namespace SevenSegmentClock
 
             List<Button> Monday = new List<Button>
             {
-                btn1M, btn1N, btn1O, btn1P, btn1A, btn1B, btn1C, btn1Q, btn1U, btn1D, btn1E, btn1F, btn1G, btn1H, btn1I,          //M
+                btn1M, btn1N, btn1O, btn1P, btn1A, btn1B, btn1Q, btn1U, btn1D, btn1E, btn1F, btn1G, btn1H, btn1I,          //M
                 btn2B, btn2C, btn2D, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,                               //O
-                btn3A, btn3B, btn3C, btn3D, btn3E, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P                         //N
+                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P                                //N
             };
 
             List<Button> Tuesday = new List<Button>
@@ -1063,7 +1063,7 @@ namespace SevenSegmentClock
             {
                 btn1B, btn1C, btn1D, btn1R, btn1H, btn1J, btn1K, btn1L, btn1T, btn1P, btn1E, btn1M, btn1U,
                 btn2A, btn2E, btn2F, btn2G, btn2H, btn2J, btn2K, btn2L, btn2N, btn2O, btn2P,
-                btn3A, btn3B, btn3C, btn3D, btn3E, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P
+                btn3B, btn3C, btn3D, btn3F, btn3G, btn3H, btn3I, btn3M, btn3N, btn3O, btn3P
             };
 
             switch (day)
