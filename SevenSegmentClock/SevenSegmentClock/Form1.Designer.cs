@@ -270,6 +270,69 @@ namespace SevenSegmentClock
             this.btn9S = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btnDate1S = new System.Windows.Forms.Button();
+            this.btnDate1N = new System.Windows.Forms.Button();
+            this.btnDate1P = new System.Windows.Forms.Button();
+            this.btnDate1H = new System.Windows.Forms.Button();
+            this.btnDate1F = new System.Windows.Forms.Button();
+            this.btnDate1Q = new System.Windows.Forms.Button();
+            this.btnDate1U = new System.Windows.Forms.Button();
+            this.btnDate1I = new System.Windows.Forms.Button();
+            this.btnDate1K = new System.Windows.Forms.Button();
+            this.btnDate1L = new System.Windows.Forms.Button();
+            this.btnDate1T = new System.Windows.Forms.Button();
+            this.btnDate1B = new System.Windows.Forms.Button();
+            this.btnDate1J = new System.Windows.Forms.Button();
+            this.btnDate1R = new System.Windows.Forms.Button();
+            this.btnDate1D = new System.Windows.Forms.Button();
+            this.btnDate1O = new System.Windows.Forms.Button();
+            this.btnDate1M = new System.Windows.Forms.Button();
+            this.btnDate1A = new System.Windows.Forms.Button();
+            this.btnDate1G = new System.Windows.Forms.Button();
+            this.btnDate1E = new System.Windows.Forms.Button();
+            this.btnDate1C = new System.Windows.Forms.Button();
+            this.btnDate2C = new System.Windows.Forms.Button();
+            this.btnDate2E = new System.Windows.Forms.Button();
+            this.btnDate2G = new System.Windows.Forms.Button();
+            this.btnDate2A = new System.Windows.Forms.Button();
+            this.btnDate2M = new System.Windows.Forms.Button();
+            this.btnDate2O = new System.Windows.Forms.Button();
+            this.btnDate2D = new System.Windows.Forms.Button();
+            this.btnDate2R = new System.Windows.Forms.Button();
+            this.btnDate2J = new System.Windows.Forms.Button();
+            this.btnDate2B = new System.Windows.Forms.Button();
+            this.btnDate2T = new System.Windows.Forms.Button();
+            this.btnDate2L = new System.Windows.Forms.Button();
+            this.btnDate2K = new System.Windows.Forms.Button();
+            this.btnDate2I = new System.Windows.Forms.Button();
+            this.btnDate2U = new System.Windows.Forms.Button();
+            this.btnDate2Q = new System.Windows.Forms.Button();
+            this.btnDate2F = new System.Windows.Forms.Button();
+            this.btnDate2H = new System.Windows.Forms.Button();
+            this.btnDate2P = new System.Windows.Forms.Button();
+            this.btnDate2N = new System.Windows.Forms.Button();
+            this.btnDate2S = new System.Windows.Forms.Button();
+            this.btnDate3C = new System.Windows.Forms.Button();
+            this.btnDate3E = new System.Windows.Forms.Button();
+            this.btnDate3G = new System.Windows.Forms.Button();
+            this.btnDate3A = new System.Windows.Forms.Button();
+            this.btnDate3M = new System.Windows.Forms.Button();
+            this.btnDate3O = new System.Windows.Forms.Button();
+            this.btnDate3D = new System.Windows.Forms.Button();
+            this.btnDate3R = new System.Windows.Forms.Button();
+            this.btnDate3J = new System.Windows.Forms.Button();
+            this.btnDate3B = new System.Windows.Forms.Button();
+            this.btnDate3T = new System.Windows.Forms.Button();
+            this.btnDate3L = new System.Windows.Forms.Button();
+            this.btnDate3K = new System.Windows.Forms.Button();
+            this.btnDate3I = new System.Windows.Forms.Button();
+            this.btnDate3U = new System.Windows.Forms.Button();
+            this.btnDate3Q = new System.Windows.Forms.Button();
+            this.btnDate3F = new System.Windows.Forms.Button();
+            this.btnDate3H = new System.Windows.Forms.Button();
+            this.btnDate3P = new System.Windows.Forms.Button();
+            this.btnDate3N = new System.Windows.Forms.Button();
+            this.btnDate3S = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -281,16 +344,37 @@ namespace SevenSegmentClock
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.btnDate1B = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
-            this.btnDate1A = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
-            this.btnDate1C = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button32 = new System.Windows.Forms.Button();
+            this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBackground)).BeginInit();
             this.SuspendLayout();
             // 
@@ -3370,154 +3454,154 @@ namespace SevenSegmentClock
             this.button3.Tag = "";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnDate1S
             // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(179, 451);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(5, 22);
-            this.button1.TabIndex = 11;
-            this.button1.Tag = "dayBtn";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnDate1S.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1S.FlatAppearance.BorderSize = 0;
+            this.btnDate1S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1S.Location = new System.Drawing.Point(179, 451);
+            this.btnDate1S.Name = "btnDate1S";
+            this.btnDate1S.Size = new System.Drawing.Size(5, 22);
+            this.btnDate1S.TabIndex = 11;
+            this.btnDate1S.Tag = "";
+            this.btnDate1S.UseVisualStyleBackColor = false;
+            this.btnDate1S.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button4
+            // btnDate1N
             // 
-            this.button4.BackColor = System.Drawing.Color.DimGray;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(158, 451);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(5, 22);
-            this.button4.TabIndex = 29;
-            this.button4.Tag = "dayBtn";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnDate1N.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1N.FlatAppearance.BorderSize = 0;
+            this.btnDate1N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1N.Location = new System.Drawing.Point(158, 451);
+            this.btnDate1N.Name = "btnDate1N";
+            this.btnDate1N.Size = new System.Drawing.Size(5, 22);
+            this.btnDate1N.TabIndex = 29;
+            this.btnDate1N.Tag = "";
+            this.btnDate1N.UseVisualStyleBackColor = false;
+            this.btnDate1N.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // btnDate1P
             // 
-            this.button5.BackColor = System.Drawing.Color.DimGray;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(158, 420);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(5, 22);
-            this.button5.TabIndex = 28;
-            this.button5.Tag = "dayBtn";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnDate1P.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1P.FlatAppearance.BorderSize = 0;
+            this.btnDate1P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1P.Location = new System.Drawing.Point(158, 420);
+            this.btnDate1P.Name = "btnDate1P";
+            this.btnDate1P.Size = new System.Drawing.Size(5, 22);
+            this.btnDate1P.TabIndex = 28;
+            this.btnDate1P.Tag = "";
+            this.btnDate1P.UseVisualStyleBackColor = false;
+            this.btnDate1P.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button6
+            // btnDate1H
             // 
-            this.button6.BackColor = System.Drawing.Color.DimGray;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(200, 451);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(5, 22);
-            this.button6.TabIndex = 27;
-            this.button6.Tag = "dayBtn";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnDate1H.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1H.FlatAppearance.BorderSize = 0;
+            this.btnDate1H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1H.Location = new System.Drawing.Point(200, 451);
+            this.btnDate1H.Name = "btnDate1H";
+            this.btnDate1H.Size = new System.Drawing.Size(5, 22);
+            this.btnDate1H.TabIndex = 27;
+            this.btnDate1H.Tag = "";
+            this.btnDate1H.UseVisualStyleBackColor = false;
+            this.btnDate1H.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
+            // btnDate1F
             // 
-            this.button7.BackColor = System.Drawing.Color.DimGray;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(200, 420);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(5, 22);
-            this.button7.TabIndex = 26;
-            this.button7.Tag = "dayBtn";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.btnDate1F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1F.FlatAppearance.BorderSize = 0;
+            this.btnDate1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1F.Location = new System.Drawing.Point(200, 420);
+            this.btnDate1F.Name = "btnDate1F";
+            this.btnDate1F.Size = new System.Drawing.Size(5, 22);
+            this.btnDate1F.TabIndex = 26;
+            this.btnDate1F.Tag = "";
+            this.btnDate1F.UseVisualStyleBackColor = false;
+            this.btnDate1F.Click += new System.EventHandler(this.button7_Click);
             // 
-            // button8
+            // btnDate1Q
             // 
-            this.button8.BackColor = System.Drawing.Color.DimGray;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(179, 420);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(5, 22);
-            this.button8.TabIndex = 25;
-            this.button8.Tag = "dayBtn";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.btnDate1Q.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1Q.FlatAppearance.BorderSize = 0;
+            this.btnDate1Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1Q.Location = new System.Drawing.Point(179, 420);
+            this.btnDate1Q.Name = "btnDate1Q";
+            this.btnDate1Q.Size = new System.Drawing.Size(5, 22);
+            this.btnDate1Q.TabIndex = 25;
+            this.btnDate1Q.Tag = "";
+            this.btnDate1Q.UseVisualStyleBackColor = false;
+            this.btnDate1Q.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // btnDate1U
             // 
-            this.button9.BackColor = System.Drawing.Color.DimGray;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(179, 444);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(5, 5);
-            this.button9.TabIndex = 24;
-            this.button9.Tag = "dayBtn";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnDate1U.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1U.FlatAppearance.BorderSize = 0;
+            this.btnDate1U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1U.Location = new System.Drawing.Point(179, 444);
+            this.btnDate1U.Name = "btnDate1U";
+            this.btnDate1U.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1U.TabIndex = 24;
+            this.btnDate1U.Tag = "";
+            this.btnDate1U.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btnDate1I
             // 
-            this.button10.BackColor = System.Drawing.Color.DimGray;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(200, 475);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(5, 5);
-            this.button10.TabIndex = 23;
-            this.button10.Tag = "dayBtn";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btnDate1I.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1I.FlatAppearance.BorderSize = 0;
+            this.btnDate1I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1I.Location = new System.Drawing.Point(200, 475);
+            this.btnDate1I.Name = "btnDate1I";
+            this.btnDate1I.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1I.TabIndex = 23;
+            this.btnDate1I.Tag = "";
+            this.btnDate1I.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // btnDate1K
             // 
-            this.button11.BackColor = System.Drawing.Color.DimGray;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(179, 475);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(5, 5);
-            this.button11.TabIndex = 22;
-            this.button11.Tag = "dayBtn";
-            this.button11.UseVisualStyleBackColor = false;
+            this.btnDate1K.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1K.FlatAppearance.BorderSize = 0;
+            this.btnDate1K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1K.Location = new System.Drawing.Point(179, 475);
+            this.btnDate1K.Name = "btnDate1K";
+            this.btnDate1K.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1K.TabIndex = 22;
+            this.btnDate1K.Tag = "";
+            this.btnDate1K.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btnDate1L
             // 
-            this.button12.BackColor = System.Drawing.Color.DimGray;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(165, 475);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(12, 5);
-            this.button12.TabIndex = 30;
-            this.button12.Tag = "dayBtn";
-            this.button12.UseVisualStyleBackColor = false;
+            this.btnDate1L.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1L.FlatAppearance.BorderSize = 0;
+            this.btnDate1L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1L.Location = new System.Drawing.Point(165, 475);
+            this.btnDate1L.Name = "btnDate1L";
+            this.btnDate1L.Size = new System.Drawing.Size(12, 5);
+            this.btnDate1L.TabIndex = 30;
+            this.btnDate1L.Tag = "";
+            this.btnDate1L.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // btnDate1T
             // 
-            this.button13.BackColor = System.Drawing.Color.DimGray;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(165, 444);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(12, 5);
-            this.button13.TabIndex = 21;
-            this.button13.Tag = "dayBtn";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btnDate1T.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1T.FlatAppearance.BorderSize = 0;
+            this.btnDate1T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1T.Location = new System.Drawing.Point(165, 444);
+            this.btnDate1T.Name = "btnDate1T";
+            this.btnDate1T.Size = new System.Drawing.Size(12, 5);
+            this.btnDate1T.TabIndex = 21;
+            this.btnDate1T.Tag = "";
+            this.btnDate1T.UseVisualStyleBackColor = false;
             // 
             // btnDate1B
             // 
@@ -3529,73 +3613,73 @@ namespace SevenSegmentClock
             this.btnDate1B.Name = "btnDate1B";
             this.btnDate1B.Size = new System.Drawing.Size(12, 5);
             this.btnDate1B.TabIndex = 19;
-            this.btnDate1B.Tag = "dayBtn";
+            this.btnDate1B.Tag = "";
             this.btnDate1B.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // btnDate1J
             // 
-            this.button15.BackColor = System.Drawing.Color.DimGray;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(186, 475);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(12, 5);
-            this.button15.TabIndex = 18;
-            this.button15.Tag = "dayBtn";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btnDate1J.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1J.FlatAppearance.BorderSize = 0;
+            this.btnDate1J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1J.Location = new System.Drawing.Point(186, 475);
+            this.btnDate1J.Name = "btnDate1J";
+            this.btnDate1J.Size = new System.Drawing.Size(12, 5);
+            this.btnDate1J.TabIndex = 18;
+            this.btnDate1J.Tag = "";
+            this.btnDate1J.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // btnDate1R
             // 
-            this.button16.BackColor = System.Drawing.Color.DimGray;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(186, 444);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(12, 5);
-            this.button16.TabIndex = 17;
-            this.button16.Tag = "dayBtn";
-            this.button16.UseVisualStyleBackColor = false;
+            this.btnDate1R.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1R.FlatAppearance.BorderSize = 0;
+            this.btnDate1R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1R.Location = new System.Drawing.Point(186, 444);
+            this.btnDate1R.Name = "btnDate1R";
+            this.btnDate1R.Size = new System.Drawing.Size(12, 5);
+            this.btnDate1R.TabIndex = 17;
+            this.btnDate1R.Tag = "";
+            this.btnDate1R.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // btnDate1D
             // 
-            this.button17.BackColor = System.Drawing.Color.DimGray;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(186, 413);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(12, 5);
-            this.button17.TabIndex = 16;
-            this.button17.Tag = "dayBtn";
-            this.button17.UseVisualStyleBackColor = false;
+            this.btnDate1D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1D.FlatAppearance.BorderSize = 0;
+            this.btnDate1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1D.Location = new System.Drawing.Point(186, 413);
+            this.btnDate1D.Name = "btnDate1D";
+            this.btnDate1D.Size = new System.Drawing.Size(12, 5);
+            this.btnDate1D.TabIndex = 16;
+            this.btnDate1D.Tag = "";
+            this.btnDate1D.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btnDate1O
             // 
-            this.button18.BackColor = System.Drawing.Color.DimGray;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(158, 444);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(5, 5);
-            this.button18.TabIndex = 15;
-            this.button18.Tag = "dayBtn";
-            this.button18.UseVisualStyleBackColor = false;
+            this.btnDate1O.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1O.FlatAppearance.BorderSize = 0;
+            this.btnDate1O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1O.Location = new System.Drawing.Point(158, 444);
+            this.btnDate1O.Name = "btnDate1O";
+            this.btnDate1O.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1O.TabIndex = 15;
+            this.btnDate1O.Tag = "";
+            this.btnDate1O.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // btnDate1M
             // 
-            this.button19.BackColor = System.Drawing.Color.DimGray;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(158, 475);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(5, 5);
-            this.button19.TabIndex = 14;
-            this.button19.Tag = "dayBtn";
-            this.button19.UseVisualStyleBackColor = false;
+            this.btnDate1M.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1M.FlatAppearance.BorderSize = 0;
+            this.btnDate1M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1M.Location = new System.Drawing.Point(158, 475);
+            this.btnDate1M.Name = "btnDate1M";
+            this.btnDate1M.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1M.TabIndex = 14;
+            this.btnDate1M.Tag = "";
+            this.btnDate1M.UseVisualStyleBackColor = false;
             // 
             // btnDate1A
             // 
@@ -3607,34 +3691,34 @@ namespace SevenSegmentClock
             this.btnDate1A.Name = "btnDate1A";
             this.btnDate1A.Size = new System.Drawing.Size(5, 5);
             this.btnDate1A.TabIndex = 13;
-            this.btnDate1A.Tag = "dayBtn";
+            this.btnDate1A.Tag = "";
             this.btnDate1A.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // btnDate1G
             // 
-            this.button21.BackColor = System.Drawing.Color.DimGray;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(200, 444);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(5, 5);
-            this.button21.TabIndex = 12;
-            this.button21.Tag = "dayBtn";
-            this.button21.UseVisualStyleBackColor = false;
+            this.btnDate1G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1G.FlatAppearance.BorderSize = 0;
+            this.btnDate1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1G.Location = new System.Drawing.Point(200, 444);
+            this.btnDate1G.Name = "btnDate1G";
+            this.btnDate1G.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1G.TabIndex = 12;
+            this.btnDate1G.Tag = "";
+            this.btnDate1G.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // btnDate1E
             // 
-            this.button22.BackColor = System.Drawing.Color.DimGray;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(200, 413);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(5, 5);
-            this.button22.TabIndex = 20;
-            this.button22.Tag = "dayBtn";
-            this.button22.UseVisualStyleBackColor = false;
+            this.btnDate1E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate1E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate1E.FlatAppearance.BorderSize = 0;
+            this.btnDate1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate1E.Location = new System.Drawing.Point(200, 413);
+            this.btnDate1E.Name = "btnDate1E";
+            this.btnDate1E.Size = new System.Drawing.Size(5, 5);
+            this.btnDate1E.TabIndex = 20;
+            this.btnDate1E.Tag = "";
+            this.btnDate1E.UseVisualStyleBackColor = false;
             // 
             // btnDate1C
             // 
@@ -3646,8 +3730,1070 @@ namespace SevenSegmentClock
             this.btnDate1C.Name = "btnDate1C";
             this.btnDate1C.Size = new System.Drawing.Size(5, 5);
             this.btnDate1C.TabIndex = 31;
-            this.btnDate1C.Tag = "dayBtn";
+            this.btnDate1C.Tag = "";
             this.btnDate1C.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2C
+            // 
+            this.btnDate2C.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2C.FlatAppearance.BorderSize = 0;
+            this.btnDate2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2C.Location = new System.Drawing.Point(243, 413);
+            this.btnDate2C.Name = "btnDate2C";
+            this.btnDate2C.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2C.TabIndex = 31;
+            this.btnDate2C.Tag = "";
+            this.btnDate2C.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2E
+            // 
+            this.btnDate2E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2E.FlatAppearance.BorderSize = 0;
+            this.btnDate2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2E.Location = new System.Drawing.Point(264, 413);
+            this.btnDate2E.Name = "btnDate2E";
+            this.btnDate2E.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2E.TabIndex = 20;
+            this.btnDate2E.Tag = "";
+            this.btnDate2E.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2G
+            // 
+            this.btnDate2G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2G.FlatAppearance.BorderSize = 0;
+            this.btnDate2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2G.Location = new System.Drawing.Point(264, 444);
+            this.btnDate2G.Name = "btnDate2G";
+            this.btnDate2G.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2G.TabIndex = 12;
+            this.btnDate2G.Tag = "";
+            this.btnDate2G.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2A
+            // 
+            this.btnDate2A.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2A.FlatAppearance.BorderSize = 0;
+            this.btnDate2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2A.Location = new System.Drawing.Point(222, 413);
+            this.btnDate2A.Name = "btnDate2A";
+            this.btnDate2A.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2A.TabIndex = 13;
+            this.btnDate2A.Tag = "";
+            this.btnDate2A.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2M
+            // 
+            this.btnDate2M.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2M.FlatAppearance.BorderSize = 0;
+            this.btnDate2M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2M.Location = new System.Drawing.Point(222, 475);
+            this.btnDate2M.Name = "btnDate2M";
+            this.btnDate2M.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2M.TabIndex = 14;
+            this.btnDate2M.Tag = "";
+            this.btnDate2M.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2O
+            // 
+            this.btnDate2O.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2O.FlatAppearance.BorderSize = 0;
+            this.btnDate2O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2O.Location = new System.Drawing.Point(222, 444);
+            this.btnDate2O.Name = "btnDate2O";
+            this.btnDate2O.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2O.TabIndex = 15;
+            this.btnDate2O.Tag = "";
+            this.btnDate2O.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2D
+            // 
+            this.btnDate2D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2D.FlatAppearance.BorderSize = 0;
+            this.btnDate2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2D.Location = new System.Drawing.Point(250, 413);
+            this.btnDate2D.Name = "btnDate2D";
+            this.btnDate2D.Size = new System.Drawing.Size(12, 5);
+            this.btnDate2D.TabIndex = 16;
+            this.btnDate2D.Tag = "";
+            this.btnDate2D.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2R
+            // 
+            this.btnDate2R.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2R.FlatAppearance.BorderSize = 0;
+            this.btnDate2R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2R.Location = new System.Drawing.Point(250, 444);
+            this.btnDate2R.Name = "btnDate2R";
+            this.btnDate2R.Size = new System.Drawing.Size(12, 5);
+            this.btnDate2R.TabIndex = 17;
+            this.btnDate2R.Tag = "";
+            this.btnDate2R.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2J
+            // 
+            this.btnDate2J.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2J.FlatAppearance.BorderSize = 0;
+            this.btnDate2J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2J.Location = new System.Drawing.Point(250, 475);
+            this.btnDate2J.Name = "btnDate2J";
+            this.btnDate2J.Size = new System.Drawing.Size(12, 5);
+            this.btnDate2J.TabIndex = 18;
+            this.btnDate2J.Tag = "";
+            this.btnDate2J.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2B
+            // 
+            this.btnDate2B.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2B.FlatAppearance.BorderSize = 0;
+            this.btnDate2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2B.Location = new System.Drawing.Point(229, 413);
+            this.btnDate2B.Name = "btnDate2B";
+            this.btnDate2B.Size = new System.Drawing.Size(12, 5);
+            this.btnDate2B.TabIndex = 19;
+            this.btnDate2B.Tag = "";
+            this.btnDate2B.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2T
+            // 
+            this.btnDate2T.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2T.FlatAppearance.BorderSize = 0;
+            this.btnDate2T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2T.Location = new System.Drawing.Point(229, 444);
+            this.btnDate2T.Name = "btnDate2T";
+            this.btnDate2T.Size = new System.Drawing.Size(12, 5);
+            this.btnDate2T.TabIndex = 21;
+            this.btnDate2T.Tag = "";
+            this.btnDate2T.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2L
+            // 
+            this.btnDate2L.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2L.FlatAppearance.BorderSize = 0;
+            this.btnDate2L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2L.Location = new System.Drawing.Point(229, 475);
+            this.btnDate2L.Name = "btnDate2L";
+            this.btnDate2L.Size = new System.Drawing.Size(12, 5);
+            this.btnDate2L.TabIndex = 30;
+            this.btnDate2L.Tag = "";
+            this.btnDate2L.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2K
+            // 
+            this.btnDate2K.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2K.FlatAppearance.BorderSize = 0;
+            this.btnDate2K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2K.Location = new System.Drawing.Point(243, 475);
+            this.btnDate2K.Name = "btnDate2K";
+            this.btnDate2K.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2K.TabIndex = 22;
+            this.btnDate2K.Tag = "";
+            this.btnDate2K.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2I
+            // 
+            this.btnDate2I.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2I.FlatAppearance.BorderSize = 0;
+            this.btnDate2I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2I.Location = new System.Drawing.Point(264, 475);
+            this.btnDate2I.Name = "btnDate2I";
+            this.btnDate2I.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2I.TabIndex = 23;
+            this.btnDate2I.Tag = "";
+            this.btnDate2I.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2U
+            // 
+            this.btnDate2U.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2U.FlatAppearance.BorderSize = 0;
+            this.btnDate2U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2U.Location = new System.Drawing.Point(243, 444);
+            this.btnDate2U.Name = "btnDate2U";
+            this.btnDate2U.Size = new System.Drawing.Size(5, 5);
+            this.btnDate2U.TabIndex = 24;
+            this.btnDate2U.Tag = "";
+            this.btnDate2U.UseVisualStyleBackColor = false;
+            // 
+            // btnDate2Q
+            // 
+            this.btnDate2Q.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2Q.FlatAppearance.BorderSize = 0;
+            this.btnDate2Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2Q.Location = new System.Drawing.Point(243, 420);
+            this.btnDate2Q.Name = "btnDate2Q";
+            this.btnDate2Q.Size = new System.Drawing.Size(5, 22);
+            this.btnDate2Q.TabIndex = 25;
+            this.btnDate2Q.Tag = "";
+            this.btnDate2Q.UseVisualStyleBackColor = false;
+            this.btnDate2Q.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // btnDate2F
+            // 
+            this.btnDate2F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2F.FlatAppearance.BorderSize = 0;
+            this.btnDate2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2F.Location = new System.Drawing.Point(264, 420);
+            this.btnDate2F.Name = "btnDate2F";
+            this.btnDate2F.Size = new System.Drawing.Size(5, 22);
+            this.btnDate2F.TabIndex = 26;
+            this.btnDate2F.Tag = "";
+            this.btnDate2F.UseVisualStyleBackColor = false;
+            this.btnDate2F.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // btnDate2H
+            // 
+            this.btnDate2H.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2H.FlatAppearance.BorderSize = 0;
+            this.btnDate2H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2H.Location = new System.Drawing.Point(264, 451);
+            this.btnDate2H.Name = "btnDate2H";
+            this.btnDate2H.Size = new System.Drawing.Size(5, 22);
+            this.btnDate2H.TabIndex = 27;
+            this.btnDate2H.Tag = "";
+            this.btnDate2H.UseVisualStyleBackColor = false;
+            this.btnDate2H.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // btnDate2P
+            // 
+            this.btnDate2P.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2P.FlatAppearance.BorderSize = 0;
+            this.btnDate2P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2P.Location = new System.Drawing.Point(222, 420);
+            this.btnDate2P.Name = "btnDate2P";
+            this.btnDate2P.Size = new System.Drawing.Size(5, 22);
+            this.btnDate2P.TabIndex = 28;
+            this.btnDate2P.Tag = "";
+            this.btnDate2P.UseVisualStyleBackColor = false;
+            this.btnDate2P.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btnDate2N
+            // 
+            this.btnDate2N.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2N.FlatAppearance.BorderSize = 0;
+            this.btnDate2N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2N.Location = new System.Drawing.Point(222, 451);
+            this.btnDate2N.Name = "btnDate2N";
+            this.btnDate2N.Size = new System.Drawing.Size(5, 22);
+            this.btnDate2N.TabIndex = 29;
+            this.btnDate2N.Tag = "";
+            this.btnDate2N.UseVisualStyleBackColor = false;
+            this.btnDate2N.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnDate2S
+            // 
+            this.btnDate2S.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate2S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate2S.FlatAppearance.BorderSize = 0;
+            this.btnDate2S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate2S.Location = new System.Drawing.Point(243, 451);
+            this.btnDate2S.Name = "btnDate2S";
+            this.btnDate2S.Size = new System.Drawing.Size(5, 22);
+            this.btnDate2S.TabIndex = 11;
+            this.btnDate2S.Tag = "";
+            this.btnDate2S.UseVisualStyleBackColor = false;
+            this.btnDate2S.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnDate3C
+            // 
+            this.btnDate3C.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3C.FlatAppearance.BorderSize = 0;
+            this.btnDate3C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3C.Location = new System.Drawing.Point(307, 413);
+            this.btnDate3C.Name = "btnDate3C";
+            this.btnDate3C.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3C.TabIndex = 31;
+            this.btnDate3C.Tag = "";
+            this.btnDate3C.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3E
+            // 
+            this.btnDate3E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3E.FlatAppearance.BorderSize = 0;
+            this.btnDate3E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3E.Location = new System.Drawing.Point(328, 413);
+            this.btnDate3E.Name = "btnDate3E";
+            this.btnDate3E.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3E.TabIndex = 20;
+            this.btnDate3E.Tag = "";
+            this.btnDate3E.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3G
+            // 
+            this.btnDate3G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3G.FlatAppearance.BorderSize = 0;
+            this.btnDate3G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3G.Location = new System.Drawing.Point(328, 444);
+            this.btnDate3G.Name = "btnDate3G";
+            this.btnDate3G.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3G.TabIndex = 12;
+            this.btnDate3G.Tag = "";
+            this.btnDate3G.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3A
+            // 
+            this.btnDate3A.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3A.FlatAppearance.BorderSize = 0;
+            this.btnDate3A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3A.Location = new System.Drawing.Point(286, 413);
+            this.btnDate3A.Name = "btnDate3A";
+            this.btnDate3A.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3A.TabIndex = 13;
+            this.btnDate3A.Tag = "";
+            this.btnDate3A.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3M
+            // 
+            this.btnDate3M.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3M.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3M.FlatAppearance.BorderSize = 0;
+            this.btnDate3M.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3M.Location = new System.Drawing.Point(286, 475);
+            this.btnDate3M.Name = "btnDate3M";
+            this.btnDate3M.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3M.TabIndex = 14;
+            this.btnDate3M.Tag = "";
+            this.btnDate3M.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3O
+            // 
+            this.btnDate3O.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3O.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3O.FlatAppearance.BorderSize = 0;
+            this.btnDate3O.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3O.Location = new System.Drawing.Point(286, 444);
+            this.btnDate3O.Name = "btnDate3O";
+            this.btnDate3O.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3O.TabIndex = 15;
+            this.btnDate3O.Tag = "";
+            this.btnDate3O.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3D
+            // 
+            this.btnDate3D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3D.FlatAppearance.BorderSize = 0;
+            this.btnDate3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3D.Location = new System.Drawing.Point(314, 413);
+            this.btnDate3D.Name = "btnDate3D";
+            this.btnDate3D.Size = new System.Drawing.Size(12, 5);
+            this.btnDate3D.TabIndex = 16;
+            this.btnDate3D.Tag = "";
+            this.btnDate3D.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3R
+            // 
+            this.btnDate3R.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3R.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3R.FlatAppearance.BorderSize = 0;
+            this.btnDate3R.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3R.Location = new System.Drawing.Point(314, 444);
+            this.btnDate3R.Name = "btnDate3R";
+            this.btnDate3R.Size = new System.Drawing.Size(12, 5);
+            this.btnDate3R.TabIndex = 17;
+            this.btnDate3R.Tag = "";
+            this.btnDate3R.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3J
+            // 
+            this.btnDate3J.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3J.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3J.FlatAppearance.BorderSize = 0;
+            this.btnDate3J.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3J.Location = new System.Drawing.Point(314, 475);
+            this.btnDate3J.Name = "btnDate3J";
+            this.btnDate3J.Size = new System.Drawing.Size(12, 5);
+            this.btnDate3J.TabIndex = 18;
+            this.btnDate3J.Tag = "";
+            this.btnDate3J.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3B
+            // 
+            this.btnDate3B.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3B.FlatAppearance.BorderSize = 0;
+            this.btnDate3B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3B.Location = new System.Drawing.Point(293, 413);
+            this.btnDate3B.Name = "btnDate3B";
+            this.btnDate3B.Size = new System.Drawing.Size(12, 5);
+            this.btnDate3B.TabIndex = 19;
+            this.btnDate3B.Tag = "";
+            this.btnDate3B.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3T
+            // 
+            this.btnDate3T.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3T.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3T.FlatAppearance.BorderSize = 0;
+            this.btnDate3T.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3T.Location = new System.Drawing.Point(293, 444);
+            this.btnDate3T.Name = "btnDate3T";
+            this.btnDate3T.Size = new System.Drawing.Size(12, 5);
+            this.btnDate3T.TabIndex = 21;
+            this.btnDate3T.Tag = "";
+            this.btnDate3T.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3L
+            // 
+            this.btnDate3L.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3L.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3L.FlatAppearance.BorderSize = 0;
+            this.btnDate3L.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3L.Location = new System.Drawing.Point(293, 475);
+            this.btnDate3L.Name = "btnDate3L";
+            this.btnDate3L.Size = new System.Drawing.Size(12, 5);
+            this.btnDate3L.TabIndex = 30;
+            this.btnDate3L.Tag = "";
+            this.btnDate3L.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3K
+            // 
+            this.btnDate3K.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3K.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3K.FlatAppearance.BorderSize = 0;
+            this.btnDate3K.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3K.Location = new System.Drawing.Point(307, 475);
+            this.btnDate3K.Name = "btnDate3K";
+            this.btnDate3K.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3K.TabIndex = 22;
+            this.btnDate3K.Tag = "";
+            this.btnDate3K.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3I
+            // 
+            this.btnDate3I.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3I.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3I.FlatAppearance.BorderSize = 0;
+            this.btnDate3I.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3I.Location = new System.Drawing.Point(328, 475);
+            this.btnDate3I.Name = "btnDate3I";
+            this.btnDate3I.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3I.TabIndex = 23;
+            this.btnDate3I.Tag = "";
+            this.btnDate3I.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3U
+            // 
+            this.btnDate3U.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3U.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3U.FlatAppearance.BorderSize = 0;
+            this.btnDate3U.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3U.Location = new System.Drawing.Point(307, 444);
+            this.btnDate3U.Name = "btnDate3U";
+            this.btnDate3U.Size = new System.Drawing.Size(5, 5);
+            this.btnDate3U.TabIndex = 24;
+            this.btnDate3U.Tag = "";
+            this.btnDate3U.UseVisualStyleBackColor = false;
+            // 
+            // btnDate3Q
+            // 
+            this.btnDate3Q.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3Q.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3Q.FlatAppearance.BorderSize = 0;
+            this.btnDate3Q.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3Q.Location = new System.Drawing.Point(307, 420);
+            this.btnDate3Q.Name = "btnDate3Q";
+            this.btnDate3Q.Size = new System.Drawing.Size(5, 22);
+            this.btnDate3Q.TabIndex = 25;
+            this.btnDate3Q.Tag = "";
+            this.btnDate3Q.UseVisualStyleBackColor = false;
+            this.btnDate3Q.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // btnDate3F
+            // 
+            this.btnDate3F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3F.FlatAppearance.BorderSize = 0;
+            this.btnDate3F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3F.Location = new System.Drawing.Point(328, 420);
+            this.btnDate3F.Name = "btnDate3F";
+            this.btnDate3F.Size = new System.Drawing.Size(5, 22);
+            this.btnDate3F.TabIndex = 26;
+            this.btnDate3F.Tag = "";
+            this.btnDate3F.UseVisualStyleBackColor = false;
+            this.btnDate3F.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // btnDate3H
+            // 
+            this.btnDate3H.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3H.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3H.FlatAppearance.BorderSize = 0;
+            this.btnDate3H.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3H.Location = new System.Drawing.Point(328, 451);
+            this.btnDate3H.Name = "btnDate3H";
+            this.btnDate3H.Size = new System.Drawing.Size(5, 22);
+            this.btnDate3H.TabIndex = 27;
+            this.btnDate3H.Tag = "";
+            this.btnDate3H.UseVisualStyleBackColor = false;
+            this.btnDate3H.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // btnDate3P
+            // 
+            this.btnDate3P.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3P.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3P.FlatAppearance.BorderSize = 0;
+            this.btnDate3P.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3P.Location = new System.Drawing.Point(286, 420);
+            this.btnDate3P.Name = "btnDate3P";
+            this.btnDate3P.Size = new System.Drawing.Size(5, 22);
+            this.btnDate3P.TabIndex = 28;
+            this.btnDate3P.Tag = "";
+            this.btnDate3P.UseVisualStyleBackColor = false;
+            this.btnDate3P.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // btnDate3N
+            // 
+            this.btnDate3N.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3N.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3N.FlatAppearance.BorderSize = 0;
+            this.btnDate3N.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3N.Location = new System.Drawing.Point(286, 451);
+            this.btnDate3N.Name = "btnDate3N";
+            this.btnDate3N.Size = new System.Drawing.Size(5, 22);
+            this.btnDate3N.TabIndex = 29;
+            this.btnDate3N.Tag = "";
+            this.btnDate3N.UseVisualStyleBackColor = false;
+            this.btnDate3N.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnDate3S
+            // 
+            this.btnDate3S.BackColor = System.Drawing.Color.DimGray;
+            this.btnDate3S.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDate3S.FlatAppearance.BorderSize = 0;
+            this.btnDate3S.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDate3S.Location = new System.Drawing.Point(307, 451);
+            this.btnDate3S.Name = "btnDate3S";
+            this.btnDate3S.Size = new System.Drawing.Size(5, 22);
+            this.btnDate3S.TabIndex = 11;
+            this.btnDate3S.Tag = "";
+            this.btnDate3S.UseVisualStyleBackColor = false;
+            this.btnDate3S.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(374, 415);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 6);
+            this.button1.TabIndex = 2;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.DimGray;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(374, 473);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(25, 6);
+            this.button4.TabIndex = 2;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DimGray;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(369, 420);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(6, 25);
+            this.button5.TabIndex = 2;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.DimGray;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(369, 449);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(6, 25);
+            this.button6.TabIndex = 2;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.DimGray;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Location = new System.Drawing.Point(398, 420);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(6, 25);
+            this.button7.TabIndex = 2;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.DimGray;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(398, 449);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(6, 25);
+            this.button8.TabIndex = 2;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.DimGray;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(374, 444);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(25, 6);
+            this.button9.TabIndex = 2;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.DimGray;
+            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(422, 415);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(25, 6);
+            this.button10.TabIndex = 2;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.DimGray;
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(422, 473);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(25, 6);
+            this.button11.TabIndex = 2;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.DimGray;
+            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Location = new System.Drawing.Point(417, 420);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(6, 25);
+            this.button12.TabIndex = 2;
+            this.button12.UseVisualStyleBackColor = false;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.DimGray;
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Location = new System.Drawing.Point(417, 449);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(6, 25);
+            this.button13.TabIndex = 2;
+            this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.DimGray;
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Location = new System.Drawing.Point(446, 420);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(6, 25);
+            this.button14.TabIndex = 2;
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.DimGray;
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Location = new System.Drawing.Point(446, 449);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(6, 25);
+            this.button15.TabIndex = 2;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.DimGray;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Location = new System.Drawing.Point(422, 444);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(25, 6);
+            this.button16.TabIndex = 2;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.DimGray;
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button17.FlatAppearance.BorderSize = 0;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Location = new System.Drawing.Point(650, 415);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(25, 6);
+            this.button17.TabIndex = 2;
+            this.button17.UseVisualStyleBackColor = false;
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.DimGray;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Location = new System.Drawing.Point(698, 415);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(25, 6);
+            this.button18.TabIndex = 2;
+            this.button18.UseVisualStyleBackColor = false;
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.DimGray;
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Location = new System.Drawing.Point(650, 473);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(25, 6);
+            this.button19.TabIndex = 2;
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            this.button20.BackColor = System.Drawing.Color.DimGray;
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Location = new System.Drawing.Point(698, 473);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(25, 6);
+            this.button20.TabIndex = 2;
+            this.button20.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.DimGray;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Location = new System.Drawing.Point(645, 420);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(6, 25);
+            this.button21.TabIndex = 2;
+            this.button21.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            this.button22.BackColor = System.Drawing.Color.DimGray;
+            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Location = new System.Drawing.Point(693, 420);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(6, 25);
+            this.button22.TabIndex = 2;
+            this.button22.UseVisualStyleBackColor = false;
+            // 
+            // button23
+            // 
+            this.button23.BackColor = System.Drawing.Color.DimGray;
+            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button23.FlatAppearance.BorderSize = 0;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Location = new System.Drawing.Point(645, 449);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(6, 25);
+            this.button23.TabIndex = 2;
+            this.button23.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.DimGray;
+            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Location = new System.Drawing.Point(693, 449);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(6, 25);
+            this.button24.TabIndex = 2;
+            this.button24.UseVisualStyleBackColor = false;
+            // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.DimGray;
+            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button25.FlatAppearance.BorderSize = 0;
+            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button25.Location = new System.Drawing.Point(674, 420);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(6, 25);
+            this.button25.TabIndex = 2;
+            this.button25.UseVisualStyleBackColor = false;
+            // 
+            // button26
+            // 
+            this.button26.BackColor = System.Drawing.Color.DimGray;
+            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Location = new System.Drawing.Point(722, 420);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(6, 25);
+            this.button26.TabIndex = 2;
+            this.button26.UseVisualStyleBackColor = false;
+            // 
+            // button27
+            // 
+            this.button27.BackColor = System.Drawing.Color.DimGray;
+            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button27.FlatAppearance.BorderSize = 0;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Location = new System.Drawing.Point(674, 449);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(6, 25);
+            this.button27.TabIndex = 2;
+            this.button27.UseVisualStyleBackColor = false;
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.DimGray;
+            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Location = new System.Drawing.Point(722, 449);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(6, 25);
+            this.button28.TabIndex = 2;
+            this.button28.UseVisualStyleBackColor = false;
+            // 
+            // button29
+            // 
+            this.button29.BackColor = System.Drawing.Color.DimGray;
+            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button29.FlatAppearance.BorderSize = 0;
+            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button29.Location = new System.Drawing.Point(650, 444);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(25, 6);
+            this.button29.TabIndex = 2;
+            this.button29.UseVisualStyleBackColor = false;
+            // 
+            // button30
+            // 
+            this.button30.BackColor = System.Drawing.Color.DimGray;
+            this.button30.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button30.FlatAppearance.BorderSize = 0;
+            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button30.Location = new System.Drawing.Point(698, 444);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(25, 6);
+            this.button30.TabIndex = 2;
+            this.button30.UseVisualStyleBackColor = false;
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.DimGray;
+            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button31.FlatAppearance.BorderSize = 0;
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.Location = new System.Drawing.Point(751, 415);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(25, 6);
+            this.button31.TabIndex = 2;
+            this.button31.UseVisualStyleBackColor = false;
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.DimGray;
+            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button32.FlatAppearance.BorderSize = 0;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Location = new System.Drawing.Point(799, 415);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(25, 6);
+            this.button32.TabIndex = 2;
+            this.button32.UseVisualStyleBackColor = false;
+            // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.DimGray;
+            this.button33.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button33.FlatAppearance.BorderSize = 0;
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.Location = new System.Drawing.Point(751, 473);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(25, 6);
+            this.button33.TabIndex = 2;
+            this.button33.UseVisualStyleBackColor = false;
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.DimGray;
+            this.button34.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button34.FlatAppearance.BorderSize = 0;
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.Location = new System.Drawing.Point(799, 473);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(25, 6);
+            this.button34.TabIndex = 2;
+            this.button34.UseVisualStyleBackColor = false;
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.DimGray;
+            this.button35.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button35.FlatAppearance.BorderSize = 0;
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.Location = new System.Drawing.Point(746, 420);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(6, 25);
+            this.button35.TabIndex = 2;
+            this.button35.UseVisualStyleBackColor = false;
+            // 
+            // button36
+            // 
+            this.button36.BackColor = System.Drawing.Color.DimGray;
+            this.button36.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button36.FlatAppearance.BorderSize = 0;
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button36.Location = new System.Drawing.Point(794, 420);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(6, 25);
+            this.button36.TabIndex = 2;
+            this.button36.UseVisualStyleBackColor = false;
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.DimGray;
+            this.button37.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button37.FlatAppearance.BorderSize = 0;
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Location = new System.Drawing.Point(746, 449);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(6, 25);
+            this.button37.TabIndex = 2;
+            this.button37.UseVisualStyleBackColor = false;
+            // 
+            // button38
+            // 
+            this.button38.BackColor = System.Drawing.Color.DimGray;
+            this.button38.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button38.FlatAppearance.BorderSize = 0;
+            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button38.Location = new System.Drawing.Point(794, 449);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(6, 25);
+            this.button38.TabIndex = 2;
+            this.button38.UseVisualStyleBackColor = false;
+            // 
+            // button39
+            // 
+            this.button39.BackColor = System.Drawing.Color.DimGray;
+            this.button39.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button39.FlatAppearance.BorderSize = 0;
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Location = new System.Drawing.Point(775, 420);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(6, 25);
+            this.button39.TabIndex = 2;
+            this.button39.UseVisualStyleBackColor = false;
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.DimGray;
+            this.button40.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button40.FlatAppearance.BorderSize = 0;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Location = new System.Drawing.Point(823, 420);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(6, 25);
+            this.button40.TabIndex = 2;
+            this.button40.UseVisualStyleBackColor = false;
+            // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.DimGray;
+            this.button41.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button41.FlatAppearance.BorderSize = 0;
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.Location = new System.Drawing.Point(775, 449);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(6, 25);
+            this.button41.TabIndex = 2;
+            this.button41.UseVisualStyleBackColor = false;
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.DimGray;
+            this.button42.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button42.FlatAppearance.BorderSize = 0;
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.Location = new System.Drawing.Point(823, 449);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(6, 25);
+            this.button42.TabIndex = 2;
+            this.button42.UseVisualStyleBackColor = false;
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.DimGray;
+            this.button43.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button43.FlatAppearance.BorderSize = 0;
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.Location = new System.Drawing.Point(751, 444);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(25, 6);
+            this.button43.TabIndex = 2;
+            this.button43.UseVisualStyleBackColor = false;
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.DimGray;
+            this.button44.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button44.FlatAppearance.BorderSize = 0;
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.Location = new System.Drawing.Point(799, 444);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(25, 6);
+            this.button44.TabIndex = 2;
+            this.button44.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -3655,26 +4801,68 @@ namespace SevenSegmentClock
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(973, 596);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
+            this.Controls.Add(this.btnDate3S);
+            this.Controls.Add(this.btnDate2S);
+            this.Controls.Add(this.btnDate1S);
+            this.Controls.Add(this.btnDate3N);
+            this.Controls.Add(this.btnDate2N);
+            this.Controls.Add(this.btnDate1N);
+            this.Controls.Add(this.btnDate3P);
+            this.Controls.Add(this.btnDate2P);
+            this.Controls.Add(this.btnDate1P);
+            this.Controls.Add(this.btnDate3H);
+            this.Controls.Add(this.btnDate2H);
+            this.Controls.Add(this.btnDate1H);
+            this.Controls.Add(this.btnDate3F);
+            this.Controls.Add(this.btnDate2F);
+            this.Controls.Add(this.btnDate1F);
+            this.Controls.Add(this.btnDate3Q);
+            this.Controls.Add(this.btnDate2Q);
+            this.Controls.Add(this.btnDate1Q);
+            this.Controls.Add(this.btnDate3U);
+            this.Controls.Add(this.btnDate2U);
+            this.Controls.Add(this.btnDate1U);
+            this.Controls.Add(this.btnDate3I);
+            this.Controls.Add(this.btnDate2I);
+            this.Controls.Add(this.btnDate1I);
+            this.Controls.Add(this.btnDate3K);
+            this.Controls.Add(this.btnDate2K);
+            this.Controls.Add(this.btnDate1K);
+            this.Controls.Add(this.btnDate3L);
+            this.Controls.Add(this.btnDate2L);
+            this.Controls.Add(this.btnDate1L);
+            this.Controls.Add(this.btnDate3T);
+            this.Controls.Add(this.btnDate2T);
+            this.Controls.Add(this.btnDate1T);
+            this.Controls.Add(this.btnDate3B);
+            this.Controls.Add(this.btnDate2B);
             this.Controls.Add(this.btnDate1B);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button19);
+            this.Controls.Add(this.btnDate3J);
+            this.Controls.Add(this.btnDate2J);
+            this.Controls.Add(this.btnDate1J);
+            this.Controls.Add(this.btnDate3R);
+            this.Controls.Add(this.btnDate3D);
+            this.Controls.Add(this.btnDate2R);
+            this.Controls.Add(this.btnDate2D);
+            this.Controls.Add(this.btnDate3O);
+            this.Controls.Add(this.btnDate1R);
+            this.Controls.Add(this.btnDate2O);
+            this.Controls.Add(this.btnDate3M);
+            this.Controls.Add(this.btnDate1D);
+            this.Controls.Add(this.btnDate2M);
+            this.Controls.Add(this.btnDate3A);
+            this.Controls.Add(this.btnDate1O);
+            this.Controls.Add(this.btnDate2A);
+            this.Controls.Add(this.btnDate3G);
+            this.Controls.Add(this.btnDate1M);
+            this.Controls.Add(this.btnDate2G);
+            this.Controls.Add(this.btnDate3E);
             this.Controls.Add(this.btnDate1A);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button22);
+            this.Controls.Add(this.btnDate2E);
+            this.Controls.Add(this.btnDate3C);
+            this.Controls.Add(this.btnDate1G);
+            this.Controls.Add(this.btnDate2C);
+            this.Controls.Add(this.btnDate1E);
             this.Controls.Add(this.btnDate1C);
             this.Controls.Add(this.btn9S);
             this.Controls.Add(this.btn6S);
@@ -3873,12 +5061,24 @@ namespace SevenSegmentClock
             this.Controls.Add(this.btnSec1G);
             this.Controls.Add(this.btnHrs1G);
             this.Controls.Add(this.btnMin1G);
+            this.Controls.Add(this.button44);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button43);
+            this.Controls.Add(this.button29);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.btnSec2G);
             this.Controls.Add(this.btnHrs2G);
             this.Controls.Add(this.btnMin2G);
             this.Controls.Add(this.btnSec1C);
             this.Controls.Add(this.btnHrs1C);
             this.Controls.Add(this.btnMin1C);
+            this.Controls.Add(this.button42);
+            this.Controls.Add(this.button28);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button41);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.btnSec2C);
             this.Controls.Add(this.btnHrs2C);
             this.Controls.Add(this.btnMin2C);
@@ -3887,21 +5087,51 @@ namespace SevenSegmentClock
             this.Controls.Add(this.btnHrs1B);
             this.Controls.Add(this.btnMin1B);
             this.Controls.Add(this.btnHrs1E);
+            this.Controls.Add(this.button40);
+            this.Controls.Add(this.button39);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.btnSec2B);
             this.Controls.Add(this.btnMin1E);
             this.Controls.Add(this.btnHrs2B);
+            this.Controls.Add(this.button38);
             this.Controls.Add(this.btnSec1F);
+            this.Controls.Add(this.button24);
             this.Controls.Add(this.btnMin2B);
+            this.Controls.Add(this.button37);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button23);
             this.Controls.Add(this.btnHrs1F);
+            this.Controls.Add(this.button36);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button22);
             this.Controls.Add(this.btnSec2E);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button21);
             this.Controls.Add(this.btnMin1F);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.btnHrs2E);
             this.Controls.Add(this.btnSec2F);
+            this.Controls.Add(this.button34);
             this.Controls.Add(this.btnMin2E);
+            this.Controls.Add(this.button20);
             this.Controls.Add(this.btnHrs2F);
+            this.Controls.Add(this.button33);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button19);
             this.Controls.Add(this.btnMin2F);
+            this.Controls.Add(this.button32);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button18);
             this.Controls.Add(this.btnSec1D);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button17);
             this.Controls.Add(this.btnSec2D);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnSec1A);
             this.Controls.Add(this.btnSec2A);
             this.Controls.Add(this.btnHrs1D);
@@ -4168,6 +5398,69 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button btn9S;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDate1S;
+        private System.Windows.Forms.Button btnDate1N;
+        private System.Windows.Forms.Button btnDate1P;
+        private System.Windows.Forms.Button btnDate1H;
+        private System.Windows.Forms.Button btnDate1F;
+        private System.Windows.Forms.Button btnDate1Q;
+        private System.Windows.Forms.Button btnDate1U;
+        private System.Windows.Forms.Button btnDate1I;
+        private System.Windows.Forms.Button btnDate1K;
+        private System.Windows.Forms.Button btnDate1L;
+        private System.Windows.Forms.Button btnDate1T;
+        private System.Windows.Forms.Button btnDate1B;
+        private System.Windows.Forms.Button btnDate1J;
+        private System.Windows.Forms.Button btnDate1R;
+        private System.Windows.Forms.Button btnDate1D;
+        private System.Windows.Forms.Button btnDate1O;
+        private System.Windows.Forms.Button btnDate1M;
+        private System.Windows.Forms.Button btnDate1A;
+        private System.Windows.Forms.Button btnDate1G;
+        private System.Windows.Forms.Button btnDate1E;
+        private System.Windows.Forms.Button btnDate1C;
+        private System.Windows.Forms.Button btnDate2C;
+        private System.Windows.Forms.Button btnDate2E;
+        private System.Windows.Forms.Button btnDate2G;
+        private System.Windows.Forms.Button btnDate2A;
+        private System.Windows.Forms.Button btnDate2M;
+        private System.Windows.Forms.Button btnDate2O;
+        private System.Windows.Forms.Button btnDate2D;
+        private System.Windows.Forms.Button btnDate2R;
+        private System.Windows.Forms.Button btnDate2J;
+        private System.Windows.Forms.Button btnDate2B;
+        private System.Windows.Forms.Button btnDate2T;
+        private System.Windows.Forms.Button btnDate2L;
+        private System.Windows.Forms.Button btnDate2K;
+        private System.Windows.Forms.Button btnDate2I;
+        private System.Windows.Forms.Button btnDate2U;
+        private System.Windows.Forms.Button btnDate2Q;
+        private System.Windows.Forms.Button btnDate2F;
+        private System.Windows.Forms.Button btnDate2H;
+        private System.Windows.Forms.Button btnDate2P;
+        private System.Windows.Forms.Button btnDate2N;
+        private System.Windows.Forms.Button btnDate2S;
+        private System.Windows.Forms.Button btnDate3C;
+        private System.Windows.Forms.Button btnDate3E;
+        private System.Windows.Forms.Button btnDate3G;
+        private System.Windows.Forms.Button btnDate3A;
+        private System.Windows.Forms.Button btnDate3M;
+        private System.Windows.Forms.Button btnDate3O;
+        private System.Windows.Forms.Button btnDate3D;
+        private System.Windows.Forms.Button btnDate3R;
+        private System.Windows.Forms.Button btnDate3J;
+        private System.Windows.Forms.Button btnDate3B;
+        private System.Windows.Forms.Button btnDate3T;
+        private System.Windows.Forms.Button btnDate3L;
+        private System.Windows.Forms.Button btnDate3K;
+        private System.Windows.Forms.Button btnDate3I;
+        private System.Windows.Forms.Button btnDate3U;
+        private System.Windows.Forms.Button btnDate3Q;
+        private System.Windows.Forms.Button btnDate3F;
+        private System.Windows.Forms.Button btnDate3H;
+        private System.Windows.Forms.Button btnDate3P;
+        private System.Windows.Forms.Button btnDate3N;
+        private System.Windows.Forms.Button btnDate3S;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
@@ -4179,16 +5472,37 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button btnDate1B;
+        private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button btnDate1A;
+        private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button btnDate1C;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button43;
+        private System.Windows.Forms.Button button44;
     }
 }
 
