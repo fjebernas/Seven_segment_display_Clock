@@ -393,6 +393,8 @@ namespace SevenSegmentClock
             this.comboYearDigits = new System.Windows.Forms.ComboBox();
             this.comboBoxDayDigits = new System.Windows.Forms.ComboBox();
             this.comboBoxMonthNames = new System.Windows.Forms.ComboBox();
+            this.label12Hour = new System.Windows.Forms.Label();
+            this.label24Hour = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBackground)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -403,7 +405,7 @@ namespace SevenSegmentClock
             this.btnHrs2F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2F.FlatAppearance.BorderSize = 0;
             this.btnHrs2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2F.Location = new System.Drawing.Point(295, 237);
+            this.btnHrs2F.Location = new System.Drawing.Point(283, 237);
             this.btnHrs2F.Name = "btnHrs2F";
             this.btnHrs2F.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2F.TabIndex = 2;
@@ -416,7 +418,7 @@ namespace SevenSegmentClock
             this.btnHrs2E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2E.FlatAppearance.BorderSize = 0;
             this.btnHrs2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2E.Location = new System.Drawing.Point(295, 292);
+            this.btnHrs2E.Location = new System.Drawing.Point(283, 292);
             this.btnHrs2E.Name = "btnHrs2E";
             this.btnHrs2E.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2E.TabIndex = 2;
@@ -429,7 +431,7 @@ namespace SevenSegmentClock
             this.btnHrs1F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1F.FlatAppearance.BorderSize = 0;
             this.btnHrs1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1F.Location = new System.Drawing.Point(370, 237);
+            this.btnHrs1F.Location = new System.Drawing.Point(358, 237);
             this.btnHrs1F.Name = "btnHrs1F";
             this.btnHrs1F.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1F.TabIndex = 2;
@@ -442,7 +444,7 @@ namespace SevenSegmentClock
             this.btnHrs2B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2B.FlatAppearance.BorderSize = 0;
             this.btnHrs2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2B.Location = new System.Drawing.Point(344, 237);
+            this.btnHrs2B.Location = new System.Drawing.Point(332, 237);
             this.btnHrs2B.Name = "btnHrs2B";
             this.btnHrs2B.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2B.TabIndex = 2;
@@ -455,7 +457,7 @@ namespace SevenSegmentClock
             this.btnHrs1E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1E.FlatAppearance.BorderSize = 0;
             this.btnHrs1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1E.Location = new System.Drawing.Point(370, 292);
+            this.btnHrs1E.Location = new System.Drawing.Point(358, 292);
             this.btnHrs1E.Name = "btnHrs1E";
             this.btnHrs1E.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1E.TabIndex = 2;
@@ -468,7 +470,7 @@ namespace SevenSegmentClock
             this.btnHrs1B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1B.FlatAppearance.BorderSize = 0;
             this.btnHrs1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1B.Location = new System.Drawing.Point(419, 237);
+            this.btnHrs1B.Location = new System.Drawing.Point(407, 237);
             this.btnHrs1B.Name = "btnHrs1B";
             this.btnHrs1B.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1B.TabIndex = 2;
@@ -481,7 +483,7 @@ namespace SevenSegmentClock
             this.btnHrs2C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2C.FlatAppearance.BorderSize = 0;
             this.btnHrs2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2C.Location = new System.Drawing.Point(344, 292);
+            this.btnHrs2C.Location = new System.Drawing.Point(332, 292);
             this.btnHrs2C.Name = "btnHrs2C";
             this.btnHrs2C.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2C.TabIndex = 2;
@@ -494,7 +496,7 @@ namespace SevenSegmentClock
             this.btnHrs1C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1C.FlatAppearance.BorderSize = 0;
             this.btnHrs1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1C.Location = new System.Drawing.Point(419, 292);
+            this.btnHrs1C.Location = new System.Drawing.Point(407, 292);
             this.btnHrs1C.Name = "btnHrs1C";
             this.btnHrs1C.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1C.TabIndex = 2;
@@ -507,7 +509,7 @@ namespace SevenSegmentClock
             this.btnHrs2A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2A.FlatAppearance.BorderSize = 0;
             this.btnHrs2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2A.Location = new System.Drawing.Point(301, 227);
+            this.btnHrs2A.Location = new System.Drawing.Point(289, 227);
             this.btnHrs2A.Name = "btnHrs2A";
             this.btnHrs2A.Size = new System.Drawing.Size(49, 12);
             this.btnHrs2A.TabIndex = 2;
@@ -520,7 +522,7 @@ namespace SevenSegmentClock
             this.btnHrs1A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1A.FlatAppearance.BorderSize = 0;
             this.btnHrs1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1A.Location = new System.Drawing.Point(376, 227);
+            this.btnHrs1A.Location = new System.Drawing.Point(364, 227);
             this.btnHrs1A.Name = "btnHrs1A";
             this.btnHrs1A.Size = new System.Drawing.Size(49, 12);
             this.btnHrs1A.TabIndex = 2;
@@ -533,7 +535,7 @@ namespace SevenSegmentClock
             this.btnHrs2G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2G.FlatAppearance.BorderSize = 0;
             this.btnHrs2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2G.Location = new System.Drawing.Point(301, 283);
+            this.btnHrs2G.Location = new System.Drawing.Point(289, 283);
             this.btnHrs2G.Name = "btnHrs2G";
             this.btnHrs2G.Size = new System.Drawing.Size(49, 12);
             this.btnHrs2G.TabIndex = 2;
@@ -546,7 +548,7 @@ namespace SevenSegmentClock
             this.btnHrs1G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1G.FlatAppearance.BorderSize = 0;
             this.btnHrs1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1G.Location = new System.Drawing.Point(376, 283);
+            this.btnHrs1G.Location = new System.Drawing.Point(364, 283);
             this.btnHrs1G.Name = "btnHrs1G";
             this.btnHrs1G.Size = new System.Drawing.Size(49, 12);
             this.btnHrs1G.TabIndex = 2;
@@ -559,7 +561,7 @@ namespace SevenSegmentClock
             this.btnHrs2D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs2D.FlatAppearance.BorderSize = 0;
             this.btnHrs2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs2D.Location = new System.Drawing.Point(301, 339);
+            this.btnHrs2D.Location = new System.Drawing.Point(289, 339);
             this.btnHrs2D.Name = "btnHrs2D";
             this.btnHrs2D.Size = new System.Drawing.Size(49, 12);
             this.btnHrs2D.TabIndex = 2;
@@ -572,7 +574,7 @@ namespace SevenSegmentClock
             this.btnHrs1D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnHrs1D.FlatAppearance.BorderSize = 0;
             this.btnHrs1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHrs1D.Location = new System.Drawing.Point(376, 339);
+            this.btnHrs1D.Location = new System.Drawing.Point(364, 339);
             this.btnHrs1D.Name = "btnHrs1D";
             this.btnHrs1D.Size = new System.Drawing.Size(49, 12);
             this.btnHrs1D.TabIndex = 2;
@@ -585,7 +587,7 @@ namespace SevenSegmentClock
             this.btnMin2F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2F.FlatAppearance.BorderSize = 0;
             this.btnMin2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2F.Location = new System.Drawing.Point(485, 237);
+            this.btnMin2F.Location = new System.Drawing.Point(473, 237);
             this.btnMin2F.Name = "btnMin2F";
             this.btnMin2F.Size = new System.Drawing.Size(12, 49);
             this.btnMin2F.TabIndex = 2;
@@ -598,7 +600,7 @@ namespace SevenSegmentClock
             this.btnMin2E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2E.FlatAppearance.BorderSize = 0;
             this.btnMin2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2E.Location = new System.Drawing.Point(485, 292);
+            this.btnMin2E.Location = new System.Drawing.Point(473, 292);
             this.btnMin2E.Name = "btnMin2E";
             this.btnMin2E.Size = new System.Drawing.Size(12, 49);
             this.btnMin2E.TabIndex = 2;
@@ -611,7 +613,7 @@ namespace SevenSegmentClock
             this.btnSec2F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2F.FlatAppearance.BorderSize = 0;
             this.btnSec2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2F.Location = new System.Drawing.Point(656, 279);
+            this.btnSec2F.Location = new System.Drawing.Point(644, 279);
             this.btnSec2F.Name = "btnSec2F";
             this.btnSec2F.Size = new System.Drawing.Size(8, 30);
             this.btnSec2F.TabIndex = 2;
@@ -624,7 +626,7 @@ namespace SevenSegmentClock
             this.btnMin1F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1F.FlatAppearance.BorderSize = 0;
             this.btnMin1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1F.Location = new System.Drawing.Point(560, 237);
+            this.btnMin1F.Location = new System.Drawing.Point(548, 237);
             this.btnMin1F.Name = "btnMin1F";
             this.btnMin1F.Size = new System.Drawing.Size(12, 49);
             this.btnMin1F.TabIndex = 2;
@@ -637,7 +639,7 @@ namespace SevenSegmentClock
             this.btnSec2E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2E.FlatAppearance.BorderSize = 0;
             this.btnSec2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2E.Location = new System.Drawing.Point(656, 315);
+            this.btnSec2E.Location = new System.Drawing.Point(644, 315);
             this.btnSec2E.Name = "btnSec2E";
             this.btnSec2E.Size = new System.Drawing.Size(8, 30);
             this.btnSec2E.TabIndex = 2;
@@ -650,7 +652,7 @@ namespace SevenSegmentClock
             this.btnMin2B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2B.FlatAppearance.BorderSize = 0;
             this.btnMin2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2B.Location = new System.Drawing.Point(534, 237);
+            this.btnMin2B.Location = new System.Drawing.Point(522, 237);
             this.btnMin2B.Name = "btnMin2B";
             this.btnMin2B.Size = new System.Drawing.Size(12, 49);
             this.btnMin2B.TabIndex = 2;
@@ -663,7 +665,7 @@ namespace SevenSegmentClock
             this.btnSec1F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1F.FlatAppearance.BorderSize = 0;
             this.btnSec1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1F.Location = new System.Drawing.Point(709, 279);
+            this.btnSec1F.Location = new System.Drawing.Point(697, 279);
             this.btnSec1F.Name = "btnSec1F";
             this.btnSec1F.Size = new System.Drawing.Size(8, 30);
             this.btnSec1F.TabIndex = 2;
@@ -676,7 +678,7 @@ namespace SevenSegmentClock
             this.btnMin1E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1E.FlatAppearance.BorderSize = 0;
             this.btnMin1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1E.Location = new System.Drawing.Point(560, 292);
+            this.btnMin1E.Location = new System.Drawing.Point(548, 292);
             this.btnMin1E.Name = "btnMin1E";
             this.btnMin1E.Size = new System.Drawing.Size(12, 49);
             this.btnMin1E.TabIndex = 2;
@@ -689,7 +691,7 @@ namespace SevenSegmentClock
             this.btnSec2B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2B.FlatAppearance.BorderSize = 0;
             this.btnSec2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2B.Location = new System.Drawing.Point(689, 279);
+            this.btnSec2B.Location = new System.Drawing.Point(677, 279);
             this.btnSec2B.Name = "btnSec2B";
             this.btnSec2B.Size = new System.Drawing.Size(8, 30);
             this.btnSec2B.TabIndex = 2;
@@ -702,7 +704,7 @@ namespace SevenSegmentClock
             this.btnMin1B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1B.FlatAppearance.BorderSize = 0;
             this.btnMin1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1B.Location = new System.Drawing.Point(609, 237);
+            this.btnMin1B.Location = new System.Drawing.Point(597, 237);
             this.btnMin1B.Name = "btnMin1B";
             this.btnMin1B.Size = new System.Drawing.Size(12, 49);
             this.btnMin1B.TabIndex = 2;
@@ -715,7 +717,7 @@ namespace SevenSegmentClock
             this.btnSec1E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1E.FlatAppearance.BorderSize = 0;
             this.btnSec1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1E.Location = new System.Drawing.Point(709, 314);
+            this.btnSec1E.Location = new System.Drawing.Point(697, 314);
             this.btnSec1E.Name = "btnSec1E";
             this.btnSec1E.Size = new System.Drawing.Size(8, 30);
             this.btnSec1E.TabIndex = 2;
@@ -728,7 +730,7 @@ namespace SevenSegmentClock
             this.btnSec1B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1B.FlatAppearance.BorderSize = 0;
             this.btnSec1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1B.Location = new System.Drawing.Point(741, 279);
+            this.btnSec1B.Location = new System.Drawing.Point(729, 279);
             this.btnSec1B.Name = "btnSec1B";
             this.btnSec1B.Size = new System.Drawing.Size(8, 30);
             this.btnSec1B.TabIndex = 2;
@@ -741,7 +743,7 @@ namespace SevenSegmentClock
             this.btnMin2C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2C.FlatAppearance.BorderSize = 0;
             this.btnMin2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2C.Location = new System.Drawing.Point(534, 292);
+            this.btnMin2C.Location = new System.Drawing.Point(522, 292);
             this.btnMin2C.Name = "btnMin2C";
             this.btnMin2C.Size = new System.Drawing.Size(12, 49);
             this.btnMin2C.TabIndex = 2;
@@ -754,7 +756,7 @@ namespace SevenSegmentClock
             this.btnSec2C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2C.FlatAppearance.BorderSize = 0;
             this.btnSec2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2C.Location = new System.Drawing.Point(688, 315);
+            this.btnSec2C.Location = new System.Drawing.Point(676, 315);
             this.btnSec2C.Name = "btnSec2C";
             this.btnSec2C.Size = new System.Drawing.Size(8, 30);
             this.btnSec2C.TabIndex = 2;
@@ -767,7 +769,7 @@ namespace SevenSegmentClock
             this.btnMin1C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1C.FlatAppearance.BorderSize = 0;
             this.btnMin1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1C.Location = new System.Drawing.Point(609, 292);
+            this.btnMin1C.Location = new System.Drawing.Point(597, 292);
             this.btnMin1C.Name = "btnMin1C";
             this.btnMin1C.Size = new System.Drawing.Size(12, 49);
             this.btnMin1C.TabIndex = 2;
@@ -780,7 +782,7 @@ namespace SevenSegmentClock
             this.btnSec1C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1C.FlatAppearance.BorderSize = 0;
             this.btnSec1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1C.Location = new System.Drawing.Point(741, 315);
+            this.btnSec1C.Location = new System.Drawing.Point(729, 315);
             this.btnSec1C.Name = "btnSec1C";
             this.btnSec1C.Size = new System.Drawing.Size(8, 30);
             this.btnSec1C.TabIndex = 2;
@@ -793,7 +795,7 @@ namespace SevenSegmentClock
             this.btnMin2A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2A.FlatAppearance.BorderSize = 0;
             this.btnMin2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2A.Location = new System.Drawing.Point(491, 227);
+            this.btnMin2A.Location = new System.Drawing.Point(479, 227);
             this.btnMin2A.Name = "btnMin2A";
             this.btnMin2A.Size = new System.Drawing.Size(49, 12);
             this.btnMin2A.TabIndex = 2;
@@ -806,7 +808,7 @@ namespace SevenSegmentClock
             this.btnSec2A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2A.FlatAppearance.BorderSize = 0;
             this.btnSec2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2A.Location = new System.Drawing.Point(661, 274);
+            this.btnSec2A.Location = new System.Drawing.Point(649, 274);
             this.btnSec2A.Name = "btnSec2A";
             this.btnSec2A.Size = new System.Drawing.Size(30, 8);
             this.btnSec2A.TabIndex = 2;
@@ -819,7 +821,7 @@ namespace SevenSegmentClock
             this.btnMin1A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1A.FlatAppearance.BorderSize = 0;
             this.btnMin1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1A.Location = new System.Drawing.Point(566, 227);
+            this.btnMin1A.Location = new System.Drawing.Point(554, 227);
             this.btnMin1A.Name = "btnMin1A";
             this.btnMin1A.Size = new System.Drawing.Size(49, 12);
             this.btnMin1A.TabIndex = 2;
@@ -832,7 +834,7 @@ namespace SevenSegmentClock
             this.btnSec1A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1A.FlatAppearance.BorderSize = 0;
             this.btnSec1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1A.Location = new System.Drawing.Point(714, 274);
+            this.btnSec1A.Location = new System.Drawing.Point(702, 274);
             this.btnSec1A.Name = "btnSec1A";
             this.btnSec1A.Size = new System.Drawing.Size(30, 8);
             this.btnSec1A.TabIndex = 2;
@@ -845,7 +847,7 @@ namespace SevenSegmentClock
             this.btnMin2G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2G.FlatAppearance.BorderSize = 0;
             this.btnMin2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2G.Location = new System.Drawing.Point(491, 283);
+            this.btnMin2G.Location = new System.Drawing.Point(479, 283);
             this.btnMin2G.Name = "btnMin2G";
             this.btnMin2G.Size = new System.Drawing.Size(49, 12);
             this.btnMin2G.TabIndex = 2;
@@ -858,7 +860,7 @@ namespace SevenSegmentClock
             this.btnSec2G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2G.FlatAppearance.BorderSize = 0;
             this.btnSec2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2G.Location = new System.Drawing.Point(661, 309);
+            this.btnSec2G.Location = new System.Drawing.Point(649, 309);
             this.btnSec2G.Name = "btnSec2G";
             this.btnSec2G.Size = new System.Drawing.Size(30, 8);
             this.btnSec2G.TabIndex = 2;
@@ -871,7 +873,7 @@ namespace SevenSegmentClock
             this.btnMin1G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1G.FlatAppearance.BorderSize = 0;
             this.btnMin1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1G.Location = new System.Drawing.Point(566, 283);
+            this.btnMin1G.Location = new System.Drawing.Point(554, 283);
             this.btnMin1G.Name = "btnMin1G";
             this.btnMin1G.Size = new System.Drawing.Size(49, 12);
             this.btnMin1G.TabIndex = 2;
@@ -884,7 +886,7 @@ namespace SevenSegmentClock
             this.btnSec1G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1G.FlatAppearance.BorderSize = 0;
             this.btnSec1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1G.Location = new System.Drawing.Point(714, 308);
+            this.btnSec1G.Location = new System.Drawing.Point(702, 308);
             this.btnSec1G.Name = "btnSec1G";
             this.btnSec1G.Size = new System.Drawing.Size(30, 8);
             this.btnSec1G.TabIndex = 2;
@@ -897,7 +899,7 @@ namespace SevenSegmentClock
             this.btnMin2D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin2D.FlatAppearance.BorderSize = 0;
             this.btnMin2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin2D.Location = new System.Drawing.Point(491, 339);
+            this.btnMin2D.Location = new System.Drawing.Point(479, 339);
             this.btnMin2D.Name = "btnMin2D";
             this.btnMin2D.Size = new System.Drawing.Size(49, 12);
             this.btnMin2D.TabIndex = 2;
@@ -910,7 +912,7 @@ namespace SevenSegmentClock
             this.btnSec2D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec2D.FlatAppearance.BorderSize = 0;
             this.btnSec2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec2D.Location = new System.Drawing.Point(662, 344);
+            this.btnSec2D.Location = new System.Drawing.Point(650, 344);
             this.btnSec2D.Name = "btnSec2D";
             this.btnSec2D.Size = new System.Drawing.Size(30, 8);
             this.btnSec2D.TabIndex = 2;
@@ -923,7 +925,7 @@ namespace SevenSegmentClock
             this.btnMin1D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnMin1D.FlatAppearance.BorderSize = 0;
             this.btnMin1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMin1D.Location = new System.Drawing.Point(566, 339);
+            this.btnMin1D.Location = new System.Drawing.Point(554, 339);
             this.btnMin1D.Name = "btnMin1D";
             this.btnMin1D.Size = new System.Drawing.Size(49, 12);
             this.btnMin1D.TabIndex = 2;
@@ -936,7 +938,7 @@ namespace SevenSegmentClock
             this.btnSec1D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnSec1D.FlatAppearance.BorderSize = 0;
             this.btnSec1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSec1D.Location = new System.Drawing.Point(714, 344);
+            this.btnSec1D.Location = new System.Drawing.Point(702, 344);
             this.btnSec1D.Name = "btnSec1D";
             this.btnSec1D.Size = new System.Drawing.Size(30, 8);
             this.btnSec1D.TabIndex = 2;
@@ -955,7 +957,7 @@ namespace SevenSegmentClock
             this.btnBlinker.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btnBlinker.FlatAppearance.BorderSize = 0;
             this.btnBlinker.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBlinker.Location = new System.Drawing.Point(765, 340);
+            this.btnBlinker.Location = new System.Drawing.Point(753, 340);
             this.btnBlinker.Name = "btnBlinker";
             this.btnBlinker.Size = new System.Drawing.Size(11, 12);
             this.btnBlinker.TabIndex = 5;
@@ -983,7 +985,7 @@ namespace SevenSegmentClock
             this.labelMeridiemAM.BackColor = System.Drawing.Color.Transparent;
             this.labelMeridiemAM.Font = new System.Drawing.Font("Segoe UI Historic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMeridiemAM.ForeColor = System.Drawing.Color.DimGray;
-            this.labelMeridiemAM.Location = new System.Drawing.Point(185, 258);
+            this.labelMeridiemAM.Location = new System.Drawing.Point(173, 258);
             this.labelMeridiemAM.Name = "labelMeridiemAM";
             this.labelMeridiemAM.Size = new System.Drawing.Size(70, 45);
             this.labelMeridiemAM.TabIndex = 7;
@@ -1009,7 +1011,7 @@ namespace SevenSegmentClock
             this.pictureBoxBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxBackground.Location = new System.Drawing.Point(36, 28);
             this.pictureBoxBackground.Name = "pictureBoxBackground";
-            this.pictureBoxBackground.Size = new System.Drawing.Size(37, 73);
+            this.pictureBoxBackground.Size = new System.Drawing.Size(899, 496);
             this.pictureBoxBackground.TabIndex = 9;
             this.pictureBoxBackground.TabStop = false;
             // 
@@ -1019,7 +1021,7 @@ namespace SevenSegmentClock
             this.labelMeridiemPM.BackColor = System.Drawing.Color.Transparent;
             this.labelMeridiemPM.Font = new System.Drawing.Font("Segoe UI Historic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMeridiemPM.ForeColor = System.Drawing.Color.DimGray;
-            this.labelMeridiemPM.Location = new System.Drawing.Point(186, 307);
+            this.labelMeridiemPM.Location = new System.Drawing.Point(174, 307);
             this.labelMeridiemPM.Name = "labelMeridiemPM";
             this.labelMeridiemPM.Size = new System.Drawing.Size(67, 45);
             this.labelMeridiemPM.TabIndex = 7;
@@ -3488,7 +3490,7 @@ namespace SevenSegmentClock
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(452, 268);
+            this.button2.Location = new System.Drawing.Point(440, 268);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(11, 12);
             this.button2.TabIndex = 5;
@@ -3501,7 +3503,7 @@ namespace SevenSegmentClock
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(452, 300);
+            this.button3.Location = new System.Drawing.Point(440, 300);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(11, 12);
             this.button3.TabIndex = 5;
@@ -5330,6 +5332,30 @@ namespace SevenSegmentClock
             this.comboBoxMonthNames.TabIndex = 33;
             this.comboBoxMonthNames.Tag = "dropDown";
             // 
+            // label12Hour
+            // 
+            this.label12Hour.AutoSize = true;
+            this.label12Hour.BackColor = System.Drawing.Color.Transparent;
+            this.label12Hour.Font = new System.Drawing.Font("Segoe UI Historic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12Hour.ForeColor = System.Drawing.Color.DimGray;
+            this.label12Hour.Location = new System.Drawing.Point(790, 257);
+            this.label12Hour.Name = "label12Hour";
+            this.label12Hour.Size = new System.Drawing.Size(89, 30);
+            this.label12Hour.TabIndex = 7;
+            this.label12Hour.Text = "12-Hour";
+            // 
+            // label24Hour
+            // 
+            this.label24Hour.AutoSize = true;
+            this.label24Hour.BackColor = System.Drawing.Color.Transparent;
+            this.label24Hour.Font = new System.Drawing.Font("Segoe UI Historic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24Hour.ForeColor = System.Drawing.Color.DimGray;
+            this.label24Hour.Location = new System.Drawing.Point(790, 291);
+            this.label24Hour.Name = "label24Hour";
+            this.label24Hour.Size = new System.Drawing.Size(89, 30);
+            this.label24Hour.TabIndex = 7;
+            this.label24Hour.Text = "24-Hour";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5677,6 +5703,8 @@ namespace SevenSegmentClock
             this.Controls.Add(this.btnHrs2A);
             this.Controls.Add(this.btnMin2A);
             this.Controls.Add(this.labelMeridiemPM);
+            this.Controls.Add(this.label24Hour);
+            this.Controls.Add(this.label12Hour);
             this.Controls.Add(this.labelMeridiemAM);
             this.Controls.Add(this.pictureBoxBackground);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -6057,6 +6085,8 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Label labelDayNameDD;
         private System.Windows.Forms.Label labelMeridiemDD;
         private System.Windows.Forms.ComboBox comboBoxMeridiem;
+        private System.Windows.Forms.Label label12Hour;
+        private System.Windows.Forms.Label label24Hour;
     }
 }
 

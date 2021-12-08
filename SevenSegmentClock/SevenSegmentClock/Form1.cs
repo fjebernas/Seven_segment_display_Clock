@@ -21,6 +21,9 @@ namespace SevenSegmentClock
         Color BlueOn = ColorTranslator.FromHtml("#0E1EFF");
         Color BlueOff = ColorTranslator.FromHtml("#101122");
 
+        Color OrangeOn = Color.Orange;
+        Color OrangeOff = ColorTranslator.FromHtml("#35250B");
+
         Color backgroundColor = Color.Black;
 
         int flag = 1;
@@ -37,6 +40,9 @@ namespace SevenSegmentClock
 
             labelMeridiemAM.BackColor = backgroundColor;
             labelMeridiemPM.BackColor = backgroundColor;
+
+            label12Hour.ForeColor = OrangeOn;
+            label24Hour.ForeColor = OrangeOff;
 
             labelDayNameDD.ForeColor = GreenOff;
             labelMonthDD.ForeColor = BlueOff;
@@ -2472,11 +2478,15 @@ namespace SevenSegmentClock
             if (hourFormat == "HH")
             {
                 hourFormat = "hh";
+                label12Hour.ForeColor = OrangeOn;
+                label24Hour.ForeColor = OrangeOff;
                 btnHourFormat.Text = "To 24hr Format";
             } 
             else if (hourFormat == "hh")
             {
                 hourFormat = "HH";
+                label24Hour.ForeColor = OrangeOn;
+                label12Hour.ForeColor = OrangeOff;
                 btnHourFormat.Text = "To 12hr Format";
             }
         }
@@ -3458,6 +3468,9 @@ namespace SevenSegmentClock
                 labelMeridiemAM.ForeColor = RedOff;
                 labelMeridiemPM.ForeColor = RedOff;
 
+                label12Hour.ForeColor = OrangeOff;
+                label24Hour.ForeColor = OrangeOff;
+
                 comboBoxDayNames.Enabled = true;
                 comboBoxMonthNames.Enabled = true;
                 comboBoxDayDigits.Enabled = true;
@@ -3495,6 +3508,9 @@ namespace SevenSegmentClock
                 labelMinuteDD.ForeColor = RedOff;
                 labelSecondDD.ForeColor = RedOff;
                 labelMeridiemDD.ForeColor = RedOff;
+
+                label12Hour.ForeColor = OrangeOn;
+                label24Hour.ForeColor = OrangeOff;
             }
         }
 
