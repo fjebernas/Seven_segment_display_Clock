@@ -18,6 +18,9 @@ namespace SevenSegmentClock
         Color GreenOn = ColorTranslator.FromHtml("#09E21F");
         Color GreenOff = ColorTranslator.FromHtml("#0B1A0D");
         
+        Color BlueOn = ColorTranslator.FromHtml("#0E1EFF");
+        Color BlueOff = ColorTranslator.FromHtml("#191C3F");
+
         Color backgroundColor = Color.Black;
 
         int flag = 1;
@@ -71,8 +74,10 @@ namespace SevenSegmentClock
             string dayName = DateTime.Now.ToString("ddd");
 
             //for month name
-            string monthName = DateTime.Now.ToString("MMMM");
+            string monthName = DateTime.Now.ToString("MMM");
 
+
+            //Calling the functions
             sevenSegment(secondsOnes, "Seconds", "Ones");
             sevenSegment(secondsTens, "Seconds", "Tens");
 
@@ -85,7 +90,8 @@ namespace SevenSegmentClock
 
             BlinkingDot();
             Meridiem(meridiem);
-            dayNameController(dayName);
+            DayNameController(dayName);
+            MonthNameController(monthName);
         }
 
         private void sevenSegment(int num, string indicator, string placeValue)
@@ -770,11 +776,6 @@ namespace SevenSegmentClock
             }
         }
 
-        private void btnCloseForm_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void btnHourFormat_Click(object sender, EventArgs e)
         {
             if (hourFormat == "HH")
@@ -789,7 +790,7 @@ namespace SevenSegmentClock
             }
         }
 
-        private void dayNameController(string day)
+        private void DayNameController(string day)
         {
             foreach (Control x in Controls)
             {
@@ -942,34 +943,195 @@ namespace SevenSegmentClock
             }
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void MonthNameController(string month)
         {
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "monthBtn")
+                {
+                    x.BackColor = BlueOff;
+                }
+            }
 
+            List<Button> January = new List<Button>
+            {
+                btnDate1E, btnDate1F, btnDate1G, btnDate1H, btnDate1J, btnDate1K, btnDate1L, btnDate1N,
+                btnDate2G, btnDate2B, btnDate2C, btnDate2D, btnDate2F, btnDate2H, btnDate2M, btnDate2N, btnDate2O, btnDate2P, btnDate2T, btnDate2U, btnDate2I, btnDate2R,
+                btnDate3B, btnDate3C, btnDate3D, btnDate3F, btnDate3G, btnDate3H, btnDate3I, btnDate3M, btnDate3N, btnDate3O, btnDate3P,
+            };
+
+            List<Button> February = new List<Button>
+            {
+                btnDate1A, btnDate1B, btnDate1C, btnDate1D, btnDate1E, btnDate1N, btnDate1O, btnDate1P, btnDate1T, btnDate1U, btnDate1M,
+                btnDate2B, btnDate2C, btnDate2D, btnDate2A, btnDate2N, btnDate2J, btnDate2K, btnDate2L, btnDate2T, btnDate2P, btnDate2E, btnDate2M, btnDate2U, btnDate2I, btnDate2O,
+                btnDate3B, btnDate3C, btnDate3D, btnDate3A, btnDate3N, btnDate3J, btnDate3K, btnDate3L, btnDate3T, btnDate3P, btnDate3F, btnDate3M, btnDate3U, btnDate3H, btnDate3O, btnDate3R
+            };
+
+            List<Button> March = new List<Button>
+            {
+                btnDate1M, btnDate1N, btnDate1O, btnDate1P, btnDate1A, btnDate1B, btnDate1Q, btnDate1U, btnDate1D, btnDate1E, btnDate1F, btnDate1G, btnDate1H, btnDate1I,
+                btnDate2G, btnDate2B, btnDate2C, btnDate2D, btnDate2F, btnDate2H, btnDate2M, btnDate2N, btnDate2O, btnDate2P, btnDate2T, btnDate2U, btnDate2I, btnDate2R,
+                btnDate3A, btnDate3B, btnDate3C, btnDate3D, btnDate3F, btnDate3H, btnDate3M, btnDate3N, btnDate3O, btnDate3P, btnDate3T, btnDate3U, btnDate3I, btnDate3R,
+            };
+
+            List<Button> April = new List<Button>
+            {
+                btnDate1G, btnDate1B, btnDate1C, btnDate1D, btnDate1F, btnDate1H, btnDate1M, btnDate1N, btnDate1O, btnDate1P, btnDate1T, btnDate1U, btnDate1I, btnDate1R,
+                btnDate2A, btnDate2B, btnDate2C, btnDate2D, btnDate2F, btnDate2M, btnDate2N, btnDate2O, btnDate2P, btnDate2T, btnDate2U, btnDate2R,
+                btnDate3A, btnDate3B, btnDate3C, btnDate3D, btnDate3F, btnDate3H, btnDate3M, btnDate3N, btnDate3O, btnDate3P, btnDate3T, btnDate3U, btnDate3I, btnDate3R,
+            };
+
+            List<Button> May = new List<Button>
+            {
+                btnDate1M, btnDate1N, btnDate1O, btnDate1P, btnDate1A, btnDate1B, btnDate1Q, btnDate1U, btnDate1D, btnDate1E, btnDate1F, btnDate1G, btnDate1H, btnDate1I,
+                btnDate2G, btnDate2B, btnDate2C, btnDate2D, btnDate2F, btnDate2H, btnDate2M, btnDate2N, btnDate2O, btnDate2P, btnDate2T, btnDate2U, btnDate2I, btnDate2R,
+                btnDate3A, btnDate3T, btnDate3U, btnDate3F, btnDate3G, btnDate3R, btnDate3S, btnDate3K, btnDate3E, btnDate3O, btnDate3P
+            };
+
+            List<Button> June = new List<Button>
+            {
+                btnDate1E, btnDate1F, btnDate1G, btnDate1H, btnDate1J, btnDate1K, btnDate1L, btnDate1N,
+                btnDate2A, btnDate2E, btnDate2F, btnDate2G, btnDate2H, btnDate2J, btnDate2K, btnDate2L, btnDate2N, btnDate2O, btnDate2P,
+                btnDate3B, btnDate3C, btnDate3D, btnDate3F, btnDate3G, btnDate3H, btnDate3I, btnDate3M, btnDate3N, btnDate3O, btnDate3P,
+            };
+
+            List<Button> July = new List<Button>
+            {
+                btnDate1E, btnDate1F, btnDate1G, btnDate1H, btnDate1J, btnDate1K, btnDate1L, btnDate1N,
+                btnDate2A, btnDate2E, btnDate2F, btnDate2G, btnDate2H, btnDate2J, btnDate2K, btnDate2L, btnDate2N, btnDate2O, btnDate2P,
+                btnDate3A, btnDate3M, btnDate3N, btnDate3O, btnDate3P, btnDate3I, btnDate3J, btnDate3K, btnDate3L,
+            };
+
+            List<Button> August = new List<Button>
+            {
+                btnDate1G, btnDate1B, btnDate1C, btnDate1D, btnDate1F, btnDate1H, btnDate1M, btnDate1N, btnDate1O, btnDate1P, btnDate1T, btnDate1U, btnDate1I, btnDate1R,
+                btnDate2A, btnDate2E, btnDate2F, btnDate2G, btnDate2H, btnDate2J, btnDate2K, btnDate2L, btnDate2N, btnDate2O, btnDate2P,
+                btnDate3C, btnDate3B, btnDate3N, btnDate3O, btnDate3P, btnDate3H, btnDate3J, btnDate3K, btnDate3L, btnDate3D, btnDate3R, btnDate3U
+            };
+
+            List<Button> September = new List<Button>
+            {
+                btnDate1B, btnDate1C, btnDate1D, btnDate1R, btnDate1H, btnDate1J, btnDate1K, btnDate1L, btnDate1T, btnDate1P, btnDate1E, btnDate1M, btnDate1U, btnDate1R,
+                btnDate2B, btnDate2C, btnDate2D, btnDate2A, btnDate2N, btnDate2J, btnDate2K, btnDate2L, btnDate2T, btnDate2P, btnDate2E, btnDate2M, btnDate2U, btnDate2I, btnDate2O,
+                btnDate3A, btnDate3B, btnDate3C, btnDate3D, btnDate3F, btnDate3M, btnDate3N, btnDate3O, btnDate3P, btnDate3T, btnDate3U, btnDate3R,
+            };
+
+            List<Button> October = new List<Button>
+            {
+                btnDate1B, btnDate1C, btnDate1D, btnDate1F, btnDate1G, btnDate1H, btnDate1J, btnDate1K, btnDate1L, btnDate1N, btnDate1O, btnDate1P,
+                btnDate2B, btnDate2C, btnDate2D, btnDate2E, btnDate2I, btnDate2J, btnDate2K, btnDate2L, btnDate2N, btnDate2O, btnDate2P,
+                btnDate3C, btnDate3Q, btnDate3U, btnDate3S, btnDate3K, btnDate3A, btnDate3B, btnDate3D, btnDate3E,
+            };
+
+            List<Button> November = new List<Button>
+            {
+                btnDate1B, btnDate1C, btnDate1D, btnDate1F, btnDate1G, btnDate1H, btnDate1I, btnDate1M, btnDate1N, btnDate1O, btnDate1P,
+                btnDate2B, btnDate2C, btnDate2D, btnDate2F, btnDate2G, btnDate2H, btnDate2J, btnDate2K, btnDate2L, btnDate2N, btnDate2O, btnDate2P,
+                btnDate3A, btnDate3P, btnDate3T, btnDate3S, btnDate3R, btnDate3E, btnDate3F,
+            };
+
+            List<Button> December = new List<Button>
+            {
+                btnDate1A, btnDate1B, btnDate1C, btnDate1D, btnDate1F, btnDate1G, btnDate1H, btnDate1J, btnDate1K, btnDate1L, btnDate1M, btnDate1N, btnDate1O, btnDate1P,
+                btnDate2B, btnDate2C, btnDate2D, btnDate2A, btnDate2N, btnDate2J, btnDate2K, btnDate2L, btnDate2T, btnDate2P, btnDate2E, btnDate2M, btnDate2U, btnDate2I, btnDate2O,
+                btnDate3B, btnDate3C, btnDate3D, btnDate3E, btnDate3I, btnDate3J, btnDate3K, btnDate3L, btnDate3N, btnDate3O, btnDate3P,
+            };
+
+            switch (month)
+            {
+                case "Jan":
+                    foreach (Button x in January)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Feb":
+                    foreach (Button x in February)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Mar":
+                    foreach (Button x in March)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Apr":
+                    foreach (Button x in April)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "May":
+                    foreach (Button x in May)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Jun":
+                    foreach (Button x in June)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Jul":
+                    foreach (Button x in July)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Aug":
+                    foreach (Button x in August)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Sep":
+                    foreach (Button x in September)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Oct":
+                    foreach (Button x in October)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Nov":
+                    foreach (Button x in November)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "Dec":
+                    foreach (Button x in December)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
         }
+        
 
-        private void button8_Click(object sender, EventArgs e)
+        private void btnCloseForm_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

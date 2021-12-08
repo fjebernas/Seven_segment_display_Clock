@@ -3464,9 +3464,8 @@ namespace SevenSegmentClock
             this.btnDate1S.Name = "btnDate1S";
             this.btnDate1S.Size = new System.Drawing.Size(5, 22);
             this.btnDate1S.TabIndex = 11;
-            this.btnDate1S.Tag = "";
+            this.btnDate1S.Tag = "monthBtn";
             this.btnDate1S.UseVisualStyleBackColor = false;
-            this.btnDate1S.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnDate1N
             // 
@@ -3478,9 +3477,8 @@ namespace SevenSegmentClock
             this.btnDate1N.Name = "btnDate1N";
             this.btnDate1N.Size = new System.Drawing.Size(5, 22);
             this.btnDate1N.TabIndex = 29;
-            this.btnDate1N.Tag = "";
+            this.btnDate1N.Tag = "monthBtn";
             this.btnDate1N.UseVisualStyleBackColor = false;
-            this.btnDate1N.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnDate1P
             // 
@@ -3492,9 +3490,8 @@ namespace SevenSegmentClock
             this.btnDate1P.Name = "btnDate1P";
             this.btnDate1P.Size = new System.Drawing.Size(5, 22);
             this.btnDate1P.TabIndex = 28;
-            this.btnDate1P.Tag = "";
+            this.btnDate1P.Tag = "monthBtn";
             this.btnDate1P.UseVisualStyleBackColor = false;
-            this.btnDate1P.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnDate1H
             // 
@@ -3506,9 +3503,8 @@ namespace SevenSegmentClock
             this.btnDate1H.Name = "btnDate1H";
             this.btnDate1H.Size = new System.Drawing.Size(5, 22);
             this.btnDate1H.TabIndex = 27;
-            this.btnDate1H.Tag = "";
+            this.btnDate1H.Tag = "monthBtn";
             this.btnDate1H.UseVisualStyleBackColor = false;
-            this.btnDate1H.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnDate1F
             // 
@@ -3520,9 +3516,8 @@ namespace SevenSegmentClock
             this.btnDate1F.Name = "btnDate1F";
             this.btnDate1F.Size = new System.Drawing.Size(5, 22);
             this.btnDate1F.TabIndex = 26;
-            this.btnDate1F.Tag = "";
+            this.btnDate1F.Tag = "monthBtn";
             this.btnDate1F.UseVisualStyleBackColor = false;
-            this.btnDate1F.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnDate1Q
             // 
@@ -3534,9 +3529,8 @@ namespace SevenSegmentClock
             this.btnDate1Q.Name = "btnDate1Q";
             this.btnDate1Q.Size = new System.Drawing.Size(5, 22);
             this.btnDate1Q.TabIndex = 25;
-            this.btnDate1Q.Tag = "";
+            this.btnDate1Q.Tag = "monthBtn";
             this.btnDate1Q.UseVisualStyleBackColor = false;
-            this.btnDate1Q.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnDate1U
             // 
@@ -3548,7 +3542,7 @@ namespace SevenSegmentClock
             this.btnDate1U.Name = "btnDate1U";
             this.btnDate1U.Size = new System.Drawing.Size(5, 5);
             this.btnDate1U.TabIndex = 24;
-            this.btnDate1U.Tag = "";
+            this.btnDate1U.Tag = "monthBtn";
             this.btnDate1U.UseVisualStyleBackColor = false;
             // 
             // btnDate1I
@@ -3561,7 +3555,7 @@ namespace SevenSegmentClock
             this.btnDate1I.Name = "btnDate1I";
             this.btnDate1I.Size = new System.Drawing.Size(5, 5);
             this.btnDate1I.TabIndex = 23;
-            this.btnDate1I.Tag = "";
+            this.btnDate1I.Tag = "monthBtn";
             this.btnDate1I.UseVisualStyleBackColor = false;
             // 
             // btnDate1K
@@ -3574,7 +3568,7 @@ namespace SevenSegmentClock
             this.btnDate1K.Name = "btnDate1K";
             this.btnDate1K.Size = new System.Drawing.Size(5, 5);
             this.btnDate1K.TabIndex = 22;
-            this.btnDate1K.Tag = "";
+            this.btnDate1K.Tag = "monthBtn";
             this.btnDate1K.UseVisualStyleBackColor = false;
             // 
             // btnDate1L
@@ -3587,7 +3581,7 @@ namespace SevenSegmentClock
             this.btnDate1L.Name = "btnDate1L";
             this.btnDate1L.Size = new System.Drawing.Size(12, 5);
             this.btnDate1L.TabIndex = 30;
-            this.btnDate1L.Tag = "";
+            this.btnDate1L.Tag = "monthBtn";
             this.btnDate1L.UseVisualStyleBackColor = false;
             // 
             // btnDate1T
@@ -3600,7 +3594,7 @@ namespace SevenSegmentClock
             this.btnDate1T.Name = "btnDate1T";
             this.btnDate1T.Size = new System.Drawing.Size(12, 5);
             this.btnDate1T.TabIndex = 21;
-            this.btnDate1T.Tag = "";
+            this.btnDate1T.Tag = "monthBtn";
             this.btnDate1T.UseVisualStyleBackColor = false;
             // 
             // btnDate1B
@@ -3613,7 +3607,7 @@ namespace SevenSegmentClock
             this.btnDate1B.Name = "btnDate1B";
             this.btnDate1B.Size = new System.Drawing.Size(12, 5);
             this.btnDate1B.TabIndex = 19;
-            this.btnDate1B.Tag = "";
+            this.btnDate1B.Tag = "monthBtn";
             this.btnDate1B.UseVisualStyleBackColor = false;
             // 
             // btnDate1J
@@ -3626,7 +3620,7 @@ namespace SevenSegmentClock
             this.btnDate1J.Name = "btnDate1J";
             this.btnDate1J.Size = new System.Drawing.Size(12, 5);
             this.btnDate1J.TabIndex = 18;
-            this.btnDate1J.Tag = "";
+            this.btnDate1J.Tag = "monthBtn";
             this.btnDate1J.UseVisualStyleBackColor = false;
             // 
             // btnDate1R
@@ -3639,7 +3633,7 @@ namespace SevenSegmentClock
             this.btnDate1R.Name = "btnDate1R";
             this.btnDate1R.Size = new System.Drawing.Size(12, 5);
             this.btnDate1R.TabIndex = 17;
-            this.btnDate1R.Tag = "";
+            this.btnDate1R.Tag = "monthBtn";
             this.btnDate1R.UseVisualStyleBackColor = false;
             // 
             // btnDate1D
@@ -3652,7 +3646,7 @@ namespace SevenSegmentClock
             this.btnDate1D.Name = "btnDate1D";
             this.btnDate1D.Size = new System.Drawing.Size(12, 5);
             this.btnDate1D.TabIndex = 16;
-            this.btnDate1D.Tag = "";
+            this.btnDate1D.Tag = "monthBtn";
             this.btnDate1D.UseVisualStyleBackColor = false;
             // 
             // btnDate1O
@@ -3665,7 +3659,7 @@ namespace SevenSegmentClock
             this.btnDate1O.Name = "btnDate1O";
             this.btnDate1O.Size = new System.Drawing.Size(5, 5);
             this.btnDate1O.TabIndex = 15;
-            this.btnDate1O.Tag = "";
+            this.btnDate1O.Tag = "monthBtn";
             this.btnDate1O.UseVisualStyleBackColor = false;
             // 
             // btnDate1M
@@ -3678,7 +3672,7 @@ namespace SevenSegmentClock
             this.btnDate1M.Name = "btnDate1M";
             this.btnDate1M.Size = new System.Drawing.Size(5, 5);
             this.btnDate1M.TabIndex = 14;
-            this.btnDate1M.Tag = "";
+            this.btnDate1M.Tag = "monthBtn";
             this.btnDate1M.UseVisualStyleBackColor = false;
             // 
             // btnDate1A
@@ -3691,7 +3685,7 @@ namespace SevenSegmentClock
             this.btnDate1A.Name = "btnDate1A";
             this.btnDate1A.Size = new System.Drawing.Size(5, 5);
             this.btnDate1A.TabIndex = 13;
-            this.btnDate1A.Tag = "";
+            this.btnDate1A.Tag = "monthBtn";
             this.btnDate1A.UseVisualStyleBackColor = false;
             // 
             // btnDate1G
@@ -3704,7 +3698,7 @@ namespace SevenSegmentClock
             this.btnDate1G.Name = "btnDate1G";
             this.btnDate1G.Size = new System.Drawing.Size(5, 5);
             this.btnDate1G.TabIndex = 12;
-            this.btnDate1G.Tag = "";
+            this.btnDate1G.Tag = "monthBtn";
             this.btnDate1G.UseVisualStyleBackColor = false;
             // 
             // btnDate1E
@@ -3717,7 +3711,7 @@ namespace SevenSegmentClock
             this.btnDate1E.Name = "btnDate1E";
             this.btnDate1E.Size = new System.Drawing.Size(5, 5);
             this.btnDate1E.TabIndex = 20;
-            this.btnDate1E.Tag = "";
+            this.btnDate1E.Tag = "monthBtn";
             this.btnDate1E.UseVisualStyleBackColor = false;
             // 
             // btnDate1C
@@ -3730,7 +3724,7 @@ namespace SevenSegmentClock
             this.btnDate1C.Name = "btnDate1C";
             this.btnDate1C.Size = new System.Drawing.Size(5, 5);
             this.btnDate1C.TabIndex = 31;
-            this.btnDate1C.Tag = "";
+            this.btnDate1C.Tag = "monthBtn";
             this.btnDate1C.UseVisualStyleBackColor = false;
             // 
             // btnDate2C
@@ -3743,7 +3737,7 @@ namespace SevenSegmentClock
             this.btnDate2C.Name = "btnDate2C";
             this.btnDate2C.Size = new System.Drawing.Size(5, 5);
             this.btnDate2C.TabIndex = 31;
-            this.btnDate2C.Tag = "";
+            this.btnDate2C.Tag = "monthBtn";
             this.btnDate2C.UseVisualStyleBackColor = false;
             // 
             // btnDate2E
@@ -3756,7 +3750,7 @@ namespace SevenSegmentClock
             this.btnDate2E.Name = "btnDate2E";
             this.btnDate2E.Size = new System.Drawing.Size(5, 5);
             this.btnDate2E.TabIndex = 20;
-            this.btnDate2E.Tag = "";
+            this.btnDate2E.Tag = "monthBtn";
             this.btnDate2E.UseVisualStyleBackColor = false;
             // 
             // btnDate2G
@@ -3769,7 +3763,7 @@ namespace SevenSegmentClock
             this.btnDate2G.Name = "btnDate2G";
             this.btnDate2G.Size = new System.Drawing.Size(5, 5);
             this.btnDate2G.TabIndex = 12;
-            this.btnDate2G.Tag = "";
+            this.btnDate2G.Tag = "monthBtn";
             this.btnDate2G.UseVisualStyleBackColor = false;
             // 
             // btnDate2A
@@ -3782,7 +3776,7 @@ namespace SevenSegmentClock
             this.btnDate2A.Name = "btnDate2A";
             this.btnDate2A.Size = new System.Drawing.Size(5, 5);
             this.btnDate2A.TabIndex = 13;
-            this.btnDate2A.Tag = "";
+            this.btnDate2A.Tag = "monthBtn";
             this.btnDate2A.UseVisualStyleBackColor = false;
             // 
             // btnDate2M
@@ -3795,7 +3789,7 @@ namespace SevenSegmentClock
             this.btnDate2M.Name = "btnDate2M";
             this.btnDate2M.Size = new System.Drawing.Size(5, 5);
             this.btnDate2M.TabIndex = 14;
-            this.btnDate2M.Tag = "";
+            this.btnDate2M.Tag = "monthBtn";
             this.btnDate2M.UseVisualStyleBackColor = false;
             // 
             // btnDate2O
@@ -3808,7 +3802,7 @@ namespace SevenSegmentClock
             this.btnDate2O.Name = "btnDate2O";
             this.btnDate2O.Size = new System.Drawing.Size(5, 5);
             this.btnDate2O.TabIndex = 15;
-            this.btnDate2O.Tag = "";
+            this.btnDate2O.Tag = "monthBtn";
             this.btnDate2O.UseVisualStyleBackColor = false;
             // 
             // btnDate2D
@@ -3821,7 +3815,7 @@ namespace SevenSegmentClock
             this.btnDate2D.Name = "btnDate2D";
             this.btnDate2D.Size = new System.Drawing.Size(12, 5);
             this.btnDate2D.TabIndex = 16;
-            this.btnDate2D.Tag = "";
+            this.btnDate2D.Tag = "monthBtn";
             this.btnDate2D.UseVisualStyleBackColor = false;
             // 
             // btnDate2R
@@ -3834,7 +3828,7 @@ namespace SevenSegmentClock
             this.btnDate2R.Name = "btnDate2R";
             this.btnDate2R.Size = new System.Drawing.Size(12, 5);
             this.btnDate2R.TabIndex = 17;
-            this.btnDate2R.Tag = "";
+            this.btnDate2R.Tag = "monthBtn";
             this.btnDate2R.UseVisualStyleBackColor = false;
             // 
             // btnDate2J
@@ -3847,7 +3841,7 @@ namespace SevenSegmentClock
             this.btnDate2J.Name = "btnDate2J";
             this.btnDate2J.Size = new System.Drawing.Size(12, 5);
             this.btnDate2J.TabIndex = 18;
-            this.btnDate2J.Tag = "";
+            this.btnDate2J.Tag = "monthBtn";
             this.btnDate2J.UseVisualStyleBackColor = false;
             // 
             // btnDate2B
@@ -3860,7 +3854,7 @@ namespace SevenSegmentClock
             this.btnDate2B.Name = "btnDate2B";
             this.btnDate2B.Size = new System.Drawing.Size(12, 5);
             this.btnDate2B.TabIndex = 19;
-            this.btnDate2B.Tag = "";
+            this.btnDate2B.Tag = "monthBtn";
             this.btnDate2B.UseVisualStyleBackColor = false;
             // 
             // btnDate2T
@@ -3873,7 +3867,7 @@ namespace SevenSegmentClock
             this.btnDate2T.Name = "btnDate2T";
             this.btnDate2T.Size = new System.Drawing.Size(12, 5);
             this.btnDate2T.TabIndex = 21;
-            this.btnDate2T.Tag = "";
+            this.btnDate2T.Tag = "monthBtn";
             this.btnDate2T.UseVisualStyleBackColor = false;
             // 
             // btnDate2L
@@ -3886,7 +3880,7 @@ namespace SevenSegmentClock
             this.btnDate2L.Name = "btnDate2L";
             this.btnDate2L.Size = new System.Drawing.Size(12, 5);
             this.btnDate2L.TabIndex = 30;
-            this.btnDate2L.Tag = "";
+            this.btnDate2L.Tag = "monthBtn";
             this.btnDate2L.UseVisualStyleBackColor = false;
             // 
             // btnDate2K
@@ -3899,7 +3893,7 @@ namespace SevenSegmentClock
             this.btnDate2K.Name = "btnDate2K";
             this.btnDate2K.Size = new System.Drawing.Size(5, 5);
             this.btnDate2K.TabIndex = 22;
-            this.btnDate2K.Tag = "";
+            this.btnDate2K.Tag = "monthBtn";
             this.btnDate2K.UseVisualStyleBackColor = false;
             // 
             // btnDate2I
@@ -3912,7 +3906,7 @@ namespace SevenSegmentClock
             this.btnDate2I.Name = "btnDate2I";
             this.btnDate2I.Size = new System.Drawing.Size(5, 5);
             this.btnDate2I.TabIndex = 23;
-            this.btnDate2I.Tag = "";
+            this.btnDate2I.Tag = "monthBtn";
             this.btnDate2I.UseVisualStyleBackColor = false;
             // 
             // btnDate2U
@@ -3925,7 +3919,7 @@ namespace SevenSegmentClock
             this.btnDate2U.Name = "btnDate2U";
             this.btnDate2U.Size = new System.Drawing.Size(5, 5);
             this.btnDate2U.TabIndex = 24;
-            this.btnDate2U.Tag = "";
+            this.btnDate2U.Tag = "monthBtn";
             this.btnDate2U.UseVisualStyleBackColor = false;
             // 
             // btnDate2Q
@@ -3938,9 +3932,8 @@ namespace SevenSegmentClock
             this.btnDate2Q.Name = "btnDate2Q";
             this.btnDate2Q.Size = new System.Drawing.Size(5, 22);
             this.btnDate2Q.TabIndex = 25;
-            this.btnDate2Q.Tag = "";
+            this.btnDate2Q.Tag = "monthBtn";
             this.btnDate2Q.UseVisualStyleBackColor = false;
-            this.btnDate2Q.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnDate2F
             // 
@@ -3952,9 +3945,8 @@ namespace SevenSegmentClock
             this.btnDate2F.Name = "btnDate2F";
             this.btnDate2F.Size = new System.Drawing.Size(5, 22);
             this.btnDate2F.TabIndex = 26;
-            this.btnDate2F.Tag = "";
+            this.btnDate2F.Tag = "monthBtn";
             this.btnDate2F.UseVisualStyleBackColor = false;
-            this.btnDate2F.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnDate2H
             // 
@@ -3966,9 +3958,8 @@ namespace SevenSegmentClock
             this.btnDate2H.Name = "btnDate2H";
             this.btnDate2H.Size = new System.Drawing.Size(5, 22);
             this.btnDate2H.TabIndex = 27;
-            this.btnDate2H.Tag = "";
+            this.btnDate2H.Tag = "monthBtn";
             this.btnDate2H.UseVisualStyleBackColor = false;
-            this.btnDate2H.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnDate2P
             // 
@@ -3980,9 +3971,8 @@ namespace SevenSegmentClock
             this.btnDate2P.Name = "btnDate2P";
             this.btnDate2P.Size = new System.Drawing.Size(5, 22);
             this.btnDate2P.TabIndex = 28;
-            this.btnDate2P.Tag = "";
+            this.btnDate2P.Tag = "monthBtn";
             this.btnDate2P.UseVisualStyleBackColor = false;
-            this.btnDate2P.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnDate2N
             // 
@@ -3994,9 +3984,8 @@ namespace SevenSegmentClock
             this.btnDate2N.Name = "btnDate2N";
             this.btnDate2N.Size = new System.Drawing.Size(5, 22);
             this.btnDate2N.TabIndex = 29;
-            this.btnDate2N.Tag = "";
+            this.btnDate2N.Tag = "monthBtn";
             this.btnDate2N.UseVisualStyleBackColor = false;
-            this.btnDate2N.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnDate2S
             // 
@@ -4008,9 +3997,8 @@ namespace SevenSegmentClock
             this.btnDate2S.Name = "btnDate2S";
             this.btnDate2S.Size = new System.Drawing.Size(5, 22);
             this.btnDate2S.TabIndex = 11;
-            this.btnDate2S.Tag = "";
+            this.btnDate2S.Tag = "monthBtn";
             this.btnDate2S.UseVisualStyleBackColor = false;
-            this.btnDate2S.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnDate3C
             // 
@@ -4022,7 +4010,7 @@ namespace SevenSegmentClock
             this.btnDate3C.Name = "btnDate3C";
             this.btnDate3C.Size = new System.Drawing.Size(5, 5);
             this.btnDate3C.TabIndex = 31;
-            this.btnDate3C.Tag = "";
+            this.btnDate3C.Tag = "monthBtn";
             this.btnDate3C.UseVisualStyleBackColor = false;
             // 
             // btnDate3E
@@ -4035,7 +4023,7 @@ namespace SevenSegmentClock
             this.btnDate3E.Name = "btnDate3E";
             this.btnDate3E.Size = new System.Drawing.Size(5, 5);
             this.btnDate3E.TabIndex = 20;
-            this.btnDate3E.Tag = "";
+            this.btnDate3E.Tag = "monthBtn";
             this.btnDate3E.UseVisualStyleBackColor = false;
             // 
             // btnDate3G
@@ -4048,7 +4036,7 @@ namespace SevenSegmentClock
             this.btnDate3G.Name = "btnDate3G";
             this.btnDate3G.Size = new System.Drawing.Size(5, 5);
             this.btnDate3G.TabIndex = 12;
-            this.btnDate3G.Tag = "";
+            this.btnDate3G.Tag = "monthBtn";
             this.btnDate3G.UseVisualStyleBackColor = false;
             // 
             // btnDate3A
@@ -4061,7 +4049,7 @@ namespace SevenSegmentClock
             this.btnDate3A.Name = "btnDate3A";
             this.btnDate3A.Size = new System.Drawing.Size(5, 5);
             this.btnDate3A.TabIndex = 13;
-            this.btnDate3A.Tag = "";
+            this.btnDate3A.Tag = "monthBtn";
             this.btnDate3A.UseVisualStyleBackColor = false;
             // 
             // btnDate3M
@@ -4074,7 +4062,7 @@ namespace SevenSegmentClock
             this.btnDate3M.Name = "btnDate3M";
             this.btnDate3M.Size = new System.Drawing.Size(5, 5);
             this.btnDate3M.TabIndex = 14;
-            this.btnDate3M.Tag = "";
+            this.btnDate3M.Tag = "monthBtn";
             this.btnDate3M.UseVisualStyleBackColor = false;
             // 
             // btnDate3O
@@ -4087,7 +4075,7 @@ namespace SevenSegmentClock
             this.btnDate3O.Name = "btnDate3O";
             this.btnDate3O.Size = new System.Drawing.Size(5, 5);
             this.btnDate3O.TabIndex = 15;
-            this.btnDate3O.Tag = "";
+            this.btnDate3O.Tag = "monthBtn";
             this.btnDate3O.UseVisualStyleBackColor = false;
             // 
             // btnDate3D
@@ -4100,7 +4088,7 @@ namespace SevenSegmentClock
             this.btnDate3D.Name = "btnDate3D";
             this.btnDate3D.Size = new System.Drawing.Size(12, 5);
             this.btnDate3D.TabIndex = 16;
-            this.btnDate3D.Tag = "";
+            this.btnDate3D.Tag = "monthBtn";
             this.btnDate3D.UseVisualStyleBackColor = false;
             // 
             // btnDate3R
@@ -4113,7 +4101,7 @@ namespace SevenSegmentClock
             this.btnDate3R.Name = "btnDate3R";
             this.btnDate3R.Size = new System.Drawing.Size(12, 5);
             this.btnDate3R.TabIndex = 17;
-            this.btnDate3R.Tag = "";
+            this.btnDate3R.Tag = "monthBtn";
             this.btnDate3R.UseVisualStyleBackColor = false;
             // 
             // btnDate3J
@@ -4126,7 +4114,7 @@ namespace SevenSegmentClock
             this.btnDate3J.Name = "btnDate3J";
             this.btnDate3J.Size = new System.Drawing.Size(12, 5);
             this.btnDate3J.TabIndex = 18;
-            this.btnDate3J.Tag = "";
+            this.btnDate3J.Tag = "monthBtn";
             this.btnDate3J.UseVisualStyleBackColor = false;
             // 
             // btnDate3B
@@ -4139,7 +4127,7 @@ namespace SevenSegmentClock
             this.btnDate3B.Name = "btnDate3B";
             this.btnDate3B.Size = new System.Drawing.Size(12, 5);
             this.btnDate3B.TabIndex = 19;
-            this.btnDate3B.Tag = "";
+            this.btnDate3B.Tag = "monthBtn";
             this.btnDate3B.UseVisualStyleBackColor = false;
             // 
             // btnDate3T
@@ -4152,7 +4140,7 @@ namespace SevenSegmentClock
             this.btnDate3T.Name = "btnDate3T";
             this.btnDate3T.Size = new System.Drawing.Size(12, 5);
             this.btnDate3T.TabIndex = 21;
-            this.btnDate3T.Tag = "";
+            this.btnDate3T.Tag = "monthBtn";
             this.btnDate3T.UseVisualStyleBackColor = false;
             // 
             // btnDate3L
@@ -4165,7 +4153,7 @@ namespace SevenSegmentClock
             this.btnDate3L.Name = "btnDate3L";
             this.btnDate3L.Size = new System.Drawing.Size(12, 5);
             this.btnDate3L.TabIndex = 30;
-            this.btnDate3L.Tag = "";
+            this.btnDate3L.Tag = "monthBtn";
             this.btnDate3L.UseVisualStyleBackColor = false;
             // 
             // btnDate3K
@@ -4178,7 +4166,7 @@ namespace SevenSegmentClock
             this.btnDate3K.Name = "btnDate3K";
             this.btnDate3K.Size = new System.Drawing.Size(5, 5);
             this.btnDate3K.TabIndex = 22;
-            this.btnDate3K.Tag = "";
+            this.btnDate3K.Tag = "monthBtn";
             this.btnDate3K.UseVisualStyleBackColor = false;
             // 
             // btnDate3I
@@ -4191,7 +4179,7 @@ namespace SevenSegmentClock
             this.btnDate3I.Name = "btnDate3I";
             this.btnDate3I.Size = new System.Drawing.Size(5, 5);
             this.btnDate3I.TabIndex = 23;
-            this.btnDate3I.Tag = "";
+            this.btnDate3I.Tag = "monthBtn";
             this.btnDate3I.UseVisualStyleBackColor = false;
             // 
             // btnDate3U
@@ -4204,7 +4192,7 @@ namespace SevenSegmentClock
             this.btnDate3U.Name = "btnDate3U";
             this.btnDate3U.Size = new System.Drawing.Size(5, 5);
             this.btnDate3U.TabIndex = 24;
-            this.btnDate3U.Tag = "";
+            this.btnDate3U.Tag = "monthBtn";
             this.btnDate3U.UseVisualStyleBackColor = false;
             // 
             // btnDate3Q
@@ -4217,9 +4205,8 @@ namespace SevenSegmentClock
             this.btnDate3Q.Name = "btnDate3Q";
             this.btnDate3Q.Size = new System.Drawing.Size(5, 22);
             this.btnDate3Q.TabIndex = 25;
-            this.btnDate3Q.Tag = "";
+            this.btnDate3Q.Tag = "monthBtn";
             this.btnDate3Q.UseVisualStyleBackColor = false;
-            this.btnDate3Q.Click += new System.EventHandler(this.button8_Click);
             // 
             // btnDate3F
             // 
@@ -4231,9 +4218,8 @@ namespace SevenSegmentClock
             this.btnDate3F.Name = "btnDate3F";
             this.btnDate3F.Size = new System.Drawing.Size(5, 22);
             this.btnDate3F.TabIndex = 26;
-            this.btnDate3F.Tag = "";
+            this.btnDate3F.Tag = "monthBtn";
             this.btnDate3F.UseVisualStyleBackColor = false;
-            this.btnDate3F.Click += new System.EventHandler(this.button7_Click);
             // 
             // btnDate3H
             // 
@@ -4245,9 +4231,8 @@ namespace SevenSegmentClock
             this.btnDate3H.Name = "btnDate3H";
             this.btnDate3H.Size = new System.Drawing.Size(5, 22);
             this.btnDate3H.TabIndex = 27;
-            this.btnDate3H.Tag = "";
+            this.btnDate3H.Tag = "monthBtn";
             this.btnDate3H.UseVisualStyleBackColor = false;
-            this.btnDate3H.Click += new System.EventHandler(this.button6_Click);
             // 
             // btnDate3P
             // 
@@ -4259,9 +4244,8 @@ namespace SevenSegmentClock
             this.btnDate3P.Name = "btnDate3P";
             this.btnDate3P.Size = new System.Drawing.Size(5, 22);
             this.btnDate3P.TabIndex = 28;
-            this.btnDate3P.Tag = "";
+            this.btnDate3P.Tag = "monthBtn";
             this.btnDate3P.UseVisualStyleBackColor = false;
-            this.btnDate3P.Click += new System.EventHandler(this.button5_Click);
             // 
             // btnDate3N
             // 
@@ -4273,9 +4257,8 @@ namespace SevenSegmentClock
             this.btnDate3N.Name = "btnDate3N";
             this.btnDate3N.Size = new System.Drawing.Size(5, 22);
             this.btnDate3N.TabIndex = 29;
-            this.btnDate3N.Tag = "";
+            this.btnDate3N.Tag = "monthBtn";
             this.btnDate3N.UseVisualStyleBackColor = false;
-            this.btnDate3N.Click += new System.EventHandler(this.button4_Click);
             // 
             // btnDate3S
             // 
@@ -4287,9 +4270,8 @@ namespace SevenSegmentClock
             this.btnDate3S.Name = "btnDate3S";
             this.btnDate3S.Size = new System.Drawing.Size(5, 22);
             this.btnDate3S.TabIndex = 11;
-            this.btnDate3S.Tag = "";
+            this.btnDate3S.Tag = "monthBtn";
             this.btnDate3S.UseVisualStyleBackColor = false;
-            this.btnDate3S.Click += new System.EventHandler(this.button1_Click);
             // 
             // button1
             // 
