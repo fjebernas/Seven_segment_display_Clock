@@ -815,7 +815,7 @@ namespace SevenSegmentClock
 
                 btn5A, btn5B, btn5C, btn5D, btn5F, btn5G, btn5H, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P,
                 btn6G, btn6B, btn6C, btn6D, btn6F, btn6H, btn6M, btn6N, btn6O, btn6P, btn6T, btn6U, btn6I, btn6R,
-                btn7A, btn7T, btn7U, btn7F, btn7G, btn7R, btn7S, btn7K, btn7E, btn7O, btn7P
+                btn7A, btn7T, btn7U, btn7F, btn7R, btn7S, btn7K, btn7E, btn7P
             };
 
             List<Button> Tuesday = new List<Button>
@@ -827,7 +827,7 @@ namespace SevenSegmentClock
 
                 btn6A, btn6B, btn6C, btn6D, btn6F, btn6G, btn6H, btn6J, btn6K, btn6L, btn6M, btn6N, btn6O, btn6P,
                 btn7G, btn7B, btn7C, btn7D, btn7F, btn7H, btn7M, btn7N, btn7O, btn7P, btn7T, btn7U, btn7I, btn7R,
-                btn8A, btn8T, btn8U, btn8F, btn8G, btn8R, btn8S, btn8K, btn8E, btn8O, btn8P
+                btn8A, btn8T, btn8U, btn8F, btn8R, btn8S, btn8K, btn8E, btn8P
             };
 
             List<Button> Wednesday = new List<Button>
@@ -842,7 +842,7 @@ namespace SevenSegmentClock
 
                 btn7A, btn7B, btn7C, btn7D, btn7F, btn7G, btn7H, btn7J, btn7K, btn7L, btn7M, btn7N, btn7O, btn7P,
                 btn8G, btn8B, btn8C, btn8D, btn8F, btn8H, btn8M, btn8N, btn8O, btn8P, btn8T, btn8U, btn8I, btn8R,
-                btn9A, btn9T, btn9U, btn9F, btn9G, btn9R, btn9S, btn9K, btn9E, btn9O, btn9P
+                btn9A, btn9T, btn9U, btn9F, btn9R, btn9S, btn9K, btn9E, btn9P
             };
 
             List<Button> Thursday = new List<Button>
@@ -855,7 +855,7 @@ namespace SevenSegmentClock
 
                 btn6A, btn6B, btn6C, btn6D, btn6F, btn6G, btn6H, btn6J, btn6K, btn6L, btn6M, btn6N, btn6O, btn6P,
                 btn7G, btn7B, btn7C, btn7D, btn7F, btn7H, btn7M, btn7N, btn7O, btn7P, btn7T, btn7U, btn7I, btn7R,
-                btn8A, btn8T, btn8U, btn8F, btn8G, btn8R, btn8S, btn8K, btn8E, btn8O, btn8P
+                btn8A, btn8T, btn8U, btn8F, btn8R, btn8S, btn8K, btn8E, btn8P
             };
 
             List<Button> Friday = new List<Button>
@@ -866,7 +866,7 @@ namespace SevenSegmentClock
 
                 btn5A, btn5B, btn5C, btn5D, btn5F, btn5G, btn5H, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P,
                 btn6G, btn6B, btn6C, btn6D, btn6F, btn6H, btn6M, btn6N, btn6O, btn6P, btn6T, btn6U, btn6I, btn6R,
-                btn7A, btn7T, btn7U, btn7F, btn7G, btn7R, btn7S, btn7K, btn7E, btn7O, btn7P
+                btn7A, btn7T, btn7U, btn7F, btn7R, btn7S, btn7K, btn7E, btn7P
             };
 
             List<Button> Saturday = new List<Button>
@@ -880,7 +880,7 @@ namespace SevenSegmentClock
 
                 btn6A, btn6B, btn6C, btn6D, btn6F, btn6G, btn6H, btn6J, btn6K, btn6L, btn6M, btn6N, btn6O, btn6P,
                 btn7G, btn7B, btn7C, btn7D, btn7F, btn7H, btn7M, btn7N, btn7O, btn7P, btn7T, btn7U, btn7I, btn7R,
-                btn8A, btn8T, btn8U, btn8F, btn8G, btn8R, btn8S, btn8K, btn8E, btn8O, btn8P
+                btn8A, btn8T, btn8U, btn8F, btn8R, btn8S, btn8K, btn8E, btn8P
             };
 
             List<Button> Sunday = new List<Button>
@@ -891,7 +891,7 @@ namespace SevenSegmentClock
 
                 btn5A, btn5B, btn5C, btn5D, btn5F, btn5G, btn5H, btn5J, btn5K, btn5L, btn5M, btn5N, btn5O, btn5P,
                 btn6G, btn6B, btn6C, btn6D, btn6F, btn6H, btn6M, btn6N, btn6O, btn6P, btn6T, btn6U, btn6I, btn6R,
-                btn7A, btn7T, btn7U, btn7F, btn7G, btn7R, btn7S, btn7K, btn7E, btn7O, btn7P
+                btn7A, btn7T, btn7U, btn7F, btn7R, btn7S, btn7K, btn7E, btn7P
             };
 
             switch (day)
@@ -1754,5 +1754,30 @@ namespace SevenSegmentClock
             this.Close();
         }
 
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        private void checkBoxEditDate_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxEditDate.Checked == true)
+            {
+                comboBoxDayNames.Enabled = true;
+                comboBoxMonthNames.Enabled = true;
+                comboBoxDayDigits.Enabled = true;
+                comboYearDigits.Enabled = true;
+                comboBoxHourDigits.Enabled = true;
+                comboBoxMinuteDigits.Enabled = true;
+                comboBoxSecondDigits.Enabled = true;
+            } 
+            else
+            {
+                comboBoxDayNames.Enabled = false;
+                comboBoxMonthNames.Enabled = false;
+                comboBoxDayDigits.Enabled = false;
+                comboYearDigits.Enabled = false;
+                comboBoxHourDigits.Enabled = false;
+                comboBoxMinuteDigits.Enabled = false;
+                comboBoxSecondDigits.Enabled = false;
+            }
+        }
     }
 }
