@@ -19,7 +19,7 @@ namespace SevenSegmentClock
         Color GreenOff = ColorTranslator.FromHtml("#0B1A0D");
         
         Color BlueOn = ColorTranslator.FromHtml("#0E1EFF");
-        Color BlueOff = ColorTranslator.FromHtml("#191C3F");
+        Color BlueOff = ColorTranslator.FromHtml("#101122");
 
         Color backgroundColor = Color.Black;
 
@@ -76,6 +76,8 @@ namespace SevenSegmentClock
             //for month name
             string monthName = DateTime.Now.ToString("MMM");
 
+            //for the day of the month
+            string dayDigits = DateTime.Now.ToString("dd");
 
             //Calling the functions
             sevenSegment(secondsOnes, "Seconds", "Ones");
@@ -92,6 +94,7 @@ namespace SevenSegmentClock
             Meridiem(meridiem);
             DayNameController(dayName);
             MonthNameController(monthName);
+            DayDigitsController(dayDigits);
         }
 
         private void sevenSegment(int num, string indicator, string placeValue)
@@ -1128,10 +1131,399 @@ namespace SevenSegmentClock
             }
         }
         
+        private void DayDigitsController(string digits)
+        {
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "dayDigitBtn")
+                {
+                    x.BackColor = BlueOff;
+                }
+            }
+
+            List<Button> Zero = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2B, btnDateDay2C, btnDateDay2D, btnDateDay2E, btnDateDay2F
+            };
+
+            List<Button> OnesOne = new List<Button>
+            {
+                btnDateDay2B, btnDateDay2C
+            };
+
+            List<Button> OnesTwo = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2B, btnDateDay2G, btnDateDay2E, btnDateDay2D
+            };
+
+            List<Button> OnesThree = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2B, btnDateDay2G, btnDateDay2C, btnDateDay2D
+            };
+
+            List<Button> OnesFour = new List<Button>
+            {
+                btnDateDay2F, btnDateDay2G, btnDateDay2B, btnDateDay2C
+            };
+
+            List<Button> OnesFive = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2F, btnDateDay2G, btnDateDay2C, btnDateDay2D
+            };
+
+            List<Button> OnesSix = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2F, btnDateDay2G, btnDateDay2C, btnDateDay2D, btnDateDay2E
+            };
+
+            List<Button> OnesSeven = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2B, btnDateDay2C
+            };
+
+            List<Button> OnesEight = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2B, btnDateDay2C, btnDateDay2D, btnDateDay2E, btnDateDay2F, btnDateDay2G
+            };
+
+            List<Button> OnesNine = new List<Button>
+            {
+                btnDateDay2A, btnDateDay2B, btnDateDay2C, btnDateDay2D, btnDateDay2F, btnDateDay2G
+            };
+
+            ////////////////////
+
+            List<Button> TwosOne = new List<Button>
+            {
+                btnDateDay1B, btnDateDay1C
+            };
+
+            List<Button> TwosTwo = new List<Button>
+            {
+                btnDateDay1A, btnDateDay1B, btnDateDay1G, btnDateDay1E, btnDateDay1D
+            };
+
+            List<Button> TwosThree = new List<Button>
+            {
+                btnDateDay1A, btnDateDay1B, btnDateDay1G, btnDateDay1C, btnDateDay1D
+            };
+
+            switch (digits)
+            {
+                case "01":
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "02":
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "03":
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "04":
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "05":
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "06":
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "07":
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "08":
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "09":
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "10":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in Zero)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "11":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "12":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "13":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "14":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "15":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "16":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "17":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "18":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "19":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "20":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in Zero)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "21":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "22":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "23":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "24":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "25":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "26":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "27":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "28":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "29":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "30":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in Zero)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "31":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
 
         private void btnCloseForm_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
     }
 }
