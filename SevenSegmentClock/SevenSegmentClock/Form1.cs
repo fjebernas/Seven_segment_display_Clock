@@ -79,6 +79,9 @@ namespace SevenSegmentClock
             //for the day of the month
             string dayDigits = DateTime.Now.ToString("dd");
 
+            //for the year
+            string yearDigits = DateTime.Now.ToString("yy");
+
             //Calling the functions
             sevenSegment(secondsOnes, "Seconds", "Ones");
             sevenSegment(secondsTens, "Seconds", "Tens");
@@ -95,6 +98,7 @@ namespace SevenSegmentClock
             DayNameController(dayName);
             MonthNameController(monthName);
             DayDigitsController(dayDigits);
+            YearDigitsController(yearDigits);
         }
 
         private void sevenSegment(int num, string indicator, string placeValue)
@@ -1510,6 +1514,231 @@ namespace SevenSegmentClock
                         x.BackColor = BlueOn;
                     }
                     foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        private void YearDigitsController(string digits)
+        {
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "yearDigitBtn")
+                {
+                    x.BackColor = BlueOff;
+                }
+            }
+
+            List<Button> Two_ = new List<Button>
+            {
+                btnDateYear1A, btnDateYear1B, btnDateYear1G, btnDateYear1E, btnDateYear1D
+            };
+
+            List<Button> _Zero = new List<Button>
+            {
+                btnDateYear2A, btnDateYear2B, btnDateYear2C, btnDateYear2D, btnDateYear2E, btnDateYear2F
+            };
+
+            List<Button> Zero = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4B, btnDateYear4C, btnDateYear4D, btnDateYear4E, btnDateYear4F
+            };
+
+            List<Button> OnesOne = new List<Button>
+            {
+                btnDateYear4B, btnDateYear4C
+            };
+
+            List<Button> OnesTwo = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4B, btnDateYear4G, btnDateYear4E, btnDateYear4D
+            };
+
+            List<Button> OnesThree = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4B, btnDateYear4G, btnDateYear4C, btnDateYear4D
+            };
+
+            List<Button> OnesFour = new List<Button>
+            {
+                btnDateYear4F, btnDateYear4G, btnDateYear4B, btnDateYear4C
+            };
+
+            List<Button> OnesFive = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4F, btnDateYear4G, btnDateYear4C, btnDateYear4D
+            };
+
+            List<Button> OnesSix = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4F, btnDateYear4G, btnDateYear4C, btnDateYear4D, btnDateYear4E
+            };
+
+            List<Button> OnesSeven = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4B, btnDateYear4C
+            };
+
+            List<Button> OnesEight = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4B, btnDateYear4C, btnDateYear4D, btnDateYear4E, btnDateYear4F, btnDateYear4G
+            };
+
+            List<Button> OnesNine = new List<Button>
+            {
+                btnDateYear4A, btnDateYear4B, btnDateYear4C, btnDateYear4D, btnDateYear4F, btnDateYear4G
+            };
+
+            ////////////////////
+
+            List<Button> TwosOne = new List<Button>
+            {
+                btnDateYear3B, btnDateYear3C
+            };
+
+            List<Button> TwosTwo = new List<Button>
+            {
+                btnDateYear3A, btnDateYear3B, btnDateYear3G, btnDateYear3E, btnDateYear3D
+            };
+
+            List<Button> TwosThree = new List<Button>
+            {
+                btnDateYear3A, btnDateYear3B, btnDateYear3G, btnDateYear3C, btnDateYear3D
+            };
+
+            foreach (Button x in Two_)
+            {
+                x.BackColor = BlueOn;
+            }
+
+            foreach (Button x in _Zero)
+            {
+                x.BackColor = BlueOn;
+            }
+
+            switch (digits)
+            {
+                case "15":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "16":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "17":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "18":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "19":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "20":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in Zero)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "21":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "22":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "23":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "24":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    break;
+
+                case "25":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = BlueOn;
+                    }
+                    foreach (Button x in OnesFive)
                     {
                         x.BackColor = BlueOn;
                     }

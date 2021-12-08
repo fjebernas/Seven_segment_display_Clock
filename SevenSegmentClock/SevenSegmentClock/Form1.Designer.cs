@@ -347,35 +347,34 @@ namespace SevenSegmentClock
             this.btnDateDay2B = new System.Windows.Forms.Button();
             this.btnDateDay2C = new System.Windows.Forms.Button();
             this.btnDateDay2G = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDateYear1A = new System.Windows.Forms.Button();
+            this.btnDateYear2A = new System.Windows.Forms.Button();
+            this.btnDateYear1D = new System.Windows.Forms.Button();
+            this.btnDateYear2D = new System.Windows.Forms.Button();
+            this.btnDateYear1F = new System.Windows.Forms.Button();
+            this.btnDateYear2F = new System.Windows.Forms.Button();
+            this.btnDateYear1E = new System.Windows.Forms.Button();
+            this.btnDateYear2E = new System.Windows.Forms.Button();
+            this.btnDateYear1B = new System.Windows.Forms.Button();
+            this.btnDateYear2B = new System.Windows.Forms.Button();
+            this.btnDateYear1C = new System.Windows.Forms.Button();
+            this.btnDateYear2C = new System.Windows.Forms.Button();
+            this.btnDateYear1G = new System.Windows.Forms.Button();
+            this.btnDateYear2G = new System.Windows.Forms.Button();
+            this.btnDateYear3A = new System.Windows.Forms.Button();
+            this.btnDateYear4A = new System.Windows.Forms.Button();
+            this.btnDateYear3D = new System.Windows.Forms.Button();
+            this.btnDateYear4D = new System.Windows.Forms.Button();
+            this.btnDateYear3F = new System.Windows.Forms.Button();
+            this.btnDateYear4F = new System.Windows.Forms.Button();
+            this.btnDateYear3E = new System.Windows.Forms.Button();
+            this.btnDateYear4E = new System.Windows.Forms.Button();
+            this.btnDateYear3B = new System.Windows.Forms.Button();
+            this.btnDateYear4B = new System.Windows.Forms.Button();
+            this.btnDateYear3C = new System.Windows.Forms.Button();
+            this.btnDateYear4C = new System.Windows.Forms.Button();
+            this.btnDateYear3G = new System.Windows.Forms.Button();
+            this.btnDateYear4G = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBackground)).BeginInit();
             this.SuspendLayout();
             // 
@@ -916,7 +915,7 @@ namespace SevenSegmentClock
             this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCloseForm.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseForm.ForeColor = System.Drawing.Color.Red;
-            this.btnCloseForm.Location = new System.Drawing.Point(12, 524);
+            this.btnCloseForm.Location = new System.Drawing.Point(938, 561);
             this.btnCloseForm.Name = "btnCloseForm";
             this.btnCloseForm.Size = new System.Drawing.Size(23, 23);
             this.btnCloseForm.TabIndex = 6;
@@ -954,9 +953,9 @@ namespace SevenSegmentClock
             // 
             this.pictureBoxBackground.BackColor = System.Drawing.Color.Black;
             this.pictureBoxBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBoxBackground.Location = new System.Drawing.Point(32, 24);
+            this.pictureBoxBackground.Location = new System.Drawing.Point(36, 28);
             this.pictureBoxBackground.Name = "pictureBoxBackground";
-            this.pictureBoxBackground.Size = new System.Drawing.Size(53, 134);
+            this.pictureBoxBackground.Size = new System.Drawing.Size(898, 494);
             this.pictureBoxBackground.TabIndex = 9;
             this.pictureBoxBackground.TabStop = false;
             // 
@@ -4456,350 +4455,369 @@ namespace SevenSegmentClock
             this.btnDateDay2G.Tag = "dayDigitBtn";
             this.btnDateDay2G.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // btnDateYear1A
             // 
-            this.button17.BackColor = System.Drawing.Color.DimGray;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(650, 415);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(25, 6);
-            this.button17.TabIndex = 2;
-            this.button17.UseVisualStyleBackColor = false;
+            this.btnDateYear1A.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1A.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1A.Location = new System.Drawing.Point(650, 415);
+            this.btnDateYear1A.Name = "btnDateYear1A";
+            this.btnDateYear1A.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear1A.TabIndex = 2;
+            this.btnDateYear1A.Tag = "yearDigitBtn";
+            this.btnDateYear1A.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btnDateYear2A
             // 
-            this.button18.BackColor = System.Drawing.Color.DimGray;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(698, 415);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(25, 6);
-            this.button18.TabIndex = 2;
-            this.button18.UseVisualStyleBackColor = false;
+            this.btnDateYear2A.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2A.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2A.Location = new System.Drawing.Point(698, 415);
+            this.btnDateYear2A.Name = "btnDateYear2A";
+            this.btnDateYear2A.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear2A.TabIndex = 2;
+            this.btnDateYear2A.Tag = "yearDigitBtn";
+            this.btnDateYear2A.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // btnDateYear1D
             // 
-            this.button19.BackColor = System.Drawing.Color.DimGray;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(650, 473);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(25, 6);
-            this.button19.TabIndex = 2;
-            this.button19.UseVisualStyleBackColor = false;
+            this.btnDateYear1D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1D.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1D.Location = new System.Drawing.Point(650, 473);
+            this.btnDateYear1D.Name = "btnDateYear1D";
+            this.btnDateYear1D.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear1D.TabIndex = 2;
+            this.btnDateYear1D.Tag = "yearDigitBtn";
+            this.btnDateYear1D.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // btnDateYear2D
             // 
-            this.button20.BackColor = System.Drawing.Color.DimGray;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(698, 473);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(25, 6);
-            this.button20.TabIndex = 2;
-            this.button20.UseVisualStyleBackColor = false;
+            this.btnDateYear2D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2D.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2D.Location = new System.Drawing.Point(698, 473);
+            this.btnDateYear2D.Name = "btnDateYear2D";
+            this.btnDateYear2D.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear2D.TabIndex = 2;
+            this.btnDateYear2D.Tag = "yearDigitBtn";
+            this.btnDateYear2D.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // btnDateYear1F
             // 
-            this.button21.BackColor = System.Drawing.Color.DimGray;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(645, 420);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(6, 25);
-            this.button21.TabIndex = 2;
-            this.button21.UseVisualStyleBackColor = false;
+            this.btnDateYear1F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1F.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1F.Location = new System.Drawing.Point(645, 420);
+            this.btnDateYear1F.Name = "btnDateYear1F";
+            this.btnDateYear1F.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear1F.TabIndex = 2;
+            this.btnDateYear1F.Tag = "yearDigitBtn";
+            this.btnDateYear1F.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // btnDateYear2F
             // 
-            this.button22.BackColor = System.Drawing.Color.DimGray;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(693, 420);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(6, 25);
-            this.button22.TabIndex = 2;
-            this.button22.UseVisualStyleBackColor = false;
+            this.btnDateYear2F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2F.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2F.Location = new System.Drawing.Point(693, 420);
+            this.btnDateYear2F.Name = "btnDateYear2F";
+            this.btnDateYear2F.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear2F.TabIndex = 2;
+            this.btnDateYear2F.Tag = "yearDigitBtn";
+            this.btnDateYear2F.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // btnDateYear1E
             // 
-            this.button23.BackColor = System.Drawing.Color.DimGray;
-            this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(645, 449);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(6, 25);
-            this.button23.TabIndex = 2;
-            this.button23.UseVisualStyleBackColor = false;
+            this.btnDateYear1E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1E.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1E.Location = new System.Drawing.Point(645, 449);
+            this.btnDateYear1E.Name = "btnDateYear1E";
+            this.btnDateYear1E.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear1E.TabIndex = 2;
+            this.btnDateYear1E.Tag = "yearDigitBtn";
+            this.btnDateYear1E.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // btnDateYear2E
             // 
-            this.button24.BackColor = System.Drawing.Color.DimGray;
-            this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(693, 449);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(6, 25);
-            this.button24.TabIndex = 2;
-            this.button24.UseVisualStyleBackColor = false;
+            this.btnDateYear2E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2E.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2E.Location = new System.Drawing.Point(693, 449);
+            this.btnDateYear2E.Name = "btnDateYear2E";
+            this.btnDateYear2E.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear2E.TabIndex = 2;
+            this.btnDateYear2E.Tag = "yearDigitBtn";
+            this.btnDateYear2E.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // btnDateYear1B
             // 
-            this.button25.BackColor = System.Drawing.Color.DimGray;
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button25.FlatAppearance.BorderSize = 0;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(674, 420);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(6, 25);
-            this.button25.TabIndex = 2;
-            this.button25.UseVisualStyleBackColor = false;
+            this.btnDateYear1B.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1B.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1B.Location = new System.Drawing.Point(674, 420);
+            this.btnDateYear1B.Name = "btnDateYear1B";
+            this.btnDateYear1B.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear1B.TabIndex = 2;
+            this.btnDateYear1B.Tag = "yearDigitBtn";
+            this.btnDateYear1B.UseVisualStyleBackColor = false;
             // 
-            // button26
+            // btnDateYear2B
             // 
-            this.button26.BackColor = System.Drawing.Color.DimGray;
-            this.button26.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(722, 420);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(6, 25);
-            this.button26.TabIndex = 2;
-            this.button26.UseVisualStyleBackColor = false;
+            this.btnDateYear2B.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2B.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2B.Location = new System.Drawing.Point(722, 420);
+            this.btnDateYear2B.Name = "btnDateYear2B";
+            this.btnDateYear2B.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear2B.TabIndex = 2;
+            this.btnDateYear2B.Tag = "yearDigitBtn";
+            this.btnDateYear2B.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // btnDateYear1C
             // 
-            this.button27.BackColor = System.Drawing.Color.DimGray;
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(674, 449);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(6, 25);
-            this.button27.TabIndex = 2;
-            this.button27.UseVisualStyleBackColor = false;
+            this.btnDateYear1C.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1C.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1C.Location = new System.Drawing.Point(674, 449);
+            this.btnDateYear1C.Name = "btnDateYear1C";
+            this.btnDateYear1C.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear1C.TabIndex = 2;
+            this.btnDateYear1C.Tag = "yearDigitBtn";
+            this.btnDateYear1C.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // btnDateYear2C
             // 
-            this.button28.BackColor = System.Drawing.Color.DimGray;
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(722, 449);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(6, 25);
-            this.button28.TabIndex = 2;
-            this.button28.UseVisualStyleBackColor = false;
+            this.btnDateYear2C.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2C.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2C.Location = new System.Drawing.Point(722, 449);
+            this.btnDateYear2C.Name = "btnDateYear2C";
+            this.btnDateYear2C.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear2C.TabIndex = 2;
+            this.btnDateYear2C.Tag = "yearDigitBtn";
+            this.btnDateYear2C.UseVisualStyleBackColor = false;
             // 
-            // button29
+            // btnDateYear1G
             // 
-            this.button29.BackColor = System.Drawing.Color.DimGray;
-            this.button29.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button29.FlatAppearance.BorderSize = 0;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Location = new System.Drawing.Point(650, 444);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(25, 6);
-            this.button29.TabIndex = 2;
-            this.button29.UseVisualStyleBackColor = false;
+            this.btnDateYear1G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear1G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear1G.FlatAppearance.BorderSize = 0;
+            this.btnDateYear1G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear1G.Location = new System.Drawing.Point(650, 444);
+            this.btnDateYear1G.Name = "btnDateYear1G";
+            this.btnDateYear1G.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear1G.TabIndex = 2;
+            this.btnDateYear1G.Tag = "yearDigitBtn";
+            this.btnDateYear1G.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // btnDateYear2G
             // 
-            this.button30.BackColor = System.Drawing.Color.DimGray;
-            this.button30.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button30.FlatAppearance.BorderSize = 0;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Location = new System.Drawing.Point(698, 444);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(25, 6);
-            this.button30.TabIndex = 2;
-            this.button30.UseVisualStyleBackColor = false;
+            this.btnDateYear2G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear2G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear2G.FlatAppearance.BorderSize = 0;
+            this.btnDateYear2G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear2G.Location = new System.Drawing.Point(698, 444);
+            this.btnDateYear2G.Name = "btnDateYear2G";
+            this.btnDateYear2G.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear2G.TabIndex = 2;
+            this.btnDateYear2G.Tag = "yearDigitBtn";
+            this.btnDateYear2G.UseVisualStyleBackColor = false;
             // 
-            // button31
+            // btnDateYear3A
             // 
-            this.button31.BackColor = System.Drawing.Color.DimGray;
-            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button31.FlatAppearance.BorderSize = 0;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Location = new System.Drawing.Point(751, 415);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(25, 6);
-            this.button31.TabIndex = 2;
-            this.button31.UseVisualStyleBackColor = false;
+            this.btnDateYear3A.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3A.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3A.Location = new System.Drawing.Point(751, 415);
+            this.btnDateYear3A.Name = "btnDateYear3A";
+            this.btnDateYear3A.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear3A.TabIndex = 2;
+            this.btnDateYear3A.Tag = "yearDigitBtn";
+            this.btnDateYear3A.UseVisualStyleBackColor = false;
             // 
-            // button32
+            // btnDateYear4A
             // 
-            this.button32.BackColor = System.Drawing.Color.DimGray;
-            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button32.FlatAppearance.BorderSize = 0;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Location = new System.Drawing.Point(799, 415);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(25, 6);
-            this.button32.TabIndex = 2;
-            this.button32.UseVisualStyleBackColor = false;
+            this.btnDateYear4A.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4A.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4A.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4A.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4A.Location = new System.Drawing.Point(799, 415);
+            this.btnDateYear4A.Name = "btnDateYear4A";
+            this.btnDateYear4A.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear4A.TabIndex = 2;
+            this.btnDateYear4A.Tag = "yearDigitBtn";
+            this.btnDateYear4A.UseVisualStyleBackColor = false;
             // 
-            // button33
+            // btnDateYear3D
             // 
-            this.button33.BackColor = System.Drawing.Color.DimGray;
-            this.button33.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button33.FlatAppearance.BorderSize = 0;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Location = new System.Drawing.Point(751, 473);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(25, 6);
-            this.button33.TabIndex = 2;
-            this.button33.UseVisualStyleBackColor = false;
+            this.btnDateYear3D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3D.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3D.Location = new System.Drawing.Point(751, 473);
+            this.btnDateYear3D.Name = "btnDateYear3D";
+            this.btnDateYear3D.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear3D.TabIndex = 2;
+            this.btnDateYear3D.Tag = "yearDigitBtn";
+            this.btnDateYear3D.UseVisualStyleBackColor = false;
             // 
-            // button34
+            // btnDateYear4D
             // 
-            this.button34.BackColor = System.Drawing.Color.DimGray;
-            this.button34.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button34.FlatAppearance.BorderSize = 0;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Location = new System.Drawing.Point(799, 473);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(25, 6);
-            this.button34.TabIndex = 2;
-            this.button34.UseVisualStyleBackColor = false;
+            this.btnDateYear4D.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4D.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4D.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4D.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4D.Location = new System.Drawing.Point(799, 473);
+            this.btnDateYear4D.Name = "btnDateYear4D";
+            this.btnDateYear4D.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear4D.TabIndex = 2;
+            this.btnDateYear4D.Tag = "yearDigitBtn";
+            this.btnDateYear4D.UseVisualStyleBackColor = false;
             // 
-            // button35
+            // btnDateYear3F
             // 
-            this.button35.BackColor = System.Drawing.Color.DimGray;
-            this.button35.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button35.FlatAppearance.BorderSize = 0;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Location = new System.Drawing.Point(746, 420);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(6, 25);
-            this.button35.TabIndex = 2;
-            this.button35.UseVisualStyleBackColor = false;
+            this.btnDateYear3F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3F.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3F.Location = new System.Drawing.Point(746, 420);
+            this.btnDateYear3F.Name = "btnDateYear3F";
+            this.btnDateYear3F.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear3F.TabIndex = 2;
+            this.btnDateYear3F.Tag = "yearDigitBtn";
+            this.btnDateYear3F.UseVisualStyleBackColor = false;
             // 
-            // button36
+            // btnDateYear4F
             // 
-            this.button36.BackColor = System.Drawing.Color.DimGray;
-            this.button36.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button36.FlatAppearance.BorderSize = 0;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Location = new System.Drawing.Point(794, 420);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(6, 25);
-            this.button36.TabIndex = 2;
-            this.button36.UseVisualStyleBackColor = false;
+            this.btnDateYear4F.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4F.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4F.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4F.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4F.Location = new System.Drawing.Point(794, 420);
+            this.btnDateYear4F.Name = "btnDateYear4F";
+            this.btnDateYear4F.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear4F.TabIndex = 2;
+            this.btnDateYear4F.Tag = "yearDigitBtn";
+            this.btnDateYear4F.UseVisualStyleBackColor = false;
             // 
-            // button37
+            // btnDateYear3E
             // 
-            this.button37.BackColor = System.Drawing.Color.DimGray;
-            this.button37.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Location = new System.Drawing.Point(746, 449);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(6, 25);
-            this.button37.TabIndex = 2;
-            this.button37.UseVisualStyleBackColor = false;
+            this.btnDateYear3E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3E.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3E.Location = new System.Drawing.Point(746, 449);
+            this.btnDateYear3E.Name = "btnDateYear3E";
+            this.btnDateYear3E.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear3E.TabIndex = 2;
+            this.btnDateYear3E.Tag = "yearDigitBtn";
+            this.btnDateYear3E.UseVisualStyleBackColor = false;
             // 
-            // button38
+            // btnDateYear4E
             // 
-            this.button38.BackColor = System.Drawing.Color.DimGray;
-            this.button38.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button38.FlatAppearance.BorderSize = 0;
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Location = new System.Drawing.Point(794, 449);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(6, 25);
-            this.button38.TabIndex = 2;
-            this.button38.UseVisualStyleBackColor = false;
+            this.btnDateYear4E.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4E.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4E.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4E.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4E.Location = new System.Drawing.Point(794, 449);
+            this.btnDateYear4E.Name = "btnDateYear4E";
+            this.btnDateYear4E.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear4E.TabIndex = 2;
+            this.btnDateYear4E.Tag = "yearDigitBtn";
+            this.btnDateYear4E.UseVisualStyleBackColor = false;
             // 
-            // button39
+            // btnDateYear3B
             // 
-            this.button39.BackColor = System.Drawing.Color.DimGray;
-            this.button39.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button39.FlatAppearance.BorderSize = 0;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Location = new System.Drawing.Point(775, 420);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(6, 25);
-            this.button39.TabIndex = 2;
-            this.button39.UseVisualStyleBackColor = false;
+            this.btnDateYear3B.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3B.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3B.Location = new System.Drawing.Point(775, 420);
+            this.btnDateYear3B.Name = "btnDateYear3B";
+            this.btnDateYear3B.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear3B.TabIndex = 2;
+            this.btnDateYear3B.Tag = "yearDigitBtn";
+            this.btnDateYear3B.UseVisualStyleBackColor = false;
             // 
-            // button40
+            // btnDateYear4B
             // 
-            this.button40.BackColor = System.Drawing.Color.DimGray;
-            this.button40.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button40.FlatAppearance.BorderSize = 0;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Location = new System.Drawing.Point(823, 420);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(6, 25);
-            this.button40.TabIndex = 2;
-            this.button40.UseVisualStyleBackColor = false;
+            this.btnDateYear4B.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4B.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4B.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4B.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4B.Location = new System.Drawing.Point(823, 420);
+            this.btnDateYear4B.Name = "btnDateYear4B";
+            this.btnDateYear4B.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear4B.TabIndex = 2;
+            this.btnDateYear4B.Tag = "yearDigitBtn";
+            this.btnDateYear4B.UseVisualStyleBackColor = false;
             // 
-            // button41
+            // btnDateYear3C
             // 
-            this.button41.BackColor = System.Drawing.Color.DimGray;
-            this.button41.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button41.FlatAppearance.BorderSize = 0;
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.Location = new System.Drawing.Point(775, 449);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(6, 25);
-            this.button41.TabIndex = 2;
-            this.button41.UseVisualStyleBackColor = false;
+            this.btnDateYear3C.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3C.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3C.Location = new System.Drawing.Point(775, 449);
+            this.btnDateYear3C.Name = "btnDateYear3C";
+            this.btnDateYear3C.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear3C.TabIndex = 2;
+            this.btnDateYear3C.Tag = "yearDigitBtn";
+            this.btnDateYear3C.UseVisualStyleBackColor = false;
             // 
-            // button42
+            // btnDateYear4C
             // 
-            this.button42.BackColor = System.Drawing.Color.DimGray;
-            this.button42.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button42.FlatAppearance.BorderSize = 0;
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.Location = new System.Drawing.Point(823, 449);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(6, 25);
-            this.button42.TabIndex = 2;
-            this.button42.UseVisualStyleBackColor = false;
+            this.btnDateYear4C.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4C.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4C.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4C.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4C.Location = new System.Drawing.Point(823, 449);
+            this.btnDateYear4C.Name = "btnDateYear4C";
+            this.btnDateYear4C.Size = new System.Drawing.Size(6, 25);
+            this.btnDateYear4C.TabIndex = 2;
+            this.btnDateYear4C.Tag = "yearDigitBtn";
+            this.btnDateYear4C.UseVisualStyleBackColor = false;
             // 
-            // button43
+            // btnDateYear3G
             // 
-            this.button43.BackColor = System.Drawing.Color.DimGray;
-            this.button43.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button43.FlatAppearance.BorderSize = 0;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.Location = new System.Drawing.Point(751, 444);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(25, 6);
-            this.button43.TabIndex = 2;
-            this.button43.UseVisualStyleBackColor = false;
+            this.btnDateYear3G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear3G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear3G.FlatAppearance.BorderSize = 0;
+            this.btnDateYear3G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear3G.Location = new System.Drawing.Point(751, 444);
+            this.btnDateYear3G.Name = "btnDateYear3G";
+            this.btnDateYear3G.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear3G.TabIndex = 2;
+            this.btnDateYear3G.Tag = "yearDigitBtn";
+            this.btnDateYear3G.UseVisualStyleBackColor = false;
             // 
-            // button44
+            // btnDateYear4G
             // 
-            this.button44.BackColor = System.Drawing.Color.DimGray;
-            this.button44.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button44.FlatAppearance.BorderSize = 0;
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.Location = new System.Drawing.Point(799, 444);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(25, 6);
-            this.button44.TabIndex = 2;
-            this.button44.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(398, 523);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 32;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDateYear4G.BackColor = System.Drawing.Color.DimGray;
+            this.btnDateYear4G.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDateYear4G.FlatAppearance.BorderSize = 0;
+            this.btnDateYear4G.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDateYear4G.Location = new System.Drawing.Point(799, 444);
+            this.btnDateYear4G.Name = "btnDateYear4G";
+            this.btnDateYear4G.Size = new System.Drawing.Size(25, 6);
+            this.btnDateYear4G.TabIndex = 2;
+            this.btnDateYear4G.Tag = "yearDigitBtn";
+            this.btnDateYear4G.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -4807,7 +4825,6 @@ namespace SevenSegmentClock
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(973, 596);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDate3S);
             this.Controls.Add(this.btnDate2S);
             this.Controls.Add(this.btnDate1S);
@@ -5068,11 +5085,11 @@ namespace SevenSegmentClock
             this.Controls.Add(this.btnSec1G);
             this.Controls.Add(this.btnHrs1G);
             this.Controls.Add(this.btnMin1G);
-            this.Controls.Add(this.button44);
-            this.Controls.Add(this.button30);
+            this.Controls.Add(this.btnDateYear4G);
+            this.Controls.Add(this.btnDateYear2G);
             this.Controls.Add(this.btnDateDay2G);
-            this.Controls.Add(this.button43);
-            this.Controls.Add(this.button29);
+            this.Controls.Add(this.btnDateYear3G);
+            this.Controls.Add(this.btnDateYear1G);
             this.Controls.Add(this.btnDateDay1G);
             this.Controls.Add(this.btnSec2G);
             this.Controls.Add(this.btnHrs2G);
@@ -5080,11 +5097,11 @@ namespace SevenSegmentClock
             this.Controls.Add(this.btnSec1C);
             this.Controls.Add(this.btnHrs1C);
             this.Controls.Add(this.btnMin1C);
-            this.Controls.Add(this.button42);
-            this.Controls.Add(this.button28);
+            this.Controls.Add(this.btnDateYear4C);
+            this.Controls.Add(this.btnDateYear2C);
             this.Controls.Add(this.btnDateDay2C);
-            this.Controls.Add(this.button41);
-            this.Controls.Add(this.button27);
+            this.Controls.Add(this.btnDateYear3C);
+            this.Controls.Add(this.btnDateYear1C);
             this.Controls.Add(this.btnDateDay1C);
             this.Controls.Add(this.btnSec2C);
             this.Controls.Add(this.btnHrs2C);
@@ -5094,49 +5111,49 @@ namespace SevenSegmentClock
             this.Controls.Add(this.btnHrs1B);
             this.Controls.Add(this.btnMin1B);
             this.Controls.Add(this.btnHrs1E);
-            this.Controls.Add(this.button40);
-            this.Controls.Add(this.button39);
-            this.Controls.Add(this.button26);
-            this.Controls.Add(this.button25);
+            this.Controls.Add(this.btnDateYear4B);
+            this.Controls.Add(this.btnDateYear3B);
+            this.Controls.Add(this.btnDateYear2B);
+            this.Controls.Add(this.btnDateYear1B);
             this.Controls.Add(this.btnDateDay2B);
             this.Controls.Add(this.btnDateDay1B);
             this.Controls.Add(this.btnSec2B);
             this.Controls.Add(this.btnMin1E);
             this.Controls.Add(this.btnHrs2B);
-            this.Controls.Add(this.button38);
+            this.Controls.Add(this.btnDateYear4E);
             this.Controls.Add(this.btnSec1F);
-            this.Controls.Add(this.button24);
+            this.Controls.Add(this.btnDateYear2E);
             this.Controls.Add(this.btnMin2B);
-            this.Controls.Add(this.button37);
+            this.Controls.Add(this.btnDateYear3E);
             this.Controls.Add(this.btnDateDay2E);
-            this.Controls.Add(this.button23);
+            this.Controls.Add(this.btnDateYear1E);
             this.Controls.Add(this.btnHrs1F);
-            this.Controls.Add(this.button36);
+            this.Controls.Add(this.btnDateYear4F);
             this.Controls.Add(this.btnDateDay1E);
-            this.Controls.Add(this.button22);
+            this.Controls.Add(this.btnDateYear2F);
             this.Controls.Add(this.btnSec2E);
-            this.Controls.Add(this.button35);
+            this.Controls.Add(this.btnDateYear3F);
             this.Controls.Add(this.btnDateDay2F);
-            this.Controls.Add(this.button21);
+            this.Controls.Add(this.btnDateYear1F);
             this.Controls.Add(this.btnMin1F);
             this.Controls.Add(this.btnDateDay1F);
             this.Controls.Add(this.btnHrs2E);
             this.Controls.Add(this.btnSec2F);
-            this.Controls.Add(this.button34);
+            this.Controls.Add(this.btnDateYear4D);
             this.Controls.Add(this.btnMin2E);
-            this.Controls.Add(this.button20);
+            this.Controls.Add(this.btnDateYear2D);
             this.Controls.Add(this.btnHrs2F);
-            this.Controls.Add(this.button33);
+            this.Controls.Add(this.btnDateYear3D);
             this.Controls.Add(this.btnDateDay2D);
-            this.Controls.Add(this.button19);
+            this.Controls.Add(this.btnDateYear1D);
             this.Controls.Add(this.btnMin2F);
-            this.Controls.Add(this.button32);
+            this.Controls.Add(this.btnDateYear4A);
             this.Controls.Add(this.btnDateDay1D);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.btnDateYear2A);
             this.Controls.Add(this.btnSec1D);
-            this.Controls.Add(this.button31);
+            this.Controls.Add(this.btnDateYear3A);
             this.Controls.Add(this.btnDateDay2A);
-            this.Controls.Add(this.button17);
+            this.Controls.Add(this.btnDateYear1A);
             this.Controls.Add(this.btnSec2D);
             this.Controls.Add(this.btnDateDay1A);
             this.Controls.Add(this.btnSec1A);
@@ -5482,35 +5499,34 @@ namespace SevenSegmentClock
         private System.Windows.Forms.Button btnDateDay2B;
         private System.Windows.Forms.Button btnDateDay2C;
         private System.Windows.Forms.Button btnDateDay2G;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDateYear1A;
+        private System.Windows.Forms.Button btnDateYear2A;
+        private System.Windows.Forms.Button btnDateYear1D;
+        private System.Windows.Forms.Button btnDateYear2D;
+        private System.Windows.Forms.Button btnDateYear1F;
+        private System.Windows.Forms.Button btnDateYear2F;
+        private System.Windows.Forms.Button btnDateYear1E;
+        private System.Windows.Forms.Button btnDateYear2E;
+        private System.Windows.Forms.Button btnDateYear1B;
+        private System.Windows.Forms.Button btnDateYear2B;
+        private System.Windows.Forms.Button btnDateYear1C;
+        private System.Windows.Forms.Button btnDateYear2C;
+        private System.Windows.Forms.Button btnDateYear1G;
+        private System.Windows.Forms.Button btnDateYear2G;
+        private System.Windows.Forms.Button btnDateYear3A;
+        private System.Windows.Forms.Button btnDateYear4A;
+        private System.Windows.Forms.Button btnDateYear3D;
+        private System.Windows.Forms.Button btnDateYear4D;
+        private System.Windows.Forms.Button btnDateYear3F;
+        private System.Windows.Forms.Button btnDateYear4F;
+        private System.Windows.Forms.Button btnDateYear3E;
+        private System.Windows.Forms.Button btnDateYear4E;
+        private System.Windows.Forms.Button btnDateYear3B;
+        private System.Windows.Forms.Button btnDateYear4B;
+        private System.Windows.Forms.Button btnDateYear3C;
+        private System.Windows.Forms.Button btnDateYear4C;
+        private System.Windows.Forms.Button btnDateYear3G;
+        private System.Windows.Forms.Button btnDateYear4G;
     }
 }
 
