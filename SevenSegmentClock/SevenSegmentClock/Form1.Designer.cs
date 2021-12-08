@@ -377,20 +377,22 @@ namespace SevenSegmentClock
             this.btnDateYear4G = new System.Windows.Forms.Button();
             this.checkBoxEditDate = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBoxMonthNames = new System.Windows.Forms.ComboBox();
+            this.labelMeridiemDD = new System.Windows.Forms.Label();
+            this.labelSecondDD = new System.Windows.Forms.Label();
+            this.labelMinuteDD = new System.Windows.Forms.Label();
+            this.labelHourDD = new System.Windows.Forms.Label();
+            this.labelYearDD = new System.Windows.Forms.Label();
+            this.labelDayDD = new System.Windows.Forms.Label();
+            this.labelMonthDD = new System.Windows.Forms.Label();
+            this.labelDayNameDD = new System.Windows.Forms.Label();
             this.comboBoxDayNames = new System.Windows.Forms.ComboBox();
-            this.comboBoxDayDigits = new System.Windows.Forms.ComboBox();
-            this.comboYearDigits = new System.Windows.Forms.ComboBox();
-            this.comboBoxHourDigits = new System.Windows.Forms.ComboBox();
-            this.comboBoxMinuteDigits = new System.Windows.Forms.ComboBox();
+            this.comboBoxMeridiem = new System.Windows.Forms.ComboBox();
             this.comboBoxSecondDigits = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.comboBoxMinuteDigits = new System.Windows.Forms.ComboBox();
+            this.comboBoxHourDigits = new System.Windows.Forms.ComboBox();
+            this.comboYearDigits = new System.Windows.Forms.ComboBox();
+            this.comboBoxDayDigits = new System.Windows.Forms.ComboBox();
+            this.comboBoxMonthNames = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBackground)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -405,6 +407,7 @@ namespace SevenSegmentClock
             this.btnHrs2F.Name = "btnHrs2F";
             this.btnHrs2F.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2F.TabIndex = 2;
+            this.btnHrs2F.Tag = "hoursBtn";
             this.btnHrs2F.UseVisualStyleBackColor = false;
             // 
             // btnHrs2E
@@ -417,6 +420,7 @@ namespace SevenSegmentClock
             this.btnHrs2E.Name = "btnHrs2E";
             this.btnHrs2E.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2E.TabIndex = 2;
+            this.btnHrs2E.Tag = "hoursBtn";
             this.btnHrs2E.UseVisualStyleBackColor = false;
             // 
             // btnHrs1F
@@ -429,6 +433,7 @@ namespace SevenSegmentClock
             this.btnHrs1F.Name = "btnHrs1F";
             this.btnHrs1F.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1F.TabIndex = 2;
+            this.btnHrs1F.Tag = "hoursBtn";
             this.btnHrs1F.UseVisualStyleBackColor = false;
             // 
             // btnHrs2B
@@ -441,6 +446,7 @@ namespace SevenSegmentClock
             this.btnHrs2B.Name = "btnHrs2B";
             this.btnHrs2B.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2B.TabIndex = 2;
+            this.btnHrs2B.Tag = "hoursBtn";
             this.btnHrs2B.UseVisualStyleBackColor = false;
             // 
             // btnHrs1E
@@ -453,6 +459,7 @@ namespace SevenSegmentClock
             this.btnHrs1E.Name = "btnHrs1E";
             this.btnHrs1E.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1E.TabIndex = 2;
+            this.btnHrs1E.Tag = "hoursBtn";
             this.btnHrs1E.UseVisualStyleBackColor = false;
             // 
             // btnHrs1B
@@ -465,6 +472,7 @@ namespace SevenSegmentClock
             this.btnHrs1B.Name = "btnHrs1B";
             this.btnHrs1B.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1B.TabIndex = 2;
+            this.btnHrs1B.Tag = "hoursBtn";
             this.btnHrs1B.UseVisualStyleBackColor = false;
             // 
             // btnHrs2C
@@ -477,6 +485,7 @@ namespace SevenSegmentClock
             this.btnHrs2C.Name = "btnHrs2C";
             this.btnHrs2C.Size = new System.Drawing.Size(12, 49);
             this.btnHrs2C.TabIndex = 2;
+            this.btnHrs2C.Tag = "hoursBtn";
             this.btnHrs2C.UseVisualStyleBackColor = false;
             // 
             // btnHrs1C
@@ -489,6 +498,7 @@ namespace SevenSegmentClock
             this.btnHrs1C.Name = "btnHrs1C";
             this.btnHrs1C.Size = new System.Drawing.Size(12, 49);
             this.btnHrs1C.TabIndex = 2;
+            this.btnHrs1C.Tag = "hoursBtn";
             this.btnHrs1C.UseVisualStyleBackColor = false;
             // 
             // btnHrs2A
@@ -501,6 +511,7 @@ namespace SevenSegmentClock
             this.btnHrs2A.Name = "btnHrs2A";
             this.btnHrs2A.Size = new System.Drawing.Size(49, 12);
             this.btnHrs2A.TabIndex = 2;
+            this.btnHrs2A.Tag = "hoursBtn";
             this.btnHrs2A.UseVisualStyleBackColor = false;
             // 
             // btnHrs1A
@@ -513,6 +524,7 @@ namespace SevenSegmentClock
             this.btnHrs1A.Name = "btnHrs1A";
             this.btnHrs1A.Size = new System.Drawing.Size(49, 12);
             this.btnHrs1A.TabIndex = 2;
+            this.btnHrs1A.Tag = "hoursBtn";
             this.btnHrs1A.UseVisualStyleBackColor = false;
             // 
             // btnHrs2G
@@ -525,6 +537,7 @@ namespace SevenSegmentClock
             this.btnHrs2G.Name = "btnHrs2G";
             this.btnHrs2G.Size = new System.Drawing.Size(49, 12);
             this.btnHrs2G.TabIndex = 2;
+            this.btnHrs2G.Tag = "hoursBtn";
             this.btnHrs2G.UseVisualStyleBackColor = false;
             // 
             // btnHrs1G
@@ -537,6 +550,7 @@ namespace SevenSegmentClock
             this.btnHrs1G.Name = "btnHrs1G";
             this.btnHrs1G.Size = new System.Drawing.Size(49, 12);
             this.btnHrs1G.TabIndex = 2;
+            this.btnHrs1G.Tag = "hoursBtn";
             this.btnHrs1G.UseVisualStyleBackColor = false;
             // 
             // btnHrs2D
@@ -549,6 +563,7 @@ namespace SevenSegmentClock
             this.btnHrs2D.Name = "btnHrs2D";
             this.btnHrs2D.Size = new System.Drawing.Size(49, 12);
             this.btnHrs2D.TabIndex = 2;
+            this.btnHrs2D.Tag = "hoursBtn";
             this.btnHrs2D.UseVisualStyleBackColor = false;
             // 
             // btnHrs1D
@@ -561,6 +576,7 @@ namespace SevenSegmentClock
             this.btnHrs1D.Name = "btnHrs1D";
             this.btnHrs1D.Size = new System.Drawing.Size(49, 12);
             this.btnHrs1D.TabIndex = 2;
+            this.btnHrs1D.Tag = "hoursBtn";
             this.btnHrs1D.UseVisualStyleBackColor = false;
             // 
             // btnMin2F
@@ -573,6 +589,7 @@ namespace SevenSegmentClock
             this.btnMin2F.Name = "btnMin2F";
             this.btnMin2F.Size = new System.Drawing.Size(12, 49);
             this.btnMin2F.TabIndex = 2;
+            this.btnMin2F.Tag = "minutesBtn";
             this.btnMin2F.UseVisualStyleBackColor = false;
             // 
             // btnMin2E
@@ -585,6 +602,7 @@ namespace SevenSegmentClock
             this.btnMin2E.Name = "btnMin2E";
             this.btnMin2E.Size = new System.Drawing.Size(12, 49);
             this.btnMin2E.TabIndex = 2;
+            this.btnMin2E.Tag = "minutesBtn";
             this.btnMin2E.UseVisualStyleBackColor = false;
             // 
             // btnSec2F
@@ -597,6 +615,7 @@ namespace SevenSegmentClock
             this.btnSec2F.Name = "btnSec2F";
             this.btnSec2F.Size = new System.Drawing.Size(8, 30);
             this.btnSec2F.TabIndex = 2;
+            this.btnSec2F.Tag = "secondsBtn";
             this.btnSec2F.UseVisualStyleBackColor = false;
             // 
             // btnMin1F
@@ -609,6 +628,7 @@ namespace SevenSegmentClock
             this.btnMin1F.Name = "btnMin1F";
             this.btnMin1F.Size = new System.Drawing.Size(12, 49);
             this.btnMin1F.TabIndex = 2;
+            this.btnMin1F.Tag = "minutesBtn";
             this.btnMin1F.UseVisualStyleBackColor = false;
             // 
             // btnSec2E
@@ -621,6 +641,7 @@ namespace SevenSegmentClock
             this.btnSec2E.Name = "btnSec2E";
             this.btnSec2E.Size = new System.Drawing.Size(8, 30);
             this.btnSec2E.TabIndex = 2;
+            this.btnSec2E.Tag = "secondsBtn";
             this.btnSec2E.UseVisualStyleBackColor = false;
             // 
             // btnMin2B
@@ -633,6 +654,7 @@ namespace SevenSegmentClock
             this.btnMin2B.Name = "btnMin2B";
             this.btnMin2B.Size = new System.Drawing.Size(12, 49);
             this.btnMin2B.TabIndex = 2;
+            this.btnMin2B.Tag = "minutesBtn";
             this.btnMin2B.UseVisualStyleBackColor = false;
             // 
             // btnSec1F
@@ -645,7 +667,7 @@ namespace SevenSegmentClock
             this.btnSec1F.Name = "btnSec1F";
             this.btnSec1F.Size = new System.Drawing.Size(8, 30);
             this.btnSec1F.TabIndex = 2;
-            this.btnSec1F.Tag = "keyF";
+            this.btnSec1F.Tag = "secondsBtn";
             this.btnSec1F.UseVisualStyleBackColor = false;
             // 
             // btnMin1E
@@ -658,6 +680,7 @@ namespace SevenSegmentClock
             this.btnMin1E.Name = "btnMin1E";
             this.btnMin1E.Size = new System.Drawing.Size(12, 49);
             this.btnMin1E.TabIndex = 2;
+            this.btnMin1E.Tag = "minutesBtn";
             this.btnMin1E.UseVisualStyleBackColor = false;
             // 
             // btnSec2B
@@ -670,6 +693,7 @@ namespace SevenSegmentClock
             this.btnSec2B.Name = "btnSec2B";
             this.btnSec2B.Size = new System.Drawing.Size(8, 30);
             this.btnSec2B.TabIndex = 2;
+            this.btnSec2B.Tag = "secondsBtn";
             this.btnSec2B.UseVisualStyleBackColor = false;
             // 
             // btnMin1B
@@ -682,6 +706,7 @@ namespace SevenSegmentClock
             this.btnMin1B.Name = "btnMin1B";
             this.btnMin1B.Size = new System.Drawing.Size(12, 49);
             this.btnMin1B.TabIndex = 2;
+            this.btnMin1B.Tag = "minutesBtn";
             this.btnMin1B.UseVisualStyleBackColor = false;
             // 
             // btnSec1E
@@ -694,7 +719,7 @@ namespace SevenSegmentClock
             this.btnSec1E.Name = "btnSec1E";
             this.btnSec1E.Size = new System.Drawing.Size(8, 30);
             this.btnSec1E.TabIndex = 2;
-            this.btnSec1E.Tag = "keyE";
+            this.btnSec1E.Tag = "secondsBtn";
             this.btnSec1E.UseVisualStyleBackColor = false;
             // 
             // btnSec1B
@@ -707,7 +732,7 @@ namespace SevenSegmentClock
             this.btnSec1B.Name = "btnSec1B";
             this.btnSec1B.Size = new System.Drawing.Size(8, 30);
             this.btnSec1B.TabIndex = 2;
-            this.btnSec1B.Tag = "keyB";
+            this.btnSec1B.Tag = "secondsBtn";
             this.btnSec1B.UseVisualStyleBackColor = false;
             // 
             // btnMin2C
@@ -720,6 +745,7 @@ namespace SevenSegmentClock
             this.btnMin2C.Name = "btnMin2C";
             this.btnMin2C.Size = new System.Drawing.Size(12, 49);
             this.btnMin2C.TabIndex = 2;
+            this.btnMin2C.Tag = "minutesBtn";
             this.btnMin2C.UseVisualStyleBackColor = false;
             // 
             // btnSec2C
@@ -732,6 +758,7 @@ namespace SevenSegmentClock
             this.btnSec2C.Name = "btnSec2C";
             this.btnSec2C.Size = new System.Drawing.Size(8, 30);
             this.btnSec2C.TabIndex = 2;
+            this.btnSec2C.Tag = "secondsBtn";
             this.btnSec2C.UseVisualStyleBackColor = false;
             // 
             // btnMin1C
@@ -744,6 +771,7 @@ namespace SevenSegmentClock
             this.btnMin1C.Name = "btnMin1C";
             this.btnMin1C.Size = new System.Drawing.Size(12, 49);
             this.btnMin1C.TabIndex = 2;
+            this.btnMin1C.Tag = "minutesBtn";
             this.btnMin1C.UseVisualStyleBackColor = false;
             // 
             // btnSec1C
@@ -756,7 +784,7 @@ namespace SevenSegmentClock
             this.btnSec1C.Name = "btnSec1C";
             this.btnSec1C.Size = new System.Drawing.Size(8, 30);
             this.btnSec1C.TabIndex = 2;
-            this.btnSec1C.Tag = "keyC";
+            this.btnSec1C.Tag = "secondsBtn";
             this.btnSec1C.UseVisualStyleBackColor = false;
             // 
             // btnMin2A
@@ -769,6 +797,7 @@ namespace SevenSegmentClock
             this.btnMin2A.Name = "btnMin2A";
             this.btnMin2A.Size = new System.Drawing.Size(49, 12);
             this.btnMin2A.TabIndex = 2;
+            this.btnMin2A.Tag = "minutesBtn";
             this.btnMin2A.UseVisualStyleBackColor = false;
             // 
             // btnSec2A
@@ -781,6 +810,7 @@ namespace SevenSegmentClock
             this.btnSec2A.Name = "btnSec2A";
             this.btnSec2A.Size = new System.Drawing.Size(30, 8);
             this.btnSec2A.TabIndex = 2;
+            this.btnSec2A.Tag = "secondsBtn";
             this.btnSec2A.UseVisualStyleBackColor = false;
             // 
             // btnMin1A
@@ -793,6 +823,7 @@ namespace SevenSegmentClock
             this.btnMin1A.Name = "btnMin1A";
             this.btnMin1A.Size = new System.Drawing.Size(49, 12);
             this.btnMin1A.TabIndex = 2;
+            this.btnMin1A.Tag = "minutesBtn";
             this.btnMin1A.UseVisualStyleBackColor = false;
             // 
             // btnSec1A
@@ -805,7 +836,7 @@ namespace SevenSegmentClock
             this.btnSec1A.Name = "btnSec1A";
             this.btnSec1A.Size = new System.Drawing.Size(30, 8);
             this.btnSec1A.TabIndex = 2;
-            this.btnSec1A.Tag = "keyA";
+            this.btnSec1A.Tag = "secondsBtn";
             this.btnSec1A.UseVisualStyleBackColor = false;
             // 
             // btnMin2G
@@ -818,6 +849,7 @@ namespace SevenSegmentClock
             this.btnMin2G.Name = "btnMin2G";
             this.btnMin2G.Size = new System.Drawing.Size(49, 12);
             this.btnMin2G.TabIndex = 2;
+            this.btnMin2G.Tag = "minutesBtn";
             this.btnMin2G.UseVisualStyleBackColor = false;
             // 
             // btnSec2G
@@ -830,6 +862,7 @@ namespace SevenSegmentClock
             this.btnSec2G.Name = "btnSec2G";
             this.btnSec2G.Size = new System.Drawing.Size(30, 8);
             this.btnSec2G.TabIndex = 2;
+            this.btnSec2G.Tag = "secondsBtn";
             this.btnSec2G.UseVisualStyleBackColor = false;
             // 
             // btnMin1G
@@ -842,6 +875,7 @@ namespace SevenSegmentClock
             this.btnMin1G.Name = "btnMin1G";
             this.btnMin1G.Size = new System.Drawing.Size(49, 12);
             this.btnMin1G.TabIndex = 2;
+            this.btnMin1G.Tag = "minutesBtn";
             this.btnMin1G.UseVisualStyleBackColor = false;
             // 
             // btnSec1G
@@ -854,7 +888,7 @@ namespace SevenSegmentClock
             this.btnSec1G.Name = "btnSec1G";
             this.btnSec1G.Size = new System.Drawing.Size(30, 8);
             this.btnSec1G.TabIndex = 2;
-            this.btnSec1G.Tag = "keyG";
+            this.btnSec1G.Tag = "secondsBtn";
             this.btnSec1G.UseVisualStyleBackColor = false;
             // 
             // btnMin2D
@@ -867,6 +901,7 @@ namespace SevenSegmentClock
             this.btnMin2D.Name = "btnMin2D";
             this.btnMin2D.Size = new System.Drawing.Size(49, 12);
             this.btnMin2D.TabIndex = 2;
+            this.btnMin2D.Tag = "minutesBtn";
             this.btnMin2D.UseVisualStyleBackColor = false;
             // 
             // btnSec2D
@@ -879,6 +914,7 @@ namespace SevenSegmentClock
             this.btnSec2D.Name = "btnSec2D";
             this.btnSec2D.Size = new System.Drawing.Size(30, 8);
             this.btnSec2D.TabIndex = 2;
+            this.btnSec2D.Tag = "secondsBtn";
             this.btnSec2D.UseVisualStyleBackColor = false;
             // 
             // btnMin1D
@@ -891,6 +927,7 @@ namespace SevenSegmentClock
             this.btnMin1D.Name = "btnMin1D";
             this.btnMin1D.Size = new System.Drawing.Size(49, 12);
             this.btnMin1D.TabIndex = 2;
+            this.btnMin1D.Tag = "minutesBtn";
             this.btnMin1D.UseVisualStyleBackColor = false;
             // 
             // btnSec1D
@@ -903,13 +940,13 @@ namespace SevenSegmentClock
             this.btnSec1D.Name = "btnSec1D";
             this.btnSec1D.Size = new System.Drawing.Size(30, 8);
             this.btnSec1D.TabIndex = 2;
-            this.btnSec1D.Tag = "keyD";
+            this.btnSec1D.Tag = "secondsBtn";
             this.btnSec1D.UseVisualStyleBackColor = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 1000;
+            this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // btnBlinker
@@ -922,7 +959,7 @@ namespace SevenSegmentClock
             this.btnBlinker.Name = "btnBlinker";
             this.btnBlinker.Size = new System.Drawing.Size(11, 12);
             this.btnBlinker.TabIndex = 5;
-            this.btnBlinker.Tag = "keyC";
+            this.btnBlinker.Tag = "blinkerBtn";
             this.btnBlinker.UseVisualStyleBackColor = false;
             // 
             // btnCloseForm
@@ -932,7 +969,7 @@ namespace SevenSegmentClock
             this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCloseForm.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseForm.ForeColor = System.Drawing.Color.Red;
-            this.btnCloseForm.Location = new System.Drawing.Point(938, 47);
+            this.btnCloseForm.Location = new System.Drawing.Point(12, 10);
             this.btnCloseForm.Name = "btnCloseForm";
             this.btnCloseForm.Size = new System.Drawing.Size(23, 23);
             this.btnCloseForm.TabIndex = 6;
@@ -972,7 +1009,7 @@ namespace SevenSegmentClock
             this.pictureBoxBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBoxBackground.Location = new System.Drawing.Point(36, 28);
             this.pictureBoxBackground.Name = "pictureBoxBackground";
-            this.pictureBoxBackground.Size = new System.Drawing.Size(57, 88);
+            this.pictureBoxBackground.Size = new System.Drawing.Size(37, 73);
             this.pictureBoxBackground.TabIndex = 9;
             this.pictureBoxBackground.TabStop = false;
             // 
@@ -3455,7 +3492,7 @@ namespace SevenSegmentClock
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(11, 12);
             this.button2.TabIndex = 5;
-            this.button2.Tag = "";
+            this.button2.Tag = "blinkerBtn";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // button3
@@ -3468,7 +3505,7 @@ namespace SevenSegmentClock
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(11, 12);
             this.button3.TabIndex = 5;
-            this.button3.Tag = "";
+            this.button3.Tag = "blinkerBtn";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // btnDate1S
@@ -4840,25 +4877,29 @@ namespace SevenSegmentClock
             // 
             this.checkBoxEditDate.AutoSize = true;
             this.checkBoxEditDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxEditDate.Location = new System.Drawing.Point(212, 46);
+            this.checkBoxEditDate.ForeColor = System.Drawing.Color.White;
+            this.checkBoxEditDate.Location = new System.Drawing.Point(162, 46);
             this.checkBoxEditDate.Name = "checkBoxEditDate";
-            this.checkBoxEditDate.Size = new System.Drawing.Size(95, 24);
+            this.checkBoxEditDate.Size = new System.Drawing.Size(188, 24);
             this.checkBoxEditDate.TabIndex = 32;
-            this.checkBoxEditDate.Text = "Edit Date";
+            this.checkBoxEditDate.Text = "Edit Segment Displays";
             this.checkBoxEditDate.UseVisualStyleBackColor = true;
             this.checkBoxEditDate.CheckedChanged += new System.EventHandler(this.checkBoxEditDate_CheckedChanged);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DimGray;
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.labelMeridiemDD);
+            this.panel1.Controls.Add(this.labelSecondDD);
+            this.panel1.Controls.Add(this.labelMinuteDD);
+            this.panel1.Controls.Add(this.labelHourDD);
+            this.panel1.Controls.Add(this.labelYearDD);
+            this.panel1.Controls.Add(this.labelDayDD);
+            this.panel1.Controls.Add(this.labelMonthDD);
+            this.panel1.Controls.Add(this.labelDayNameDD);
             this.panel1.Controls.Add(this.comboBoxDayNames);
+            this.panel1.Controls.Add(this.comboBoxMeridiem);
             this.panel1.Controls.Add(this.comboBoxSecondDigits);
             this.panel1.Controls.Add(this.comboBoxMinuteDigits);
             this.panel1.Controls.Add(this.comboBoxHourDigits);
@@ -4874,35 +4915,101 @@ namespace SevenSegmentClock
             this.panel1.Size = new System.Drawing.Size(973, 82);
             this.panel1.TabIndex = 33;
             // 
-            // comboBoxMonthNames
+            // labelMeridiemDD
             // 
-            this.comboBoxMonthNames.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxMonthNames.Enabled = false;
-            this.comboBoxMonthNames.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxMonthNames.FormattingEnabled = true;
-            this.comboBoxMonthNames.Items.AddRange(new object[] {
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September",
-            "October",
-            "November",
-            "December"});
-            this.comboBoxMonthNames.Location = new System.Drawing.Point(485, 49);
-            this.comboBoxMonthNames.Name = "comboBoxMonthNames";
-            this.comboBoxMonthNames.Size = new System.Drawing.Size(70, 21);
-            this.comboBoxMonthNames.TabIndex = 33;
+            this.labelMeridiemDD.AutoSize = true;
+            this.labelMeridiemDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelMeridiemDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelMeridiemDD.Location = new System.Drawing.Point(906, 33);
+            this.labelMeridiemDD.Name = "labelMeridiemDD";
+            this.labelMeridiemDD.Size = new System.Drawing.Size(49, 13);
+            this.labelMeridiemDD.TabIndex = 34;
+            this.labelMeridiemDD.Text = "Meridiem";
+            // 
+            // labelSecondDD
+            // 
+            this.labelSecondDD.AutoSize = true;
+            this.labelSecondDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelSecondDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelSecondDD.Location = new System.Drawing.Point(833, 33);
+            this.labelSecondDD.Name = "labelSecondDD";
+            this.labelSecondDD.Size = new System.Drawing.Size(44, 13);
+            this.labelSecondDD.TabIndex = 34;
+            this.labelSecondDD.Text = "Second";
+            // 
+            // labelMinuteDD
+            // 
+            this.labelMinuteDD.AutoSize = true;
+            this.labelMinuteDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelMinuteDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelMinuteDD.Location = new System.Drawing.Point(784, 33);
+            this.labelMinuteDD.Name = "labelMinuteDD";
+            this.labelMinuteDD.Size = new System.Drawing.Size(39, 13);
+            this.labelMinuteDD.TabIndex = 34;
+            this.labelMinuteDD.Text = "Minute";
+            // 
+            // labelHourDD
+            // 
+            this.labelHourDD.AutoSize = true;
+            this.labelHourDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelHourDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelHourDD.Location = new System.Drawing.Point(734, 33);
+            this.labelHourDD.Name = "labelHourDD";
+            this.labelHourDD.Size = new System.Drawing.Size(30, 13);
+            this.labelHourDD.TabIndex = 34;
+            this.labelHourDD.Text = "Hour";
+            // 
+            // labelYearDD
+            // 
+            this.labelYearDD.AutoSize = true;
+            this.labelYearDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelYearDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelYearDD.Location = new System.Drawing.Point(630, 33);
+            this.labelYearDD.Name = "labelYearDD";
+            this.labelYearDD.Size = new System.Drawing.Size(29, 13);
+            this.labelYearDD.TabIndex = 34;
+            this.labelYearDD.Text = "Year";
+            // 
+            // labelDayDD
+            // 
+            this.labelDayDD.AutoSize = true;
+            this.labelDayDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelDayDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelDayDD.Location = new System.Drawing.Point(582, 33);
+            this.labelDayDD.Name = "labelDayDD";
+            this.labelDayDD.Size = new System.Drawing.Size(26, 13);
+            this.labelDayDD.TabIndex = 34;
+            this.labelDayDD.Text = "Day";
+            // 
+            // labelMonthDD
+            // 
+            this.labelMonthDD.AutoSize = true;
+            this.labelMonthDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelMonthDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelMonthDD.Location = new System.Drawing.Point(482, 33);
+            this.labelMonthDD.Name = "labelMonthDD";
+            this.labelMonthDD.Size = new System.Drawing.Size(37, 13);
+            this.labelMonthDD.TabIndex = 34;
+            this.labelMonthDD.Text = "Month";
+            // 
+            // labelDayNameDD
+            // 
+            this.labelDayNameDD.AutoSize = true;
+            this.labelDayNameDD.BackColor = System.Drawing.Color.Transparent;
+            this.labelDayNameDD.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.labelDayNameDD.Location = new System.Drawing.Point(355, 33);
+            this.labelDayNameDD.Name = "labelDayNameDD";
+            this.labelDayNameDD.Size = new System.Drawing.Size(88, 13);
+            this.labelDayNameDD.TabIndex = 34;
+            this.labelDayNameDD.Text = "Day of the Week";
             // 
             // comboBoxDayNames
             // 
+            this.comboBoxDayNames.BackColor = System.Drawing.Color.Black;
             this.comboBoxDayNames.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxDayNames.Enabled = false;
             this.comboBoxDayNames.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxDayNames.ForeColor = System.Drawing.Color.White;
             this.comboBoxDayNames.FormattingEnabled = true;
             this.comboBoxDayNames.Items.AddRange(new object[] {
             "Sunday",
@@ -4914,199 +5021,46 @@ namespace SevenSegmentClock
             "Saturday"});
             this.comboBoxDayNames.Location = new System.Drawing.Point(358, 49);
             this.comboBoxDayNames.Name = "comboBoxDayNames";
-            this.comboBoxDayNames.Size = new System.Drawing.Size(67, 21);
+            this.comboBoxDayNames.Size = new System.Drawing.Size(88, 21);
             this.comboBoxDayNames.TabIndex = 33;
+            this.comboBoxDayNames.Tag = "dropDown";
             // 
-            // comboBoxDayDigits
+            // comboBoxMeridiem
             // 
-            this.comboBoxDayDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxDayDigits.Enabled = false;
-            this.comboBoxDayDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxDayDigits.FormattingEnabled = true;
-            this.comboBoxDayDigits.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30"});
-            this.comboBoxDayDigits.Location = new System.Drawing.Point(566, 49);
-            this.comboBoxDayDigits.Name = "comboBoxDayDigits";
-            this.comboBoxDayDigits.Size = new System.Drawing.Size(36, 21);
-            this.comboBoxDayDigits.TabIndex = 33;
-            // 
-            // comboYearDigits
-            // 
-            this.comboYearDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboYearDigits.Enabled = false;
-            this.comboYearDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboYearDigits.FormattingEnabled = true;
-            this.comboYearDigits.Items.AddRange(new object[] {
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021",
-            "2022",
-            "2023",
-            "2024",
-            "2025"});
-            this.comboYearDigits.Location = new System.Drawing.Point(614, 49);
-            this.comboYearDigits.Name = "comboYearDigits";
-            this.comboYearDigits.Size = new System.Drawing.Size(42, 21);
-            this.comboYearDigits.TabIndex = 33;
-            // 
-            // comboBoxHourDigits
-            // 
-            this.comboBoxHourDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxHourDigits.Enabled = false;
-            this.comboBoxHourDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxHourDigits.FormattingEnabled = true;
-            this.comboBoxHourDigits.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24"});
-            this.comboBoxHourDigits.Location = new System.Drawing.Point(737, 49);
-            this.comboBoxHourDigits.Name = "comboBoxHourDigits";
-            this.comboBoxHourDigits.Size = new System.Drawing.Size(42, 21);
-            this.comboBoxHourDigits.TabIndex = 33;
-            // 
-            // comboBoxMinuteDigits
-            // 
-            this.comboBoxMinuteDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxMinuteDigits.Enabled = false;
-            this.comboBoxMinuteDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxMinuteDigits.FormattingEnabled = true;
-            this.comboBoxMinuteDigits.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45",
-            "46",
-            "47",
-            "48",
-            "49",
-            "50",
-            "51",
-            "52",
-            "53",
-            "54",
-            "55",
-            "56",
-            "57",
-            "58",
-            "59"});
-            this.comboBoxMinuteDigits.Location = new System.Drawing.Point(787, 49);
-            this.comboBoxMinuteDigits.Name = "comboBoxMinuteDigits";
-            this.comboBoxMinuteDigits.Size = new System.Drawing.Size(42, 21);
-            this.comboBoxMinuteDigits.TabIndex = 33;
+            this.comboBoxMeridiem.BackColor = System.Drawing.Color.Black;
+            this.comboBoxMeridiem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxMeridiem.Enabled = false;
+            this.comboBoxMeridiem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxMeridiem.ForeColor = System.Drawing.Color.White;
+            this.comboBoxMeridiem.FormattingEnabled = true;
+            this.comboBoxMeridiem.Items.AddRange(new object[] {
+            "AM",
+            "PM"});
+            this.comboBoxMeridiem.Location = new System.Drawing.Point(909, 49);
+            this.comboBoxMeridiem.Name = "comboBoxMeridiem";
+            this.comboBoxMeridiem.Size = new System.Drawing.Size(42, 21);
+            this.comboBoxMeridiem.TabIndex = 33;
+            this.comboBoxMeridiem.Tag = "dropDown";
             // 
             // comboBoxSecondDigits
             // 
+            this.comboBoxSecondDigits.BackColor = System.Drawing.Color.Black;
             this.comboBoxSecondDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxSecondDigits.Enabled = false;
             this.comboBoxSecondDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxSecondDigits.ForeColor = System.Drawing.Color.White;
             this.comboBoxSecondDigits.FormattingEnabled = true;
             this.comboBoxSecondDigits.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
+            "00",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
             "10",
             "11",
             "12",
@@ -5161,69 +5115,220 @@ namespace SevenSegmentClock
             this.comboBoxSecondDigits.Name = "comboBoxSecondDigits";
             this.comboBoxSecondDigits.Size = new System.Drawing.Size(42, 21);
             this.comboBoxSecondDigits.TabIndex = 33;
+            this.comboBoxSecondDigits.Tag = "dropDown";
             // 
-            // label1
+            // comboBoxMinuteDigits
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(355, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 13);
-            this.label1.TabIndex = 34;
-            this.label1.Text = "Day of the Week";
+            this.comboBoxMinuteDigits.BackColor = System.Drawing.Color.Black;
+            this.comboBoxMinuteDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxMinuteDigits.Enabled = false;
+            this.comboBoxMinuteDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxMinuteDigits.ForeColor = System.Drawing.Color.White;
+            this.comboBoxMinuteDigits.FormattingEnabled = true;
+            this.comboBoxMinuteDigits.Items.AddRange(new object[] {
+            "00",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59"});
+            this.comboBoxMinuteDigits.Location = new System.Drawing.Point(787, 49);
+            this.comboBoxMinuteDigits.Name = "comboBoxMinuteDigits";
+            this.comboBoxMinuteDigits.Size = new System.Drawing.Size(42, 21);
+            this.comboBoxMinuteDigits.TabIndex = 33;
+            this.comboBoxMinuteDigits.Tag = "dropDown";
             // 
-            // label2
+            // comboBoxHourDigits
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(482, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
-            this.label2.TabIndex = 34;
-            this.label2.Text = "Month";
+            this.comboBoxHourDigits.BackColor = System.Drawing.Color.Black;
+            this.comboBoxHourDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxHourDigits.Enabled = false;
+            this.comboBoxHourDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxHourDigits.ForeColor = System.Drawing.Color.White;
+            this.comboBoxHourDigits.FormattingEnabled = true;
+            this.comboBoxHourDigits.Items.AddRange(new object[] {
+            "00",
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24"});
+            this.comboBoxHourDigits.Location = new System.Drawing.Point(737, 49);
+            this.comboBoxHourDigits.Name = "comboBoxHourDigits";
+            this.comboBoxHourDigits.Size = new System.Drawing.Size(42, 21);
+            this.comboBoxHourDigits.TabIndex = 33;
+            this.comboBoxHourDigits.Tag = "dropDown";
             // 
-            // label3
+            // comboYearDigits
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(563, 33);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "Day";
+            this.comboYearDigits.BackColor = System.Drawing.Color.Black;
+            this.comboYearDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboYearDigits.Enabled = false;
+            this.comboYearDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboYearDigits.ForeColor = System.Drawing.Color.White;
+            this.comboYearDigits.FormattingEnabled = true;
+            this.comboYearDigits.Items.AddRange(new object[] {
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"});
+            this.comboYearDigits.Location = new System.Drawing.Point(633, 49);
+            this.comboYearDigits.Name = "comboYearDigits";
+            this.comboYearDigits.Size = new System.Drawing.Size(56, 21);
+            this.comboYearDigits.TabIndex = 33;
+            this.comboYearDigits.Tag = "dropDown";
             // 
-            // label4
+            // comboBoxDayDigits
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(611, 33);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 13);
-            this.label4.TabIndex = 34;
-            this.label4.Text = "Year";
+            this.comboBoxDayDigits.BackColor = System.Drawing.Color.Black;
+            this.comboBoxDayDigits.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxDayDigits.Enabled = false;
+            this.comboBoxDayDigits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxDayDigits.ForeColor = System.Drawing.Color.White;
+            this.comboBoxDayDigits.FormattingEnabled = true;
+            this.comboBoxDayDigits.Items.AddRange(new object[] {
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"});
+            this.comboBoxDayDigits.Location = new System.Drawing.Point(585, 49);
+            this.comboBoxDayDigits.Name = "comboBoxDayDigits";
+            this.comboBoxDayDigits.Size = new System.Drawing.Size(36, 21);
+            this.comboBoxDayDigits.TabIndex = 33;
+            this.comboBoxDayDigits.Tag = "dropDown";
             // 
-            // label5
+            // comboBoxMonthNames
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(734, 33);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 13);
-            this.label5.TabIndex = 34;
-            this.label5.Text = "Hour";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(784, 33);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
-            this.label6.TabIndex = 34;
-            this.label6.Text = "Minute";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(833, 33);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "Second";
+            this.comboBoxMonthNames.BackColor = System.Drawing.Color.Black;
+            this.comboBoxMonthNames.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxMonthNames.Enabled = false;
+            this.comboBoxMonthNames.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxMonthNames.ForeColor = System.Drawing.Color.White;
+            this.comboBoxMonthNames.FormattingEnabled = true;
+            this.comboBoxMonthNames.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"});
+            this.comboBoxMonthNames.Location = new System.Drawing.Point(485, 49);
+            this.comboBoxMonthNames.Name = "comboBoxMonthNames";
+            this.comboBoxMonthNames.Size = new System.Drawing.Size(94, 21);
+            this.comboBoxMonthNames.TabIndex = 33;
+            this.comboBoxMonthNames.Tag = "dropDown";
             // 
             // Form1
             // 
@@ -5943,13 +6048,15 @@ namespace SevenSegmentClock
         private System.Windows.Forms.ComboBox comboBoxHourDigits;
         private System.Windows.Forms.ComboBox comboBoxMinuteDigits;
         private System.Windows.Forms.ComboBox comboBoxSecondDigits;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelSecondDD;
+        private System.Windows.Forms.Label labelMinuteDD;
+        private System.Windows.Forms.Label labelHourDD;
+        private System.Windows.Forms.Label labelYearDD;
+        private System.Windows.Forms.Label labelDayDD;
+        private System.Windows.Forms.Label labelMonthDD;
+        private System.Windows.Forms.Label labelDayNameDD;
+        private System.Windows.Forms.Label labelMeridiemDD;
+        private System.Windows.Forms.ComboBox comboBoxMeridiem;
     }
 }
 

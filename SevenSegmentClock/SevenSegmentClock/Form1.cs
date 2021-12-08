@@ -38,715 +38,2399 @@ namespace SevenSegmentClock
             labelMeridiemAM.BackColor = backgroundColor;
             labelMeridiemPM.BackColor = backgroundColor;
 
-            foreach (Control x in Controls)
-            {
-                if (x.Tag == "dayBtn")
-                {
-                    x.BackColor = RedOff;
-                }
-            }
+            labelDayNameDD.ForeColor = GreenOff;
+            labelMonthDD.ForeColor = BlueOff;
+            labelDayDD.ForeColor = BlueOff;
+            labelYearDD.ForeColor = BlueOff;
+            labelHourDD.ForeColor = RedOff;
+            labelMinuteDD.ForeColor = RedOff;
+            labelSecondDD.ForeColor = RedOff;
+            labelMeridiemDD.ForeColor = RedOff;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //for seconds
-            string seconds = DateTime.Now.ToString("ss");
+            if (checkBoxEditDate.Checked == false)
+            {
+                //for seconds
+                string secondDigits = DateTime.Now.ToString("ss");
 
-            int secondsOnes = Convert.ToInt32(seconds.Substring(1));
-            int secondsTens = Convert.ToInt32(seconds.Remove(1, 1));
+                //for minutes
+                string minuteDigits = DateTime.Now.ToString("mm");
 
-            //for minutes
-            string minutes = DateTime.Now.ToString("mm");
+                //for hours
+                string hourDigits = DateTime.Now.ToString(hourFormat);
 
-            int minutesOnes = Convert.ToInt32(minutes.Substring(1));
-            int minutesTens = Convert.ToInt32(minutes.Remove(1, 1));
+                //AM or PM
+                string meridiem = DateTime.Now.ToString("tt");
 
-            //for hours
-            string hours = DateTime.Now.ToString(hourFormat);
+                //for day name
+                string dayName = DateTime.Now.ToString("dddd");
 
-            int hoursOnes = Convert.ToInt32(hours.Substring(1));
-            int hoursTens = Convert.ToInt32(hours.Remove(1, 1));
+                //for month name
+                string monthName = DateTime.Now.ToString("MMMM");
 
-            //AM or PM
-            string meridiem = DateTime.Now.ToString("tt");
+                //for the day of the month
+                string dayDigits = DateTime.Now.ToString("dd");
 
-            //for day name
-            string dayName = DateTime.Now.ToString("ddd");
+                //for the year
+                string yearDigits = DateTime.Now.ToString("yyyy");
 
-            //for month name
-            string monthName = DateTime.Now.ToString("MMM");
+                //Calling the functions
+                SecondsController(secondDigits);
+                MinutesController(minuteDigits);
+                HoursController(hourDigits);
 
-            //for the day of the month
-            string dayDigits = DateTime.Now.ToString("dd");
+                BlinkingDot();
+                Meridiem(meridiem);
+                DayNameController(dayName);
+                MonthNameController(monthName);
+                DayDigitsController(dayDigits);
+                YearDigitsController(yearDigits);
+            } 
+            else if (checkBoxEditDate.Checked == true)
+            {
+                SecondsController(comboBoxSecondDigits.Text);
+                MinutesController(comboBoxMinuteDigits.Text);
+                HoursController(comboBoxHourDigits.Text);
 
-            //for the year
-            string yearDigits = DateTime.Now.ToString("yy");
-
-            //Calling the functions
-            sevenSegment(secondsOnes, "Seconds", "Ones");
-            sevenSegment(secondsTens, "Seconds", "Tens");
-
-            sevenSegment(minutesOnes, "Minutes", "Ones");
-            sevenSegment(minutesTens, "Minutes", "Tens");
-
-            sevenSegment(hoursOnes, "Hours", "Ones");
-            sevenSegment(hoursTens, "Hours", "Tens");
-
-
-            BlinkingDot();
-            Meridiem(meridiem);
-            DayNameController(dayName);
-            MonthNameController(monthName);
-            DayDigitsController(dayDigits);
-            YearDigitsController(yearDigits);
+                Meridiem(comboBoxMeridiem.Text.ToLower());
+                DayNameController(comboBoxDayNames.Text);
+                MonthNameController(comboBoxMonthNames.Text);
+                DayDigitsController(comboBoxDayDigits.Text);
+                YearDigitsController(comboYearDigits.Text);
+            }
         }
 
-        private void sevenSegment(int num, string indicator, string placeValue)
+        private void SecondsController(string secondDigits)
         {
-            switch (indicator)
+            foreach (Control x in Controls)
             {
-                case "Seconds":
-                    switch (placeValue)
+                if (x.Tag == "secondsBtn")
+                {
+                    x.BackColor = RedOff;
+                }
+            }
+
+            List<Button> OnesZero = new List<Button>
+            {
+                btnSec1A, btnSec1B, btnSec1C, btnSec1D, btnSec1E, btnSec1F
+            };
+
+            List<Button> OnesOne = new List<Button>
+            {
+                btnSec1B, btnSec1C
+            };
+
+            List<Button> OnesTwo = new List<Button>
+            {
+                btnSec1A, btnSec1B, btnSec1G, btnSec1E, btnSec1D
+            };
+
+            List<Button> OnesThree = new List<Button>
+            {
+                btnSec1A, btnSec1B, btnSec1G, btnSec1C, btnSec1D
+            };
+
+            List<Button> OnesFour = new List<Button>
+            {
+                btnSec1F, btnSec1G, btnSec1B, btnSec1C
+            };
+
+            List<Button> OnesFive = new List<Button>
+            {
+                btnSec1A, btnSec1F, btnSec1G, btnSec1C, btnSec1D
+            };
+
+            List<Button> OnesSix = new List<Button>
+            {
+                btnSec1A, btnSec1F, btnSec1G, btnSec1C, btnSec1D, btnSec1E
+            };
+
+            List<Button> OnesSeven = new List<Button>
+            {
+                btnSec1A, btnSec1B, btnSec1C
+            };
+
+            List<Button> OnesEight = new List<Button>
+            {
+                btnSec1A, btnSec1B, btnSec1C, btnSec1D, btnSec1E, btnSec1F, btnSec1G
+            };
+
+            List<Button> OnesNine = new List<Button>
+            {
+                btnSec1A, btnSec1B, btnSec1C, btnSec1D, btnSec1F, btnSec1G
+            };
+
+            ////////////////////
+
+            List<Button> TwosZero = new List<Button>
+            {
+                btnSec2A, btnSec2B, btnSec2C, btnSec2D, btnSec2E, btnSec2F
+            };
+
+            List<Button> TwosOne = new List<Button>
+            {
+                btnSec2B, btnSec2C
+            };
+
+            List<Button> TwosTwo = new List<Button>
+            {
+                btnSec2A, btnSec2B, btnSec2G, btnSec2E, btnSec2D
+            };
+
+            List<Button> TwosThree = new List<Button>
+            {
+                btnSec2A, btnSec2B, btnSec2G, btnSec2C, btnSec2D
+            };
+
+            List<Button> TwosFour = new List<Button>
+            {
+                btnSec2F, btnSec2G, btnSec2B, btnSec2C
+            };
+
+            List<Button> TwosFive = new List<Button>
+            {
+                btnSec2A, btnSec2F, btnSec2G, btnSec2C, btnSec2D
+            };
+
+            List<Button> TwosSix = new List<Button>
+            {
+                btnSec2A, btnSec2F, btnSec2G, btnSec2C, btnSec2D, btnSec2E
+            };
+
+            List<Button> TwosSeven = new List<Button>
+            {
+                btnSec2A, btnSec2B, btnSec2C
+            };
+
+            List<Button> TwosEight = new List<Button>
+            {
+                btnSec2A, btnSec2B, btnSec2C, btnSec2D, btnSec2E, btnSec2F, btnSec2G
+            };
+
+            List<Button> TwosNine = new List<Button>
+            {
+                btnSec2A, btnSec2B, btnSec2C, btnSec2D, btnSec2F, btnSec2G
+            };
+
+            switch (secondDigits)
+            {
+                case "00":
+                    foreach (Button x in OnesZero)
                     {
-                        case "Ones":
-                            switch (num)
-                            {
-                                case 0:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOn;
-                                    btnSec1F.BackColor = RedOn;
-                                    btnSec1G.BackColor = RedOff;
-                                    break;
-
-                                case 1:
-                                    btnSec1A.BackColor = RedOff;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOff;
-                                    btnSec1E.BackColor = RedOff;
-                                    btnSec1F.BackColor = RedOff;
-                                    btnSec1G.BackColor = RedOff;
-                                    break;
-
-                                case 2:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOff;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOn;
-                                    btnSec1F.BackColor = RedOff;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-
-                                case 3:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOff;
-                                    btnSec1F.BackColor = RedOff;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-
-                                case 4:
-                                    btnSec1A.BackColor = RedOff;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOff;
-                                    btnSec1E.BackColor = RedOff;
-                                    btnSec1F.BackColor = RedOn;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-
-                                case 5:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOff;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOff;
-                                    btnSec1F.BackColor = RedOn;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-
-                                case 6:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOff;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOn;
-                                    btnSec1F.BackColor = RedOn;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-
-                                case 7:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOff;
-                                    btnSec1E.BackColor = RedOff;
-                                    btnSec1F.BackColor = RedOff;
-                                    btnSec1G.BackColor = RedOff;
-                                    break;
-
-                                case 8:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOn;
-                                    btnSec1F.BackColor = RedOn;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-
-                                case 9:
-                                    btnSec1A.BackColor = RedOn;
-                                    btnSec1B.BackColor = RedOn;
-                                    btnSec1C.BackColor = RedOn;
-                                    btnSec1D.BackColor = RedOn;
-                                    btnSec1E.BackColor = RedOff;
-                                    btnSec1F.BackColor = RedOn;
-                                    btnSec1G.BackColor = RedOn;
-                                    break;
-                            }
-                            break;
-
-                        case "Tens":
-                            switch (num)
-                            {
-                                case 0:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOn;
-                                    btnSec2F.BackColor = RedOn;
-                                    btnSec2G.BackColor = RedOff;
-                                    break;
-
-                                case 1:
-                                    btnSec2A.BackColor = RedOff;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOff;
-                                    btnSec2E.BackColor = RedOff;
-                                    btnSec2F.BackColor = RedOff;
-                                    btnSec2G.BackColor = RedOff;
-                                    break;
-
-                                case 2:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOff;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOn;
-                                    btnSec2F.BackColor = RedOff;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-
-                                case 3:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOff;
-                                    btnSec2F.BackColor = RedOff;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-
-                                case 4:
-                                    btnSec2A.BackColor = RedOff;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOff;
-                                    btnSec2E.BackColor = RedOff;
-                                    btnSec2F.BackColor = RedOn;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-
-                                case 5:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOff;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOff;
-                                    btnSec2F.BackColor = RedOn;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-
-                                case 6:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOff;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOn;
-                                    btnSec2F.BackColor = RedOn;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-
-                                case 7:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOff;
-                                    btnSec2E.BackColor = RedOff;
-                                    btnSec2F.BackColor = RedOff;
-                                    btnSec2G.BackColor = RedOff;
-                                    break;
-
-                                case 8:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOn;
-                                    btnSec2F.BackColor = RedOn;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-
-                                case 9:
-                                    btnSec2A.BackColor = RedOn;
-                                    btnSec2B.BackColor = RedOn;
-                                    btnSec2C.BackColor = RedOn;
-                                    btnSec2D.BackColor = RedOn;
-                                    btnSec2E.BackColor = RedOff;
-                                    btnSec2F.BackColor = RedOn;
-                                    btnSec2G.BackColor = RedOn;
-                                    break;
-                            }
-                            break;
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
                     }
                     break;
 
-                case "Minutes":
-                    switch (placeValue)
+                case "01":
+                    foreach (Button x in OnesOne)
                     {
-                        case "Ones":
-                            switch (num)
-                            {
-                                case 0:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOn;
-                                    btnMin1F.BackColor = RedOn;
-                                    btnMin1G.BackColor = RedOff;
-                                    break;
-
-                                case 1:
-                                    btnMin1A.BackColor = RedOff;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOff;
-                                    btnMin1E.BackColor = RedOff;
-                                    btnMin1F.BackColor = RedOff;
-                                    btnMin1G.BackColor = RedOff;
-                                    break;
-
-                                case 2:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOff;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOn;
-                                    btnMin1F.BackColor = RedOff;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-
-                                case 3:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOff;
-                                    btnMin1F.BackColor = RedOff;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-
-                                case 4:
-                                    btnMin1A.BackColor = RedOff;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOff;
-                                    btnMin1E.BackColor = RedOff;
-                                    btnMin1F.BackColor = RedOn;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-
-                                case 5:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOff;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOff;
-                                    btnMin1F.BackColor = RedOn;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-
-                                case 6:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOff;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOn;
-                                    btnMin1F.BackColor = RedOn;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-
-                                case 7:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOff;
-                                    btnMin1E.BackColor = RedOff;
-                                    btnMin1F.BackColor = RedOff;
-                                    btnMin1G.BackColor = RedOff;
-                                    break;
-
-                                case 8:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOn;
-                                    btnMin1F.BackColor = RedOn;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-
-                                case 9:
-                                    btnMin1A.BackColor = RedOn;
-                                    btnMin1B.BackColor = RedOn;
-                                    btnMin1C.BackColor = RedOn;
-                                    btnMin1D.BackColor = RedOn;
-                                    btnMin1E.BackColor = RedOff;
-                                    btnMin1F.BackColor = RedOn;
-                                    btnMin1G.BackColor = RedOn;
-                                    break;
-                            }
-                            break;
-
-                        case "Tens":
-                            switch (num)
-                            {
-                                case 0:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOn;
-                                    btnMin2F.BackColor = RedOn;
-                                    btnMin2G.BackColor = RedOff;
-                                    break;
-
-                                case 1:
-                                    btnMin2A.BackColor = RedOff;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOff;
-                                    btnMin2E.BackColor = RedOff;
-                                    btnMin2F.BackColor = RedOff;
-                                    btnMin2G.BackColor = RedOff;
-                                    break;
-
-                                case 2:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOff;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOn;
-                                    btnMin2F.BackColor = RedOff;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-
-                                case 3:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOff;
-                                    btnMin2F.BackColor = RedOff;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-
-                                case 4:
-                                    btnMin2A.BackColor = RedOff;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOff;
-                                    btnMin2E.BackColor = RedOff;
-                                    btnMin2F.BackColor = RedOn;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-
-                                case 5:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOff;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOff;
-                                    btnMin2F.BackColor = RedOn;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-
-                                case 6:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOff;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOn;
-                                    btnMin2F.BackColor = RedOn;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-
-                                case 7:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOff;
-                                    btnMin2E.BackColor = RedOff;
-                                    btnMin2F.BackColor = RedOff;
-                                    btnMin2G.BackColor = RedOff;
-                                    break;
-
-                                case 8:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOn;
-                                    btnMin2F.BackColor = RedOn;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-
-                                case 9:
-                                    btnMin2A.BackColor = RedOn;
-                                    btnMin2B.BackColor = RedOn;
-                                    btnMin2C.BackColor = RedOn;
-                                    btnMin2D.BackColor = RedOn;
-                                    btnMin2E.BackColor = RedOff;
-                                    btnMin2F.BackColor = RedOn;
-                                    btnMin2G.BackColor = RedOn;
-                                    break;
-                            }
-                            break;
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
                     }
                     break;
 
-                case "Hours":
-                    switch (placeValue)
+                case "02":
+                    foreach (Button x in OnesTwo)
                     {
-                        case "Ones":
-                            switch (num)
-                            {
-                                case 0:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOn;
-                                    btnHrs1F.BackColor = RedOn;
-                                    btnHrs1G.BackColor = RedOff;
-                                    break;
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 1:
-                                    btnHrs1A.BackColor = RedOff;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOff;
-                                    btnHrs1E.BackColor = RedOff;
-                                    btnHrs1F.BackColor = RedOff;
-                                    btnHrs1G.BackColor = RedOff;
-                                    break;
+                case "03":
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 2:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOff;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOn;
-                                    btnHrs1F.BackColor = RedOff;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
+                case "04":
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 3:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOff;
-                                    btnHrs1F.BackColor = RedOff;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
+                case "05":
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 4:
-                                    btnHrs1A.BackColor = RedOff;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOff;
-                                    btnHrs1E.BackColor = RedOff;
-                                    btnHrs1F.BackColor = RedOn;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
+                case "06":
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 5:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOff;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOff;
-                                    btnHrs1F.BackColor = RedOn;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
+                case "07":
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 6:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOff;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOn;
-                                    btnHrs1F.BackColor = RedOn;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
+                case "08":
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 7:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOff;
-                                    btnHrs1E.BackColor = RedOff;
-                                    btnHrs1F.BackColor = RedOff;
-                                    btnHrs1G.BackColor = RedOff;
-                                    break;
+                case "09":
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 8:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOn;
-                                    btnHrs1F.BackColor = RedOn;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
+                case "10":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 9:
-                                    btnHrs1A.BackColor = RedOn;
-                                    btnHrs1B.BackColor = RedOn;
-                                    btnHrs1C.BackColor = RedOn;
-                                    btnHrs1D.BackColor = RedOn;
-                                    btnHrs1E.BackColor = RedOff;
-                                    btnHrs1F.BackColor = RedOn;
-                                    btnHrs1G.BackColor = RedOn;
-                                    break;
-                            }
-                            break;
+                case "11":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                        case "Tens":
-                            switch (num)
-                            {
-                                case 0:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOn;
-                                    btnHrs2F.BackColor = RedOn;
-                                    btnHrs2G.BackColor = RedOff;
-                                    break;
+                case "12":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 1:
-                                    btnHrs2A.BackColor = RedOff;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOff;
-                                    btnHrs2E.BackColor = RedOff;
-                                    btnHrs2F.BackColor = RedOff;
-                                    btnHrs2G.BackColor = RedOff;
-                                    break;
+                case "13":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 2:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOff;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOn;
-                                    btnHrs2F.BackColor = RedOff;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
+                case "14":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 3:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOff;
-                                    btnHrs2F.BackColor = RedOff;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
+                case "15":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 4:
-                                    btnHrs2A.BackColor = RedOff;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOff;
-                                    btnHrs2E.BackColor = RedOff;
-                                    btnHrs2F.BackColor = RedOn;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
+                case "16":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 5:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOff;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOff;
-                                    btnHrs2F.BackColor = RedOn;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
+                case "17":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 6:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOff;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOn;
-                                    btnHrs2F.BackColor = RedOn;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
+                case "18":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 7:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOff;
-                                    btnHrs2E.BackColor = RedOff;
-                                    btnHrs2F.BackColor = RedOff;
-                                    btnHrs2G.BackColor = RedOff;
-                                    break;
+                case "19":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 8:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOn;
-                                    btnHrs2F.BackColor = RedOn;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
+                case "20":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
 
-                                case 9:
-                                    btnHrs2A.BackColor = RedOn;
-                                    btnHrs2B.BackColor = RedOn;
-                                    btnHrs2C.BackColor = RedOn;
-                                    btnHrs2D.BackColor = RedOn;
-                                    btnHrs2E.BackColor = RedOff;
-                                    btnHrs2F.BackColor = RedOn;
-                                    btnHrs2G.BackColor = RedOn;
-                                    break;
-                            }
-                            break;
+                case "21":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "22":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "23":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "24":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "25":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "26":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "27":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "28":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "29":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "30":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "31":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "32":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "33":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "34":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "35":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "36":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "37":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "38":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "39":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "40":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "41":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "42":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "43":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "44":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "45":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "46":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "47":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "48":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "49":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "50":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "51":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "52":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "53":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "54":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "55":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "56":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "57":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "58":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "59":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        private void MinutesController(string minuteDigits)
+        {
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "minutesBtn")
+                {
+                    x.BackColor = RedOff;
+                }
+            }
+
+            List<Button> OnesZero = new List<Button>
+            {
+                btnMin1A, btnMin1B, btnMin1C, btnMin1D, btnMin1E, btnMin1F
+            };
+
+            List<Button> OnesOne = new List<Button>
+            {
+                btnMin1B, btnMin1C
+            };
+
+            List<Button> OnesTwo = new List<Button>
+            {
+                btnMin1A, btnMin1B, btnMin1G, btnMin1E, btnMin1D
+            };
+
+            List<Button> OnesThree = new List<Button>
+            {
+                btnMin1A, btnMin1B, btnMin1G, btnMin1C, btnMin1D
+            };
+
+            List<Button> OnesFour = new List<Button>
+            {
+                btnMin1F, btnMin1G, btnMin1B, btnMin1C
+            };
+
+            List<Button> OnesFive = new List<Button>
+            {
+                btnMin1A, btnMin1F, btnMin1G, btnMin1C, btnMin1D
+            };
+
+            List<Button> OnesSix = new List<Button>
+            {
+                btnMin1A, btnMin1F, btnMin1G, btnMin1C, btnMin1D, btnMin1E
+            };
+
+            List<Button> OnesSeven = new List<Button>
+            {
+                btnMin1A, btnMin1B, btnMin1C
+            };
+
+            List<Button> OnesEight = new List<Button>
+            {
+                btnMin1A, btnMin1B, btnMin1C, btnMin1D, btnMin1E, btnMin1F, btnMin1G
+            };
+
+            List<Button> OnesNine = new List<Button>
+            {
+                btnMin1A, btnMin1B, btnMin1C, btnMin1D, btnMin1F, btnMin1G
+            };
+
+            ////////////////////
+
+            List<Button> TwosZero = new List<Button>
+            {
+                btnMin2A, btnMin2B, btnMin2C, btnMin2D, btnMin2E, btnMin2F
+            };
+
+            List<Button> TwosOne = new List<Button>
+            {
+                btnMin2B, btnMin2C
+            };
+
+            List<Button> TwosTwo = new List<Button>
+            {
+                btnMin2A, btnMin2B, btnMin2G, btnMin2E, btnMin2D
+            };
+
+            List<Button> TwosThree = new List<Button>
+            {
+                btnMin2A, btnMin2B, btnMin2G, btnMin2C, btnMin2D
+            };
+
+            List<Button> TwosFour = new List<Button>
+            {
+                btnMin2F, btnMin2G, btnMin2B, btnMin2C
+            };
+
+            List<Button> TwosFive = new List<Button>
+            {
+                btnMin2A, btnMin2F, btnMin2G, btnMin2C, btnMin2D
+            };
+
+            List<Button> TwosSix = new List<Button>
+            {
+                btnMin2A, btnMin2F, btnMin2G, btnMin2C, btnMin2D, btnMin2E
+            };
+
+            List<Button> TwosSeven = new List<Button>
+            {
+                btnMin2A, btnMin2B, btnMin2C
+            };
+
+            List<Button> TwosEight = new List<Button>
+            {
+                btnMin2A, btnMin2B, btnMin2C, btnMin2D, btnMin2E, btnMin2F, btnMin2G
+            };
+
+            List<Button> TwosNine = new List<Button>
+            {
+                btnMin2A, btnMin2B, btnMin2C, btnMin2D, btnMin2F, btnMin2G
+            };
+
+            switch (minuteDigits)
+            {
+                case "00":
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "01":
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "02":
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "03":
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "04":
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "05":
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "06":
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "07":
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "08":
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "09":
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "10":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "11":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "12":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "13":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "14":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "15":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "16":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "17":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "18":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "19":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "20":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "21":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "22":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "23":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "24":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "25":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "26":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "27":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "28":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "29":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "30":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "31":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "32":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "33":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "34":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "35":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "36":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "37":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "38":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "39":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "40":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "41":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "42":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "43":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "44":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "45":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "46":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "47":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "48":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "49":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "50":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "51":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "52":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "53":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "54":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "55":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "56":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "57":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "58":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "59":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        private void HoursController(string hourDigits)
+        {
+            foreach (Control x in Controls)
+            {
+                if (x.Tag == "hoursBtn")
+                {
+                    x.BackColor = RedOff;
+                }
+            }
+
+            List<Button> OnesZero = new List<Button>
+            {
+                btnHrs1A, btnHrs1B, btnHrs1C, btnHrs1D, btnHrs1E, btnHrs1F
+            };
+
+            List<Button> OnesOne = new List<Button>
+            {
+                btnHrs1B, btnHrs1C
+            };
+
+            List<Button> OnesTwo = new List<Button>
+            {
+                btnHrs1A, btnHrs1B, btnHrs1G, btnHrs1E, btnHrs1D
+            };
+
+            List<Button> OnesThree = new List<Button>
+            {
+                btnHrs1A, btnHrs1B, btnHrs1G, btnHrs1C, btnHrs1D
+            };
+
+            List<Button> OnesFour = new List<Button>
+            {
+                btnHrs1F, btnHrs1G, btnHrs1B, btnHrs1C
+            };
+
+            List<Button> OnesFive = new List<Button>
+            {
+                btnHrs1A, btnHrs1F, btnHrs1G, btnHrs1C, btnHrs1D
+            };
+
+            List<Button> OnesSix = new List<Button>
+            {
+                btnHrs1A, btnHrs1F, btnHrs1G, btnHrs1C, btnHrs1D, btnHrs1E
+            };
+
+            List<Button> OnesSeven = new List<Button>
+            {
+                btnHrs1A, btnHrs1B, btnHrs1C
+            };
+
+            List<Button> OnesEight = new List<Button>
+            {
+                btnHrs1A, btnHrs1B, btnHrs1C, btnHrs1D, btnHrs1E, btnHrs1F, btnHrs1G
+            };
+
+            List<Button> OnesNine = new List<Button>
+            {
+                btnHrs1A, btnHrs1B, btnHrs1C, btnHrs1D, btnHrs1F, btnHrs1G
+            };
+
+            ////////////////////
+
+            List<Button> TwosZero = new List<Button>
+            {
+                btnHrs2A, btnHrs2B, btnHrs2C, btnHrs2D, btnHrs2E, btnHrs2F
+            };
+
+            List<Button> TwosOne = new List<Button>
+            {
+                btnHrs2B, btnHrs2C
+            };
+
+            List<Button> TwosTwo = new List<Button>
+            {
+                btnHrs2A, btnHrs2B, btnHrs2G, btnHrs2E, btnHrs2D
+            };
+
+            List<Button> TwosThree = new List<Button>
+            {
+                btnHrs2A, btnHrs2B, btnHrs2G, btnHrs2C, btnHrs2D
+            };
+
+            List<Button> TwosFour = new List<Button>
+            {
+                btnHrs2F, btnHrs2G, btnHrs2B, btnHrs2C
+            };
+
+            List<Button> TwosFive = new List<Button>
+            {
+                btnHrs2A, btnHrs2F, btnHrs2G, btnHrs2C, btnHrs2D
+            };
+
+            List<Button> TwosSix = new List<Button>
+            {
+                btnHrs2A, btnHrs2F, btnHrs2G, btnHrs2C, btnHrs2D, btnHrs2E
+            };
+
+            List<Button> TwosSeven = new List<Button>
+            {
+                btnHrs2A, btnHrs2B, btnHrs2C
+            };
+
+            List<Button> TwosEight = new List<Button>
+            {
+                btnHrs2A, btnHrs2B, btnHrs2C, btnHrs2D, btnHrs2E, btnHrs2F, btnHrs2G
+            };
+
+            List<Button> TwosNine = new List<Button>
+            {
+                btnHrs2A, btnHrs2B, btnHrs2C, btnHrs2D, btnHrs2F, btnHrs2G
+            };
+
+            switch (hourDigits)
+            {
+                case "00":
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "01":
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "02":
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "03":
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "04":
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "05":
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "06":
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "07":
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "08":
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "09":
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in TwosZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "10":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "11":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "12":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "13":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "14":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "15":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "16":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "17":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "18":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "19":
+                    foreach (Button x in TwosOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "20":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "21":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "22":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "23":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "24":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "25":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "26":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "27":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "28":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "29":
+                    foreach (Button x in TwosTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "30":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "31":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "32":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "33":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "34":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "35":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "36":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "37":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "38":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "39":
+                    foreach (Button x in TwosThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "40":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "41":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "42":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "43":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "44":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "45":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "46":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "47":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "48":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "49":
+                    foreach (Button x in TwosFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "50":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesZero)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "51":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesOne)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "52":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesTwo)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "53":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesThree)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "54":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFour)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "55":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "56":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSix)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "57":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesSeven)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "58":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesEight)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    break;
+
+                case "59":
+                    foreach (Button x in TwosFive)
+                    {
+                        x.BackColor = RedOn;
+                    }
+                    foreach (Button x in OnesNine)
+                    {
+                        x.BackColor = RedOn;
                     }
                     break;
 
@@ -762,7 +2446,7 @@ namespace SevenSegmentClock
                 btnBlinker.BackColor = RedOff;
                 flag *= -1;
             }
-            else
+            else if (flag == -1)
             {
                 btnBlinker.BackColor = RedOn;
                 flag *= -1;
@@ -896,49 +2580,49 @@ namespace SevenSegmentClock
 
             switch (day)
             {
-                case "Mon":
+                case "Monday":
                     foreach (Button x in Monday)
                     {
                         x.BackColor = GreenOn;
                     }
                     break;
 
-                case "Tue":
+                case "Tuesday":
                     foreach (Button x in Tuesday)
                     {
                         x.BackColor = GreenOn;
                     }
                     break;
 
-                case "Wed":
+                case "Wednesday":
                     foreach (Button x in Wednesday)
                     {
                         x.BackColor = GreenOn;
                     }
                     break;
 
-                case "Thu":
+                case "Thursday":
                     foreach (Button x in Thursday)
                     {
                         x.BackColor = GreenOn;
                     }
                     break;
 
-                case "Fri":
+                case "Friday":
                     foreach (Button x in Friday)
                     {
                         x.BackColor = GreenOn;
                     }
                     break;
 
-                case "Sat":
+                case "Saturday":
                     foreach (Button x in Saturday)
                     {
                         x.BackColor = GreenOn;
                     }
                     break;
 
-                case "Sun":
+                case "Sunday":
                     foreach (Button x in Sunday)
                     {
                         x.BackColor = GreenOn;
@@ -1046,28 +2730,28 @@ namespace SevenSegmentClock
 
             switch (month)
             {
-                case "Jan":
+                case "January":
                     foreach (Button x in January)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Feb":
+                case "February":
                     foreach (Button x in February)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Mar":
+                case "March":
                     foreach (Button x in March)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Apr":
+                case "April":
                     foreach (Button x in April)
                     {
                         x.BackColor = BlueOn;
@@ -1081,49 +2765,49 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "Jun":
+                case "June":
                     foreach (Button x in June)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Jul":
+                case "July":
                     foreach (Button x in July)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Aug":
+                case "August":
                     foreach (Button x in August)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Sep":
+                case "September":
                     foreach (Button x in September)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Oct":
+                case "October":
                     foreach (Button x in October)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Nov":
+                case "November":
                     foreach (Button x in November)
                     {
                         x.BackColor = BlueOn;
                     }
                     break;
 
-                case "Dec":
+                case "December":
                     foreach (Button x in December)
                     {
                         x.BackColor = BlueOn;
@@ -1534,16 +3218,6 @@ namespace SevenSegmentClock
                 }
             }
 
-            List<Button> Two_ = new List<Button>
-            {
-                btnDateYear1A, btnDateYear1B, btnDateYear1G, btnDateYear1E, btnDateYear1D
-            };
-
-            List<Button> _Zero = new List<Button>
-            {
-                btnDateYear2A, btnDateYear2B, btnDateYear2C, btnDateYear2D, btnDateYear2E, btnDateYear2F
-            };
-
             List<Button> Zero = new List<Button>
             {
                 btnDateYear4A, btnDateYear4B, btnDateYear4C, btnDateYear4D, btnDateYear4E, btnDateYear4F
@@ -1611,19 +3285,11 @@ namespace SevenSegmentClock
                 btnDateYear3A, btnDateYear3B, btnDateYear3G, btnDateYear3C, btnDateYear3D
             };
 
-            foreach (Button x in Two_)
-            {
-                x.BackColor = BlueOn;
-            }
-
-            foreach (Button x in _Zero)
-            {
-                x.BackColor = BlueOn;
-            }
-
+            
             switch (digits)
             {
-                case "15":
+                case "2015":
+                    yearCompleter();
                     foreach (Button x in TwosOne)
                     {
                         x.BackColor = BlueOn;
@@ -1634,7 +3300,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "16":
+                case "2016":
+                    yearCompleter();
                     foreach (Button x in TwosOne)
                     {
                         x.BackColor = BlueOn;
@@ -1645,7 +3312,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "17":
+                case "2017":
+                    yearCompleter();
                     foreach (Button x in TwosOne)
                     {
                         x.BackColor = BlueOn;
@@ -1656,7 +3324,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "18":
+                case "2018":
+                    yearCompleter();
                     foreach (Button x in TwosOne)
                     {
                         x.BackColor = BlueOn;
@@ -1667,7 +3336,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "19":
+                case "2019":
+                    yearCompleter();
                     foreach (Button x in TwosOne)
                     {
                         x.BackColor = BlueOn;
@@ -1678,7 +3348,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "20":
+                case "2020":
+                    yearCompleter();
                     foreach (Button x in TwosTwo)
                     {
                         x.BackColor = BlueOn;
@@ -1689,7 +3360,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "21":
+                case "2021":
+                    yearCompleter();
                     foreach (Button x in TwosTwo)
                     {
                         x.BackColor = BlueOn;
@@ -1700,7 +3372,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "22":
+                case "2022":
+                    yearCompleter();
                     foreach (Button x in TwosTwo)
                     {
                         x.BackColor = BlueOn;
@@ -1711,7 +3384,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "23":
+                case "2023":
+                    yearCompleter();
                     foreach (Button x in TwosTwo)
                     {
                         x.BackColor = BlueOn;
@@ -1722,7 +3396,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "24":
+                case "2024":
+                    yearCompleter();
                     foreach (Button x in TwosTwo)
                     {
                         x.BackColor = BlueOn;
@@ -1733,7 +3408,8 @@ namespace SevenSegmentClock
                     }
                     break;
 
-                case "25":
+                case "2025":
+                    yearCompleter();
                     foreach (Button x in TwosTwo)
                     {
                         x.BackColor = BlueOn;
@@ -1760,6 +3436,28 @@ namespace SevenSegmentClock
         {
             if (checkBoxEditDate.Checked == true)
             {
+                List<ComboBox> comboBoxes = new List<ComboBox>
+                {
+                    comboBoxDayNames, comboBoxMonthNames, comboBoxDayDigits, comboYearDigits, comboBoxHourDigits,
+                    comboBoxMinuteDigits, comboBoxSecondDigits, comboBoxMeridiem
+                };
+
+                foreach (ComboBox x in comboBoxes)
+                {
+                    x.SelectedIndex = -1;
+                }
+
+                foreach (Control x in Controls)
+                {
+                    if (x.Tag == "hoursBtn" || x.Tag == "minutesBtn" || x.Tag == "secondsBtn" || x.Tag == "blinkerBtn")
+                    {
+                        x.BackColor = RedOff;
+                    }
+                }
+
+                labelMeridiemAM.ForeColor = RedOff;
+                labelMeridiemPM.ForeColor = RedOff;
+
                 comboBoxDayNames.Enabled = true;
                 comboBoxMonthNames.Enabled = true;
                 comboBoxDayDigits.Enabled = true;
@@ -1767,6 +3465,16 @@ namespace SevenSegmentClock
                 comboBoxHourDigits.Enabled = true;
                 comboBoxMinuteDigits.Enabled = true;
                 comboBoxSecondDigits.Enabled = true;
+                comboBoxMeridiem.Enabled = true;
+
+                labelDayNameDD.ForeColor = GreenOn;
+                labelMonthDD.ForeColor = BlueOn;
+                labelDayDD.ForeColor = BlueOn;
+                labelYearDD.ForeColor = BlueOn;
+                labelHourDD.ForeColor = RedOn;
+                labelMinuteDD.ForeColor = RedOn;
+                labelSecondDD.ForeColor = RedOn;
+                labelMeridiemDD.ForeColor = RedOn;
             } 
             else
             {
@@ -1777,6 +3485,39 @@ namespace SevenSegmentClock
                 comboBoxHourDigits.Enabled = false;
                 comboBoxMinuteDigits.Enabled = false;
                 comboBoxSecondDigits.Enabled = false;
+                comboBoxMeridiem.Enabled = false;
+
+                labelDayNameDD.ForeColor = GreenOff;
+                labelMonthDD.ForeColor = BlueOff;
+                labelDayDD.ForeColor = BlueOff;
+                labelYearDD.ForeColor = BlueOff;
+                labelHourDD.ForeColor = RedOff;
+                labelMinuteDD.ForeColor = RedOff;
+                labelSecondDD.ForeColor = RedOff;
+                labelMeridiemDD.ForeColor = RedOff;
+            }
+        }
+
+        private void yearCompleter()
+        {
+            List<Button> Two_ = new List<Button>
+            {
+                btnDateYear1A, btnDateYear1B, btnDateYear1G, btnDateYear1E, btnDateYear1D
+            };
+
+            List<Button> _Zero = new List<Button>
+            {
+                btnDateYear2A, btnDateYear2B, btnDateYear2C, btnDateYear2D, btnDateYear2E, btnDateYear2F
+            };
+
+            foreach (Button x in Two_)
+            {
+                x.BackColor = BlueOn;
+            }
+
+            foreach (Button x in _Zero)
+            {
+                x.BackColor = BlueOn;
             }
         }
     }
