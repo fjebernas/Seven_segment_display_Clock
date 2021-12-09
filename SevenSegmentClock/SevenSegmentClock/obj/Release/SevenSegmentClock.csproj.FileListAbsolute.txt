@@ -1,0 +1,10 @@
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\bin\Release\SevenSegmentClock.exe.config
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\bin\Release\SevenSegmentClock.exe
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\bin\Release\SevenSegmentClock.pdb
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.Form1.resources
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.Properties.Resources.resources
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.csproj.GenerateResource.cache
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.exe
+C:\Users\franc\source\repos\Assign#8SevenSegmentClock\SevenSegmentClock\SevenSegmentClock\obj\Release\SevenSegmentClock.pdb

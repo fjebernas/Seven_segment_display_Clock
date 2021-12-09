@@ -4882,7 +4882,6 @@ namespace SevenSegmentClock
             // panelDropDown
             // 
             this.panelDropDown.BackColor = System.Drawing.Color.Black;
-            this.panelDropDown.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panelDropDown.Controls.Add(this.btnDropDown);
             this.panelDropDown.Controls.Add(this.labelMeridiemDD);
             this.panelDropDown.Controls.Add(this.labelSecondDD);
@@ -4914,13 +4913,12 @@ namespace SevenSegmentClock
             // 
             this.btnDropDown.BackColor = System.Drawing.Color.Black;
             this.btnDropDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnDropDown.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDropDown.FlatAppearance.BorderSize = 0;
             this.btnDropDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDropDown.Image = global::SevenSegmentClock.Properties.Resources.Down;
-            this.btnDropDown.Location = new System.Drawing.Point(0, 0);
+            this.btnDropDown.Location = new System.Drawing.Point(456, 0);
             this.btnDropDown.Name = "btnDropDown";
-            this.btnDropDown.Size = new System.Drawing.Size(971, 32);
+            this.btnDropDown.Size = new System.Drawing.Size(79, 32);
             this.btnDropDown.TabIndex = 35;
             this.btnDropDown.UseVisualStyleBackColor = false;
             this.btnDropDown.Click += new System.EventHandler(this.btnDropDown_Click);
@@ -5277,6 +5275,7 @@ namespace SevenSegmentClock
             this.comboBoxDayDigits.ForeColor = System.Drawing.Color.White;
             this.comboBoxDayDigits.FormattingEnabled = true;
             this.comboBoxDayDigits.Items.AddRange(new object[] {
+            "00",
             "01",
             "02",
             "03",
@@ -5306,7 +5305,8 @@ namespace SevenSegmentClock
             "27",
             "28",
             "29",
-            "30"});
+            "30",
+            "31"});
             this.comboBoxDayDigits.Location = new System.Drawing.Point(565, 53);
             this.comboBoxDayDigits.Name = "comboBoxDayDigits";
             this.comboBoxDayDigits.Size = new System.Drawing.Size(36, 21);
@@ -5374,7 +5374,7 @@ namespace SevenSegmentClock
             this.labelCopyright.AutoSize = true;
             this.labelCopyright.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCopyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.labelCopyright.Location = new System.Drawing.Point(385, 605);
+            this.labelCopyright.Location = new System.Drawing.Point(387, 605);
             this.labelCopyright.Name = "labelCopyright";
             this.labelCopyright.Size = new System.Drawing.Size(201, 22);
             this.labelCopyright.TabIndex = 34;
@@ -5385,7 +5385,7 @@ namespace SevenSegmentClock
             this.linkLabelMyName.AutoSize = true;
             this.linkLabelMyName.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabelMyName.LinkColor = System.Drawing.Color.RoyalBlue;
-            this.linkLabelMyName.Location = new System.Drawing.Point(406, 604);
+            this.linkLabelMyName.Location = new System.Drawing.Point(408, 604);
             this.linkLabelMyName.Name = "linkLabelMyName";
             this.linkLabelMyName.Size = new System.Drawing.Size(118, 21);
             this.linkLabelMyName.TabIndex = 35;
