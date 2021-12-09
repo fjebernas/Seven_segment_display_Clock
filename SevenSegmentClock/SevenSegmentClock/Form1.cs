@@ -1,7 +1,9 @@
-﻿using System;
+﻿using SevenSegmentClock.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -29,6 +31,9 @@ namespace SevenSegmentClock
         int flag = 1;
         string hourFormat = "hh";
 
+        bool isCollapsed;
+        bool isTwentyHourFormat = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -36,8 +41,6 @@ namespace SevenSegmentClock
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            pictureBoxBackground.BackColor = backgroundColor;
-
             labelMeridiemAM.BackColor = backgroundColor;
             labelMeridiemPM.BackColor = backgroundColor;
 
@@ -87,8 +90,12 @@ namespace SevenSegmentClock
                 MinutesController(minuteDigits);
                 HoursController(hourDigits);
 
+                if (!isTwentyHourFormat)
+                {
+                    Meridiem(meridiem);
+                }
+
                 BlinkingDot();
-                Meridiem(meridiem);
                 DayNameController(dayName);
                 MonthNameController(monthName);
                 DayDigitsController(dayDigits);
@@ -2481,6 +2488,9 @@ namespace SevenSegmentClock
                 label12Hour.ForeColor = OrangeOn;
                 label24Hour.ForeColor = OrangeOff;
                 btnHourFormat.Text = "To 24hr Format";
+                labelMeridiemAM.ForeColor = RedOff;
+                labelMeridiemPM.ForeColor = RedOff;
+                isTwentyHourFormat = false;
             } 
             else if (hourFormat == "hh")
             {
@@ -2488,6 +2498,9 @@ namespace SevenSegmentClock
                 label24Hour.ForeColor = OrangeOn;
                 label12Hour.ForeColor = OrangeOff;
                 btnHourFormat.Text = "To 12hr Format";
+                labelMeridiemAM.ForeColor = RedOff;
+                labelMeridiemPM.ForeColor = RedOff;
+                isTwentyHourFormat = true;
             }
         }
 
@@ -2686,7 +2699,7 @@ namespace SevenSegmentClock
             {
                 btnDate1M, btnDate1N, btnDate1O, btnDate1P, btnDate1A, btnDate1B, btnDate1Q, btnDate1U, btnDate1D, btnDate1E, btnDate1F, btnDate1G, btnDate1H, btnDate1I,
                 btnDate2G, btnDate2B, btnDate2C, btnDate2D, btnDate2F, btnDate2H, btnDate2M, btnDate2N, btnDate2O, btnDate2P, btnDate2T, btnDate2U, btnDate2I, btnDate2R,
-                btnDate3A, btnDate3T, btnDate3U, btnDate3F, btnDate3G, btnDate3R, btnDate3S, btnDate3K, btnDate3E, btnDate3O, btnDate3P
+                btnDate3A, btnDate3T, btnDate3U, btnDate3F, btnDate3R, btnDate3S, btnDate3K, btnDate3E, btnDate3P
             };
 
             List<Button> June = new List<Button>
@@ -3446,18 +3459,7 @@ namespace SevenSegmentClock
         {
             if (checkBoxEditDate.Checked == true)
             {
-                List<ComboBox> comboBoxes = new List<ComboBox>
-                {
-                    comboBoxDayNames, comboBoxMonthNames, comboBoxDayDigits, comboYearDigits, comboBoxHourDigits,
-                    comboBoxMinuteDigits, comboBoxSecondDigits, comboBoxMeridiem
-                };
-
-                foreach (ComboBox x in comboBoxes)
-                {
-                    x.SelectedIndex = -1;
-                }
-
-                foreach (Control x in Controls)
+                 foreach (Control x in Controls)
                 {
                     if (x.Tag == "hoursBtn" || x.Tag == "minutesBtn" || x.Tag == "secondsBtn" || x.Tag == "blinkerBtn")
                     {
@@ -3491,6 +3493,17 @@ namespace SevenSegmentClock
             } 
             else
             {
+                List<ComboBox> comboBoxes = new List<ComboBox>
+                {
+                    comboBoxDayNames, comboBoxMonthNames, comboBoxDayDigits, comboYearDigits, comboBoxHourDigits,
+                    comboBoxMinuteDigits, comboBoxSecondDigits, comboBoxMeridiem
+                };
+
+                foreach (ComboBox x in comboBoxes)
+                {
+                    x.SelectedIndex = -1;
+                }
+
                 comboBoxDayNames.Enabled = false;
                 comboBoxMonthNames.Enabled = false;
                 comboBoxDayDigits.Enabled = false;
@@ -3511,6 +3524,14 @@ namespace SevenSegmentClock
 
                 label12Hour.ForeColor = OrangeOn;
                 label24Hour.ForeColor = OrangeOff;
+
+                foreach (Control x in Controls)
+                {
+                    if (x.Tag == "blinkerBtn")
+                    {
+                        x.BackColor = RedOn;
+                    }
+                }
             }
         }
 
@@ -3535,6 +3556,41 @@ namespace SevenSegmentClock
             {
                 x.BackColor = BlueOn;
             }
+        }
+
+        private void timerDropDown_Tick(object sender, EventArgs e)
+        {
+            if (isCollapsed)
+            {
+                btnDropDown.Image = Resources.Up;
+                panelDropDown.Height += 10;
+                if (panelDropDown.Size == panelDropDown.MaximumSize)
+                {
+                    timerDropDown.Stop();
+                    isCollapsed = false;
+                }
+            }
+            else
+            {
+                btnDropDown.Image = Resources.Down;
+                panelDropDown.Height -= 10;
+                if (panelDropDown.Size == panelDropDown.MinimumSize)
+                {
+                    timerDropDown.Stop();
+                    isCollapsed = true;
+                }
+            }
+        }
+
+        private void btnDropDown_Click(object sender, EventArgs e)
+        {
+            timerDropDown.Start();
+        }
+
+        private void linkLabelMyName_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/fjebernas");
+            Process.Start(sInfo);
         }
     }
 }
